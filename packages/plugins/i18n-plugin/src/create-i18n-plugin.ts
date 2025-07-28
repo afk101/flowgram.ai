@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { I18n, type I18nLanguage } from '@q/flowgram.ai.i18n';
-import { definePluginCreator } from '@q/flowgram.ai.core';
+import { I18n, type I18nLanguage } from '@flowgram.ai/i18n';
+import { definePluginCreator } from '@flowgram.ai/core';
 
 export interface I18nPluginOptions {
   locale?: string;

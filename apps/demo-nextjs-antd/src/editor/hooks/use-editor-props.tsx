@@ -7,14 +7,14 @@
 
 import { useMemo } from 'react';
 
-import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin';
-import { createFreeSnapPlugin } from '@q/flowgram.ai.free-snap-plugin';
-import { createFreeNodePanelPlugin } from '@q/flowgram.ai.free-node-panel-plugin';
-import { createFreeLinesPlugin } from '@q/flowgram.ai.free-lines-plugin';
-import { WorkflowJSON } from '@q/flowgram.ai.free-layout-editor';
-import { FreeLayoutProps } from '@q/flowgram.ai.free-layout-editor';
-import { createFreeGroupPlugin } from '@q/flowgram.ai.free-group-plugin';
-import { createContainerNodePlugin } from '@q/flowgram.ai.free-container-plugin';
+import { createMinimapPlugin } from '@flowgram.ai/minimap-plugin';
+import { createFreeSnapPlugin } from '@flowgram.ai/free-snap-plugin';
+import { createFreeNodePanelPlugin } from '@flowgram.ai/free-node-panel-plugin';
+import { createFreeLinesPlugin } from '@flowgram.ai/free-lines-plugin';
+import { WorkflowJSON } from '@flowgram.ai/free-layout-editor';
+import { FreeLayoutProps } from '@flowgram.ai/free-layout-editor';
+import { createFreeGroupPlugin } from '@flowgram.ai/free-group-plugin';
+import { createContainerNodePlugin } from '@flowgram.ai/free-container-plugin';
 
 import { onDragLineEnd } from '@editor/utils';
 import { FlowNodeRegistry } from '@editor/typings';

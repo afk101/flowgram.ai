@@ -13,8 +13,8 @@ import {
   delay,
   useClientContext,
   useService,
-} from '@q/flowgram.ai.free-layout-editor';
-import { NodeIntoContainerService } from '@q/flowgram.ai.free-container-plugin';
+} from '@flowgram.ai/free-layout-editor';
+import { NodeIntoContainerService } from '@flowgram.ai/free-container-plugin';
 import { EllipsisOutlined } from '@ant-design/icons';
 
 import { FlowNodeRegistry } from '@editor/typings';

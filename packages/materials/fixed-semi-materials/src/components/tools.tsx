@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { usePlaygroundTools } from '@q/flowgram.ai.fixed-layout-editor';
+import { usePlaygroundTools } from '@flowgram.ai/fixed-layout-editor';
 import { Checkbox, IconButton, Space, Tooltip } from '@douyinfe/semi-ui';
 import { IconUndo, IconRedo, IconShrink, IconExpand, IconGridView } from '@douyinfe/semi-icons';
 

@@ -5,8 +5,8 @@
 
 import React, { useCallback, useEffect, useContext, useMemo, useRef, useState } from 'react';
 
-import { useObserve } from '@q/flowgram.ai.reactive';
-import { useStartDragNode } from '@q/flowgram.ai.fixed-drag-plugin';
+import { useObserve } from '@flowgram.ai/reactive';
+import { useStartDragNode } from '@flowgram.ai/fixed-drag-plugin';
 import {
   usePlayground,
   FlowNodeBaseType,
@@ -17,7 +17,7 @@ import {
   PlaygroundEntityContext,
   NodeFormProps,
   getNodeForm,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 
 import { FlowOperationService } from '../types';
 

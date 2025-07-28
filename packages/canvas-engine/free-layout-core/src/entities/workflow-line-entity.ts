@@ -4,8 +4,8 @@
  */
 
 import { isEqual } from 'lodash-es';
-import { domUtils, type IPoint, Rectangle } from '@q/flowgram.ai.utils';
-import { Entity, type EntityOpts } from '@q/flowgram.ai.core';
+import { domUtils, type IPoint, Rectangle } from '@flowgram.ai/utils';
+import { Entity, type EntityOpts } from '@flowgram.ai/core';
 
 import { type WorkflowLinesManager } from '../workflow-lines-manager';
 import { type WorkflowDocument } from '../workflow-document';

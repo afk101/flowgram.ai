@@ -7,7 +7,7 @@ import {
   FlowNodeEntity,
   FlowNodeEntityOrId,
   FlowOperationBaseService,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 
 export interface FlowOperationService extends FlowOperationBaseService {
   /**

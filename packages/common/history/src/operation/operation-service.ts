@@ -4,7 +4,7 @@
  */
 
 import { injectable, inject, postConstruct } from 'inversify';
-import { DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
+import { DisposableCollection, Emitter } from '@flowgram.ai/utils';
 
 import { HistoryContext } from '../history-context';
 import { HistoryConfig } from '../history-config';

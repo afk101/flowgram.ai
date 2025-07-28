@@ -5,7 +5,7 @@
 
 import { CSSProperties, FC, useEffect } from 'react';
 
-import { useWatch, WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-editor';
+import { useWatch, WorkflowNodeEntity } from '@flowgram.ai/free-layout-editor';
 
 import { GroupField } from '../constant';
 import { defaultColor, groupColors } from '../color';

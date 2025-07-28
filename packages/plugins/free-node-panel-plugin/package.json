@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.free-node-panel-plugin",
+  "name": "@flowgram.ai/free-node-panel-plugin",
   "version": "0.1.8",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -26,19 +26,19 @@
     "watch": "npm run build:fast -- --dts-resolve --watch --ignore-watch dist"
   },
   "dependencies": {
-    "@q/flowgram.ai.core": "workspace:*",
-    "@q/flowgram.ai.document": "workspace:*",
-    "@q/flowgram.ai.free-history-plugin": "workspace:*",
-    "@q/flowgram.ai.free-layout-core": "workspace:*",
-    "@q/flowgram.ai.renderer": "workspace:*",
-    "@q/flowgram.ai.utils": "workspace:*",
+    "@flowgram.ai/core": "workspace:*",
+    "@flowgram.ai/document": "workspace:*",
+    "@flowgram.ai/free-history-plugin": "workspace:*",
+    "@flowgram.ai/free-layout-core": "workspace:*",
+    "@flowgram.ai/renderer": "workspace:*",
+    "@flowgram.ai/utils": "workspace:*",
     "inversify": "^6.0.1",
     "reflect-metadata": "~0.2.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@q/flowgram.ai.eslint-config": "workspace:*",
-    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@flowgram.ai/eslint-config": "workspace:*",
+    "@flowgram.ai/ts-config": "workspace:*",
     "@types/bezier-js": "4.1.3",
     "@types/lodash": "^4.14.137",
     "@types/react": "^18",

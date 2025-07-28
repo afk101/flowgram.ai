@@ -10,8 +10,8 @@ import {
   FormModelV2,
   useService,
   WorkflowDocument,
-} from '@q/flowgram.ai.free-layout-editor';
-import { IJsonSchema, JsonSchemaBasicType } from '@q/flowgram.ai.form-materials';
+} from '@flowgram.ai/free-layout-editor';
+import { IJsonSchema, JsonSchemaBasicType } from '@flowgram.ai/form-materials';
 
 import { WorkflowNodeType } from '../../../nodes';
 import { TestRunFormMetaItem } from './type';

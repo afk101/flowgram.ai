@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeRegistry, FlowNodeBaseType } from '@q/flowgram.ai.document';
+import { FlowNodeRegistry, FlowNodeBaseType } from '@flowgram.ai/document';
 
 import { drawCollapseLabel, drawCollapseLine } from '../utils/transition';
 import { canSlotDrilldown, insideSlot } from '../utils/node';

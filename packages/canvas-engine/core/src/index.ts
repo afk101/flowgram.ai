@@ -14,4 +14,4 @@ export * from './playground-config';
 export * from './playground-contribution';
 export * from './playground-container';
 export * from './playground-mock-tools';
-export { CommandService, CommandRegistry, Command } from '@q/flowgram.ai.command';
+export { CommandService, CommandRegistry, Command } from '@flowgram.ai/command';

@@ -1,6 +1,6 @@
 # Notice
 
-In `@q/flowgram.ai.form-materials@0.2.0`, for introducing loop-related materials,
+In `@flowgram.ai/form-materials@0.2.0`, for introducing loop-related materials,
 
 The FlowRefValueSchema type definition is updated:
 
@@ -29,7 +29,7 @@ How to use:
 Example:
 
 ```typescript
-import { formatLegacyRefOnSubmit, formatLegacyRefOnInit } from '@q/flowgram.ai.form-materials';
+import { formatLegacyRefOnSubmit, formatLegacyRefOnInit } from '@flowgram.ai/form-materials';
 
 formMeta: {
   formatOnSubmit: (data) => formatLegacyRefOnSubmit(data),

@@ -12,8 +12,8 @@ import {
   WorkflowDragService,
   WorkflowNodeEntity,
   WorkflowSelectService,
-} from '@q/flowgram.ai.free-layout-editor';
-import { NodeIntoContainerService } from '@q/flowgram.ai.free-container-plugin';
+} from '@flowgram.ai/free-layout-editor';
+import { NodeIntoContainerService } from '@flowgram.ai/free-container-plugin';
 import { IconButton, Dropdown } from '@douyinfe/semi-ui';
 import { IconMore } from '@douyinfe/semi-icons';
 

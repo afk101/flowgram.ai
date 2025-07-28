@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { SelectBoxPluginOptions } from '@q/flowgram.ai.select-box-plugin';
-import { FixedHistoryPluginOptions, HistoryService } from '@q/flowgram.ai.fixed-history-plugin';
-import { type FixDragPluginOptions } from '@q/flowgram.ai.fixed-drag-plugin';
+import { SelectBoxPluginOptions } from '@flowgram.ai/select-box-plugin';
+import { FixedHistoryPluginOptions, HistoryService } from '@flowgram.ai/fixed-history-plugin';
+import { type FixDragPluginOptions } from '@flowgram.ai/fixed-drag-plugin';
 import {
   ClipboardService,
   EditorPluginContext,
@@ -15,7 +15,7 @@ import {
   FlowLayoutDefault,
   SelectionService,
   PluginContext,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 
 import { FlowOperationService } from '../types';
 

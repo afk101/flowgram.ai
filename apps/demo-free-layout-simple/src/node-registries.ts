@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowNodeRegistry } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowNodeRegistry } from '@flowgram.ai/free-layout-editor';
 
 /**
  * You can customize your own node registry

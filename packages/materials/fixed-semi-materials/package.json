@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.fixed-semi-materials",
+  "name": "@flowgram.ai/fixed-semi-materials",
   "version": "0.1.8",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -29,13 +29,13 @@
     "@douyinfe/semi-icons": "^2.80.0",
     "@douyinfe/semi-illustrations": "^2.80.0",
     "@douyinfe/semi-ui": "^2.80.0",
-    "@q/flowgram.ai.fixed-layout-editor": "workspace:*",
+    "@flowgram.ai/fixed-layout-editor": "workspace:*",
     "lodash": "^4.17.21",
     "nanoid": "^4.0.2"
   },
   "devDependencies": {
-    "@q/flowgram.ai.eslint-config": "workspace:*",
-    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@flowgram.ai/eslint-config": "workspace:*",
+    "@flowgram.ai/ts-config": "workspace:*",
     "@types/lodash": "^4.14.137",
     "@types/react": "^18",
     "@types/react-dom": "^18",

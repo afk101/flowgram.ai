@@ -5,8 +5,8 @@
 
 import { useCallback, useMemo, useState } from 'react';
 
-import { useClientContext } from '@q/flowgram.ai.fixed-layout-editor';
-import { type FlowNodeEntity } from '@q/flowgram.ai.fixed-layout-editor';
+import { useClientContext } from '@flowgram.ai/fixed-layout-editor';
+import { type FlowNodeEntity } from '@flowgram.ai/fixed-layout-editor';
 import { Popover, Toast, Typography } from '@douyinfe/semi-ui';
 import { IconCopyAdd, IconPlusCircle } from '@douyinfe/semi-icons';
 

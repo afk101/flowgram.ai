@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.demo-free-layout-simple",
+  "name": "@flowgram.ai/demo-free-layout-simple",
   "version": "0.1.0",
   "description": "",
   "keywords": [],
@@ -28,15 +28,15 @@
     "watch": "exit 0"
   },
   "dependencies": {
-    "@q/flowgram.ai.free-layout-editor": "workspace:*",
-    "@q/flowgram.ai.free-snap-plugin": "workspace:*",
-    "@q/flowgram.ai.minimap-plugin": "workspace:*",
+    "@flowgram.ai/free-layout-editor": "workspace:*",
+    "@flowgram.ai/free-snap-plugin": "workspace:*",
+    "@flowgram.ai/minimap-plugin": "workspace:*",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@q/flowgram.ai.ts-config": "workspace:*",
-    "@q/flowgram.ai.eslint-config": "workspace:*",
+    "@flowgram.ai/ts-config": "workspace:*",
+    "@flowgram.ai/eslint-config": "workspace:*",
     "@rsbuild/core": "^1.2.16",
     "@rsbuild/plugin-react": "^1.1.1",
     "@types/lodash-es": "^4.17.12",

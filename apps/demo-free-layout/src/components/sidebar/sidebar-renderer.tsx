@@ -9,7 +9,7 @@ import {
   PlaygroundEntityContext,
   useRefresh,
   useClientContext,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 import { SideSheet } from '@douyinfe/semi-ui';
 
 import { FlowNodeMeta } from '../../typings';

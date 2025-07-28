@@ -5,7 +5,7 @@
 
 import React, { useCallback } from 'react';
 
-import { ASTMatch, BaseVariableField, useAvailableVariables } from '@q/flowgram.ai.editor';
+import { ASTMatch, BaseVariableField, useAvailableVariables } from '@flowgram.ai/editor';
 import { TreeNodeData } from '@douyinfe/semi-ui/lib/es/tree';
 import { Icon } from '@douyinfe/semi-ui';
 

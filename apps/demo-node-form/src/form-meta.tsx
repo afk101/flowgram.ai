@@ -8,7 +8,7 @@ import {
   FieldRenderProps,
   FormMeta,
   ValidateTrigger,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 import { Input } from '@douyinfe/semi-ui';
 
 // FieldWrapper is not provided by sdk, and can be customized

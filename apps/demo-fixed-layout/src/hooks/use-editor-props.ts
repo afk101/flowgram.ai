@@ -6,9 +6,9 @@
 import { useMemo } from 'react';
 
 import { debounce } from 'lodash-es';
-import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin';
-import { createGroupPlugin } from '@q/flowgram.ai.group-plugin';
-import { defaultFixedSemiMaterials } from '@q/flowgram.ai.fixed-semi-materials';
+import { createMinimapPlugin } from '@flowgram.ai/minimap-plugin';
+import { createGroupPlugin } from '@flowgram.ai/group-plugin';
+import { defaultFixedSemiMaterials } from '@flowgram.ai/fixed-semi-materials';
 import {
   FixedLayoutProps,
   FlowDocumentJSON,
@@ -16,7 +16,7 @@ import {
   FlowRendererKey,
   ShortcutsRegistry,
   ConstantKeys,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 import { type FlowNodeRegistry } from '../typings';
 import { shortcutGetter } from '../shortcuts';

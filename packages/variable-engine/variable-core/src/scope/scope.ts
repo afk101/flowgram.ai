@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { DisposableCollection } from '@q/flowgram.ai.utils';
+import { DisposableCollection } from '@flowgram.ai/utils';
 
 import { type VariableEngine } from '../variable-engine';
 import { createMemo } from '../utils/memo';

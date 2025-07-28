@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.reactive",
+  "name": "@flowgram.ai/reactive",
   "version": "0.1.8",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -26,11 +26,11 @@
     "watch": "npm run build:fast -- --dts-resolve --watch --ignore-watch dist"
   },
   "dependencies": {
-    "@q/flowgram.ai.utils": "workspace:*"
+    "@flowgram.ai/utils": "workspace:*"
   },
   "devDependencies": {
-    "@q/flowgram.ai.eslint-config": "workspace:*",
-    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@flowgram.ai/eslint-config": "workspace:*",
+    "@flowgram.ai/ts-config": "workspace:*",
     "@testing-library/react": "^12",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/react": "^18",

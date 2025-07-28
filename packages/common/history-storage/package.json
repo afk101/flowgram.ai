@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.history-storage",
+  "name": "@flowgram.ai/history-storage",
   "version": "0.1.8",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -27,9 +27,9 @@
     "watch": "npm run build:fast -- --dts-resolve --watch --ignore-watch dist"
   },
   "dependencies": {
-    "@q/flowgram.ai.core": "workspace:*",
-    "@q/flowgram.ai.history": "workspace:*",
-    "@q/flowgram.ai.utils": "workspace:*",
+    "@flowgram.ai/core": "workspace:*",
+    "@flowgram.ai/history": "workspace:*",
+    "@flowgram.ai/utils": "workspace:*",
     "dexie": "4.0.4",
     "dexie-react-hooks": "1.1.7",
     "inversify": "^6.0.1",
@@ -38,8 +38,8 @@
     "nanoid": "^4.0.2"
   },
   "devDependencies": {
-    "@q/flowgram.ai.eslint-config": "workspace:*",
-    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@flowgram.ai/eslint-config": "workspace:*",
+    "@flowgram.ai/ts-config": "workspace:*",
     "@types/lodash": "^4.14.137",
     "@vitest/coverage-v8": "^0.32.0",
     "eslint": "^8.54.0",

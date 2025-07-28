@@ -14,7 +14,7 @@ import {
   ITask,
   FlowGramNode,
   IValidation,
-} from '@q/flowgram.ai.runtime-interface';
+} from '@flowgram.ai/runtime-interface';
 
 import { compareNodeGroups } from '@infra/utils';
 import { WorkflowRuntimeTask } from '../task';

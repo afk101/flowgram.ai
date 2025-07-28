@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.form-antd-materials",
+  "name": "@flowgram.ai/form-antd-materials",
   "version": "0.1.8",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -28,14 +28,14 @@
   },
   "dependencies": {
     "@ant-design/icons": "5.x",
-    "@q/flowgram.ai.editor": "workspace:*",
+    "@flowgram.ai/editor": "workspace:*",
     "antd": "^5.25.4",
     "lodash": "^4.17.21",
     "nanoid": "^4.0.2"
   },
   "devDependencies": {
-    "@q/flowgram.ai.eslint-config": "workspace:*",
-    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@flowgram.ai/eslint-config": "workspace:*",
+    "@flowgram.ai/ts-config": "workspace:*",
     "@types/lodash": "^4.14.137",
     "@types/node": "^18",
     "@types/react": "^18",

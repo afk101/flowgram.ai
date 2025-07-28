@@ -4,14 +4,14 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { Cache, type Disposable, domUtils } from '@q/flowgram.ai.utils';
+import { Cache, type Disposable, domUtils } from '@flowgram.ai/utils';
 import {
   FlowDocument,
   FlowDocumentTransformerEntity,
   FlowNodeEntity,
   FlowNodeTransformData,
-} from '@q/flowgram.ai.document';
-import { Layer, observeEntity, observeEntityDatas } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/document';
+import { Layer, observeEntity, observeEntityDatas } from '@flowgram.ai/core';
 // import { throttle } from 'lodash'
 
 import { FlowRendererResizeObserver } from '../flow-renderer-resize-observer';

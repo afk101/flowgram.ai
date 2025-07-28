@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type Matrix, Point, Rectangle } from '@q/flowgram.ai.utils';
+import { type Matrix, Point, Rectangle } from '@flowgram.ai/utils';
 
 import type { PositionSchema, TransformSchema } from '../schema';
 

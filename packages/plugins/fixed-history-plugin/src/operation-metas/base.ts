@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowOperation, FlowOperationBaseService } from '@q/flowgram.ai.document';
-import { PluginContext } from '@q/flowgram.ai.core';
-import { OperationMeta } from '@q/flowgram.ai.history';
+import { FlowOperation, FlowOperationBaseService } from '@flowgram.ai/document';
+import { PluginContext } from '@flowgram.ai/core';
+import { OperationMeta } from '@flowgram.ai/history';
 
 import { FixedHistoryOperationService } from '../services';
 

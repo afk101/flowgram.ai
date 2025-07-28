@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { bindContributions, definePluginCreator } from '@q/flowgram.ai.core';
-import { HistoryContainerModule, OperationContribution } from '@q/flowgram.ai.history';
+import { bindContributions, definePluginCreator } from '@flowgram.ai/core';
+import { HistoryContainerModule, OperationContribution } from '@flowgram.ai/history';
 
 import { type FreeHistoryPluginOptions } from './types';
 import { HistoryEntityManager } from './history-entity-manager';

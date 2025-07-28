@@ -12,7 +12,7 @@ import {
   type FlowNodeEntity,
   type FlowGroupController,
   useClientContext,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 import { Button, ButtonGroup, Toast, Tooltip } from '@douyinfe/semi-ui';
 import {
   IconCopy,

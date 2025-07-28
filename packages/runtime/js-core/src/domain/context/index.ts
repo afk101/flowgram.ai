@@ -15,7 +15,7 @@ import {
   IIOCenter,
   ContextData,
   IMessageCenter,
-} from '@q/flowgram.ai.runtime-interface';
+} from '@flowgram.ai/runtime-interface';
 
 import { WorkflowRuntimeMessageCenter } from '@workflow/message';
 import { uuid } from '@infra/utils';

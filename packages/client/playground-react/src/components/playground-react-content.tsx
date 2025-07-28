@@ -5,7 +5,7 @@
 
 import React, { useMemo } from 'react';
 
-import { usePlayground } from '@q/flowgram.ai.core';
+import { usePlayground } from '@flowgram.ai/core';
 
 import {
   PlaygroundContentLayer,
