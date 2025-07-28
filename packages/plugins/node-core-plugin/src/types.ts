@@ -10,7 +10,7 @@ import {
   NodePlaceholderRender,
   SetterExtension,
   ValidationExtension,
-} from '@flowgram.ai/form-core';
+} from '@q/flowgram.ai.form-core';
 
 export interface NodeEngineMaterialOptions {
   /**

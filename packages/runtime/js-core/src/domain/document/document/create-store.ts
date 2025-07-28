@@ -9,7 +9,7 @@ import {
   type CreateEdgeParams,
   type CreateNodeParams,
   type CreatePortParams,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowRuntimeEdge, WorkflowRuntimeNode, WorkflowRuntimePort } from '../entity';
 import { FlattenData } from './flat-schema';

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { definePluginCreator } from '@flowgram.ai/core';
+import { definePluginCreator } from '@q/flowgram.ai.core';
 
 import { NodeFocusService } from './node-focus-service';
 import { NodeClient } from './node-client';

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { definePluginCreator, PluginContext } from '@flowgram.ai/free-layout-editor';
+import { definePluginCreator, PluginContext } from '@q/flowgram.ai.free-layout-editor';
 
 import { RuntimePluginOptions } from './type';
 import { WorkflowRuntimeService } from './runtime-service';

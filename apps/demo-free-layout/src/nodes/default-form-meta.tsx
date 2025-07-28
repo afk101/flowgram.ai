@@ -8,12 +8,12 @@ import {
   FormMeta,
   ValidateTrigger,
   FeedbackLevel,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 import {
   autoRenameRefEffect,
   provideJsonSchemaOutputs,
   syncVariableTitle,
-} from '@flowgram.ai/form-materials';
+} from '@q/flowgram.ai.form-materials';
 
 import { FlowNodeJSON } from '../typings';
 import { FormHeader, FormContent, FormInputs, FormOutputs } from '../form-components';

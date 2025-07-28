@@ -5,9 +5,9 @@
 
 /* eslint-disable @typescript-eslint/naming-convention */
 import { injectable, inject } from 'inversify';
-import { HistoryService } from '@flowgram.ai/history';
-import { type NodesDragEndEvent } from '@flowgram.ai/free-layout-core';
-import { TransformData } from '@flowgram.ai/core';
+import { HistoryService } from '@q/flowgram.ai.history';
+import { type NodesDragEndEvent } from '@q/flowgram.ai.free-layout-core';
+import { TransformData } from '@q/flowgram.ai.core';
 
 import { FreeOperationType, type IHandler } from '../types';
 

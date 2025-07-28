@@ -5,11 +5,11 @@
 
 import { useCallback, useEffect, useState } from 'react';
 
-import { useCurrentEntity, useService } from '@flowgram.ai/free-layout-editor';
+import { useCurrentEntity, useService } from '@q/flowgram.ai.free-layout-editor';
 import {
   NodeIntoContainerService,
   NodeIntoContainerType,
-} from '@flowgram.ai/free-container-plugin';
+} from '@q/flowgram.ai.free-container-plugin';
 
 import { TipsGlobalStore } from './global-store';
 

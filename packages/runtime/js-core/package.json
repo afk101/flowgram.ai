@@ -1,5 +1,5 @@
 {
-  "name": "@flowgram.ai/runtime-js",
+  "name": "@q/flowgram.ai.runtime-js",
   "version": "0.1.8",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -35,9 +35,9 @@
     "zod": "^3.24.4"
   },
   "devDependencies": {
-    "@flowgram.ai/runtime-interface": "workspace:*",
-    "@flowgram.ai/eslint-config": "workspace:*",
-    "@flowgram.ai/ts-config": "workspace:*",
+    "@q/flowgram.ai.runtime-interface": "workspace:*",
+    "@q/flowgram.ai.eslint-config": "workspace:*",
+    "@q/flowgram.ai.ts-config": "workspace:*",
     "@types/lodash-es": "^4.17.12",
     "@types/uuid": "^9.0.1",
     "@vitest/coverage-v8": "^0.32.0",

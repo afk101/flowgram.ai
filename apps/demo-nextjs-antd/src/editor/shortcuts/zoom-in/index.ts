@@ -7,7 +7,7 @@ import {
   FreeLayoutPluginContext,
   PlaygroundConfigEntity,
   ShortcutsHandler,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 import { FlowCommandId } from '../constants';
 

@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import type { FormMeta } from '@flowgram.ai/node';
-import type { FormMetaOrFormMetaGenerator } from '@flowgram.ai/form-core';
-import type { FlowNodeRegistry } from '@flowgram.ai/document';
+import type { FormMeta } from '@q/flowgram.ai.node';
+import type { FormMetaOrFormMetaGenerator } from '@q/flowgram.ai.form-core';
+import type { FlowNodeRegistry } from '@q/flowgram.ai.document';
 
 import type { WorkflowNodeEntity } from '../entities';
 import type { WorkflowNodeMeta } from './workflow-node';

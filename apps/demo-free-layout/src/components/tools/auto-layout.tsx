@@ -5,7 +5,7 @@
 
 import { useCallback } from 'react';
 
-import { usePlayground, usePlaygroundTools } from '@flowgram.ai/free-layout-editor';
+import { usePlayground, usePlaygroundTools } from '@q/flowgram.ai.free-layout-editor';
 import { IconButton, Tooltip } from '@douyinfe/semi-ui';
 
 import { IconAutoLayout } from '../../assets/icon-auto-layout';

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { usePlaygroundTools } from '@flowgram.ai/free-layout-editor';
+import { usePlaygroundTools } from '@q/flowgram.ai.free-layout-editor';
 import { IconButton, Tooltip } from '@douyinfe/semi-ui';
 import { IconExpand } from '@douyinfe/semi-icons';
 

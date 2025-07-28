@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { WorkflowSchema, FlowGramNode } from '@flowgram.ai/runtime-interface';
+import { WorkflowSchema, FlowGramNode } from '@q/flowgram.ai.runtime-interface';
 
 import { startEndNode } from './start-end-node';
 

@@ -9,7 +9,7 @@ import {
   type FlowGroupController,
   type FlowNodeEntity,
   useClientContext,
-} from '@flowgram.ai/fixed-layout-editor';
+} from '@q/flowgram.ai.fixed-layout-editor';
 import type { AutosizeRow } from '@douyinfe/semi-ui/lib/es/input/textarea';
 import { Tooltip } from '@douyinfe/semi-ui';
 

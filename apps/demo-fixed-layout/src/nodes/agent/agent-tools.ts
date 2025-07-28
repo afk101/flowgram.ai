@@ -4,7 +4,7 @@
  */
 
 import { nanoid } from 'nanoid';
-import { FlowNodeBaseType } from '@flowgram.ai/fixed-layout-editor';
+import { FlowNodeBaseType } from '@q/flowgram.ai.fixed-layout-editor';
 
 import { FlowNodeRegistry } from '../../typings';
 

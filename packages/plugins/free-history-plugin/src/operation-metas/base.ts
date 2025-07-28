@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type OperationMeta } from '@flowgram.ai/history';
+import { type OperationMeta } from '@q/flowgram.ai.history';
 
 export const baseOperationMeta: Partial<OperationMeta> = {
   shouldMerge: (_op, prev, element) => {

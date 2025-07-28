@@ -12,7 +12,7 @@ import {
   WorkflowNodeMeta,
   WorkflowSelectService,
   HistoryService,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 import { Toast } from '@douyinfe/semi-ui';
 
 import { FlowCommandId } from '../constants';

@@ -5,7 +5,7 @@
 
 import { useState } from 'react';
 
-import { useService, WorkflowDocument } from '@flowgram.ai/free-layout-editor';
+import { useService, WorkflowDocument } from '@q/flowgram.ai.free-layout-editor';
 
 export const Tools = () => {
   const [isLoading, setIsLoading] = useState(false);

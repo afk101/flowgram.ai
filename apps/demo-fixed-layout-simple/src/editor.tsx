@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FixedLayoutEditorProvider, EditorRenderer } from '@flowgram.ai/fixed-layout-editor';
+import { FixedLayoutEditorProvider, EditorRenderer } from '@q/flowgram.ai.fixed-layout-editor';
 
-import '@flowgram.ai/fixed-layout-editor/index.css';
+import '@q/flowgram.ai.fixed-layout-editor/index.css';
 import './index.css';
 
 import { nodeRegistries } from './node-registries';

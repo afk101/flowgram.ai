@@ -1,5 +1,5 @@
 {
-  "name": "@flowgram.ai/i18n-plugin",
+  "name": "@q/flowgram.ai.i18n-plugin",
   "version": "0.1.8",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -25,12 +25,12 @@
     "watch": "npm run build:fast -- --dts-resolve --watch --ignore-watch dist"
   },
   "dependencies": {
-    "@flowgram.ai/core": "workspace:*",
-    "@flowgram.ai/i18n": "workspace:*"
+    "@q/flowgram.ai.core": "workspace:*",
+    "@q/flowgram.ai.i18n": "workspace:*"
   },
   "devDependencies": {
-    "@flowgram.ai/eslint-config": "workspace:*",
-    "@flowgram.ai/ts-config": "workspace:*",
+    "@q/flowgram.ai.eslint-config": "workspace:*",
+    "@q/flowgram.ai.ts-config": "workspace:*",
     "@types/bezier-js": "4.1.3",
     "@types/lodash": "^4.14.137",
     "@types/react": "^18",

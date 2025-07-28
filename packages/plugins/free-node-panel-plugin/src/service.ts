@@ -4,18 +4,18 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { DisposableCollection } from '@flowgram.ai/utils';
-import type { PositionSchema } from '@flowgram.ai/utils';
+import { DisposableCollection } from '@q/flowgram.ai.utils';
+import type { PositionSchema } from '@q/flowgram.ai.utils';
 import {
   WorkflowDocument,
   WorkflowDragService,
   WorkflowLinesManager,
   WorkflowNodeEntity,
-} from '@flowgram.ai/free-layout-core';
-import { WorkflowSelectService } from '@flowgram.ai/free-layout-core';
-import { WorkflowNodeJSON } from '@flowgram.ai/free-layout-core';
-import { HistoryService } from '@flowgram.ai/free-history-plugin';
-import { PlaygroundConfigEntity } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.free-layout-core';
+import { WorkflowSelectService } from '@q/flowgram.ai.free-layout-core';
+import { WorkflowNodeJSON } from '@q/flowgram.ai.free-layout-core';
+import { HistoryService } from '@q/flowgram.ai.free-history-plugin';
+import { PlaygroundConfigEntity } from '@q/flowgram.ai.core';
 
 import { WorkflowNodePanelUtils } from './utils';
 import type {

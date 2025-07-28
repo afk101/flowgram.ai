@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { INodeExecutorFactory } from '@flowgram.ai/runtime-interface';
+import { INodeExecutorFactory } from '@q/flowgram.ai.runtime-interface';
 
 import { StartExecutor } from '@nodes/start';
 import { EndExecutor } from '@nodes/end';

@@ -4,7 +4,7 @@
  */
 
 import { beforeEach, describe, expect, it } from 'vitest';
-import { WorkflowPortType, CreatePortParams, IEdge, INode } from '@flowgram.ai/runtime-interface';
+import { WorkflowPortType, CreatePortParams, IEdge, INode } from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowRuntimePort } from '.';
 

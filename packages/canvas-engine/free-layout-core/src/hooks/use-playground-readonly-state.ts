@@ -5,8 +5,8 @@
 
 import { useEffect } from 'react';
 
-import { usePlayground, useRefresh } from '@flowgram.ai/core';
-import { type Disposable } from '@flowgram.ai/utils';
+import { usePlayground, useRefresh } from '@q/flowgram.ai.core';
+import { type Disposable } from '@q/flowgram.ai.utils';
 
 /**
  * 获取 readonly 状态

@@ -8,8 +8,8 @@ import {
   WorkflowNodeEntity,
   PositionSchema,
   FlowNodeTransformData,
-} from '@flowgram.ai/free-layout-editor';
-import { createBatchOutputsFormPlugin, provideBatchInputEffect } from '@flowgram.ai/form-materials';
+} from '@q/flowgram.ai.free-layout-editor';
+import { createBatchOutputsFormPlugin, provideBatchInputEffect } from '@q/flowgram.ai.form-materials';
 
 import { defaultFormMeta } from '../default-form-meta';
 import { FlowNodeRegistry } from '../../typings';

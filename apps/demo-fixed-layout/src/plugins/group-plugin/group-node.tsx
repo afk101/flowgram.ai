@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IGroupNode } from '@flowgram.ai/group-plugin';
+import { IGroupNode } from '@q/flowgram.ai.group-plugin';
 
 import { GroupTools } from './group-tools';
 import { GroupNote } from './group-note';

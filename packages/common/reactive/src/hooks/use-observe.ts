@@ -5,7 +5,7 @@
 
 import { useCallback, useEffect, useMemo } from 'react';
 
-import { useRefresh } from '@flowgram.ai/utils';
+import { useRefresh } from '@q/flowgram.ai.utils';
 
 import { createProxy } from '../utils/create-proxy';
 import { Tracker } from '../core/tracker';

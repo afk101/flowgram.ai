@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { createShortcutsPlugin } from '@flowgram.ai/shortcuts-plugin';
+import { createShortcutsPlugin } from '@q/flowgram.ai.shortcuts-plugin';
 import {
   PluginContext,
   PluginsProvider,
@@ -11,8 +11,8 @@ import {
   createPlaygroundPlugin,
   PlaygroundConfig,
   PlaygroundLayer,
-} from '@flowgram.ai/core';
-import { createBackgroundPlugin } from '@flowgram.ai/background-plugin';
+} from '@q/flowgram.ai.core';
+import { createBackgroundPlugin } from '@q/flowgram.ai.background-plugin';
 
 import { PlaygroundReactProps } from './playground-react-props';
 

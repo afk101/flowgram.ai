@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { createSelectBoxPlugin } from '@flowgram.ai/select-box-plugin';
-import { FixedLayoutContainerModule } from '@flowgram.ai/fixed-layout-core';
-import { FixedHistoryService, createFixedHistoryPlugin } from '@flowgram.ai/fixed-history-plugin';
-import { createFixedDragPlugin } from '@flowgram.ai/fixed-drag-plugin';
+import { createSelectBoxPlugin } from '@q/flowgram.ai.select-box-plugin';
+import { FixedLayoutContainerModule } from '@q/flowgram.ai.fixed-layout-core';
+import { FixedHistoryService, createFixedHistoryPlugin } from '@q/flowgram.ai.fixed-history-plugin';
+import { createFixedDragPlugin } from '@q/flowgram.ai.fixed-drag-plugin';
 import {
   PluginsProvider,
   createDefaultPreset,
@@ -25,7 +25,7 @@ import {
   FlowScrollBarLayer,
   FlowScrollLimitLayer,
   createPlaygroundReactPreset,
-} from '@flowgram.ai/editor';
+} from '@q/flowgram.ai.editor';
 
 import { FlowOperationService } from '../types';
 import { createOperationPlugin } from '../plugins/create-operation-plugin';

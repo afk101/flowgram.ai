@@ -1,5 +1,5 @@
 {
-  "name": "@flowgram.ai/demo-fixed-layout-simple",
+  "name": "@q/flowgram.ai.demo-fixed-layout-simple",
   "version": "0.1.0",
   "description": "",
   "keywords": [],
@@ -28,13 +28,13 @@
     "watch": "exit 0"
   },
   "dependencies": {
-    "@flowgram.ai/ts-config": "workspace:*",
-    "@flowgram.ai/eslint-config": "workspace:*",
+    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@q/flowgram.ai.eslint-config": "workspace:*",
     "@douyinfe/semi-icons": "^2.80.0",
     "@douyinfe/semi-ui": "^2.80.0",
-    "@flowgram.ai/fixed-layout-editor": "workspace:*",
-    "@flowgram.ai/fixed-semi-materials": "workspace:*",
-    "@flowgram.ai/minimap-plugin": "workspace:*",
+    "@q/flowgram.ai.fixed-layout-editor": "workspace:*",
+    "@q/flowgram.ai.fixed-semi-materials": "workspace:*",
+    "@q/flowgram.ai.minimap-plugin": "workspace:*",
     "nanoid": "^4.0.2",
     "react": "^18",
     "react-dom": "^18"
