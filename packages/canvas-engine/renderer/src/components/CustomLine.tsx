@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import type { FlowTransitionLine } from '@q/flowgram.ai.document';
+import type { FlowTransitionLine } from '@flowgram.ai/document';
 
 import { type FlowRendererRegistry } from '../flow-renderer-registry';
 

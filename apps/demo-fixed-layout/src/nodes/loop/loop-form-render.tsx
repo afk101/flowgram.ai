@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { BatchVariableSelector, IFlowRefValue } from '@q/flowgram.ai.form-materials';
-import { FormRenderProps, FlowNodeJSON, Field } from '@q/flowgram.ai.fixed-layout-editor';
+import { BatchVariableSelector, IFlowRefValue } from '@flowgram.ai/form-materials';
+import { FormRenderProps, FlowNodeJSON, Field } from '@flowgram.ai/fixed-layout-editor';
 
 import { useIsSidebar, useNodeRenderContext } from '../../hooks';
 import { FormHeader, FormContent, FormOutputs, FormItem, Feedback } from '../../form-components';

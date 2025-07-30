@@ -5,7 +5,7 @@
 
 import { useContext, useState } from 'react';
 
-import { useClientContext, CommandService } from '@q/flowgram.ai.free-layout-editor';
+import { useClientContext, CommandService } from '@flowgram.ai/free-layout-editor';
 import { Button } from '@douyinfe/semi-ui';
 import { IconClose, IconSmallTriangleDown, IconSmallTriangleLeft } from '@douyinfe/semi-icons';
 

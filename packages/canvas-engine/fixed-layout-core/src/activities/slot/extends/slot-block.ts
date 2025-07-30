@@ -9,8 +9,8 @@ import {
   FlowNodeBaseType,
   FlowTransitionLabelEnum,
   FlowTransitionLineEnum,
-} from '@q/flowgram.ai.document';
-import { FlowNodeTransformData } from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
+import { FlowNodeTransformData } from '@flowgram.ai/document';
 
 import { getPortChildInput, getSlotChildLineStartPoint } from '../utils/transition';
 import { SlotNodeType } from '../typings';

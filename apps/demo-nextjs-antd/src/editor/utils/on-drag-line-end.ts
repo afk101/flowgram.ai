@@ -6,7 +6,7 @@
 import {
   WorkflowNodePanelService,
   WorkflowNodePanelUtils,
-} from '@q/flowgram.ai.free-node-panel-plugin';
+} from '@flowgram.ai/free-node-panel-plugin';
 import {
   FreeLayoutPluginContext,
   WorkflowDragService,
@@ -15,7 +15,7 @@ import {
   WorkflowNodeJSON,
   delay,
   onDragLineEndParams,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 
 /**
  * Drag the end of the line to create an add panel (feature optional)

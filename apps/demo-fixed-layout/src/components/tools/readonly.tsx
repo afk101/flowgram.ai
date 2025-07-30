@@ -5,7 +5,7 @@
 
 import { useCallback } from 'react';
 
-import { usePlayground } from '@q/flowgram.ai.fixed-layout-editor';
+import { usePlayground } from '@flowgram.ai/fixed-layout-editor';
 import { IconButton } from '@douyinfe/semi-ui';
 import { IconUnlock, IconLock } from '@douyinfe/semi-icons';
 

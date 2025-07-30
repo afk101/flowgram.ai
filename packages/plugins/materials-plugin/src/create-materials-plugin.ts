@@ -5,8 +5,8 @@
 
 import React from 'react';
 
-import { FlowRendererKey, FlowRendererRegistry } from '@q/flowgram.ai.renderer';
-import { definePluginCreator } from '@q/flowgram.ai.core';
+import { FlowRendererKey, FlowRendererRegistry } from '@flowgram.ai/renderer';
+import { definePluginCreator } from '@flowgram.ai/core';
 
 export type MaterialReactComponent<T = any> = (props: T) => React.ReactNode | null;
 

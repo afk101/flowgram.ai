@@ -10,8 +10,8 @@ import {
   FlowNodeEntity,
   type WorkflowEdgeJSON,
   WorkflowNodeMeta,
-} from '@q/flowgram.ai.free-layout-editor';
-import { IFlowValue } from '@q/flowgram.ai.form-materials';
+} from '@flowgram.ai/free-layout-editor';
+import { IFlowValue } from '@flowgram.ai/form-materials';
 
 import { type JsonSchema } from './json-schema';
 

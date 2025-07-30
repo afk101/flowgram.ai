@@ -4,9 +4,9 @@
  */
 
 import { injectable, inject } from 'inversify';
-import { type FormItem } from '@q/flowgram.ai.form-core';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
-import { Playground, PlaygroundConfigRevealOpts } from '@q/flowgram.ai.core';
+import { type FormItem } from '@flowgram.ai/form-core';
+import { FlowNodeEntity } from '@flowgram.ai/document';
+import { Playground, PlaygroundConfigRevealOpts } from '@flowgram.ai/core';
 
 import { FocusNodeFormItemOptions, NodeClient } from './node-client';
 

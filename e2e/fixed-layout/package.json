@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.e2e-fixed-layout",
+  "name": "@flowgram.ai/e2e-fixed-layout",
   "version": "0.1.0",
   "description": "",
   "keywords": [],
@@ -13,7 +13,7 @@
     "@playwright/test": "^1.52.0"
   },
   "devDependencies": {
-    "@q/flowgram.ai.eslint-config": "workspace:*",
+    "@flowgram.ai/eslint-config": "workspace:*",
     "@types/node": "^18"
   }
 }

@@ -4,8 +4,8 @@
  */
 
 /* eslint-disable @typescript-eslint/naming-convention */
-import { type IPoint } from '@q/flowgram.ai.utils';
-import { type Operation, type OperationMeta } from '@q/flowgram.ai.history';
+import { type IPoint } from '@flowgram.ai/utils';
+import { type Operation, type OperationMeta } from '@flowgram.ai/history';
 import {
   type WorkflowContentChangeType,
   type WorkflowContentChangeEvent,
@@ -13,9 +13,9 @@ import {
   type WorkflowLinePortInfo,
   type WorkflowNodeJSON,
   type PositionMap,
-} from '@q/flowgram.ai.free-layout-core';
-import { type FlowNodeEntity, type FlowNodeJSON } from '@q/flowgram.ai.document';
-import { type EntityData, type PluginContext } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/free-layout-core';
+import { type FlowNodeEntity, type FlowNodeJSON } from '@flowgram.ai/document';
+import { type EntityData, type PluginContext } from '@flowgram.ai/core';
 
 export enum FreeOperationType {
   addLine = 'addLine',

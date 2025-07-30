@@ -16,7 +16,7 @@ import {
   IVariableParseResult,
   LoopNodeSchema,
   WorkflowVariableType,
-} from '@q/flowgram.ai.runtime-interface';
+} from '@flowgram.ai/runtime-interface';
 
 import { WorkflowRuntimeType } from '@infra/index';
 

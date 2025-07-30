@@ -5,9 +5,9 @@
 
 import { cloneDeep } from 'lodash';
 import { inject, injectable } from 'inversify';
-import { FlowNodeFormData, FormModel } from '@q/flowgram.ai.form-core';
-import { FlowDocument } from '@q/flowgram.ai.document';
-import { Disposable, Emitter } from '@q/flowgram.ai.utils';
+import { FlowNodeFormData, FormModel } from '@flowgram.ai/form-core';
+import { FlowDocument } from '@flowgram.ai/document';
+import { Disposable, Emitter } from '@flowgram.ai/utils';
 
 @injectable()
 export class FixedHistoryFormDataService implements Disposable {

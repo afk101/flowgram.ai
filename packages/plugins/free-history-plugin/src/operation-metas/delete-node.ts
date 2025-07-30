@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type PluginContext } from '@q/flowgram.ai.core';
-import { WorkflowDocument } from '@q/flowgram.ai.free-layout-core';
-import { type OperationMeta } from '@q/flowgram.ai.history';
+import { type PluginContext } from '@flowgram.ai/core';
+import { WorkflowDocument } from '@flowgram.ai/free-layout-core';
+import { type OperationMeta } from '@flowgram.ai/history';
 
 import { type AddOrDeleteWorkflowNodeOperationValue, FreeOperationType } from '../types';
 import { FreeHistoryConfig } from '../free-history-config';

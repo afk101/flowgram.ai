@@ -4,7 +4,7 @@
  */
 
 import styled from 'styled-components';
-import { FieldError, FieldState, FieldWarning } from '@q/flowgram.ai.fixed-layout-editor';
+import { FieldError, FieldState, FieldWarning } from '@flowgram.ai/fixed-layout-editor';
 
 interface StatePanelProps {
   errors?: FieldState['errors'];

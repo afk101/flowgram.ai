@@ -10,7 +10,7 @@ import {
   FlowTransitionLineEnum,
   LABEL_SIDE_TYPE,
   FlowTransitionLabelEnum,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 
 /**
  * 输入节点

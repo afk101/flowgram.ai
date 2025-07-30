@@ -10,8 +10,8 @@ import {
   SelectionService,
   TransformData,
   type PlaygroundConfigRevealOpts,
-} from '@q/flowgram.ai.core';
-import { type Event, Rectangle, SizeSchema } from '@q/flowgram.ai.utils';
+} from '@flowgram.ai/core';
+import { type Event, Rectangle, SizeSchema } from '@flowgram.ai/utils';
 
 import { delay } from '../utils';
 import { WorkflowNodeEntity } from '../entities';

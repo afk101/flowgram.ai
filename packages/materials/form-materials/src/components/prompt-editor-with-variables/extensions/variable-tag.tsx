@@ -13,7 +13,7 @@ import {
   DisposableCollection,
   Scope,
   useCurrentScope,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 import { Popover } from '@douyinfe/semi-ui';
 import { IconIssueStroked } from '@douyinfe/semi-icons';
 import { useInjector } from '@coze-editor/editor/react';

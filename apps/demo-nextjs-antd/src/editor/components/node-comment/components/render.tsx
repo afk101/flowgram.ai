@@ -13,7 +13,7 @@ import {
   FormModelV2,
   WorkflowNodeEntity,
   useNodeRender,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 
 import { useOverflow } from '../hooks/use-overflow';
 import { useModel } from '../hooks/use-model';

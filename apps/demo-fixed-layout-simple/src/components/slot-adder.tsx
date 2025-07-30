@@ -9,7 +9,7 @@ import {
   FlowNodeRenderData,
   FlowDocument,
   useService,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 import { Button } from '@douyinfe/semi-ui';
 import { IconPlus } from '@douyinfe/semi-icons';
 

@@ -5,7 +5,7 @@
 
 import { CSSProperties } from 'react';
 
-import type { IPoint, Rectangle } from '@q/flowgram.ai.utils';
+import type { IPoint, Rectangle } from '@flowgram.ai/utils';
 
 export interface MinimapCanvasStyle {
   canvasWidth: number;

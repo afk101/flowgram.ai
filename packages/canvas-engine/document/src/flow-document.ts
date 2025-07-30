@@ -5,8 +5,8 @@
 
 import { omit } from 'lodash';
 import { inject, injectable, multiInject, optional, postConstruct } from 'inversify';
-import { type Disposable, Emitter } from '@q/flowgram.ai.utils';
-import { type EntityData, type EntityDataRegistry, EntityManager } from '@q/flowgram.ai.core';
+import { type Disposable, Emitter } from '@flowgram.ai/utils';
+import { type EntityData, type EntityDataRegistry, EntityManager } from '@flowgram.ai/core';
 
 import {
   AddNodeData,

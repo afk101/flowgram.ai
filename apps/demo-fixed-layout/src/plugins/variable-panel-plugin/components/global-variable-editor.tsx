@@ -5,13 +5,13 @@
 
 import { useEffect } from 'react';
 
-import { JsonSchemaEditor, JsonSchemaUtils } from '@q/flowgram.ai.form-materials';
+import { JsonSchemaEditor, JsonSchemaUtils } from '@flowgram.ai/form-materials';
 import {
   BaseVariableField,
   GlobalScope,
   useRefresh,
   useService,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 export function GlobalVariableEditor() {
   const globalScope = useService(GlobalScope);

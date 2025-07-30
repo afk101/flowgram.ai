@@ -6,12 +6,12 @@
 import React from 'react';
 
 import clx from 'clsx';
-import { WorkflowPortRender } from '@q/flowgram.ai.free-lines-plugin';
+import { WorkflowPortRender } from '@flowgram.ai/free-lines-plugin';
 import {
   WorkflowNodeEntity,
   useNodeRender,
   WorkflowPortEntity,
-} from '@q/flowgram.ai.free-layout-core';
+} from '@flowgram.ai/free-layout-core';
 
 export interface WorkflowNodeProps {
   node: WorkflowNodeEntity;

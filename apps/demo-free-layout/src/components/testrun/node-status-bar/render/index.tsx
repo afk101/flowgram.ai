@@ -6,7 +6,7 @@
 import { FC, useMemo, useState } from 'react';
 
 import classnames from 'classnames';
-import { NodeReport, WorkflowStatus } from '@q/flowgram.ai.runtime-interface';
+import { NodeReport, WorkflowStatus } from '@flowgram.ai/runtime-interface';
 import { Tag, Button, Select } from '@douyinfe/semi-ui';
 import { IconSpin } from '@douyinfe/semi-icons';
 

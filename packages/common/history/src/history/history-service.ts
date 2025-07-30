@@ -5,7 +5,7 @@
 
 import { pick } from 'lodash';
 import { injectable, inject, postConstruct } from 'inversify';
-import { DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
+import { DisposableCollection, Emitter } from '@flowgram.ai/utils';
 
 import { OperationService } from '../operation/operation-service';
 import { OperationMeta, OperationRegistry, PushOperationOptions } from '../operation';

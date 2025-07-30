@@ -4,7 +4,7 @@
  */
 
 import { ContainerModule } from 'inversify';
-import { bindContributions } from '@q/flowgram.ai.utils';
+import { bindContributions } from '@flowgram.ai/utils';
 
 import { FormContextMaker } from './services/form-context-maker';
 import { NodeContribution } from '../node';

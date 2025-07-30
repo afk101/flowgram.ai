@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { BaseVariableField, VariableEngine } from '@q/flowgram.ai.variable-core';
-import { type ASTNode, ASTNodeJSON } from '@q/flowgram.ai.variable-core';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
-import { EntityData } from '@q/flowgram.ai.core';
+import { BaseVariableField, VariableEngine } from '@flowgram.ai/variable-core';
+import { type ASTNode, ASTNodeJSON } from '@flowgram.ai/variable-core';
+import { FlowNodeEntity } from '@flowgram.ai/document';
+import { EntityData } from '@flowgram.ai/core';
 
 import { FlowNodeScope, FlowNodeScopeMeta, FlowNodeScopeTypeEnum } from './types';
 

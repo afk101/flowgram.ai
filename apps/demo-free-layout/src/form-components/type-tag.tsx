@@ -4,7 +4,7 @@
  */
 
 import styled from 'styled-components';
-import { VariableTypeIcons, ArrayIcons } from '@q/flowgram.ai.form-materials';
+import { VariableTypeIcons, ArrayIcons } from '@flowgram.ai/form-materials';
 import { Tag, Tooltip } from '@douyinfe/semi-ui';
 
 interface PropsType {

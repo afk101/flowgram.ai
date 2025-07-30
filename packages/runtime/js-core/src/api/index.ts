@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowGramAPIName } from '@q/flowgram.ai.runtime-interface';
+import { FlowGramAPIName } from '@flowgram.ai/runtime-interface';
 
 import { TaskValidateAPI } from './task-validate';
 import { TaskRunAPI } from './task-run';

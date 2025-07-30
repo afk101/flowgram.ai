@@ -6,10 +6,10 @@
 /* eslint-disable react/prop-types */
 import React, { useCallback, useEffect, useState } from 'react';
 
-import { FlowGroupController, FlowNodeEntity, FlowNodeRenderData } from '@q/flowgram.ai.document';
-import { FlowDocument } from '@q/flowgram.ai.document';
-import { useEntityFromContext, useService } from '@q/flowgram.ai.core';
-import { delay, Rectangle } from '@q/flowgram.ai.utils';
+import { FlowGroupController, FlowNodeEntity, FlowNodeRenderData } from '@flowgram.ai/document';
+import { FlowDocument } from '@flowgram.ai/document';
+import { useEntityFromContext, useService } from '@flowgram.ai/core';
+import { delay, Rectangle } from '@flowgram.ai/utils';
 
 import { IGroupRender } from '../type';
 

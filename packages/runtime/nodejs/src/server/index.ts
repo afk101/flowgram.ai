@@ -6,7 +6,7 @@
 import { fastifyTRPCOpenApiPlugin } from 'trpc-openapi';
 import fastify from 'fastify';
 import { fastifyTRPCPlugin } from '@trpc/server/adapters/fastify';
-import { ServerInfoDefine, type ServerInfoOutput } from '@q/flowgram.ai.runtime-interface';
+import { ServerInfoDefine, type ServerInfoOutput } from '@flowgram.ai/runtime-interface';
 import ws from '@fastify/websocket';
 import fastifySwaggerUI from '@fastify/swagger-ui';
 import fastifySwagger from '@fastify/swagger';

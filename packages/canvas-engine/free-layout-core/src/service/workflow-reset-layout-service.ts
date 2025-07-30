@@ -4,9 +4,9 @@
  */
 
 import { inject, injectable, postConstruct } from 'inversify';
-import { PlaygroundConfigEntity } from '@q/flowgram.ai.core';
-import { EntityManager } from '@q/flowgram.ai.core';
-import { DisposableCollection, Emitter, type IPoint } from '@q/flowgram.ai.utils';
+import { PlaygroundConfigEntity } from '@flowgram.ai/core';
+import { EntityManager } from '@flowgram.ai/core';
+import { DisposableCollection, Emitter, type IPoint } from '@flowgram.ai/utils';
 
 import { WorkflowDocument } from '../workflow-document';
 import { layoutToPositions } from '../utils/layout-to-positions';

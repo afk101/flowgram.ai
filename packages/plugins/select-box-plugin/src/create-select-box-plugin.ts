@@ -9,8 +9,8 @@ import {
   FlowSelectorBoxLayer,
   FlowSelectorBoxOptions,
   type SelectorBoxPopoverProps,
-} from '@q/flowgram.ai.renderer';
-import { definePluginCreator } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/renderer';
+import { definePluginCreator } from '@flowgram.ai/core';
 
 // import { SelectorBounds } from './selector-bounds';
 

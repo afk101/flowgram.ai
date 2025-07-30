@@ -6,7 +6,7 @@
 // nolint: cyclo_complexity,method_line
 import { expect, describe, beforeEach, it } from 'vitest';
 import { Container } from 'inversify';
-import { Matrix, Rectangle } from '@q/flowgram.ai.utils';
+import { Matrix, Rectangle } from '@flowgram.ai/utils';
 
 import { Entity, EntityManager, PlaygroundContext, TransformData } from '..';
 import { Bounds } from './bounds';

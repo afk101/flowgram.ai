@@ -5,7 +5,7 @@
 
 import { useLayoutEffect } from 'react';
 
-import { DisposableCollection, type Event } from '@q/flowgram.ai.utils';
+import { DisposableCollection, type Event } from '@flowgram.ai/utils';
 
 import { useRefresh } from './use-refresh';
 
