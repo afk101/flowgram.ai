@@ -622,6 +622,27 @@ fi
 echo "  - 深度遍历替换完成"
 
 # ============================================================================
+# 14. 修改 common/config/rush/command-line.json 文件中的 @flowgram.ai/ 为 @q/flowgram.ai.
+# ============================================================================
+echo "步骤 14: 修改 common/config/rush/command-line.json 文件中的包名引用..."
+
+if [ -f "common/config/rush/command-line.json" ]; then
+    echo "  - 正在处理 common/config/rush/command-line.json"
+    # 使用 sed 进行替换，兼容 macOS 和 Linux
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        # macOS
+        sed -i '' 's/@flowgram\.ai\//@q\/flowgram.ai./g' "common/config/rush/command-line.json"
+    else
+        # Linux
+        sed -i 's/@flowgram\.ai\//@q\/flowgram.ai./g' "common/config/rush/command-line.json"
+    fi
+    echo "  - 已处理: common/config/rush/command-line.json"
+    echo "  - command-line.json 文件处理完成"
+else
+    echo "  - common/config/rush/command-line.json 文件不存在，跳过此步骤"
+fi
+
+# ============================================================================
 # 完成
 # ============================================================================
 echo ""
@@ -642,6 +663,7 @@ echo "10. ✅ 已深度遍历 e2e 和 config 文件夹下的所有 package.json 
 echo "11. ✅ 已深度遍历 e2e、apps、packages、config 文件夹下的所有 .eslintrc.js 和 .eslintrc.cjs 文件，修改包名引用"
 echo "12. ✅ 已深度遍历 e2e、apps、packages、config 文件夹下的所有 tsconfig.json 文件，修改包名引用"
 echo "13. ✅ 已深度遍历 packages 文件夹和 apps/docs 文件夹下的所有文件，修改 @flowgram.ai/ 为 @q/flowgram.ai."
+echo "14. ✅ 已修改 common/config/rush/command-line.json 文件中的包名引用"
 echo ""
 echo "备份文件位置："
 echo "- .github.bak/ (原 .github 文件夹内容)"

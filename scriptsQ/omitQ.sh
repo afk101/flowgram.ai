@@ -358,6 +358,27 @@ fi
 echo "  - 特殊修改处理完成"
 
 # ============================================================================
+# 11. 撤销 common/config/rush/command-line.json 文件中的包名修改
+# ============================================================================
+echo "步骤 11: 撤销 common/config/rush/command-line.json 文件中的包名修改..."
+
+if [ -f "common/config/rush/command-line.json" ]; then
+    echo "  - 正在处理 common/config/rush/command-line.json"
+    # 使用 sed 进行替换，兼容 macOS 和 Linux
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        # macOS
+        sed -i '' 's/@q\/flowgram\.ai\./@flowgram.ai\//g' "common/config/rush/command-line.json"
+    else
+        # Linux
+        sed -i 's/@q\/flowgram\.ai\./@flowgram.ai\//g' "common/config/rush/command-line.json"
+    fi
+    echo "  - 已处理: common/config/rush/command-line.json"
+    echo "  - command-line.json 文件撤销完成"
+else
+    echo "  - common/config/rush/command-line.json 文件不存在，跳过此步骤"
+fi
+
+# ============================================================================
 # 完成
 # ============================================================================
 echo ""
@@ -376,6 +397,7 @@ echo "9. ✅ 已从 version-policies.json.bak 恢复 version-policies.json 文�
 echo "10. ✅ 已执行特殊修改："
 echo "    - apps/docs/package.json 和 apps/plugin-llms/package.json 移除 publishConfig 属性"
 echo "    - config/eslint-config/package.json 设置 maintainers: [] 在 author 属性下面"
+echo "11. ✅ 已撤销 common/config/rush/command-line.json 文件中的包名修改"
 echo ""
 echo "项目已恢复到执行 initQ.sh 之前的原始状态！"
 echo ""
