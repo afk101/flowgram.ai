@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { OriginSchemaDecoration, Schema } from '@q/flowgram.ai.utils';
-import type { OriginSchema } from '@q/flowgram.ai.utils';
+import { OriginSchemaDecoration, Schema } from '@flowgram.ai/utils';
+import type { OriginSchema } from '@flowgram.ai/utils';
 
 import { EntityData } from '../entity-data';
 

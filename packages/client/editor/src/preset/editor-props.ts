@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { VariablePluginOptions } from '@q/flowgram.ai.variable-plugin';
-import { ReduxDevToolPluginOptions } from '@q/flowgram.ai.redux-devtool-plugin';
-import { PlaygroundReactProps, SelectionService } from '@q/flowgram.ai.playground-react';
-import { NodeCorePluginOptions } from '@q/flowgram.ai.node-core-plugin';
-import { MaterialsPluginOptions } from '@q/flowgram.ai.materials-plugin';
-import { I18nPluginOptions } from '@q/flowgram.ai.i18n-plugin';
-import { HistoryPluginOptions } from '@q/flowgram.ai.history';
-import { FormMetaOrFormMetaGenerator } from '@q/flowgram.ai.form-core';
+import { VariablePluginOptions } from '@flowgram.ai/variable-plugin';
+import { ReduxDevToolPluginOptions } from '@flowgram.ai/redux-devtool-plugin';
+import { PlaygroundReactProps, SelectionService } from '@flowgram.ai/playground-react';
+import { NodeCorePluginOptions } from '@flowgram.ai/node-core-plugin';
+import { MaterialsPluginOptions } from '@flowgram.ai/materials-plugin';
+import { I18nPluginOptions } from '@flowgram.ai/i18n-plugin';
+import { HistoryPluginOptions } from '@flowgram.ai/history';
+import { FormMetaOrFormMetaGenerator } from '@flowgram.ai/form-core';
 import {
   FlowDocument,
   FlowDocumentJSON,
@@ -20,8 +20,8 @@ import {
   FlowNodeType,
   FlowTransitionLabel,
   FlowTransitionLine,
-} from '@q/flowgram.ai.document';
-import { PluginContext } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/document';
+import { PluginContext } from '@flowgram.ai/core';
 
 export interface EditorPluginContext extends PluginContext {
   document: FlowDocument;

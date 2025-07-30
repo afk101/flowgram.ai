@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { MaybePromise } from '@q/flowgram.ai.utils';
+import { MaybePromise } from '@flowgram.ai/utils';
 
 import { FieldName } from './field';
 import { Context } from './common';

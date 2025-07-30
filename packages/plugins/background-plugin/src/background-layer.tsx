@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { domUtils } from '@q/flowgram.ai.utils';
-import { Layer, observeEntity, PlaygroundConfigEntity, SCALE_WIDTH } from '@q/flowgram.ai.core';
+import { domUtils } from '@flowgram.ai/utils';
+import { Layer, observeEntity, PlaygroundConfigEntity, SCALE_WIDTH } from '@flowgram.ai/core';
 
 interface BackgroundScaleUnit {
   realSize: number;

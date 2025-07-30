@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { ConstantKeys } from '@q/flowgram.ai.document';
+import { ConstantKeys } from '@flowgram.ai/document';
 
 export enum LoopTypeEnum {
   LOOP_LEFT_EMPTY_BLOCK = 'loopLeftEmptyBlock',

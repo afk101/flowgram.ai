@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IMessage, MessageData, WorkflowMessageType } from '@q/flowgram.ai.runtime-interface';
+import { IMessage, MessageData, WorkflowMessageType } from '@flowgram.ai/runtime-interface';
 
 import { uuid } from '@infra/utils';
 

@@ -4,21 +4,21 @@
  */
 
 import { injectable, inject } from 'inversify';
-import { DisposableCollection, Disposable } from '@q/flowgram.ai.utils';
+import { DisposableCollection, Disposable } from '@flowgram.ai/utils';
 import {
   WorkflowDocument,
   WorkflowOperationBaseService,
   WorkflowNodeEntity,
   nanoid,
   WorkflowNodeJSON,
-} from '@q/flowgram.ai.free-layout-core';
-import { HistoryService } from '@q/flowgram.ai.free-history-plugin';
+} from '@flowgram.ai/free-layout-core';
+import { HistoryService } from '@flowgram.ai/free-history-plugin';
 import {
   NodeIntoContainerService,
   NodeIntoContainerType,
-} from '@q/flowgram.ai.free-container-plugin';
-import { FlowGroupService, FlowNodeBaseType } from '@q/flowgram.ai.document';
-import { TransformData } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/free-container-plugin';
+import { FlowGroupService, FlowNodeBaseType } from '@flowgram.ai/document';
+import { TransformData } from '@flowgram.ai/core';
 
 import { WorkflowGroupUtils } from './utils';
 import { WorkflowGroupPluginOptions } from './type';

@@ -10,17 +10,17 @@ import {
   VariableChainConfig,
   bindGlobalScope,
   ScopeChainTransformService,
-} from '@q/flowgram.ai.variable-layout';
+} from '@flowgram.ai/variable-layout';
 import {
   VariableContainerModule,
   ASTNodeRegistry,
   ASTRegisters,
   VariableEngine,
   ScopeChain,
-} from '@q/flowgram.ai.variable-core';
-import { FlowDocument } from '@q/flowgram.ai.document';
-import { PluginContext, definePluginCreator } from '@q/flowgram.ai.core';
-import { EntityManager } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/variable-core';
+import { FlowDocument } from '@flowgram.ai/document';
+import { PluginContext, definePluginCreator } from '@flowgram.ai/core';
+import { EntityManager } from '@flowgram.ai/core';
 
 /**
  * @deprecated 请使用 @injectToAst(XXXService) declare xxxService: XXXService 实现外部依赖注入

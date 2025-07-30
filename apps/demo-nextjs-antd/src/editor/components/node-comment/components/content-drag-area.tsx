@@ -5,7 +5,7 @@
 
 import { type FC, type WheelEventHandler, useEffect, useState } from 'react';
 
-import { useNodeRender, usePlayground } from '@q/flowgram.ai.free-layout-editor';
+import { useNodeRender, usePlayground } from '@flowgram.ai/free-layout-editor';
 
 import type { CommentEditorModel } from '../model';
 import { DragArea } from './drag-area';

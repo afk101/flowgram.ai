@@ -8,8 +8,8 @@ import {
   SizeSchema,
   ConfigEntity,
   PlaygroundDragEvent,
-} from '@q/flowgram.ai.core';
-import { Rectangle } from '@q/flowgram.ai.utils';
+} from '@flowgram.ai/core';
+import { Rectangle } from '@flowgram.ai/utils';
 
 export interface SelectorBoxConfigData extends PlaygroundDragEvent {
   disabled?: boolean; // 是否禁用选择框

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Field } from '@q/flowgram.ai.free-layout-editor';
+import { Field } from '@flowgram.ai/free-layout-editor';
 
 import { JsonSchema } from '@editor/typings';
 import { useIsSidebar } from '@editor/hooks';

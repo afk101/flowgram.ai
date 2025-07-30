@@ -6,8 +6,8 @@
 import React, { FC } from 'react';
 
 import styled from 'styled-components';
-import { NodePanelRenderProps } from '@q/flowgram.ai.free-node-panel-plugin';
-import { useClientContext } from '@q/flowgram.ai.free-layout-editor';
+import { NodePanelRenderProps } from '@flowgram.ai/free-node-panel-plugin';
+import { useClientContext } from '@flowgram.ai/free-layout-editor';
 
 import { FlowNodeRegistry } from '../../typings';
 import { nodeRegistries } from '../../nodes';

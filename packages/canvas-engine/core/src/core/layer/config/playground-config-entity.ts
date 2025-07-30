@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Disposable, domUtils, Emitter, PromiseDeferred, Rectangle } from '@q/flowgram.ai.utils'
+import { Disposable, domUtils, Emitter, PromiseDeferred, Rectangle } from '@flowgram.ai/utils'
 import {
   ConfigEntity,
   Entity,

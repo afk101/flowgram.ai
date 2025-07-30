@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowDragLayer } from '@q/flowgram.ai.renderer';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
-import { definePluginCreator, PluginContext } from '@q/flowgram.ai.core';
+import { FlowDragLayer } from '@flowgram.ai/renderer';
+import { FlowNodeEntity } from '@flowgram.ai/document';
+import { definePluginCreator, PluginContext } from '@flowgram.ai/core';
 
 // import { SelectorBounds } from './selector-bounds';
 

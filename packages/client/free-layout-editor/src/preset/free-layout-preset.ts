@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { createSelectBoxPlugin } from '@q/flowgram.ai.select-box-plugin';
-import { createFreeStackPlugin, StackingContextManager } from '@q/flowgram.ai.free-stack-plugin';
-import { createFreeLinesPlugin } from '@q/flowgram.ai.free-lines-plugin';
+import { createSelectBoxPlugin } from '@flowgram.ai/select-box-plugin';
+import { createFreeStackPlugin, StackingContextManager } from '@flowgram.ai/free-stack-plugin';
+import { createFreeLinesPlugin } from '@flowgram.ai/free-lines-plugin';
 import {
   WorkflowCommands,
   WorkflowNodeEntity,
@@ -15,10 +15,10 @@ import {
   WorkflowDocumentOptions,
   WorkflowDocumentOptionsDefault,
   WorkflowNodeMeta,
-} from '@q/flowgram.ai.free-layout-core';
-import { createFreeHoverPlugin } from '@q/flowgram.ai.free-hover-plugin';
-import { HistoryService, createFreeHistoryPlugin } from '@q/flowgram.ai.free-history-plugin';
-import { createFreeAutoLayoutPlugin } from '@q/flowgram.ai.free-auto-layout-plugin';
+} from '@flowgram.ai/free-layout-core';
+import { createFreeHoverPlugin } from '@flowgram.ai/free-hover-plugin';
+import { HistoryService, createFreeHistoryPlugin } from '@flowgram.ai/free-history-plugin';
+import { createFreeAutoLayoutPlugin } from '@flowgram.ai/free-auto-layout-plugin';
 import {
   PluginsProvider,
   Plugin,
@@ -35,7 +35,7 @@ import {
   FlowScrollBarLayer,
   FlowScrollLimitLayer,
   createPlaygroundReactPreset,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 
 import { WorkflowAutoLayoutTool } from '../tools';
 import { fromNodeJSON, toNodeJSON } from './node-serialize';

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeEntity, FreeLayoutPluginContext } from '@q/flowgram.ai.free-layout-editor';
+import { FlowNodeEntity, FreeLayoutPluginContext } from '@flowgram.ai/free-layout-editor';
 
 export function scrollToView(
   ctx: FreeLayoutPluginContext,

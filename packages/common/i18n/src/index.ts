@@ -4,7 +4,7 @@
  */
 
 import { I18n as I18nStore } from 'i18n-js';
-import { Emitter } from '@q/flowgram.ai.utils';
+import { Emitter } from '@flowgram.ai/utils';
 
 type Scope = Readonly<string | string[]>;
 

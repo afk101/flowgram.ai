@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowRendererKey } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowRendererKey } from '@flowgram.ai/fixed-layout-editor';
 
 import { Ellipse } from '../assets';
 import TryCatchCollapse from './try-catch-collapse';

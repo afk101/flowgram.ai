@@ -5,9 +5,9 @@
 
 import { useEffect } from 'react';
 
-import { FlowNodeFormData, FormModel } from '@q/flowgram.ai.form-core';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
-import { PlaygroundContext, useRefresh } from '@q/flowgram.ai.core';
+import { FlowNodeFormData, FormModel } from '@flowgram.ai/form-core';
+import { FlowNodeEntity } from '@flowgram.ai/document';
+import { PlaygroundContext, useRefresh } from '@flowgram.ai/core';
 
 interface FormRenderProps {
   node: FlowNodeEntity;

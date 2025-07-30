@@ -9,8 +9,8 @@ import {
   useCurrentEntity,
   WorkflowNodeMeta,
   WorkflowNodePortsData,
-} from '@q/flowgram.ai.free-layout-core';
-import { FlowNodeTransformData } from '@q/flowgram.ai.document';
+} from '@flowgram.ai/free-layout-core';
+import { FlowNodeTransformData } from '@flowgram.ai/document';
 
 export interface NodeSize {
   width: number;

@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Disposable, type IPoint, Rectangle } from '@q/flowgram.ai.utils';
+import { Disposable, type IPoint, Rectangle } from '@flowgram.ai/utils';
 import {
   Bounds,
   EntityData,
   PositionSchema,
   type SizeSchema,
   TransformData,
-} from '@q/flowgram.ai.core';
+} from '@flowgram.ai/core';
 
 import type { FlowNodeEntity } from '../entities';
 import { FlowNodeRenderData } from './flow-node-render-data';

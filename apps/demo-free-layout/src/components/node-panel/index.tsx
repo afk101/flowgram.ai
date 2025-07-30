@@ -5,7 +5,7 @@
 
 import { FC } from 'react';
 
-import { NodePanelRenderProps } from '@q/flowgram.ai.free-node-panel-plugin';
+import { NodePanelRenderProps } from '@flowgram.ai/free-node-panel-plugin';
 import { Popover } from '@douyinfe/semi-ui';
 
 import { NodePlaceholder } from './node-placeholder';

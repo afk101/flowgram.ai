@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowDocument } from '@q/flowgram.ai.document';
-import { FlowGroupService } from '@q/flowgram.ai.document';
+import { FlowDocument } from '@flowgram.ai/document';
+import { FlowGroupService } from '@flowgram.ai/document';
 
 import { IGroupPluginRegister } from '../type';
 

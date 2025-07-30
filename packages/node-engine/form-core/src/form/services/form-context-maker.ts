@@ -4,7 +4,7 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { injectPlaygroundContext, PlaygroundContext } from '@q/flowgram.ai.core';
+import { injectPlaygroundContext, PlaygroundContext } from '@flowgram.ai/core';
 
 import { NodeEngineContext } from '../../node';
 import { FormItem, FormItemMaterialContext } from '..';

@@ -5,8 +5,8 @@
 
 import React, { useCallback, useEffect } from 'react';
 
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
-import { PlaygroundContext, useRefresh, useService, PluginContext } from '@q/flowgram.ai.core';
+import { FlowNodeEntity } from '@flowgram.ai/document';
+import { PlaygroundContext, useRefresh, useService, PluginContext } from '@flowgram.ai/core';
 
 import { FlowNodeErrorData } from '../flow-node-error-data';
 import { MATERIAL_KEY, NodeManager, NodePluginRender } from '../../node';

@@ -7,8 +7,8 @@ import {
   type FlowDocument,
   type PlaygroundConfigEntity,
   TransformData,
-} from '@q/flowgram.ai.editor';
-import { Rectangle, SizeSchema } from '@q/flowgram.ai.utils';
+} from '@flowgram.ai/editor';
+import { Rectangle, SizeSchema } from '@flowgram.ai/utils';
 
 export interface CustomOptions {
   maxZoom: number;
