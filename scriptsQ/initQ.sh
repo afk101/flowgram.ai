@@ -165,7 +165,7 @@ else
 fi
 
 # ============================================================================
-# 4. 深度遍历 packages 和 apps 文件夹，替换文件内容
+# 4. 深度遍历 packages 和 apps 文件夹，替换文件内容并添加 maintainers 配置
 # ============================================================================
 echo "步骤 4: 深度遍历并替换文件内容..."
 
@@ -185,13 +185,59 @@ replace_in_file() {
     fi
 }
 
+# 定义添加 maintainers 配置的函数
+add_maintainers_to_package_json() {
+    local file="$1"
+    if [ -f "$file" ]; then
+        echo "    - 正在为 $file 添加 maintainers 配置..."
+
+        # 使用 Node.js 脚本来处理 JSON 文件
+        node -e "
+        const fs = require('fs');
+        const path = require('path');
+
+        try {
+            // 读取 maintainers.json
+            const maintainersPath = 'scriptsQ/maintainers.json';
+            if (!fs.existsSync(maintainersPath)) {
+                console.log('    - 警告: scriptsQ/maintainers.json 文件不存在，跳过添加 maintainers');
+                process.exit(0);
+            }
+
+            const maintainersData = JSON.parse(fs.readFileSync(maintainersPath, 'utf8'));
+
+            // 读取 package.json
+            const packageJsonPath = '$file';
+            const packageData = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+
+            // 检查是否已经有 maintainers 字段
+            if (!packageData.maintainers) {
+                // 添加 maintainers 字段
+                packageData.maintainers = maintainersData;
+
+                // 写回文件，保持格式化
+                fs.writeFileSync(packageJsonPath, JSON.stringify(packageData, null, 2) + '\n', 'utf8');
+                console.log('    - ✅ 已添加 maintainers 配置到 $file');
+            } else {
+                console.log('    - ⚠️  $file 已存在 maintainers 配置，跳过');
+            }
+        } catch (error) {
+            console.log('    - ❌ 处理 $file 时出错:', error.message);
+        }
+        "
+    fi
+}
+
 # 处理 packages 文件夹
 if [ -d "packages" ]; then
     echo "  - 处理 packages 文件夹..."
 
-    # 查找所有 package.json 文件
+    # 查找所有 package.json 文件并处理
     find packages -name "package.json" -type f | while read -r file; do
+        # 先替换包名
         replace_in_file "$file"
+        # 再添加 maintainers 配置
+        add_maintainers_to_package_json "$file"
     done
 
     # 查找所有 src 文件夹下的文件
@@ -208,9 +254,12 @@ fi
 if [ -d "apps" ]; then
     echo "  - 处理 apps 文件夹..."
 
-    # 查找所有 package.json 文件
+    # 查找所有 package.json 文件并处理
     find apps -name "package.json" -type f | while read -r file; do
+        # 先替换包名
         replace_in_file "$file"
+        # 再添加 maintainers 配置
+        add_maintainers_to_package_json "$file"
     done
 
     # 查找所有 src 文件夹下的文件
@@ -353,7 +402,7 @@ echo "0. ✅ 已校验分支名格式符合规范"
 echo "1. ✅ 已将 .github 文件夹备份到 .github.bak 并删除原文件夹"
 echo "2. ✅ 已将 common/git-hooks 文件夹备份到 .git-hooks.bak 并删除原文件夹"
 echo "3. ✅ 已修改 rush.json 中的 projects 配置"
-echo "4. ✅ 已替换 packages 和 apps 文件夹中的包名引用"
+echo "4. ✅ 已替换 packages 和 apps 文件夹中的包名引用，并添加 maintainers 配置"
 echo "5. ✅ 已替换 apps/create-app/src/index.ts 中的 registry URL"
 echo "6. ✅ 已处理 .npmrc-publish 文件配置"
 echo "7. ✅ 已创建 .env 和 .env.example 文件"
