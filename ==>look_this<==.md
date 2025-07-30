@@ -1,10 +1,10 @@
 ### 这个文档用来介绍如何使用scriptsQ文件夹下的脚本，用于私有化、个性化定制@flowgram.ai/的包为@q/flowgram.ai.
 
 
-#### 1.重要约定
+#### 重要约定
 个性化定制的分支统一为`feature/v数字.数字.数字`的格式，例如`feature/v0.2.26`，这样可以标记当前分支对应的是@flowgram.ai的哪个tag版本
 
-#### 2.如何个性化定制当前版本代码并发布？
+#### 如何个性化定制当前版本代码并发布？
 1.进行代码个性化修改
 2.rush dev:demo-free-layout-simple(启用开发环境实时查看刚刚的代码修改，dev:后面可以换demo项目)
 3.提交修改的代码（推荐），因为后面发布版本会强制推送，所以这里单独提交比较清晰
@@ -40,7 +40,7 @@ chmod +x scriptsQ/publish.sh
 考虑到每次升级版本，会统一修改所有的package.json文件以及common/config/rush/version-policies.json中的version字段并发布，如果当前代码忘记提交，那可能会导致远程仓库的代码版本低于线上实际版本，多人协作时，下次执行脚本会出错，因此这里强制提交
 
 
-#### 3.如何大版本更新？（例如从v0.2.26=>v0.2.27）
+#### 如何大版本更新？（例如从v0.2.26=>v0.2.27）
 1.确保当前在feature/v0.2.26分支(有个性化定制的commit修改)
 ```bash
 # 按照规范，创建新的分支 feature/v0.2.27
@@ -71,3 +71,9 @@ git add . && git commit -m 'feat: 升级大版本，执行initQ.sh' -n && git pu
 
 # 接着就可以基于最新版本v0.2.27愉快地开发了！
 ```
+
+#### 如何更新maintainers维护者
+1.修改scriptsQ/maintainers.json的文件
+2.执行./scriptsQ/updateMaintainers.sh
+3.提交代码
+4.执行./scriptsQ/publish.sh发布代码
