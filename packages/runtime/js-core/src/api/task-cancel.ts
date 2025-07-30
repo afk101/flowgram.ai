@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { TaskCancelInput, TaskCancelOutput } from '@flowgram.ai/runtime-interface';
+import { TaskCancelInput, TaskCancelOutput } from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowApplication } from '@application/workflow';
 

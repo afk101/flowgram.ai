@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Point } from '@flowgram.ai/utils';
-import { FlowTextKey } from '@flowgram.ai/renderer';
+import { Point } from '@q/flowgram.ai.utils';
+import { FlowTextKey } from '@q/flowgram.ai.renderer';
 import {
   FlowNodeBaseType,
   type FlowNodeEntity,
@@ -13,7 +13,7 @@ import {
   FlowTransitionLabelEnum,
   getDefaultSpacing,
   ConstantKeys,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import {
   LoopEmptyBranchRegistry,

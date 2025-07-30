@@ -8,7 +8,7 @@ import {
   WorkflowNodeEntity,
   WorkflowNodePortsData,
   WorkflowPortEntity,
-} from '@flowgram.ai/free-layout-core';
+} from '@q/flowgram.ai.free-layout-core';
 
 export type IBuildLine = (params: {
   node: WorkflowNodeEntity;

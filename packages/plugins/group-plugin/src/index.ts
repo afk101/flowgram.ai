@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-export { FlowGroupController } from '@flowgram.ai/document';
+export { FlowGroupController } from '@q/flowgram.ai.document';
 export * from './groups-layer';
 export * from './create-group-plugin';
 export * from './type';

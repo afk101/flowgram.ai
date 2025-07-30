@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import type { NodeRenderReturnType } from '@flowgram.ai/free-layout-editor';
+import type { NodeRenderReturnType } from '@q/flowgram.ai.free-layout-editor';
 
 interface INodeRenderContext extends NodeRenderReturnType {}
 

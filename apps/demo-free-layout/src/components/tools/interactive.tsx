@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 import {
   usePlaygroundTools,
   type InteractiveType as IdeInteractiveType,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 import { Tooltip, Popover } from '@douyinfe/semi-ui';
 
 import { MousePadSelector } from './mouse-pad-selector';

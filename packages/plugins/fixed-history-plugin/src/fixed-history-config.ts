@@ -4,9 +4,9 @@
  */
 
 import { injectable } from 'inversify';
-import { FlowNodeEntity } from '@flowgram.ai/document';
-import { FlowNodeJSON } from '@flowgram.ai/document';
-import { PluginContext } from '@flowgram.ai/core';
+import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { FlowNodeJSON } from '@q/flowgram.ai.document';
+import { PluginContext } from '@q/flowgram.ai.core';
 
 import {
   FixedHistoryPluginOptions,

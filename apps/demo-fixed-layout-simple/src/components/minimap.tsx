@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowMinimapService, MinimapRender } from '@flowgram.ai/minimap-plugin';
-import { useService } from '@flowgram.ai/fixed-layout-editor';
+import { FlowMinimapService, MinimapRender } from '@q/flowgram.ai.minimap-plugin';
+import { useService } from '@q/flowgram.ai.fixed-layout-editor';
 
 export const Minimap = () => {
   const minimapService = useService(FlowMinimapService);

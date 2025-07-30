@@ -6,9 +6,9 @@
 import React from 'react';
 
 import { inject, injectable } from 'inversify';
-import { domUtils } from '@flowgram.ai/utils';
-import { Rectangle } from '@flowgram.ai/utils';
-import { FlowNodeEntity, FlowNodeRenderData, FlowNodeTransformData } from '@flowgram.ai/document';
+import { domUtils } from '@q/flowgram.ai.utils';
+import { Rectangle } from '@q/flowgram.ai.utils';
+import { FlowNodeEntity, FlowNodeRenderData, FlowNodeTransformData } from '@q/flowgram.ai.document';
 import {
   CommandRegistry,
   EditorState,
@@ -18,7 +18,7 @@ import {
   PlaygroundConfig,
   observeEntity,
   observeEntityDatas,
-} from '@flowgram.ai/core';
+} from '@q/flowgram.ai.core';
 
 import { FlowRendererKey, FlowRendererRegistry } from '../flow-renderer-registry';
 import { FlowSelectConfigEntity, SelectorBoxConfigEntity } from '../entities';

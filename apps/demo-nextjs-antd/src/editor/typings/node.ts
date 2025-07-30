@@ -11,8 +11,8 @@ import {
   FreeLayoutPluginContext,
   type WorkflowEdgeJSON,
   WorkflowNodeMeta,
-} from '@flowgram.ai/free-layout-editor';
-import { IFlowValue } from '@flowgram.ai/form-antd-materials';
+} from '@q/flowgram.ai.free-layout-editor';
+import { IFlowValue } from '@q/flowgram.ai.form-antd-materials';
 
 import { type JsonSchema } from './json-schema';
 

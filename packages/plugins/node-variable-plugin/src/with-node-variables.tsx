@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { NodeRenderHoc, type NodeRenderProps } from '@flowgram.ai/form-core';
+import { NodeRenderHoc, type NodeRenderProps } from '@q/flowgram.ai.form-core';
 
 import { PublicScopeProvider } from './components/PublicScopeProvider';
 

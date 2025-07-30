@@ -5,7 +5,7 @@
 
 import React, { useContext, useState } from 'react';
 
-import { useClientContext, WorkflowPortRender } from '@flowgram.ai/free-layout-editor';
+import { useClientContext, WorkflowPortRender } from '@q/flowgram.ai.free-layout-editor';
 
 import { SidebarContext } from '@editor/context';
 import { useNodeRenderContext } from '../../hooks';

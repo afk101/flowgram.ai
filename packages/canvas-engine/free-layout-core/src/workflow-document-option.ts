@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeErrorData } from '@flowgram.ai/form-core';
-import { FlowDocumentOptions, FlowNodeTransformData, FlowNodeType } from '@flowgram.ai/document';
-import { TransformData } from '@flowgram.ai/core';
+import { FlowNodeErrorData } from '@q/flowgram.ai.form-core';
+import { FlowDocumentOptions, FlowNodeTransformData, FlowNodeType } from '@q/flowgram.ai.document';
+import { TransformData } from '@q/flowgram.ai.core';
 
 import { type WorkflowLinesManager } from './workflow-lines-manager';
 import { initFormDataFromJSON, toFormJSON } from './utils/flow-node-form-data';

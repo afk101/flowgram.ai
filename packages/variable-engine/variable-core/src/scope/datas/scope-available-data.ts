@@ -18,8 +18,8 @@ import {
 } from 'rxjs';
 import { flatten } from 'lodash';
 import { shallowEqual } from 'fast-equals';
-import { Disposable } from '@flowgram.ai/utils';
-import { Emitter } from '@flowgram.ai/utils';
+import { Disposable } from '@q/flowgram.ai.utils';
+import { Emitter } from '@q/flowgram.ai.utils';
 
 import { IVariableTable } from '../types';
 import { type Scope } from '../scope';

@@ -9,7 +9,7 @@ import {
   type CollapseProps,
   FlowNodeRenderData,
   type FlowNodeTransitionData,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import { FlowRendererKey, type FlowRendererRegistry } from '../flow-renderer-registry';
 import { getTransitionLabelHoverHeight, getTransitionLabelHoverWidth } from './utils';

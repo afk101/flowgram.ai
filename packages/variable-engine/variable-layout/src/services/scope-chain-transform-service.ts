@@ -4,9 +4,9 @@
  */
 
 import { inject, injectable, optional } from 'inversify';
-import { Scope, VariableEngine } from '@flowgram.ai/variable-core';
-import { FlowDocument } from '@flowgram.ai/document';
-import { lazyInject } from '@flowgram.ai/core';
+import { Scope, VariableEngine } from '@q/flowgram.ai.variable-core';
+import { FlowDocument } from '@q/flowgram.ai.document';
+import { lazyInject } from '@q/flowgram.ai.core';
 
 import { VariableChainConfig } from '../variable-chain-config';
 import { FlowNodeScope } from '../types';

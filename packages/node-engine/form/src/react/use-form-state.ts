@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { useObserve } from '@flowgram.ai/reactive';
+import { useObserve } from '@q/flowgram.ai.reactive';
 
 import { Form, FormControl, FormState } from '../types';
 

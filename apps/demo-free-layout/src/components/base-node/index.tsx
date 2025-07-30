@@ -5,7 +5,7 @@
 
 import { useCallback } from 'react';
 
-import { FlowNodeEntity, useNodeRender } from '@flowgram.ai/free-layout-editor';
+import { FlowNodeEntity, useNodeRender } from '@q/flowgram.ai.free-layout-editor';
 import { ConfigProvider } from '@douyinfe/semi-ui';
 
 import { NodeStatusBar } from '../testrun/node-status-bar';

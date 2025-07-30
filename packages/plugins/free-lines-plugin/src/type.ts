@@ -5,12 +5,12 @@
 
 import { FC, ReactNode } from 'react';
 
-import { type FlowRendererRegistry } from '@flowgram.ai/renderer';
+import { type FlowRendererRegistry } from '@q/flowgram.ai.renderer';
 import type {
   WorkflowLineEntity,
   WorkflowLineRenderContributionFactory,
-} from '@flowgram.ai/free-layout-core';
-import { LineRenderType } from '@flowgram.ai/free-layout-core';
+} from '@q/flowgram.ai.free-layout-core';
+import { LineRenderType } from '@q/flowgram.ai.free-layout-core';
 
 export interface LineRenderProps {
   key: string;

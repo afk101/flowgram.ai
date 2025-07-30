@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { WorkflowSchema } from '@flowgram.ai/runtime-interface';
+import { WorkflowSchema } from '@q/flowgram.ai.runtime-interface';
 
 import { edgeSourceTargetExist } from './edge-source-target-exist';
 

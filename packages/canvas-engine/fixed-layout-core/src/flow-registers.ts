@@ -11,15 +11,15 @@ import {
   FlowNodesTransformLayer,
   type FlowRendererContribution,
   type FlowRendererRegistry,
-} from '@flowgram.ai/renderer';
+} from '@q/flowgram.ai.renderer';
 import {
   type FlowDocument,
   type FlowDocumentContribution,
   FlowNodeRenderData,
   FlowNodeTransformData,
   FlowNodeTransitionData,
-} from '@flowgram.ai/document';
-import { type PlaygroundContribution, PlaygroundLayer } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.document';
+import { type PlaygroundContribution, PlaygroundLayer } from '@q/flowgram.ai.core';
 
 import { EndRegistry } from './activities/end';
 import {

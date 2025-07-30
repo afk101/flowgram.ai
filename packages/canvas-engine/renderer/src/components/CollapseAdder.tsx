@@ -9,7 +9,7 @@ import {
   type CollapseAdderProps,
   FlowNodeRenderData,
   type FlowNodeTransitionData,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import { type FlowRendererRegistry } from '../flow-renderer-registry';
 import Collapse from './Collapse';

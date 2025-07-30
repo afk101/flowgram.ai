@@ -1,5 +1,5 @@
 {
-  "name": "@flowgram.ai/e2e-free-layout",
+  "name": "@q/flowgram.ai.e2e-free-layout",
   "version": "0.1.0",
   "description": "",
   "keywords": [],
@@ -14,7 +14,7 @@
     "@playwright/test": "^1.52.0"
   },
   "devDependencies": {
-    "@flowgram.ai/eslint-config": "workspace:*",
+    "@q/flowgram.ai.eslint-config": "workspace:*",
     "@types/node": "^18"
   }
 }

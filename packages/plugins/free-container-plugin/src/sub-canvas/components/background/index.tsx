@@ -5,9 +5,9 @@
 
 import React, { type FC } from 'react';
 
-import { useCurrentEntity } from '@flowgram.ai/free-layout-core';
-import { useService } from '@flowgram.ai/core';
-import { BackgroundConfig, BackgroundLayerOptions } from '@flowgram.ai/background-plugin';
+import { useCurrentEntity } from '@q/flowgram.ai.free-layout-core';
+import { useService } from '@q/flowgram.ai.core';
+import { BackgroundConfig, BackgroundLayerOptions } from '@q/flowgram.ai.background-plugin';
 
 import { SubCanvasBackgroundStyle } from './style';
 

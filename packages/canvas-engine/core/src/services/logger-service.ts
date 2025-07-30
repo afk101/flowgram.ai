@@ -4,7 +4,7 @@
  */
 
 import { injectable } from 'inversify';
-import { type Disposable, Emitter, type Event } from '@flowgram.ai/utils';
+import { type Disposable, Emitter, type Event } from '@q/flowgram.ai.utils';
 
 export interface LoggerProps {
   event: LoggerEvent;

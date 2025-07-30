@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type IPoint } from '@flowgram.ai/utils';
+import { type IPoint } from '@q/flowgram.ai.utils';
 
 import { type FlowNodeEntity } from '../entities';
 import { type LABEL_SIDE_TYPE } from './flow-node-register';

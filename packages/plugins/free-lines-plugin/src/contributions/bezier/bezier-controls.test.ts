@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { IPoint } from '@flowgram.ai/utils';
+import { IPoint } from '@q/flowgram.ai.utils';
 
 import {
   getBezierHorizontalControlPoints,

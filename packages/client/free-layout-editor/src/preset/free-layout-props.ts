@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { SelectBoxPluginOptions } from '@flowgram.ai/select-box-plugin';
-import { HistoryService } from '@flowgram.ai/history';
+import { SelectBoxPluginOptions } from '@q/flowgram.ai.select-box-plugin';
+import { HistoryService } from '@q/flowgram.ai.history';
 import {
   LineColor,
   LineRenderType,
@@ -18,7 +18,7 @@ import {
   WorkflowNodeEntity,
   WorkflowNodeRegistry,
   WorkflowPortEntity,
-} from '@flowgram.ai/free-layout-core';
+} from '@q/flowgram.ai.free-layout-core';
 import {
   ClipboardService,
   EditorPluginContext,
@@ -26,7 +26,7 @@ import {
   SelectionService,
   PluginContext,
   FlowNodeType,
-} from '@flowgram.ai/editor';
+} from '@q/flowgram.ai.editor';
 
 import { AutoLayoutResetFn, AutoLayoutToolOptions } from '../tools';
 

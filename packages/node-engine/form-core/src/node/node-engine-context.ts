@@ -4,7 +4,7 @@
  */
 
 import { injectable } from 'inversify';
-import { Emitter } from '@flowgram.ai/utils';
+import { Emitter } from '@q/flowgram.ai.utils';
 
 export interface INodeEngineContext {
   readonly: boolean;

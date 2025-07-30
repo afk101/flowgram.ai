@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeTransformData } from '@flowgram.ai/document';
+import { FlowNodeTransformData } from '@q/flowgram.ai.document';
 import { Graph as DagreGraph } from '@dagrejs/graphlib';
 
 import { dagreLib } from '../dagre-lib/index';

@@ -10,9 +10,9 @@ import {
   type FlowNodeTransitionData,
   type LABEL_SIDE_TYPE,
   FlowDragService,
-} from '@flowgram.ai/document';
-import { FlowNodeEntity } from '@flowgram.ai/document';
-import { useService } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.document';
+import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { useService } from '@q/flowgram.ai.core';
 
 import { FlowRendererKey, type FlowRendererRegistry } from '../flow-renderer-registry';
 

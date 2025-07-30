@@ -15,7 +15,7 @@ import {
   type EffectOptions,
   type FormPluginCreator,
   FlowNodeScopeType,
-} from '@flowgram.ai/editor';
+} from '@q/flowgram.ai.editor';
 
 import { IFlowRefValue } from '../../typings';
 

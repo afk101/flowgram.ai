@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { ServerInfoOutput } from '@flowgram.ai/runtime-interface';
+import { ServerInfoOutput } from '@q/flowgram.ai.runtime-interface';
 
 export interface ServerParams extends Omit<ServerInfoOutput, 'time'> {
   dev: boolean;

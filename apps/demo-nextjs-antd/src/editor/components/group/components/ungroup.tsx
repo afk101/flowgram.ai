@@ -6,8 +6,8 @@
 import { CSSProperties, FC } from 'react';
 
 import { Button, Tooltip } from 'antd';
-import { CommandRegistry, WorkflowNodeEntity, useService } from '@flowgram.ai/free-layout-editor';
-import { WorkflowGroupCommand } from '@flowgram.ai/free-group-plugin';
+import { CommandRegistry, WorkflowNodeEntity, useService } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowGroupCommand } from '@q/flowgram.ai.free-group-plugin';
 
 import { IconUngroup } from './icon-group';
 

@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowGramAPIName, IRuntimeClient } from '@flowgram.ai/runtime-interface';
-import { injectable } from '@flowgram.ai/free-layout-editor';
+import { FlowGramAPIName, IRuntimeClient } from '@q/flowgram.ai.runtime-interface';
+import { injectable } from '@q/flowgram.ai.free-layout-editor';
 
 @injectable()
 export class WorkflowRuntimeClient implements IRuntimeClient {

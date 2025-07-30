@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Event, type Rectangle } from '@flowgram.ai/utils';
-import { Entity, type EntityOpts } from '@flowgram.ai/core';
+import { Event, type Rectangle } from '@q/flowgram.ai.utils';
+import { Entity, type EntityOpts } from '@q/flowgram.ai.core';
 
 import {
   FlowLayoutDefault,

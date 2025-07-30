@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeBaseType, type FlowNodeRegistry, FlowNodeSplitType } from '@flowgram.ai/document';
+import { FlowNodeBaseType, type FlowNodeRegistry, FlowNodeSplitType } from '@q/flowgram.ai.document';
 
 /**
  * 不能动态添加分支的分支节点

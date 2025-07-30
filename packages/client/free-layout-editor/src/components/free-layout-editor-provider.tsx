@@ -6,14 +6,14 @@
 import React, { useMemo, useCallback, forwardRef } from 'react';
 
 import { interfaces } from 'inversify';
-import { WorkflowDocument } from '@flowgram.ai/free-layout-core';
-import { HistoryService } from '@flowgram.ai/free-history-plugin';
+import { WorkflowDocument } from '@q/flowgram.ai.free-layout-core';
+import { HistoryService } from '@q/flowgram.ai.free-history-plugin';
 import {
   PlaygroundReactProvider,
   createPluginContextDefault,
   ClipboardService,
   SelectionService,
-} from '@flowgram.ai/editor';
+} from '@q/flowgram.ai.editor';
 
 import { WorkflowAutoLayoutTool } from '../tools';
 import {

@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import type { WorkflowNodeEntity } from '@flowgram.ai/free-layout-core';
-import type { Rectangle } from '@flowgram.ai/utils';
+import type { WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-core';
+import type { Rectangle } from '@q/flowgram.ai.utils';
 
 export interface SnapNodeRect {
   id: string;

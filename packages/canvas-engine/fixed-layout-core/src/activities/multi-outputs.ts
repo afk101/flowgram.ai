@@ -8,7 +8,7 @@ import {
   type FlowNodeRegistry,
   FlowNodeSplitType,
   FlowNodeBaseType,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import { DynamicSplitRegistry } from './dynamic-split';
 import { BlockRegistry } from './block';

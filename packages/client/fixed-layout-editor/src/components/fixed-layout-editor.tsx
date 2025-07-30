@@ -5,7 +5,7 @@
 
 import React, { forwardRef } from 'react';
 
-import { EditorRenderer } from '@flowgram.ai/editor';
+import { EditorRenderer } from '@q/flowgram.ai.editor';
 
 import { FixedLayoutPluginContext, FixedLayoutProps } from '../preset';
 import { FixedLayoutEditorProvider } from './fixed-layout-editor-provider';

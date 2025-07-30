@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FormRenderProps, FormMeta } from '@flowgram.ai/free-layout-editor';
+import { FormRenderProps, FormMeta } from '@q/flowgram.ai.free-layout-editor';
 import { Avatar } from '@douyinfe/semi-ui';
 
 import { FlowNodeJSON } from '../../typings';

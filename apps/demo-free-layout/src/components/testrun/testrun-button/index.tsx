@@ -5,7 +5,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 
-import { useClientContext, getNodeForm, FlowNodeEntity } from '@flowgram.ai/free-layout-editor';
+import { useClientContext, getNodeForm, FlowNodeEntity } from '@q/flowgram.ai.free-layout-editor';
 import { Button, Badge } from '@douyinfe/semi-ui';
 import { IconPlay } from '@douyinfe/semi-icons';
 

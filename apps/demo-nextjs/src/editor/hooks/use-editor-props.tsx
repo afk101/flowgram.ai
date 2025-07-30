@@ -5,9 +5,9 @@
 
 import { useMemo } from 'react';
 
-import { createMinimapPlugin } from '@flowgram.ai/minimap-plugin';
-import { createFreeSnapPlugin } from '@flowgram.ai/free-snap-plugin';
-import { FreeLayoutProps } from '@flowgram.ai/free-layout-editor';
+import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin';
+import { createFreeSnapPlugin } from '@q/flowgram.ai.free-snap-plugin';
+import { FreeLayoutProps } from '@q/flowgram.ai.free-layout-editor';
 
 import { FormRender } from '@editor/components/form-render';
 import { nodeRegistries } from '../data/node-registries';

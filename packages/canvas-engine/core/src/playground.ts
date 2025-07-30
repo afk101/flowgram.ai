@@ -14,8 +14,8 @@ import {
   domUtils,
   Emitter,
   type Event,
-} from '@flowgram.ai/utils';
-import { CommandService } from '@flowgram.ai/command';
+} from '@q/flowgram.ai.utils';
+import { CommandService } from '@q/flowgram.ai.command';
 
 import { SelectionService } from './services';
 import { PlaygroundContribution, PlaygroundRegistry } from './playground-contribution';

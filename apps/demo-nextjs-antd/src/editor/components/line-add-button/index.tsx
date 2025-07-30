@@ -16,12 +16,12 @@ import {
   WorkflowNodeJSON,
   delay,
   useService,
-} from '@flowgram.ai/free-layout-editor';
-import { LineRenderProps } from '@flowgram.ai/free-lines-plugin';
+} from '@q/flowgram.ai.free-layout-editor';
+import { LineRenderProps } from '@q/flowgram.ai.free-lines-plugin';
 import {
   WorkflowNodePanelService,
   WorkflowNodePanelUtils,
-} from '@flowgram.ai/free-node-panel-plugin';
+} from '@q/flowgram.ai.free-node-panel-plugin';
 
 import { useCallback } from 'react';
 

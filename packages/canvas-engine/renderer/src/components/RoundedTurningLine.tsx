@@ -6,9 +6,9 @@
 import React, { useMemo } from 'react';
 
 import { isNil } from 'lodash';
-import { Point } from '@flowgram.ai/utils';
-import { type FlowTransitionLine } from '@flowgram.ai/document';
-import { useService } from '@flowgram.ai/core';
+import { Point } from '@q/flowgram.ai.utils';
+import { type FlowTransitionLine } from '@q/flowgram.ai.document';
+import { useService } from '@q/flowgram.ai.core';
 
 import { useBaseColor } from '../hooks/use-base-color';
 import { DEFAULT_LINE_ATTRS, DEFAULT_RADIUS, getHorizontalVertices, getVertices } from './utils';

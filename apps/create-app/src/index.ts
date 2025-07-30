@@ -26,8 +26,8 @@ const updateFlowGramVersions = (dependencies: any[], latestVersion: string) => {
 }
 
 const main = async () => {
-  console.log(chalk.green('Welcome to @flowgram.ai/create-app CLI!'));
-  const latest = execSync('npm view @flowgram.ai/demo-fixed-layout version --tag=latest latest').toString().trim();
+  console.log(chalk.green('Welcome to @q/flowgram.ai.create-app CLI!'));
+  const latest = execSync('npm view @q/flowgram.ai.demo-fixed-layout version --tag=latest latest').toString().trim();
 
   let folderName = ''
 
@@ -66,7 +66,7 @@ const main = async () => {
     const downloadPackage = async () => {
       try {
         // 从 npm registry 下载 tarball 文件
-        const tarballBuffer = await download(`https://registry.npmjs.org/@flowgram.ai/${folderName}/-/${folderName}-${latest}.tgz`);
+        const tarballBuffer = await download(`https://registry.qnpm.qihoo.net/@q/flowgram.ai.${folderName}/-/${folderName}-${latest}.tgz`);
 
         // 确保目标文件夹存在
         fs.ensureDirSync(targetDir);
@@ -100,7 +100,7 @@ const main = async () => {
     const pkgJsonPath = path.join(targetDir, folderName, 'package.json');
     const data = fs.readFileSync(pkgJsonPath, 'utf-8');
 
-    const packageLatestVersion = execSync('npm view @flowgram.ai/core version --tag=latest latest').toString().trim();
+    const packageLatestVersion = execSync('npm view @q/flowgram.ai.core version --tag=latest latest').toString().trim();
 
     const jsonData = JSON.parse(data);
     if (jsonData.dependencies) {

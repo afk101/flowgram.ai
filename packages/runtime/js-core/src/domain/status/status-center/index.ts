@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IStatus, IStatusCenter, StatusData, WorkflowStatus } from '@flowgram.ai/runtime-interface';
+import { IStatus, IStatusCenter, StatusData, WorkflowStatus } from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowRuntimeStatus } from '../status-entity';
 
