@@ -460,6 +460,40 @@ else
 fi
 
 # ============================================================================
+# 11. 深度遍历 e2e、apps、packages、config 文件夹，替换 .eslintrc.js 文件中的包名引用
+# ============================================================================
+echo "步骤 11: 深度遍历 e2e、apps、packages、config 文件夹，替换 .eslintrc.js 文件中的包名引用..."
+
+# 定义要处理的文件夹列表
+FOLDERS_TO_PROCESS=("e2e" "apps" "packages" "config")
+
+for folder in "${FOLDERS_TO_PROCESS[@]}"; do
+    if [ -d "$folder" ]; then
+        echo "  - 处理 $folder 文件夹..."
+
+        # 查找所有 .eslintrc.js 文件并处理
+        find "$folder" -name ".eslintrc.js" -type f | while read -r file; do
+            echo "    - 正在处理: $file"
+            # 使用 sed 进行替换，兼容 macOS 和 Linux
+            if [[ "$OSTYPE" == "darwin"* ]]; then
+                # macOS
+                sed -i '' 's/@flowgram\.ai\//@q\/flowgram.ai./g' "$file"
+            else
+                # Linux
+                sed -i 's/@flowgram\.ai\//@q\/flowgram.ai./g' "$file"
+            fi
+            echo "    - 已处理: $file"
+        done
+
+        echo "  - $folder 文件夹中的 .eslintrc.js 文件处理完成"
+    else
+        echo "  - $folder 文件夹不存在，跳过"
+    fi
+done
+
+echo "  - 所有 .eslintrc.js 文件处理完成"
+
+# ============================================================================
 # 完成
 # ============================================================================
 echo ""
@@ -477,6 +511,7 @@ echo "7. ✅ 已创建 .env 和 .env.example 文件"
 echo "8. ✅ 已创建根目录 .npmrc 文件"
 echo "9. ✅ 已处理 version-policies.json 文件配置"
 echo "10. ✅ 已深度遍历 e2e 文件夹下的所有 package.json 文件，修改包名引用"
+echo "11. ✅ 已深度遍历 e2e、apps、packages、config 文件夹下的所有 .eslintrc.js 文件，修改包名引用"
 echo ""
 echo "备份文件位置："
 echo "- .github.bak/ (原 .github 文件夹内容)"
