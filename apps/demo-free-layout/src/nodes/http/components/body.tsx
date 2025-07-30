@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Field } from '@q/flowgram.ai.free-layout-editor';
+import { Field } from '@flowgram.ai/free-layout-editor';
 import {
   IFlowTemplateValue,
   JsonEditorWithVariables,
   PromptEditorWithVariables,
-} from '@q/flowgram.ai.form-materials';
+} from '@flowgram.ai/form-materials';
 import { Select } from '@douyinfe/semi-ui';
 
 import { useNodeRenderContext } from '../../../hooks';

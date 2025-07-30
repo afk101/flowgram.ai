@@ -4,12 +4,12 @@
  */
 
 import { injectable, inject, optional } from 'inversify';
-import { PositionSchema } from '@q/flowgram.ai.utils';
-import { HistoryService } from '@q/flowgram.ai.history';
-import { fitView, WorkflowDocument, WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-core';
-import { FreeOperationType } from '@q/flowgram.ai.free-history-plugin';
-import { AutoLayoutService, LayoutOptions } from '@q/flowgram.ai.free-auto-layout-plugin';
-import { Playground, TransformData } from '@q/flowgram.ai.editor';
+import { PositionSchema } from '@flowgram.ai/utils';
+import { HistoryService } from '@flowgram.ai/history';
+import { fitView, WorkflowDocument, WorkflowNodeEntity } from '@flowgram.ai/free-layout-core';
+import { FreeOperationType } from '@flowgram.ai/free-history-plugin';
+import { AutoLayoutService, LayoutOptions } from '@flowgram.ai/free-auto-layout-plugin';
+import { Playground, TransformData } from '@flowgram.ai/editor';
 
 export type AutoLayoutResetFn = () => void;
 

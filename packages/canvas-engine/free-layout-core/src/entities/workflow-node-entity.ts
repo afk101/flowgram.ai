@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { FlowNodeEntity } from '@flowgram.ai/document';
 
 export type WorkflowNodeEntity = FlowNodeEntity;
 export const WorkflowNodeEntity = FlowNodeEntity;

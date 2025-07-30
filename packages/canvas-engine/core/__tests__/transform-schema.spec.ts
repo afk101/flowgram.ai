@@ -4,7 +4,7 @@
  */
 
 import { Container } from 'inversify';
-import { type IPoint, PI, Rectangle, type SizeSchema } from '@q/flowgram.ai.utils';
+import { type IPoint, PI, Rectangle, type SizeSchema } from '@flowgram.ai/utils';
 
 import {
   // AbleManager,

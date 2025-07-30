@@ -6,10 +6,10 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import { cloneDeep, get, isEqual, set } from 'lodash';
 import { injectable, inject } from 'inversify';
-import { FlowNodeFormData, type DetailChangeEvent } from '@q/flowgram.ai.form-core';
-import { type FlowNodeEntity } from '@q/flowgram.ai.document';
-import { WorkflowDocument } from '@q/flowgram.ai.free-layout-core';
-import { HistoryService } from '@q/flowgram.ai.history';
+import { FlowNodeFormData, type DetailChangeEvent } from '@flowgram.ai/form-core';
+import { type FlowNodeEntity } from '@flowgram.ai/document';
+import { WorkflowDocument } from '@flowgram.ai/free-layout-core';
+import { HistoryService } from '@flowgram.ai/history';
 
 import { FreeOperationType, type IHandler } from '../types';
 import { HistoryEntityManager } from '../history-entity-manager';

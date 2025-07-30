@@ -4,8 +4,8 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { Emitter } from '@q/flowgram.ai.utils';
-import { EntityManager } from '@q/flowgram.ai.core';
+import { Emitter } from '@flowgram.ai/utils';
+import { EntityManager } from '@flowgram.ai/core';
 
 import { FlowGroupUtils } from './flow-group-service/flow-group-utils';
 import { FlowNodeBaseType, FlowOperationBaseService, LABEL_SIDE_TYPE } from '../typings';

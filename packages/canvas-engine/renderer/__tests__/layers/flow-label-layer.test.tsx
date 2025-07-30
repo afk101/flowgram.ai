@@ -12,12 +12,12 @@ import {
   FlowDocument,
   FlowDocumentContainerModule,
   FlowDocumentContribution,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 import {
   createDefaultPlaygroundConfig,
   PlaygroundConfig,
   PlaygroundContainerModule,
-} from '@q/flowgram.ai.core';
+} from '@flowgram.ai/core';
 
 import { FlowLabelsLayer } from '../../src/layers/flow-labels-layer';
 import { FlowRendererRegistry, FlowTextKey } from '../../src/flow-renderer-registry';
@@ -84,7 +84,7 @@ describe('flow-label-layer', () => {
   // FIXME: render 单测目前不全
   // 渲染
   it('test render', () => {
-    vi.mock('@q/flowgram.ai.core', async importOriginal => {
+    vi.mock('@flowgram.ai/core', async importOriginal => {
       const contextMaker = {
         makeFormItemMaterialContext: vi.fn().mockReturnValue('mock-context'),
         isDragBranch: true,

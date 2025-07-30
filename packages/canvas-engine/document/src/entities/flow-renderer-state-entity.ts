@@ -4,8 +4,8 @@
  */
 
 import { debounce } from 'lodash';
-import { ConfigEntity, type EntityOpts } from '@q/flowgram.ai.core';
-import { type Disposable } from '@q/flowgram.ai.utils';
+import { ConfigEntity, type EntityOpts } from '@flowgram.ai/core';
+import { type Disposable } from '@flowgram.ai/utils';
 
 import { LABEL_SIDE_TYPE } from '../typings';
 import { type FlowNodeEntity } from './flow-node-entity';

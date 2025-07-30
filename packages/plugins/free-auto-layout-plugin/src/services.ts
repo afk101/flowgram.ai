@@ -9,7 +9,7 @@ import {
   WorkflowLineEntity,
   WorkflowNodeEntity,
   WorkflowNodeLinesData,
-} from '@q/flowgram.ai.free-layout-core';
+} from '@flowgram.ai/free-layout-core';
 
 import { AutoLayoutOptions } from './type';
 import { LayoutConfig } from './layout/type';

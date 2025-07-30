@@ -5,7 +5,7 @@
 
 import { useCallback, useState, useEffect } from 'react';
 
-import { usePlayground } from '@q/flowgram.ai.free-layout-editor';
+import { usePlayground } from '@flowgram.ai/free-layout-editor';
 
 import { CommentEditorModel } from '../model';
 import { CommentEditorEvent } from '../constant';

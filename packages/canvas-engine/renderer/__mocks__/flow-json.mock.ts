@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowDocumentJSON } from '@q/flowgram.ai.document'
+import { FlowDocumentJSON } from '@flowgram.ai/document'
 
 export const flowJson: FlowDocumentJSON = {
   nodes: [

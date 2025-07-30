@@ -4,7 +4,7 @@
  */
 
 import { renderHook } from '@testing-library/react-hooks';
-import { PlaygroundConfigEntity } from '@q/flowgram.ai.core';
+import { PlaygroundConfigEntity } from '@flowgram.ai/core';
 
 import { createDocument, createHookWrapper } from '../mocks';
 import { usePlaygroundReadonlyState } from '../../src';

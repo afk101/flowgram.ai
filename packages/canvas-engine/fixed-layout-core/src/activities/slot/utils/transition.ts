@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, Point } from '@q/flowgram.ai.utils';
+import { IPoint, Point } from '@flowgram.ai/utils';
 import {
   type FlowNodeTransitionData,
   FlowTransitionLineEnum,
@@ -11,7 +11,7 @@ import {
   type FlowNodeTransformData,
   type FlowTransitionLine,
   type FlowTransitionLabel,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 
 import { SLOT_COLLAPSE_MARGIN, RENDER_SLOT_COLLAPSE_KEY } from '../constants';
 import { getDisplayFirstChildTransform } from './node';

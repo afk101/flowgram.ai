@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { EntityManager } from '@q/flowgram.ai.core'
+import { EntityManager } from '@flowgram.ai/core'
 import {
   FlowDocument,
   FlowDocumentContainerModule,
   FlowDocumentContribution,
   FlowNodeTransformData,
   FlowNodeTransitionData,
-} from '@q/flowgram.ai.document'
+} from '@flowgram.ai/document'
 import { Container, decorate, injectable, type interfaces } from 'inversify'
 
 export class FlowDocumentMockRegister implements FlowDocumentContribution {

@@ -9,7 +9,7 @@ import {
   TaskParams,
   WorkflowOutputs,
   WorkflowStatus,
-} from '@q/flowgram.ai.runtime-interface';
+} from '@flowgram.ai/runtime-interface';
 
 import { uuid } from '@infra/utils';
 

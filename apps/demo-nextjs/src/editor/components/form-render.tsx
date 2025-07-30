@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Field } from '@q/flowgram.ai.free-layout-editor';
+import { Field } from '@flowgram.ai/free-layout-editor';
 
 export const FormRender = () => (
   <>

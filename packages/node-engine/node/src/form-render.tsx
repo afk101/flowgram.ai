@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { Form } from '@q/flowgram.ai.form';
+import { Form } from '@flowgram.ai/form';
 
 import { FormModelV2 } from './form-model-v2';
 

@@ -4,7 +4,7 @@
  */
 
 import { isNil } from 'lodash-es';
-import { ConditionOperation } from '@q/flowgram.ai.runtime-interface';
+import { ConditionOperation } from '@flowgram.ai/runtime-interface';
 
 import { ConditionHandler } from '../type';
 

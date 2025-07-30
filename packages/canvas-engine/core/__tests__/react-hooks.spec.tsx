@@ -8,7 +8,7 @@ import React from 'react';
 import { describe, it } from 'vitest';
 import { ContainerModule, injectable, interfaces } from 'inversify';
 import { renderHook } from '@testing-library/react-hooks';
-import { Emitter } from '@q/flowgram.ai.utils';
+import { Emitter } from '@flowgram.ai/utils';
 
 import {
   useEntities,

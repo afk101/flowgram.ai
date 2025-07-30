@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FormMeta } from '@q/flowgram.ai.fixed-layout-editor';
+import { FormMeta } from '@flowgram.ai/fixed-layout-editor';
 
 import { FormHeader } from '../../form-components';
 

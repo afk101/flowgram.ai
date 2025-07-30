@@ -6,11 +6,11 @@
 import React from 'react';
 
 import { inject, injectable } from 'inversify';
-import { domUtils } from '@q/flowgram.ai.utils';
-import { Rectangle } from '@q/flowgram.ai.utils';
-import { WorkflowDocument } from '@q/flowgram.ai.free-layout-core';
-import { FlowNodeTransformData } from '@q/flowgram.ai.document';
-import { Layer } from '@q/flowgram.ai.core';
+import { domUtils } from '@flowgram.ai/utils';
+import { Rectangle } from '@flowgram.ai/utils';
+import { WorkflowDocument } from '@flowgram.ai/free-layout-core';
+import { FlowNodeTransformData } from '@flowgram.ai/document';
+import { Layer } from '@flowgram.ai/core';
 
 import { isEqual, isGreaterThan, isNumber } from './utils';
 import { AlignRect, SnapEvent, WorkflowSnapLayerOptions } from './type';

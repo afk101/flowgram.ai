@@ -5,7 +5,7 @@
 
 import { type CSSProperties } from 'react';
 
-import { IGroupBoxHeader } from '@q/flowgram.ai.group-plugin';
+import { IGroupBoxHeader } from '@flowgram.ai/group-plugin';
 
 import { GroupTools } from './group-tools';
 import { GroupNote } from './group-note';

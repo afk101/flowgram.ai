@@ -7,9 +7,9 @@ import {
   type FlowNodeTransitionData,
   FlowTransitionLabelEnum,
   LABEL_SIDE_TYPE,
-} from '@q/flowgram.ai.document';
-import { ConfigEntity, type EntityOpts, PlaygroundConfigEntity } from '@q/flowgram.ai.core';
-import { Rectangle } from '@q/flowgram.ai.utils';
+} from '@flowgram.ai/document';
+import { ConfigEntity, type EntityOpts, PlaygroundConfigEntity } from '@flowgram.ai/core';
+import { Rectangle } from '@flowgram.ai/utils';
 
 import { DEFAULT_LABEL_ACTIVATE_HEIGHT } from '../components/utils';
 

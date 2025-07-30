@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type FlowDocument } from '@q/flowgram.ai.document';
+import { type FlowDocument } from '@flowgram.ai/document';
 
 import { findSelectedNodes } from '../../src/utils/find-selected-nodes';
 import { FLOW_SELECTED_NODES } from '../../__mocks__/flow-selected-nodes.mock';

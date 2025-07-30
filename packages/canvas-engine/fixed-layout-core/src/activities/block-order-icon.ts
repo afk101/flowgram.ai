@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, Point } from '@q/flowgram.ai.utils';
-import { DefaultSpacingKey, getDefaultSpacing } from '@q/flowgram.ai.document';
+import { IPoint, Point } from '@flowgram.ai/utils';
+import { DefaultSpacingKey, getDefaultSpacing } from '@flowgram.ai/document';
 import {
   FlowNodeBaseType,
   type FlowNodeRegistry,
   FlowTransitionLabelEnum,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 
 /**
  * 带顺序的图标节点，一般为 block 第一个分支节点

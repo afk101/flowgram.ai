@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, PositionSchema } from '@q/flowgram.ai.utils';
+import { IPoint, PositionSchema } from '@flowgram.ai/utils';
 import {
   WorkflowNodeEntity,
   WorkflowPortEntity,
   WorkflowDragService,
-} from '@q/flowgram.ai.free-layout-core';
-import { FreeOperationType, HistoryService } from '@q/flowgram.ai.free-history-plugin';
-import { TransformData } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/free-layout-core';
+import { FreeOperationType, HistoryService } from '@flowgram.ai/free-history-plugin';
+import { TransformData } from '@flowgram.ai/core';
 
 import { getPortBox } from './get-port-box';
 

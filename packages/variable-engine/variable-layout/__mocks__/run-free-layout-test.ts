@@ -4,13 +4,13 @@
  */
 
 import { describe, expect, test } from 'vitest';
-import { VariableEngine } from '@q/flowgram.ai.variable-core';
-import { ASTKind } from '@q/flowgram.ai.variable-core';
+import { VariableEngine } from '@flowgram.ai/variable-core';
+import { ASTKind } from '@flowgram.ai/variable-core';
 import {
   FlowNodeVariableData
 } from '../src';
 import { TestConfig, getContainer } from './container';
-import { WorkflowDocument, WorkflowJSON } from '@q/flowgram.ai.free-layout-core';
+import { WorkflowDocument, WorkflowJSON } from '@flowgram.ai/free-layout-core';
 
 export const runFreeLayoutTest = (testName: string, spec: WorkflowJSON, config?: TestConfig) => {
   describe(testName, async () => {

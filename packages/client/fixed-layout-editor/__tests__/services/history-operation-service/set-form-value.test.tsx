@@ -4,7 +4,7 @@
  */
 
 import { beforeEach, describe, it, expect } from 'vitest';
-import { FlowNodeFormData, FormModelV2 } from '@q/flowgram.ai.editor';
+import { FlowNodeFormData, FormModelV2 } from '@flowgram.ai/editor';
 
 import { createHistoryContainer } from '../../create-container';
 import { formMock } from '../../../__mocks__/form.mock';

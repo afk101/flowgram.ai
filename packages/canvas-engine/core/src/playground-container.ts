@@ -4,7 +4,7 @@
  */
 
 import { Container, ContainerModule, type interfaces } from 'inversify';
-import { CommandService, CommandContainerModule } from '@q/flowgram.ai.command';
+import { CommandService, CommandContainerModule } from '@flowgram.ai/command';
 
 import { ContextMenuService } from './services/context-menu-service';
 import {

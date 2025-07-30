@@ -6,7 +6,7 @@
 
 ```typescript
 
-import { ReactiveState, Tracker } from '@q/flowgram.ai.reactive'
+import { ReactiveState, Tracker } from '@flowgram.ai/reactive'
 
 // 创建 数据
 const reactiveState = new ReactiveState<{ a: number, b: number }>({ a: 0, b: 0 })
@@ -28,7 +28,7 @@ reactiveState.value.b = 1
 
 ```typescript jsx
 
-import { useReactiveState, observe } from '@q/flowgram.ai.reactive'
+import { useReactiveState, observe } from '@flowgram.ai/reactive'
 
 const SomeComp = ({ state }) => {
   return <div>{state.a}</div>

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeEntity, useNodeRender } from '@q/flowgram.ai.free-layout-editor';
+import { FlowNodeEntity, useNodeRender } from '@flowgram.ai/free-layout-editor';
 
 import { NodeRenderContext } from '@editor/context';
 import { ErrorIcon } from './styles';

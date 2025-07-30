@@ -9,7 +9,7 @@ import {
   FlowNodeRegistry,
   createEffectFromVariableProvider,
   getNodeForm,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 
 import { JsonSchemaUtils } from '../../utils';
 import { IJsonSchema } from '../../typings';

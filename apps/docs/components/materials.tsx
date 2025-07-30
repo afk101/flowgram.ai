@@ -12,9 +12,9 @@ export function MaterialDisplay(props: any) {
       <br />
       <PackageManagerTabs
         command={{
-          'By Import': `import { ${props.exportName} } from '@q/flowgram.ai.form-materials'`,
+          'By Import': `import { ${props.exportName} } from '@flowgram.ai/form-materials'`,
           // components/type-selector/index.tsx -> components/type-selector
-          'By CLI': `npx @q/flowgram.ai.form-materials@latest ${props.filePath
+          'By CLI': `npx @flowgram.ai/form-materials@latest ${props.filePath
             .split('/')
             .slice(0, -1)
             .join('/')}`,

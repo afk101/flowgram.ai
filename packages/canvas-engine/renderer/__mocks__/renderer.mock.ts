@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { EntityManager, PlaygroundConfigEntity, PlaygroundContainerModule } from '@q/flowgram.ai.core'
+import { EntityManager, PlaygroundConfigEntity, PlaygroundContainerModule } from '@flowgram.ai/core'
 import { Container } from 'inversify'
 
 export function createPlaygroundContainer(): Container {

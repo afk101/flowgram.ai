@@ -5,10 +5,10 @@
 
 import { vi } from 'vitest';
 import { interfaces } from 'inversify';
-import { FlowNodeTransformData } from '@q/flowgram.ai.document';
-import { FlowNodeRegistry } from '@q/flowgram.ai.document';
-import { FlowNodeBaseType } from '@q/flowgram.ai.document';
-import { PlaygroundConfigEntity } from '@q/flowgram.ai.core';
+import { FlowNodeTransformData } from '@flowgram.ai/document';
+import { FlowNodeRegistry } from '@flowgram.ai/document';
+import { FlowNodeBaseType } from '@flowgram.ai/document';
+import { PlaygroundConfigEntity } from '@flowgram.ai/core';
 
 import {
   delay,

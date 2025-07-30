@@ -5,7 +5,7 @@
 
 import { nanoid } from 'nanoid';
 import { interfaces } from 'inversify';
-import { Compare, Disposable, DisposableCollection, Emitter, type Event } from '@q/flowgram.ai.utils';
+import { Compare, Disposable, DisposableCollection, Emitter, type Event } from '@flowgram.ai/utils';
 
 import { type PlaygroundContext } from './playground-context';
 import type { EntityManager } from './entity-manager';

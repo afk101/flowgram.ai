@@ -4,7 +4,7 @@
  */
 
 import { ContainerModule } from 'inversify';
-import { bindContributionProvider } from '@q/flowgram.ai.utils';
+import { bindContributionProvider } from '@flowgram.ai/utils';
 
 import { CommandService } from './command-service';
 import { CommandRegistry, CommandRegistryFactory, CommandContribution } from './command';

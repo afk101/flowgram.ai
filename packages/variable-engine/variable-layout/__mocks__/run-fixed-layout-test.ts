@@ -4,9 +4,9 @@
  */
 
 import { describe, expect, test } from 'vitest';
-import { VariableEngine } from '@q/flowgram.ai.variable-core';
-import { ASTKind } from '@q/flowgram.ai.variable-core';
-import { FlowDocument, FlowDocumentJSON } from '@q/flowgram.ai.document';
+import { VariableEngine } from '@flowgram.ai/variable-core';
+import { ASTKind } from '@flowgram.ai/variable-core';
+import { FlowDocument, FlowDocumentJSON } from '@flowgram.ai/document';
 import {
   FlowNodeVariableData,
 } from '../src';

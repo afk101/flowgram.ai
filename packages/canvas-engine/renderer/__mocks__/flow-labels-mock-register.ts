@@ -6,7 +6,7 @@
 import {
   type FlowNodeRegistry,
   FlowTransitionLabelEnum,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 import { FlowTextKey } from '../src/flow-renderer-registry';
 
 /**

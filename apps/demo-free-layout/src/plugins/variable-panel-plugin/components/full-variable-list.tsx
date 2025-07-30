@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { useVariableTree } from '@q/flowgram.ai.form-materials';
+import { useVariableTree } from '@flowgram.ai/form-materials';
 import { Tree } from '@douyinfe/semi-ui';
 
 export function FullVariableList() {

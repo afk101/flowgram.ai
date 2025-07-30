@@ -15,7 +15,7 @@ program
   .argument('[materialName]', 'Optional material name to skip selection (format: type/name)')
   .action(async (materialName?: string) => {
     // materialName can be undefined
-    console.log(chalk.bgGreenBright('Welcome to @q/flowgram.ai.form-materials CLI!'));
+    console.log(chalk.bgGreenBright('Welcome to @flowgram.ai/form-materials CLI!'));
 
     const projectInfo: ProjectInfo = getProjectInfo();
 
@@ -72,9 +72,9 @@ program
     const { allMaterials, allPackages } = bfsMaterials(material!, materials);
 
     // 4. Install the dependencies
-    let flowgramPackage = `@q/flowgram.ai.editor`;
+    let flowgramPackage = `@flowgram.ai/editor`;
     if (projectInfo.flowgramVersion !== 'workspace:*') {
-      flowgramPackage = `@q/flowgram.ai.editor@${projectInfo.flowgramVersion}`;
+      flowgramPackage = `@flowgram.ai/editor@${projectInfo.flowgramVersion}`;
     }
     const packagesToInstall: string[] = [flowgramPackage, ...allPackages];
 

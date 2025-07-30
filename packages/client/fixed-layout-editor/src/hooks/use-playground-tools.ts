@@ -5,10 +5,10 @@
 
 import { useCallback, useEffect, useState } from 'react';
 
-import { DisposableCollection } from '@q/flowgram.ai.utils';
-import { HistoryService } from '@q/flowgram.ai.history';
-import { FlowDocument, FlowLayoutDefault, FlowNodeRenderData } from '@q/flowgram.ai.editor';
-import { usePlayground, usePlaygroundContainer, useService } from '@q/flowgram.ai.editor';
+import { DisposableCollection } from '@flowgram.ai/utils';
+import { HistoryService } from '@flowgram.ai/history';
+import { FlowDocument, FlowLayoutDefault, FlowNodeRenderData } from '@flowgram.ai/editor';
+import { usePlayground, usePlaygroundContainer, useService } from '@flowgram.ai/editor';
 
 import { fitView } from '../utils/fit-view';
 

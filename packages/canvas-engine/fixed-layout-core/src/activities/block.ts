@@ -12,7 +12,7 @@ import {
   type FlowTransitionLine,
   FlowTransitionLineEnum,
   LABEL_SIDE_TYPE,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 
 /**
  * block, block 的输入输出点由子节点决定

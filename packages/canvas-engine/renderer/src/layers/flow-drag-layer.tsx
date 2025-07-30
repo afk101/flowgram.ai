@@ -6,7 +6,7 @@
 import React from 'react';
 
 import { inject, injectable } from 'inversify';
-import { Rectangle } from '@q/flowgram.ai.utils';
+import { Rectangle } from '@flowgram.ai/utils';
 import {
   FlowDocument,
   FlowNodeBaseType,
@@ -17,7 +17,7 @@ import {
   FlowRendererStateEntity,
   type LABEL_SIDE_TYPE,
   FlowDragService,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 import {
   EditorState,
   EditorStateConfigEntity,
@@ -25,8 +25,8 @@ import {
   observeEntity,
   observeEntityDatas,
   PlaygroundConfigEntity,
-} from '@q/flowgram.ai.core';
-import { PlaygroundDrag } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/core';
+import { PlaygroundDrag } from '@flowgram.ai/core';
 
 import {
   type FlowRendererComponent,

@@ -5,7 +5,7 @@
 
 import React, { memo, useCallback, useEffect } from 'react';
 
-import { PlaygroundContext, useRefresh, useService, PluginContext } from '@q/flowgram.ai.core';
+import { PlaygroundContext, useRefresh, useService, PluginContext } from '@flowgram.ai/core';
 
 import { NodeEngineReactContext } from '../node-react/context/node-engine-react-context';
 import { useNodeEngineContext } from '../node-react';

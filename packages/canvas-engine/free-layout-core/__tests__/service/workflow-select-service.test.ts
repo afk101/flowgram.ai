@@ -5,7 +5,7 @@
 
 import { vi } from 'vitest';
 import { interfaces } from 'inversify';
-import { Playground, PositionData } from '@q/flowgram.ai.core';
+import { Playground, PositionData } from '@flowgram.ai/core';
 
 import { createWorkflowContainer, baseJSON } from '../mocks';
 import { WorkflowSelectService, WorkflowDocument } from '../../src';
