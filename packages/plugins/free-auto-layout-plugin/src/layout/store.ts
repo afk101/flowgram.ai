@@ -7,8 +7,8 @@ import {
   WorkflowLineEntity,
   WorkflowNodeEntity,
   WorkflowNodeLinesData,
-} from '@q/flowgram.ai.free-layout-core';
-import { FlowNodeBaseType, FlowNodeTransformData } from '@q/flowgram.ai.document';
+} from '@flowgram.ai/free-layout-core';
+import { FlowNodeBaseType, FlowNodeTransformData } from '@flowgram.ai/document';
 
 import type {
   GetFollowNode,

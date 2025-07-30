@@ -8,10 +8,10 @@ import {
   FlowNodeRegistry,
   FreeLayoutEditorProvider,
   WorkflowJSON,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 
 import { useEditorProps } from './hooks/use-editor-props';
-import '@q/flowgram.ai.free-layout-editor/index.css';
+import '@flowgram.ai/free-layout-editor/index.css';
 import './index.css';
 interface EditorProps {
   registry: FlowNodeRegistry;

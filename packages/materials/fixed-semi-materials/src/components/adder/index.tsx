@@ -12,7 +12,7 @@ import {
   usePlayground,
   useService,
   FlowOperationService,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 import { Popover } from '@douyinfe/semi-ui';
 
 import Nodes from '../nodes';

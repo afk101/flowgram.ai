@@ -5,8 +5,8 @@
 
 import { useMemo } from 'react';
 
-import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin';
-import { createFreeSnapPlugin } from '@q/flowgram.ai.free-snap-plugin';
+import { createMinimapPlugin } from '@flowgram.ai/minimap-plugin';
+import { createFreeSnapPlugin } from '@flowgram.ai/free-snap-plugin';
 import {
   FreeLayoutProps,
   WorkflowNodeProps,
@@ -15,7 +15,7 @@ import {
   useNodeRender,
   FlowNodeRegistry,
   WorkflowJSON,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 
 import { DEFAULT_DEMO_REGISTRY } from '../node-registries';
 import { DEFAULT_INITIAL_DATA } from '../initial-data';

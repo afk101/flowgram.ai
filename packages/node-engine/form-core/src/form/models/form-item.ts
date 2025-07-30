@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
+import { DisposableCollection, Emitter } from '@flowgram.ai/utils';
 
 import { FormItemDomRef, type IFormItemMeta } from '..';
 import { type FormModel } from '.';

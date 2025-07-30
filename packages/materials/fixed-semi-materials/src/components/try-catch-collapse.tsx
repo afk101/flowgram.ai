@@ -13,7 +13,7 @@ import {
   useBaseColor,
   FlowTextKey,
   FlowRendererRegistry,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 import { IconChevronLeft } from '@douyinfe/semi-icons';
 
 function TryCatchCollapse(props: CustomLabelProps): JSX.Element {

@@ -7,7 +7,7 @@
   /* TODO */
 }
 
-// import { WorkflowDocument, useService } from '@q/flowgram.ai.free-layout-editor';
+// import { WorkflowDocument, useService } from '@flowgram.ai/free-layout-editor';
 // import { useState } from 'react';
 
 export const Tools = () => (

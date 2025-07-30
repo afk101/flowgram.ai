@@ -5,9 +5,9 @@
 
 import type { CSSProperties, FC } from 'react';
 
-import type { FlowNodeEntity } from '@q/flowgram.ai.document';
-import type { FlowGroupController } from '@q/flowgram.ai.document';
-import type { LayerOptions, PluginContext } from '@q/flowgram.ai.core';
+import type { FlowNodeEntity } from '@flowgram.ai/document';
+import type { FlowGroupController } from '@flowgram.ai/document';
+import type { LayerOptions, PluginContext } from '@flowgram.ai/core';
 
 import type { GroupPluginRegister } from './constant';
 

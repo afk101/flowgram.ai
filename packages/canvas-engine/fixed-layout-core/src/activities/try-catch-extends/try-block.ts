@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { DEFAULT_SPACING, FlowNodeBaseType, type FlowNodeRegistry } from '@q/flowgram.ai.document';
+import { DEFAULT_SPACING, FlowNodeBaseType, type FlowNodeRegistry } from '@flowgram.ai/document';
 
 import { TryCatchTypeEnum } from './constants';
 

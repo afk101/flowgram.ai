@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeRenderData } from '@q/flowgram.ai.document';
-import { useEntityFromContext } from '@q/flowgram.ai.core';
+import { FlowNodeRenderData } from '@flowgram.ai/document';
+import { useEntityFromContext } from '@flowgram.ai/core';
 
 import { type WorkflowNodeEntity } from '../entities';
 

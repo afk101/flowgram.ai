@@ -4,7 +4,7 @@
  */
 
 import { inject, injectable, interfaces, multiInject, optional, postConstruct } from 'inversify';
-import { Disposable, DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
+import { Disposable, DisposableCollection, Emitter } from '@flowgram.ai/utils';
 
 import { PlaygroundSchedule } from './playground-schedule';
 import {

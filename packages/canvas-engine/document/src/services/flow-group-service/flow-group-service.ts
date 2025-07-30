@@ -5,7 +5,7 @@
 
 import { nanoid } from 'nanoid';
 import { inject, injectable } from 'inversify';
-import { EntityManager } from '@q/flowgram.ai.core';
+import { EntityManager } from '@flowgram.ai/core';
 
 import { FlowNodeBaseType, FlowOperationBaseService, OperationType } from '../../typings';
 import { FlowNodeEntity } from '../../entities';

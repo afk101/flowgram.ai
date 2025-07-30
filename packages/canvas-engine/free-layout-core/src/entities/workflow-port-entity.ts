@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type IPoint, Rectangle, Emitter } from '@q/flowgram.ai.utils';
-import { FlowNodeTransformData } from '@q/flowgram.ai.document';
+import { type IPoint, Rectangle, Emitter } from '@flowgram.ai/utils';
+import { FlowNodeTransformData } from '@flowgram.ai/document';
 import {
   Entity,
   type EntityOpts,
   PlaygroundConfigEntity,
   TransformData,
   type EntityRegistry,
-} from '@q/flowgram.ai.core';
+} from '@flowgram.ai/core';
 
 import { type WorkflowDocument } from '../workflow-document';
 import {

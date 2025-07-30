@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Disposable } from '@q/flowgram.ai.utils';
+import { Disposable } from '@flowgram.ai/utils';
 
 import { HistoryOperation, Operation } from '../operation';
 import { HistoryService } from './history-service';

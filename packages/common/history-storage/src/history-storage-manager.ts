@@ -4,7 +4,7 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { DisposableCollection } from '@q/flowgram.ai.utils';
+import { DisposableCollection } from '@flowgram.ai/utils';
 import {
   HistoryItem,
   HistoryManager,
@@ -13,8 +13,8 @@ import {
   HistoryService,
   HistoryStackAddOperationEvent,
   HistoryStackUpdateOperationEvent,
-} from '@q/flowgram.ai.history';
-import { PluginContext } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/history';
+import { PluginContext } from '@flowgram.ai/core';
 
 import { HistoryOperationRecord, HistoryRecord, HistoryStoragePluginOptions } from './types';
 import { HistoryDatabase } from './history-database';

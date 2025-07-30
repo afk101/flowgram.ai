@@ -5,7 +5,7 @@
 
 import type { FC, ReactNode, MouseEvent, CSSProperties, TouchEvent } from 'react';
 
-import { useWatch } from '@q/flowgram.ai.free-layout-editor';
+import { useWatch } from '@flowgram.ai/free-layout-editor';
 
 import { GroupField } from '../constant';
 import { defaultColor, groupColors } from '../color';

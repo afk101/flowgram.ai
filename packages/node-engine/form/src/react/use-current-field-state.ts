@@ -5,7 +5,7 @@
 
 import { useContext, useMemo } from 'react';
 
-import { useReadonlyReactiveState } from '@q/flowgram.ai.reactive';
+import { useReadonlyReactiveState } from '@flowgram.ai/reactive';
 
 import { FieldModelState, FieldState } from '../types';
 import { toFieldState } from '../core';

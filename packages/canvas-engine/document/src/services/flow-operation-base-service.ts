@@ -4,8 +4,8 @@
  */
 
 import { inject, injectable, postConstruct } from 'inversify';
-import { DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
-import { EntityManager } from '@q/flowgram.ai.core';
+import { DisposableCollection, Emitter } from '@flowgram.ai/utils';
+import { EntityManager } from '@flowgram.ai/core';
 
 import {
   FlowOperation,

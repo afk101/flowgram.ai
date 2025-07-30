@@ -4,7 +4,7 @@
  */
 
 import { inject, injectable, optional } from 'inversify';
-import { Disposable, domUtils, PositionSchema } from '@q/flowgram.ai.utils';
+import { Disposable, domUtils, PositionSchema } from '@flowgram.ai/utils';
 
 import { Gesture } from '../utils/use-gesture';
 import { PlaygroundGesture } from '../utils/playground-gesture';

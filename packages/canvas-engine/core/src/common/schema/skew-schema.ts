@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { SkewSchemaDecoration, Schema } from '@q/flowgram.ai.utils';
-import type { SkewSchema } from '@q/flowgram.ai.utils';
+import { SkewSchemaDecoration, Schema } from '@flowgram.ai/utils';
+import type { SkewSchema } from '@flowgram.ai/utils';
 
 import { EntityData } from '../entity-data';
 

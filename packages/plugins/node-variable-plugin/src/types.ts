@@ -7,10 +7,10 @@ import {
   Scope,
   type ASTNodeJSON,
   type VariableDeclarationJSON,
-} from '@q/flowgram.ai.variable-plugin';
-import { Disposable } from '@q/flowgram.ai.utils';
-import { FormItem } from '@q/flowgram.ai.form-core';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
+} from '@flowgram.ai/variable-plugin';
+import { Disposable } from '@flowgram.ai/utils';
+import { FormItem } from '@flowgram.ai/form-core';
+import { FlowNodeEntity } from '@flowgram.ai/document';
 
 export interface VariableAbilityCommonContext {
   node: FlowNodeEntity; // 节点

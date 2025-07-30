@@ -5,7 +5,7 @@
 
 import { FC } from 'react';
 
-import { WorkflowNodeEntity, WorkflowNodeJSON } from '@q/flowgram.ai.free-layout-core';
+import { WorkflowNodeEntity, WorkflowNodeJSON } from '@flowgram.ai/free-layout-core';
 
 export interface WorkflowGroupPluginOptions {
   groupNodeRender: FC;

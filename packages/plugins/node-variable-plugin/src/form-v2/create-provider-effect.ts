@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeVariableData, type Scope, ASTKind } from '@q/flowgram.ai.variable-plugin';
-import { DataEvent, type Effect, type EffectOptions } from '@q/flowgram.ai.node';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { FlowNodeVariableData, type Scope, ASTKind } from '@flowgram.ai/variable-plugin';
+import { DataEvent, type Effect, type EffectOptions } from '@flowgram.ai/node';
+import { FlowNodeEntity } from '@flowgram.ai/document';
 
 import { type VariableProviderAbilityOptions } from '../types';
 

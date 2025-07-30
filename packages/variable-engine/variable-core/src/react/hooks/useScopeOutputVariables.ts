@@ -5,8 +5,8 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
-import { DisposableCollection } from '@q/flowgram.ai.utils';
-import { useService } from '@q/flowgram.ai.core';
+import { DisposableCollection } from '@flowgram.ai/utils';
+import { useService } from '@flowgram.ai/core';
 
 import { useCurrentScope } from '../context';
 import { VariableEngine } from '../../variable-engine';

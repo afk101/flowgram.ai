@@ -11,7 +11,7 @@ import {
   IEdge,
   INode,
   IPort,
-} from '@q/flowgram.ai.runtime-interface';
+} from '@flowgram.ai/runtime-interface';
 
 import { WorkflowRuntimeNode } from './index';
 

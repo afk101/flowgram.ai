@@ -4,13 +4,13 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { Disposable, Emitter, Rectangle } from '@q/flowgram.ai.utils';
-import { IPoint } from '@q/flowgram.ai.utils';
-import { WorkflowNodeEntity, WorkflowDocument } from '@q/flowgram.ai.free-layout-core';
-import { WorkflowDragService } from '@q/flowgram.ai.free-layout-core';
-import { FlowNodeTransformData } from '@q/flowgram.ai.document';
-import { FlowNodeBaseType } from '@q/flowgram.ai.document';
-import { EntityManager, PlaygroundConfigEntity, TransformData } from '@q/flowgram.ai.core';
+import { Disposable, Emitter, Rectangle } from '@flowgram.ai/utils';
+import { IPoint } from '@flowgram.ai/utils';
+import { WorkflowNodeEntity, WorkflowDocument } from '@flowgram.ai/free-layout-core';
+import { WorkflowDragService } from '@flowgram.ai/free-layout-core';
+import { FlowNodeTransformData } from '@flowgram.ai/document';
+import { FlowNodeBaseType } from '@flowgram.ai/document';
+import { EntityManager, PlaygroundConfigEntity, TransformData } from '@flowgram.ai/core';
 
 import { isEqual, isGreaterThan, isLessThan, isLessThanOrEqual, isNumber } from './utils';
 import type {

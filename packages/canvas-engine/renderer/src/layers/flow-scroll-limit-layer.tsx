@@ -4,9 +4,9 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { FlowDocument, FlowNodeTransformData } from '@q/flowgram.ai.document';
-import { Layer } from '@q/flowgram.ai.core';
-import { ScrollSchema } from '@q/flowgram.ai.utils';
+import { FlowDocument, FlowNodeTransformData } from '@flowgram.ai/document';
+import { Layer } from '@flowgram.ai/core';
+import { ScrollSchema } from '@flowgram.ai/utils';
 
 import { scrollLimit } from '../utils';
 

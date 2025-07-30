@@ -14,7 +14,7 @@ import {
 } from 'rxjs';
 import { nanoid } from 'nanoid';
 import { shallowEqual } from 'fast-equals';
-import { Disposable, DisposableCollection } from '@q/flowgram.ai.utils';
+import { Disposable, DisposableCollection } from '@flowgram.ai/utils';
 
 import { subsToDisposable } from '../utils/toDisposable';
 import { updateChildNodeHelper } from './utils/helpers';

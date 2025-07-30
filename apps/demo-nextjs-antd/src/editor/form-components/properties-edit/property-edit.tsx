@@ -6,7 +6,7 @@
 import React, { useLayoutEffect, useState } from 'react';
 
 import { Button, Input } from 'antd';
-import { DynamicValueInput, TypeSelector } from '@q/flowgram.ai.form-antd-materials';
+import { DynamicValueInput, TypeSelector } from '@flowgram.ai/form-antd-materials';
 import { CloseCircleOutlined } from '@ant-design/icons';
 
 import { JsonSchema } from '@editor/typings';

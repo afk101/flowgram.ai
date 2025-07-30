@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { FlowGramNode, WorkflowPortType } from '@q/flowgram.ai.runtime-interface';
+import { FlowGramNode, WorkflowPortType } from '@flowgram.ai/runtime-interface';
 
 import { createStore } from './create-store';
 
