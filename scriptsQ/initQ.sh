@@ -433,6 +433,33 @@ else
 fi
 
 # ============================================================================
+# 10. 深度遍历 e2e 文件夹下的所有 package.json 文件，修改包名引用
+# ============================================================================
+echo "步骤 10: 深度遍历 e2e 文件夹下的所有 package.json 文件，修改包名引用..."
+
+if [ -d "e2e" ]; then
+    echo "  - 处理 e2e 文件夹..."
+
+    # 查找所有 package.json 文件并处理
+    find e2e -name "package.json" -type f | while read -r file; do
+        echo "    - 正在处理: $file"
+        # 使用 sed 进行替换，兼容 macOS 和 Linux
+        if [[ "$OSTYPE" == "darwin"* ]]; then
+            # macOS
+            sed -i '' 's/@flowgram\.ai\//@q\/flowgram.ai./g' "$file"
+        else
+            # Linux
+            sed -i 's/@flowgram\.ai\//@q\/flowgram.ai./g' "$file"
+        fi
+        echo "    - 已处理: $file"
+    done
+
+    echo "  - e2e 文件夹处理完成"
+else
+    echo "  - e2e 文件夹不存在，跳过此步骤"
+fi
+
+# ============================================================================
 # 完成
 # ============================================================================
 echo ""
@@ -449,6 +476,7 @@ echo "6. ✅ 已处理 .npmrc-publish 文件配置"
 echo "7. ✅ 已创建 .env 和 .env.example 文件"
 echo "8. ✅ 已创建根目录 .npmrc 文件"
 echo "9. ✅ 已处理 version-policies.json 文件配置"
+echo "10. ✅ 已深度遍历 e2e 文件夹下的所有 package.json 文件，修改包名引用"
 echo ""
 echo "备份文件位置："
 echo "- .github.bak/ (原 .github 文件夹内容)"
