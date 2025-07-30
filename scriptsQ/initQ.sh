@@ -547,6 +547,78 @@ done
 echo "  - 所有 tsconfig.json 文件处理完成"
 
 # ============================================================================
+# 13. 深度遍历 packages 文件夹和 apps/docs 文件夹下的所有文件，修改 @flowgram.ai/ 为 @q/flowgram.ai.
+# ============================================================================
+echo "步骤 13: 深度遍历 packages 文件夹和 apps/docs 文件夹下的所有文件，修改 @flowgram.ai/ 为 @q/flowgram.ai...."
+
+# 定义替换函数
+replace_flowgram_in_file() {
+    local file="$1"
+    if [ -f "$file" ]; then
+        # 检查文件是否包含目标字符串，避免不必要的处理
+        if grep -q "@flowgram\.ai/" "$file" 2>/dev/null; then
+            # 使用 sed 进行替换，兼容 macOS 和 Linux
+            if [[ "$OSTYPE" == "darwin"* ]]; then
+                # macOS
+                sed -i '' 's/@flowgram\.ai\//@q\/flowgram.ai./g' "$file"
+            else
+                # Linux
+                sed -i 's/@flowgram\.ai\//@q\/flowgram.ai./g' "$file"
+            fi
+            echo "    - 已处理: $file"
+        fi
+    fi
+}
+
+# 处理 packages 文件夹下的所有文件
+if [ -d "packages" ]; then
+    echo "  - 深度遍历 packages 文件夹..."
+
+    # 查找所有文件（排除二进制文件和不需要处理的文件）
+    find packages -type f \( \
+        -name "*.js" -o -name "*.ts" -o -name "*.jsx" -o -name "*.tsx" \
+        -o -name "*.json" -o -name "*.md" -o -name "*.yml" -o -name "*.yaml" \
+        -o -name "*.html" -o -name "*.css" -o -name "*.scss" -o -name "*.less" \
+        -o -name "*.vue" -o -name "*.svelte" -o -name "*.txt" \
+        -o -name "*.config.js" -o -name "*.config.ts" \
+        -o -name "*.test.js" -o -name "*.test.ts" \
+        -o -name "*.spec.js" -o -name "*.spec.ts" \
+        -o -name "*.d.ts" -o -name "*.mjs" -o -name "*.cjs" \
+    \) | while read -r file; do
+        replace_flowgram_in_file "$file"
+    done
+
+    echo "  - packages 文件夹处理完成"
+else
+    echo "  - packages 文件夹不存在，跳过"
+fi
+
+# 处理 apps/docs 文件夹下的所有文件
+if [ -d "apps/docs" ]; then
+    echo "  - 深度遍历 apps/docs 文件夹..."
+
+    # 查找所有文件（排除二进制文件和不需要处理的文件）
+    find apps/docs -type f \( \
+        -name "*.js" -o -name "*.ts" -o -name "*.jsx" -o -name "*.tsx" \
+        -o -name "*.json" -o -name "*.md" -o -name "*.yml" -o -name "*.yaml" \
+        -o -name "*.html" -o -name "*.css" -o -name "*.scss" -o -name "*.less" \
+        -o -name "*.vue" -o -name "*.svelte" -o -name "*.txt" \
+        -o -name "*.config.js" -o -name "*.config.ts" \
+        -o -name "*.test.js" -o -name "*.test.ts" \
+        -o -name "*.spec.js" -o -name "*.spec.ts" \
+        -o -name "*.d.ts" -o -name "*.mjs" -o -name "*.cjs" \
+    \) | while read -r file; do
+        replace_flowgram_in_file "$file"
+    done
+
+    echo "  - apps/docs 文件夹处理完成"
+else
+    echo "  - apps/docs 文件夹不存在，跳过"
+fi
+
+echo "  - 深度遍历替换完成"
+
+# ============================================================================
 # 完成
 # ============================================================================
 echo ""
@@ -566,6 +638,7 @@ echo "9. ✅ 已处理 version-policies.json 文件配置"
 echo "10. ✅ 已深度遍历 e2e 和 config 文件夹下的所有 package.json 文件，修改包名引用"
 echo "11. ✅ 已深度遍历 e2e、apps、packages、config 文件夹下的所有 .eslintrc.js 和 .eslintrc.cjs 文件，修改包名引用"
 echo "12. ✅ 已深度遍历 e2e、apps、packages、config 文件夹下的所有 tsconfig.json 文件，修改包名引用"
+echo "13. ✅ 已深度遍历 packages 文件夹和 apps/docs 文件夹下的所有文件，修改 @flowgram.ai/ 为 @q/flowgram.ai."
 echo ""
 echo "备份文件位置："
 echo "- .github.bak/ (原 .github 文件夹内容)"
