@@ -80,48 +80,83 @@ if [ -f "rush.json" ]; then
     const fs = require('fs');
     const path = 'rush.json';
 
-    // 读取文件内容
+    console.log('读取 rush.json 文件...');
     let content = fs.readFileSync(path, 'utf8');
 
-    // 解析 JSON（处理注释）
-    const jsonWithComments = content;
+    // 统计修改前的状态
+    const beforeVersionPolicy = (content.match(/\"versionPolicyName\":\s*\"[^\"]*\"/g) || []).length;
+    const beforePackageName = (content.match(/\"packageName\":\s*\"@flowgram\.ai\//g) || []).length;
+    console.log('修改前: versionPolicyName 项目数量: ' + beforeVersionPolicy + ', @flowgram.ai/ 包名数量: ' + beforePackageName);
 
-    // 使用正则表达式处理 projects 数组
-    const projectsRegex = /\"projects\":\s*\[([\s\S]*?)\]/;
-    const match = content.match(projectsRegex);
+    // 1. 修改所有 versionPolicyName 为 'MyProject-prerelease'
+    console.log('步骤1: 修改 versionPolicyName...');
+    content = content.replace(
+        /\"versionPolicyName\":\s*\"[^\"]*\"/g,
+        '\"versionPolicyName\": \"MyProject-prerelease\"'
+    );
 
-    if (match) {
-        let projectsContent = match[1];
+    // 2. 在有 versionPolicyName 的对象中添加 shouldPublish: true
+    console.log('步骤2: 添加 shouldPublish 属性...');
+    // 使用更精确的方法：在项目对象开始后立即添加 shouldPublish
+    const lines = content.split('\n');
+    let modifiedLines = [];
+    let i = 0;
 
-        // 处理每个项目对象
-        // 1. 修改 versionPolicyName 为 'MyProject-prerelease' 并添加 shouldPublish: true
-        projectsContent = projectsContent.replace(
-            /\"versionPolicyName\":\s*\"[^\"]*\"/g,
-            '\"versionPolicyName\": \"MyProject-prerelease\"'
-        );
+    while (i < lines.length) {
+        const line = lines[i];
+        modifiedLines.push(line);
 
-        // 在有 versionPolicyName 的对象中添加 shouldPublish: true
-        projectsContent = projectsContent.replace(
-            /(\"versionPolicyName\":\s*\"MyProject-prerelease\"[^}]*?)(\s*})/g,
-            '\$1,\n            \"shouldPublish\": true\$2'
-        );
+        // 检测项目对象开始（非注释的大括号）
+        if (line.trim().startsWith('{') && !line.includes('//')) {
+            // 收集这个项目对象的所有内容来检查是否包含 versionPolicyName
+            let projectContent = '';
+            let braceCount = 1;
+            let j = i + 1;
 
-        // 2. 修改 packageName 中的 @flowgram.ai/ 为 @q/flowgram.ai.
-        projectsContent = projectsContent.replace(
-            /\"packageName\":\s*\"@flowgram\.ai\//g,
-            '\"packageName\": \"@q/flowgram.ai.'
-        );
+            while (j < lines.length && braceCount > 0) {
+                const tempLine = lines[j];
+                projectContent += tempLine + '\n';
+                const openBraces = (tempLine.match(/{/g) || []).length;
+                const closeBraces = (tempLine.match(/}/g) || []).length;
+                braceCount += openBraces - closeBraces;
+                j++;
+            }
 
-        // 重新构建完整内容
-        const newContent = content.replace(projectsRegex, '\"projects\": [' + projectsContent + ']');
+            // 如果这个项目包含 versionPolicyName 但不包含 shouldPublish
+            if (projectContent.includes('versionPolicyName') && !projectContent.includes('shouldPublish')) {
+                // 在项目对象开始后立即添加 shouldPublish（作为第一个属性）
+                modifiedLines.push('            \"shouldPublish\": true,');
+            }
+        }
 
-        // 写回文件
-        fs.writeFileSync(path, newContent, 'utf8');
-        console.log('rush.json 修改完成');
-    } else {
-        console.error('未找到 projects 数组');
-        process.exit(1);
+        i++;
     }
+
+    content = modifiedLines.join('\n');
+
+    // 3. 修改 packageName 中的 @flowgram.ai/ 为 @q/flowgram.ai.
+    console.log('步骤3: 修改 packageName...');
+    content = content.replace(
+        /\"packageName\":\s*\"@flowgram\.ai\//g,
+        '\"packageName\": \"@q/flowgram.ai.'
+    );
+
+    // 统计修改后的状态
+    const afterVersionPolicy = (content.match(/\"versionPolicyName\":\s*\"MyProject-prerelease\"/g) || []).length;
+    const afterShouldPublish = (content.match(/\"shouldPublish\":\s*true/g) || []).length;
+    const afterPackageName = (content.match(/\"packageName\":\s*\"@q\/flowgram\.ai\./g) || []).length;
+    console.log('修改后: MyProject-prerelease 数量: ' + afterVersionPolicy + ', shouldPublish 数量: ' + afterShouldPublish + ', @q/flowgram.ai. 包名数量: ' + afterPackageName);
+
+    // 写回文件
+    fs.writeFileSync(path, content, 'utf8');
+    console.log('✅ rush.json 修改完成');
+
+    // 输出修改统计
+    console.log('');
+    console.log('📊 修改统计:');
+    console.log('- 修改了 ' + afterVersionPolicy + ' 个项目的 versionPolicyName');
+    console.log('- 添加了 ' + afterShouldPublish + ' 个 shouldPublish 属性');
+    console.log('- 修改了 ' + afterPackageName + ' 个包名前缀');
     "
 
     echo "  - rush.json 文件修改完成"
