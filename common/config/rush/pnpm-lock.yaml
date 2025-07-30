@@ -62,19 +62,19 @@ importers:
       '@douyinfe/semi-ui':
         specifier: ^2.80.0
         version: 2.80.0(acorn@8.14.0)(react-dom@18.3.1)(react@18.3.1)
-      '@flowgram.ai/fixed-layout-editor':
+      '@q/flowgram.ai.fixed-layout-editor':
         specifier: workspace:*
         version: link:../../packages/client/fixed-layout-editor
-      '@flowgram.ai/fixed-semi-materials':
+      '@q/flowgram.ai.fixed-semi-materials':
         specifier: workspace:*
         version: link:../../packages/materials/fixed-semi-materials
-      '@flowgram.ai/form-materials':
+      '@q/flowgram.ai.form-materials':
         specifier: workspace:*
         version: link:../../packages/materials/form-materials
-      '@flowgram.ai/group-plugin':
+      '@q/flowgram.ai.group-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/group-plugin
-      '@flowgram.ai/minimap-plugin':
+      '@q/flowgram.ai.minimap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/minimap-plugin
       lodash-es:
@@ -93,10 +93,10 @@ importers:
         specifier: ^5
         version: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       '@rsbuild/core':
@@ -147,19 +147,19 @@ importers:
       '@douyinfe/semi-ui':
         specifier: ^2.80.0
         version: 2.80.0(acorn@8.14.0)(react-dom@18.3.1)(react@18.3.1)
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/fixed-layout-editor':
+      '@q/flowgram.ai.fixed-layout-editor':
         specifier: workspace:*
         version: link:../../packages/client/fixed-layout-editor
-      '@flowgram.ai/fixed-semi-materials':
+      '@q/flowgram.ai.fixed-semi-materials':
         specifier: workspace:*
         version: link:../../packages/materials/fixed-semi-materials
-      '@flowgram.ai/minimap-plugin':
+      '@q/flowgram.ai.minimap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/minimap-plugin
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       nanoid:
@@ -202,34 +202,34 @@ importers:
       '@douyinfe/semi-ui':
         specifier: ^2.80.0
         version: 2.80.0(acorn@8.14.0)(react-dom@18.3.1)(react@18.3.1)
-      '@flowgram.ai/form-materials':
+      '@q/flowgram.ai.form-materials':
         specifier: workspace:*
         version: link:../../packages/materials/form-materials
-      '@flowgram.ai/free-container-plugin':
+      '@q/flowgram.ai.free-container-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-container-plugin
-      '@flowgram.ai/free-group-plugin':
+      '@q/flowgram.ai.free-group-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-group-plugin
-      '@flowgram.ai/free-layout-editor':
+      '@q/flowgram.ai.free-layout-editor':
         specifier: workspace:*
         version: link:../../packages/client/free-layout-editor
-      '@flowgram.ai/free-lines-plugin':
+      '@q/flowgram.ai.free-lines-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-lines-plugin
-      '@flowgram.ai/free-node-panel-plugin':
+      '@q/flowgram.ai.free-node-panel-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-node-panel-plugin
-      '@flowgram.ai/free-snap-plugin':
+      '@q/flowgram.ai.free-snap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-snap-plugin
-      '@flowgram.ai/minimap-plugin':
+      '@q/flowgram.ai.minimap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/minimap-plugin
-      '@flowgram.ai/runtime-interface':
+      '@q/flowgram.ai.runtime-interface':
         specifier: workspace:*
         version: link:../../packages/runtime/interface
-      '@flowgram.ai/runtime-js':
+      '@q/flowgram.ai.runtime-js':
         specifier: workspace:*
         version: link:../../packages/runtime/js-core
       classnames:
@@ -251,10 +251,10 @@ importers:
         specifier: ^5
         version: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       '@rsbuild/core':
@@ -290,13 +290,13 @@ importers:
 
   ../../apps/demo-free-layout-simple:
     dependencies:
-      '@flowgram.ai/free-layout-editor':
+      '@q/flowgram.ai.free-layout-editor':
         specifier: workspace:*
         version: link:../../packages/client/free-layout-editor
-      '@flowgram.ai/free-snap-plugin':
+      '@q/flowgram.ai.free-snap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-snap-plugin
-      '@flowgram.ai/minimap-plugin':
+      '@q/flowgram.ai.minimap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/minimap-plugin
       react:
@@ -306,10 +306,10 @@ importers:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       '@rsbuild/core':
@@ -342,22 +342,22 @@ importers:
 
   ../../apps/demo-nextjs:
     dependencies:
-      '@flowgram.ai/free-container-plugin':
+      '@q/flowgram.ai.free-container-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-container-plugin
-      '@flowgram.ai/free-layout-editor':
+      '@q/flowgram.ai.free-layout-editor':
         specifier: workspace:*
         version: link:../../packages/client/free-layout-editor
-      '@flowgram.ai/free-lines-plugin':
+      '@q/flowgram.ai.free-lines-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-lines-plugin
-      '@flowgram.ai/free-node-panel-plugin':
+      '@q/flowgram.ai.free-node-panel-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-node-panel-plugin
-      '@flowgram.ai/free-snap-plugin':
+      '@q/flowgram.ai.free-snap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-snap-plugin
-      '@flowgram.ai/minimap-plugin':
+      '@q/flowgram.ai.minimap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/minimap-plugin
       classnames:
@@ -385,10 +385,10 @@ importers:
       '@eslint/eslintrc':
         specifier: ^3
         version: 3.3.1
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       '@tailwindcss/postcss':
@@ -433,28 +433,28 @@ importers:
       '@ant-design/icons':
         specifier: 5.x
         version: 5.6.1(react-dom@18.3.1)(react@18.3.1)
-      '@flowgram.ai/form-antd-materials':
+      '@q/flowgram.ai.form-antd-materials':
         specifier: workspace:*
         version: link:../../packages/materials/form-antd-materials
-      '@flowgram.ai/free-container-plugin':
+      '@q/flowgram.ai.free-container-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-container-plugin
-      '@flowgram.ai/free-group-plugin':
+      '@q/flowgram.ai.free-group-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-group-plugin
-      '@flowgram.ai/free-layout-editor':
+      '@q/flowgram.ai.free-layout-editor':
         specifier: workspace:*
         version: link:../../packages/client/free-layout-editor
-      '@flowgram.ai/free-lines-plugin':
+      '@q/flowgram.ai.free-lines-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-lines-plugin
-      '@flowgram.ai/free-node-panel-plugin':
+      '@q/flowgram.ai.free-node-panel-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-node-panel-plugin
-      '@flowgram.ai/free-snap-plugin':
+      '@q/flowgram.ai.free-snap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-snap-plugin
-      '@flowgram.ai/minimap-plugin':
+      '@q/flowgram.ai.minimap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/minimap-plugin
       antd:
@@ -491,10 +491,10 @@ importers:
       '@eslint/eslintrc':
         specifier: ^3
         version: 3.3.1
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       '@tailwindcss/postcss':
@@ -548,13 +548,13 @@ importers:
       '@douyinfe/semi-ui':
         specifier: ^2.80.0
         version: 2.80.0(acorn@8.14.0)(react-dom@18.3.1)(react@18.3.1)
-      '@flowgram.ai/free-layout-editor':
+      '@q/flowgram.ai.free-layout-editor':
         specifier: workspace:*
         version: link:../../packages/client/free-layout-editor
-      '@flowgram.ai/free-snap-plugin':
+      '@q/flowgram.ai.free-snap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-snap-plugin
-      '@flowgram.ai/minimap-plugin':
+      '@q/flowgram.ai.minimap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/minimap-plugin
       react:
@@ -567,10 +567,10 @@ importers:
         specifier: ^5
         version: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       '@rsbuild/core':
@@ -606,7 +606,7 @@ importers:
 
   ../../apps/demo-playground:
     dependencies:
-      '@flowgram.ai/playground-react':
+      '@q/flowgram.ai.playground-react':
         specifier: workspace:*
         version: link:../../packages/client/playground-react
       react:
@@ -616,10 +616,10 @@ importers:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       '@rsbuild/core':
@@ -652,13 +652,13 @@ importers:
 
   ../../apps/demo-react-16:
     dependencies:
-      '@flowgram.ai/free-layout-editor':
+      '@q/flowgram.ai.free-layout-editor':
         specifier: workspace:*
         version: link:../../packages/client/free-layout-editor
-      '@flowgram.ai/free-snap-plugin':
+      '@q/flowgram.ai.free-snap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-snap-plugin
-      '@flowgram.ai/minimap-plugin':
+      '@q/flowgram.ai.minimap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/minimap-plugin
       react:
@@ -668,10 +668,10 @@ importers:
         specifier: ^16.8.6
         version: 16.8.6(react@16.14.0)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       '@rsbuild/core':
@@ -704,13 +704,13 @@ importers:
 
   ../../apps/demo-vite:
     dependencies:
-      '@flowgram.ai/free-layout-editor':
+      '@q/flowgram.ai.free-layout-editor':
         specifier: workspace:*
         version: link:../../packages/client/free-layout-editor
-      '@flowgram.ai/free-snap-plugin':
+      '@q/flowgram.ai.free-snap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/free-snap-plugin
-      '@flowgram.ai/minimap-plugin':
+      '@q/flowgram.ai.minimap-plugin':
         specifier: workspace:*
         version: link:../../packages/plugins/minimap-plugin
       react:
@@ -720,10 +720,10 @@ importers:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       '@types/lodash-es':
@@ -768,69 +768,69 @@ importers:
       '@douyinfe/semi-ui':
         specifier: ^2.80.0
         version: 2.80.0(acorn@8.14.0)(react-dom@18.3.1)(react@18.3.1)
-      '@flowgram.ai/demo-fixed-layout':
-        specifier: workspace:*
-        version: link:../demo-fixed-layout
-      '@flowgram.ai/demo-fixed-layout-simple':
-        specifier: workspace:*
-        version: link:../demo-fixed-layout-simple
-      '@flowgram.ai/demo-free-layout':
-        specifier: workspace:*
-        version: link:../demo-free-layout
-      '@flowgram.ai/demo-free-layout-simple':
-        specifier: workspace:*
-        version: link:../demo-free-layout-simple
-      '@flowgram.ai/demo-node-form':
-        specifier: workspace:*
-        version: link:../demo-node-form
-      '@flowgram.ai/demo-playground':
-        specifier: workspace:*
-        version: link:../demo-playground
-      '@flowgram.ai/fixed-layout-editor':
-        specifier: workspace:*
-        version: link:../../packages/client/fixed-layout-editor
-      '@flowgram.ai/fixed-semi-materials':
-        specifier: workspace:*
-        version: link:../../packages/materials/fixed-semi-materials
-      '@flowgram.ai/form-core':
-        specifier: workspace:*
-        version: link:../../packages/node-engine/form-core
-      '@flowgram.ai/free-auto-layout-plugin':
-        specifier: workspace:*
-        version: link:../../packages/plugins/free-auto-layout-plugin
-      '@flowgram.ai/free-container-plugin':
-        specifier: workspace:*
-        version: link:../../packages/plugins/free-container-plugin
-      '@flowgram.ai/free-layout-editor':
-        specifier: workspace:*
-        version: link:../../packages/client/free-layout-editor
-      '@flowgram.ai/free-lines-plugin':
-        specifier: workspace:*
-        version: link:../../packages/plugins/free-lines-plugin
-      '@flowgram.ai/free-node-panel-plugin':
-        specifier: workspace:*
-        version: link:../../packages/plugins/free-node-panel-plugin
-      '@flowgram.ai/free-snap-plugin':
-        specifier: workspace:*
-        version: link:../../packages/plugins/free-snap-plugin
-      '@flowgram.ai/free-stack-plugin':
-        specifier: workspace:*
-        version: link:../../packages/plugins/free-stack-plugin
-      '@flowgram.ai/group-plugin':
-        specifier: workspace:*
-        version: link:../../packages/plugins/group-plugin
-      '@flowgram.ai/history':
-        specifier: workspace:*
-        version: link:../../packages/common/history
-      '@flowgram.ai/minimap-plugin':
-        specifier: workspace:*
-        version: link:../../packages/plugins/minimap-plugin
-      '@flowgram.ai/plugin-llms':
-        specifier: workspace:*
-        version: link:../plugin-llms
       '@monaco-editor/react':
         specifier: ^4.6.0
         version: 4.6.0(monaco-editor@0.52.2)(react-dom@18.3.1)(react@18.3.1)
+      '@q/flowgram.ai.demo-fixed-layout':
+        specifier: workspace:*
+        version: link:../demo-fixed-layout
+      '@q/flowgram.ai.demo-fixed-layout-simple':
+        specifier: workspace:*
+        version: link:../demo-fixed-layout-simple
+      '@q/flowgram.ai.demo-free-layout':
+        specifier: workspace:*
+        version: link:../demo-free-layout
+      '@q/flowgram.ai.demo-free-layout-simple':
+        specifier: workspace:*
+        version: link:../demo-free-layout-simple
+      '@q/flowgram.ai.demo-node-form':
+        specifier: workspace:*
+        version: link:../demo-node-form
+      '@q/flowgram.ai.demo-playground':
+        specifier: workspace:*
+        version: link:../demo-playground
+      '@q/flowgram.ai.fixed-layout-editor':
+        specifier: workspace:*
+        version: link:../../packages/client/fixed-layout-editor
+      '@q/flowgram.ai.fixed-semi-materials':
+        specifier: workspace:*
+        version: link:../../packages/materials/fixed-semi-materials
+      '@q/flowgram.ai.form-core':
+        specifier: workspace:*
+        version: link:../../packages/node-engine/form-core
+      '@q/flowgram.ai.free-auto-layout-plugin':
+        specifier: workspace:*
+        version: link:../../packages/plugins/free-auto-layout-plugin
+      '@q/flowgram.ai.free-container-plugin':
+        specifier: workspace:*
+        version: link:../../packages/plugins/free-container-plugin
+      '@q/flowgram.ai.free-layout-editor':
+        specifier: workspace:*
+        version: link:../../packages/client/free-layout-editor
+      '@q/flowgram.ai.free-lines-plugin':
+        specifier: workspace:*
+        version: link:../../packages/plugins/free-lines-plugin
+      '@q/flowgram.ai.free-node-panel-plugin':
+        specifier: workspace:*
+        version: link:../../packages/plugins/free-node-panel-plugin
+      '@q/flowgram.ai.free-snap-plugin':
+        specifier: workspace:*
+        version: link:../../packages/plugins/free-snap-plugin
+      '@q/flowgram.ai.free-stack-plugin':
+        specifier: workspace:*
+        version: link:../../packages/plugins/free-stack-plugin
+      '@q/flowgram.ai.group-plugin':
+        specifier: workspace:*
+        version: link:../../packages/plugins/group-plugin
+      '@q/flowgram.ai.history':
+        specifier: workspace:*
+        version: link:../../packages/common/history
+      '@q/flowgram.ai.minimap-plugin':
+        specifier: workspace:*
+        version: link:../../packages/plugins/minimap-plugin
+      '@q/flowgram.ai.plugin-llms':
+        specifier: workspace:*
+        version: link:../plugin-llms
       '@rsbuild/plugin-less':
         specifier: ^1.1.1
         version: 1.1.1(@rsbuild/core@1.3.16)
@@ -871,10 +871,10 @@ importers:
       '@eslint/js':
         specifier: ^9.12.0
         version: 9.16.0
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../config/ts-config
       '@rspress/plugin-typedoc':
@@ -1038,7 +1038,7 @@ importers:
         specifier: ^10.9.1
         version: 10.9.2(@types/node@18.19.68)(typescript@5.0.4)
     devDependencies:
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../ts-config
       '@types/node':
@@ -1066,7 +1066,7 @@ importers:
         specifier: ^1.52.0
         version: 1.52.0
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
       '@types/node':
@@ -1079,7 +1079,7 @@ importers:
         specifier: ^1.52.0
         version: 1.52.0
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
       '@types/node':
@@ -1088,15 +1088,15 @@ importers:
 
   ../../packages/canvas-engine/core:
     dependencies:
-      '@flowgram.ai/command':
-        specifier: workspace:*
-        version: link:../../common/command
-      '@flowgram.ai/utils':
-        specifier: workspace:*
-        version: link:../../common/utils
       '@phosphor/messaging':
         specifier: ^1.3.0
         version: 1.3.0
+      '@q/flowgram.ai.command':
+        specifier: workspace:*
+        version: link:../../common/command
+      '@q/flowgram.ai.utils':
+        specifier: workspace:*
+        version: link:../../common/utils
       '@tweenjs/tween.js':
         specifier: ^18
         version: 18.6.4
@@ -1122,10 +1122,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@testing-library/react':
@@ -1164,10 +1164,10 @@ importers:
 
   ../../packages/canvas-engine/document:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../core
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -1183,10 +1183,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -1210,16 +1210,16 @@ importers:
 
   ../../packages/canvas-engine/fixed-layout-core:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../document
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../renderer
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -1238,10 +1238,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -1271,22 +1271,22 @@ importers:
 
   ../../packages/canvas-engine/free-layout-core:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../document
-      '@flowgram.ai/form-core':
+      '@q/flowgram.ai.form-core':
         specifier: workspace:*
         version: link:../../node-engine/form-core
-      '@flowgram.ai/node':
+      '@q/flowgram.ai.node':
         specifier: workspace:*
         version: link:../../node-engine/node
-      '@flowgram.ai/reactive':
+      '@q/flowgram.ai.reactive':
         specifier: workspace:*
         version: link:../../common/reactive
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -1308,10 +1308,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@testing-library/react':
@@ -1350,16 +1350,16 @@ importers:
 
   ../../packages/canvas-engine/renderer:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../document
-      '@flowgram.ai/i18n':
+      '@q/flowgram.ai.i18n':
         specifier: workspace:*
         version: link:../../common/i18n
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -1378,10 +1378,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@testing-library/react':
@@ -1417,61 +1417,61 @@ importers:
 
   ../../packages/client/editor:
     dependencies:
-      '@flowgram.ai/background-plugin':
+      '@q/flowgram.ai.background-plugin':
         specifier: workspace:*
         version: link:../../plugins/background-plugin
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/form':
+      '@q/flowgram.ai.form':
         specifier: workspace:*
         version: link:../../node-engine/form
-      '@flowgram.ai/form-core':
+      '@q/flowgram.ai.form-core':
         specifier: workspace:*
         version: link:../../node-engine/form-core
-      '@flowgram.ai/group-plugin':
+      '@q/flowgram.ai.group-plugin':
         specifier: workspace:*
         version: link:../../plugins/group-plugin
-      '@flowgram.ai/history':
+      '@q/flowgram.ai.history':
         specifier: workspace:*
         version: link:../../common/history
-      '@flowgram.ai/history-node-plugin':
+      '@q/flowgram.ai.history-node-plugin':
         specifier: workspace:*
         version: link:../../plugins/history-node-plugin
-      '@flowgram.ai/i18n-plugin':
+      '@q/flowgram.ai.i18n-plugin':
         specifier: workspace:*
         version: link:../../plugins/i18n-plugin
-      '@flowgram.ai/materials-plugin':
+      '@q/flowgram.ai.materials-plugin':
         specifier: workspace:*
         version: link:../../plugins/materials-plugin
-      '@flowgram.ai/node':
+      '@q/flowgram.ai.node':
         specifier: workspace:*
         version: link:../../node-engine/node
-      '@flowgram.ai/node-core-plugin':
+      '@q/flowgram.ai.node-core-plugin':
         specifier: workspace:*
         version: link:../../plugins/node-core-plugin
-      '@flowgram.ai/node-variable-plugin':
+      '@q/flowgram.ai.node-variable-plugin':
         specifier: workspace:*
         version: link:../../plugins/node-variable-plugin
-      '@flowgram.ai/playground-react':
+      '@q/flowgram.ai.playground-react':
         specifier: workspace:*
         version: link:../playground-react
-      '@flowgram.ai/redux-devtool-plugin':
+      '@q/flowgram.ai.redux-devtool-plugin':
         specifier: workspace:*
         version: link:../../plugins/redux-devtool-plugin
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/shortcuts-plugin':
+      '@q/flowgram.ai.shortcuts-plugin':
         specifier: workspace:*
         version: link:../../plugins/shortcuts-plugin
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
-      '@flowgram.ai/variable-plugin':
+      '@q/flowgram.ai.variable-plugin':
         specifier: workspace:*
         version: link:../../plugins/variable-plugin
       inversify:
@@ -1481,10 +1481,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -1523,31 +1523,31 @@ importers:
 
   ../../packages/client/fixed-layout-editor:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/editor':
+      '@q/flowgram.ai.editor':
         specifier: workspace:*
         version: link:../editor
-      '@flowgram.ai/fixed-drag-plugin':
+      '@q/flowgram.ai.fixed-drag-plugin':
         specifier: workspace:*
         version: link:../../plugins/fixed-drag-plugin
-      '@flowgram.ai/fixed-history-plugin':
+      '@q/flowgram.ai.fixed-history-plugin':
         specifier: workspace:*
         version: link:../../plugins/fixed-history-plugin
-      '@flowgram.ai/fixed-layout-core':
+      '@q/flowgram.ai.fixed-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/fixed-layout-core
-      '@flowgram.ai/history':
+      '@q/flowgram.ai.history':
         specifier: workspace:*
         version: link:../../common/history
-      '@flowgram.ai/reactive':
+      '@q/flowgram.ai.reactive':
         specifier: workspace:*
         version: link:../../common/reactive
-      '@flowgram.ai/select-box-plugin':
+      '@q/flowgram.ai.select-box-plugin':
         specifier: workspace:*
         version: link:../../plugins/select-box-plugin
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -1557,10 +1557,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -1599,37 +1599,37 @@ importers:
 
   ../../packages/client/free-layout-editor:
     dependencies:
-      '@flowgram.ai/editor':
+      '@q/flowgram.ai.editor':
         specifier: workspace:*
         version: link:../editor
-      '@flowgram.ai/free-auto-layout-plugin':
+      '@q/flowgram.ai.free-auto-layout-plugin':
         specifier: workspace:*
         version: link:../../plugins/free-auto-layout-plugin
-      '@flowgram.ai/free-history-plugin':
+      '@q/flowgram.ai.free-history-plugin':
         specifier: workspace:*
         version: link:../../plugins/free-history-plugin
-      '@flowgram.ai/free-hover-plugin':
+      '@q/flowgram.ai.free-hover-plugin':
         specifier: workspace:*
         version: link:../../plugins/free-hover-plugin
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/free-lines-plugin':
+      '@q/flowgram.ai.free-lines-plugin':
         specifier: workspace:*
         version: link:../../plugins/free-lines-plugin
-      '@flowgram.ai/free-stack-plugin':
+      '@q/flowgram.ai.free-stack-plugin':
         specifier: workspace:*
         version: link:../../plugins/free-stack-plugin
-      '@flowgram.ai/history':
+      '@q/flowgram.ai.history':
         specifier: workspace:*
         version: link:../../common/history
-      '@flowgram.ai/minimap-plugin':
+      '@q/flowgram.ai.minimap-plugin':
         specifier: workspace:*
         version: link:../../plugins/minimap-plugin
-      '@flowgram.ai/select-box-plugin':
+      '@q/flowgram.ai.select-box-plugin':
         specifier: workspace:*
         version: link:../../plugins/select-box-plugin
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       clsx:
@@ -1642,10 +1642,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@testing-library/react':
@@ -1690,16 +1690,16 @@ importers:
 
   ../../packages/client/playground-react:
     dependencies:
-      '@flowgram.ai/background-plugin':
+      '@q/flowgram.ai.background-plugin':
         specifier: workspace:*
         version: link:../../plugins/background-plugin
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/shortcuts-plugin':
+      '@q/flowgram.ai.shortcuts-plugin':
         specifier: workspace:*
         version: link:../../plugins/shortcuts-plugin
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -1709,10 +1709,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -1751,7 +1751,7 @@ importers:
 
   ../../packages/common/command:
     dependencies:
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../utils
       inversify:
@@ -1767,10 +1767,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -1806,10 +1806,10 @@ importers:
 
   ../../packages/common/history:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../utils
       inversify:
@@ -1825,10 +1825,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -1855,13 +1855,13 @@ importers:
 
   ../../packages/common/history-storage:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/history':
+      '@q/flowgram.ai.history':
         specifier: workspace:*
         version: link:../history
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../utils
       dexie:
@@ -1883,10 +1883,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -1916,17 +1916,17 @@ importers:
 
   ../../packages/common/i18n:
     dependencies:
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../utils
       i18n-js:
         specifier: ^4.5.1
         version: 4.5.1
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@testing-library/react':
@@ -1959,14 +1959,14 @@ importers:
 
   ../../packages/common/reactive:
     dependencies:
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../utils
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@testing-library/react':
@@ -2021,10 +2021,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@testing-library/react':
@@ -2072,7 +2072,7 @@ importers:
       '@douyinfe/semi-ui':
         specifier: ^2.80.0
         version: 2.80.0(acorn@8.14.0)(react-dom@18.3.1)(react@18.3.1)
-      '@flowgram.ai/fixed-layout-editor':
+      '@q/flowgram.ai.fixed-layout-editor':
         specifier: workspace:*
         version: link:../../client/fixed-layout-editor
       lodash:
@@ -2082,10 +2082,10 @@ importers:
         specifier: ^4.0.2
         version: 4.0.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -2127,7 +2127,7 @@ importers:
       '@ant-design/icons':
         specifier: 5.x
         version: 5.6.1(react-dom@18.3.1)(react@18.3.1)
-      '@flowgram.ai/editor':
+      '@q/flowgram.ai.editor':
         specifier: workspace:*
         version: link:../../client/editor
       antd:
@@ -2140,10 +2140,10 @@ importers:
         specifier: ^4.0.2
         version: 4.0.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -2206,7 +2206,7 @@ importers:
       '@douyinfe/semi-ui':
         specifier: ^2.80.0
         version: 2.80.0(acorn@8.14.0)(react-dom@18.3.1)(react@18.3.1)
-      '@flowgram.ai/editor':
+      '@q/flowgram.ai.editor':
         specifier: workspace:*
         version: link:../../client/editor
       chalk:
@@ -2228,10 +2228,10 @@ importers:
         specifier: ^4.0.2
         version: 4.0.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/inquirer':
@@ -2276,10 +2276,10 @@ importers:
 
   ../../packages/node-engine/form:
     dependencies:
-      '@flowgram.ai/reactive':
+      '@q/flowgram.ai.reactive':
         specifier: workspace:*
         version: link:../../common/reactive
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       fast-equals:
@@ -2298,10 +2298,10 @@ importers:
         specifier: '>=16.8'
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@testing-library/react':
@@ -2334,13 +2334,13 @@ importers:
 
   ../../packages/node-engine/form-core:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -2359,13 +2359,13 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/form':
+      '@q/flowgram.ai.form':
         specifier: workspace:*
         version: link:../form
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -2395,19 +2395,19 @@ importers:
 
   ../../packages/node-engine/node:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/form':
+      '@q/flowgram.ai.form':
         specifier: workspace:*
         version: link:../form
-      '@flowgram.ai/form-core':
+      '@q/flowgram.ai.form-core':
         specifier: workspace:*
         version: link:../form-core
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -2429,10 +2429,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -2462,10 +2462,10 @@ importers:
 
   ../../packages/plugins/background-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -2481,10 +2481,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/react':
@@ -2511,13 +2511,13 @@ importers:
 
   ../../packages/plugins/fixed-drag-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
       inversify:
@@ -2533,10 +2533,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/react':
@@ -2563,19 +2563,19 @@ importers:
 
   ../../packages/plugins/fixed-history-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/form-core':
+      '@q/flowgram.ai.form-core':
         specifier: workspace:*
         version: link:../../node-engine/form-core
-      '@flowgram.ai/history':
+      '@q/flowgram.ai.history':
         specifier: workspace:*
         version: link:../../common/history
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -2588,10 +2588,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -2618,19 +2618,19 @@ importers:
       '@dagrejs/graphlib':
         specifier: 2.2.2
         version: 2.2.2
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -2643,10 +2643,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -2688,34 +2688,34 @@ importers:
 
   ../../packages/plugins/free-container-plugin:
     dependencies:
-      '@flowgram.ai/background-plugin':
+      '@q/flowgram.ai.background-plugin':
         specifier: workspace:*
         version: link:../background-plugin
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/free-history-plugin':
+      '@q/flowgram.ai.free-history-plugin':
         specifier: workspace:*
         version: link:../free-history-plugin
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/free-lines-plugin':
+      '@q/flowgram.ai.free-lines-plugin':
         specifier: workspace:*
         version: link:../free-lines-plugin
-      '@flowgram.ai/i18n':
+      '@q/flowgram.ai.i18n':
         specifier: workspace:*
         version: link:../../common/i18n
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/shortcuts-plugin':
+      '@q/flowgram.ai.shortcuts-plugin':
         specifier: workspace:*
         version: link:../shortcuts-plugin
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -2728,10 +2728,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -2776,31 +2776,31 @@ importers:
 
   ../../packages/plugins/free-group-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/free-container-plugin':
+      '@q/flowgram.ai.free-container-plugin':
         specifier: workspace:*
         version: link:../free-container-plugin
-      '@flowgram.ai/free-history-plugin':
+      '@q/flowgram.ai.free-history-plugin':
         specifier: workspace:*
         version: link:../free-history-plugin
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/free-lines-plugin':
+      '@q/flowgram.ai.free-lines-plugin':
         specifier: workspace:*
         version: link:../free-lines-plugin
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/shortcuts-plugin':
+      '@q/flowgram.ai.shortcuts-plugin':
         specifier: workspace:*
         version: link:../shortcuts-plugin
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -2813,10 +2813,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -2861,22 +2861,22 @@ importers:
 
   ../../packages/plugins/free-history-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/form-core':
+      '@q/flowgram.ai.form-core':
         specifier: workspace:*
         version: link:../../node-engine/form-core
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/history':
+      '@q/flowgram.ai.history':
         specifier: workspace:*
         version: link:../../common/history
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -2895,10 +2895,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -2928,22 +2928,22 @@ importers:
 
   ../../packages/plugins/free-hover-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/select-box-plugin':
+      '@q/flowgram.ai.select-box-plugin':
         specifier: workspace:*
         version: link:../select-box-plugin
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -2953,10 +2953,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -2995,19 +2995,19 @@ importers:
 
   ../../packages/plugins/free-lines-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/free-stack-plugin':
+      '@q/flowgram.ai.free-stack-plugin':
         specifier: workspace:*
         version: link:../free-stack-plugin
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       bezier-js:
@@ -3023,10 +3023,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -3071,22 +3071,22 @@ importers:
 
   ../../packages/plugins/free-node-panel-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/free-history-plugin':
+      '@q/flowgram.ai.free-history-plugin':
         specifier: workspace:*
         version: link:../free-history-plugin
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -3099,10 +3099,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -3147,19 +3147,19 @@ importers:
 
   ../../packages/plugins/free-snap-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -3172,10 +3172,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -3220,19 +3220,19 @@ importers:
 
   ../../packages/plugins/free-stack-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -3245,10 +3245,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -3293,16 +3293,16 @@ importers:
 
   ../../packages/plugins/group-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -3318,10 +3318,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/react':
@@ -3348,25 +3348,25 @@ importers:
 
   ../../packages/plugins/history-node-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/form':
+      '@q/flowgram.ai.form':
         specifier: workspace:*
         version: link:../../node-engine/form
-      '@flowgram.ai/form-core':
+      '@q/flowgram.ai.form-core':
         specifier: workspace:*
         version: link:../../node-engine/form-core
-      '@flowgram.ai/history':
+      '@q/flowgram.ai.history':
         specifier: workspace:*
         version: link:../../common/history
-      '@flowgram.ai/node':
+      '@q/flowgram.ai.node':
         specifier: workspace:*
         version: link:../../node-engine/node
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -3379,10 +3379,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -3427,17 +3427,17 @@ importers:
 
   ../../packages/plugins/i18n-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/i18n':
+      '@q/flowgram.ai.i18n':
         specifier: workspace:*
         version: link:../../common/i18n
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -3482,16 +3482,16 @@ importers:
 
   ../../packages/plugins/materials-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/form-core':
+      '@q/flowgram.ai.form-core':
         specifier: workspace:*
         version: link:../../node-engine/form-core
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -3501,10 +3501,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -3549,16 +3549,16 @@ importers:
 
   ../../packages/plugins/minimap-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -3571,10 +3571,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -3619,22 +3619,22 @@ importers:
 
   ../../packages/plugins/node-core-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/form-core':
+      '@q/flowgram.ai.form-core':
         specifier: workspace:*
         version: link:../../node-engine/form-core
-      '@flowgram.ai/node':
+      '@q/flowgram.ai.node':
         specifier: workspace:*
         version: link:../../node-engine/node
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -3644,10 +3644,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -3692,22 +3692,22 @@ importers:
 
   ../../packages/plugins/node-variable-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/form-core':
+      '@q/flowgram.ai.form-core':
         specifier: workspace:*
         version: link:../../node-engine/form-core
-      '@flowgram.ai/node':
+      '@q/flowgram.ai.node':
         specifier: workspace:*
         version: link:../../node-engine/node
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
-      '@flowgram.ai/variable-plugin':
+      '@q/flowgram.ai.variable-plugin':
         specifier: workspace:*
         version: link:../variable-plugin
       inversify:
@@ -3720,10 +3720,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/bezier-js':
@@ -3768,10 +3768,10 @@ importers:
 
   ../../packages/plugins/redux-devtool-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/variable-core':
+      '@q/flowgram.ai.variable-core':
         specifier: workspace:*
         version: link:../../variable-engine/variable-core
       inversify:
@@ -3784,10 +3784,10 @@ importers:
         specifier: ^5
         version: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@vitest/coverage-v8':
@@ -3808,10 +3808,10 @@ importers:
 
   ../../packages/plugins/select-box-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/renderer':
+      '@q/flowgram.ai.renderer':
         specifier: workspace:*
         version: link:../../canvas-engine/renderer
       inversify:
@@ -3827,10 +3827,10 @@ importers:
         specifier: ~0.2.2
         version: 0.2.2
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/react':
@@ -3857,13 +3857,13 @@ importers:
 
   ../../packages/plugins/shortcuts-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       inversify:
@@ -3876,10 +3876,10 @@ importers:
         specifier: ^5
         version: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@vitest/coverage-v8':
@@ -3900,22 +3900,22 @@ importers:
 
   ../../packages/plugins/variable-plugin:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
-      '@flowgram.ai/variable-core':
+      '@q/flowgram.ai.variable-core':
         specifier: workspace:*
         version: link:../../variable-engine/variable-core
-      '@flowgram.ai/variable-layout':
+      '@q/flowgram.ai.variable-layout':
         specifier: workspace:*
         version: link:../../variable-engine/variable-layout
       inversify:
@@ -3928,10 +3928,10 @@ importers:
         specifier: ^5
         version: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@vitest/coverage-v8':
@@ -3956,10 +3956,10 @@ importers:
         specifier: ^3.24.4
         version: 3.25.56
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       eslint:
@@ -3993,13 +3993,13 @@ importers:
         specifier: ^3.24.4
         version: 3.25.56
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/runtime-interface':
+      '@q/flowgram.ai.runtime-interface':
         specifier: workspace:*
         version: link:../interface
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash-es':
@@ -4041,18 +4041,18 @@ importers:
       '@fastify/websocket':
         specifier: ^10.0.1
         version: 10.0.1
-      '@flowgram.ai/runtime-interface':
-        specifier: workspace:*
-        version: link:../interface
-      '@flowgram.ai/runtime-js':
-        specifier: workspace:*
-        version: link:../js-core
       '@langchain/core':
         specifier: ^0.3.57
         version: 0.3.57
       '@langchain/openai':
         specifier: ^0.5.11
         version: 0.5.12(@langchain/core@0.3.57)(ws@8.18.0)
+      '@q/flowgram.ai.runtime-interface':
+        specifier: workspace:*
+        version: link:../interface
+      '@q/flowgram.ai.runtime-js':
+        specifier: workspace:*
+        version: link:../js-core
       '@trpc/server':
         specifier: ^10.27.1
         version: 10.45.2
@@ -4081,10 +4081,10 @@ importers:
       '@eslint/eslintrc':
         specifier: ^3
         version: 3.3.1
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/cors':
@@ -4138,10 +4138,10 @@ importers:
 
   ../../packages/variable-engine/variable-core:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
       fast-equals:
@@ -4169,10 +4169,10 @@ importers:
         specifier: ^7.8.1
         version: 7.8.1
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@types/lodash':
@@ -4202,19 +4202,19 @@ importers:
 
   ../../packages/variable-engine/variable-layout:
     dependencies:
-      '@flowgram.ai/core':
+      '@q/flowgram.ai.core':
         specifier: workspace:*
         version: link:../../canvas-engine/core
-      '@flowgram.ai/document':
+      '@q/flowgram.ai.document':
         specifier: workspace:*
         version: link:../../canvas-engine/document
-      '@flowgram.ai/free-layout-core':
+      '@q/flowgram.ai.free-layout-core':
         specifier: workspace:*
         version: link:../../canvas-engine/free-layout-core
-      '@flowgram.ai/utils':
+      '@q/flowgram.ai.utils':
         specifier: workspace:*
         version: link:../../common/utils
-      '@flowgram.ai/variable-core':
+      '@q/flowgram.ai.variable-core':
         specifier: workspace:*
         version: link:../variable-core
       inversify:
@@ -4227,10 +4227,10 @@ importers:
         specifier: ^5
         version: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
     devDependencies:
-      '@flowgram.ai/eslint-config':
+      '@q/flowgram.ai.eslint-config':
         specifier: workspace:*
         version: link:../../../config/eslint-config
-      '@flowgram.ai/ts-config':
+      '@q/flowgram.ai.ts-config':
         specifier: workspace:*
         version: link:../../../config/ts-config
       '@vitest/coverage-v8':
