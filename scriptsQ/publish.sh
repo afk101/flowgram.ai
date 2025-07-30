@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# 检验是否在项目根目录执行脚本
+if [[ ! -f "rush.json" ]] || [[ ! -d "common/config/rush" ]]; then
+    echo -e "\033[31m❌ 请在项目根目录执行此脚本！\033[0m"
+    echo -e "\033[31m   当前目录: $(pwd)\033[0m"
+    echo -e "\033[31m   需要包含: rush.json 和 common/config/rush/ 目录\033[0m"
+    exit 1
+fi
+
 echo "🚀 开始执行发布脚本..."
 echo "================================"
 
