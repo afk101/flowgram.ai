@@ -344,6 +344,7 @@ if [ -f "common/config/rush/.npmrc-publish" ]; then
     echo "  - 替换 common/config/rush/.npmrc-publish 文件内容"
     cat > "common/config/rush/.npmrc-publish" << 'EOF'
 registry=https://registry.qnpm.qihoo.net
+//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
 //registry.qnpm.qihoo.net/:_authToken=${QNPM_AUTH_TOKEN}
 EOF
 
@@ -360,11 +361,13 @@ echo "步骤 7: 创建 .env 和 .env.example 文件..."
 echo "  - 创建 .env 文件"
 cat > ".env" << 'EOF'
 QNPM_AUTH_TOKEN=your-qnpm-token
+NPM_AUTH_TOKEN=your-npm-token
 EOF
 
 echo "  - 创建 .env.example 文件"
 cat > ".env.example" << 'EOF'
 QNPM_AUTH_TOKEN=your-qnpm-token
+NPM_AUTH_TOKEN=your-npm-token
 EOF
 
 echo "  - .env 和 .env.example 文件创建完成"
