@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { IContainer, IEngine, WorkflowStatus } from '@q/flowgram.ai.runtime-interface';
+import { IContainer, IEngine, WorkflowStatus } from '@flowgram.ai/runtime-interface';
 
 import { snapshotsToVOData } from '../utils';
 import { WorkflowRuntimeContainer } from '../../container';

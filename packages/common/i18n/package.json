@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.i18n",
+  "name": "@flowgram.ai/i18n",
   "version": "0.2.26-6",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -25,12 +25,12 @@
     "watch": "npm run build:fast -- --dts-resolve --watch --ignore-watch dist"
   },
   "dependencies": {
-    "@q/flowgram.ai.utils": "workspace:*",
+    "@flowgram.ai/utils": "workspace:*",
     "i18n-js": "^4.5.1"
   },
   "devDependencies": {
-    "@q/flowgram.ai.eslint-config": "workspace:*",
-    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@flowgram.ai/eslint-config": "workspace:*",
+    "@flowgram.ai/ts-config": "workspace:*",
     "@testing-library/react": "^12",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/lodash": "^4.14.137",
@@ -43,16 +43,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.qnpm.qihoo.net"
-  },
-  "maintainers": [
-    {
-      "email": "jinshuokang@360.cn",
-      "name": "jinshuokang"
-    },
-    {
-      "email": "chenguangdi@360.cn",
-      "name": "chenguangdi"
-    }
-  ]
+    "registry": "https://registry.npmjs.org/"
+  }
 }

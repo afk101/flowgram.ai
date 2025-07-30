@@ -4,8 +4,8 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { FlowOperation, FlowOperationBaseServiceImpl } from '@q/flowgram.ai.document';
-import { HistoryService } from '@q/flowgram.ai.history';
+import { FlowOperation, FlowOperationBaseServiceImpl } from '@flowgram.ai/document';
+import { HistoryService } from '@flowgram.ai/history';
 
 @injectable()
 export class FixedHistoryOperationService extends FlowOperationBaseServiceImpl {

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowDocumentJSON } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowDocumentJSON } from '@flowgram.ai/fixed-layout-editor';
 
 export const condition: FlowDocumentJSON = {
   nodes: [

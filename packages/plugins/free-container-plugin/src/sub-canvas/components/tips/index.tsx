@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { I18n } from '@q/flowgram.ai.i18n';
+import { I18n } from '@flowgram.ai/i18n';
 
 import { useControlTips } from './use-control';
 import { SubCanvasTipsStyle } from './style';

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowNodeEntity, WorkflowNodeMeta } from '@q/flowgram.ai.free-layout-core';
+import { WorkflowNodeEntity, WorkflowNodeMeta } from '@flowgram.ai/free-layout-core';
 
 /** 是否容器节点 */
 export const isContainer = (node?: WorkflowNodeEntity): boolean =>

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeBaseType, type FlowNodeRegistry } from '@q/flowgram.ai.document';
+import { FlowNodeBaseType, type FlowNodeRegistry } from '@flowgram.ai/document';
 
 /**
  * 输出节点, 一般作为 end 节点

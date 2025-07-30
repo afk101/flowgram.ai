@@ -5,8 +5,8 @@
 
 import { flatten, get } from 'lodash';
 import { deepEqual } from 'fast-equals';
-import { Disposable, Emitter } from '@q/flowgram.ai.utils';
-import { ReactiveState } from '@q/flowgram.ai.reactive';
+import { Disposable, Emitter } from '@flowgram.ai/utils';
+import { ReactiveState } from '@flowgram.ai/reactive';
 
 import { feedbackToFieldErrorsOrWarnings, hasError, toFeedback } from '../utils/validate';
 import { Glob } from '../utils/glob';

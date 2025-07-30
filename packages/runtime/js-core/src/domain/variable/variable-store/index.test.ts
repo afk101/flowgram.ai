@@ -4,7 +4,7 @@
  */
 
 import { beforeEach, describe, expect, it } from 'vitest';
-import { IVariableStore, WorkflowVariableType } from '@q/flowgram.ai.runtime-interface';
+import { IVariableStore, WorkflowVariableType } from '@flowgram.ai/runtime-interface';
 
 import { WorkflowRuntimeVariableStore } from './index';
 

@@ -6,15 +6,15 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 import { interfaces } from 'inversify';
 import { renderHook } from '@testing-library/react-hooks';
-import { delay } from '@q/flowgram.ai.utils';
+import { delay } from '@flowgram.ai/utils';
 import {
   WorkflowDocument,
   WorkflowDocumentOptions,
   InteractiveType,
   EditorCursorState,
   LineType,
-} from '@q/flowgram.ai.free-layout-core';
-import { Playground, PositionData, FlowNodeBaseType } from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/free-layout-core';
+import { Playground, PositionData, FlowNodeBaseType } from '@flowgram.ai/editor';
 
 import { PlaygroundTools, usePlaygroundTools } from '../src';
 import { createDocument, createHookWrapper, nestJSON, createSubCanvasNodes } from './utils.mock';

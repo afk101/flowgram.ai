@@ -7,15 +7,15 @@ import React from 'react';
 
 import { throttle } from 'lodash';
 import { inject, injectable } from 'inversify';
-import { domUtils } from '@q/flowgram.ai.utils';
+import { domUtils } from '@flowgram.ai/utils';
 import {
   FlowDocument,
   FlowDocumentTransformerEntity,
   FlowNodeEntity,
   FlowNodeTransitionData,
   FlowRendererStateEntity,
-} from '@q/flowgram.ai.document';
-import { Layer, observeEntity, observeEntityDatas } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/document';
+import { Layer, observeEntity, observeEntityDatas } from '@flowgram.ai/core';
 
 import { useBaseColor } from '../hooks/use-base-color';
 import { FlowRendererRegistry } from '../flow-renderer-registry';

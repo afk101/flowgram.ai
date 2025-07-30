@@ -9,7 +9,7 @@ import {
   FlowNodeRegistry,
   createEffectFromVariableProvider,
   getNodeForm,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 
 import { IFlowRefValue } from '../../typings';
 

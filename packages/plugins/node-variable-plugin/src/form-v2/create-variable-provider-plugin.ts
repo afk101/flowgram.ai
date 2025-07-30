@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { DataEvent, defineFormPluginCreator } from '@q/flowgram.ai.node';
+import { DataEvent, defineFormPluginCreator } from '@flowgram.ai/node';
 
 export const createVariableProviderPlugin = defineFormPluginCreator({
   name: 'VariableProviderPlugin',

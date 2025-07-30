@@ -3,4 +3,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-export { useRefresh } from '@q/flowgram.ai.utils';
+export { useRefresh } from '@flowgram.ai/utils';

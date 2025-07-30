@@ -4,7 +4,7 @@
  */
 
 import { cloneDeep } from 'lodash';
-import { DisposableCollection } from '@q/flowgram.ai.utils';
+import { DisposableCollection } from '@flowgram.ai/utils';
 
 import { OperationService } from '../operation/operation-service';
 import { Operation, OperationWithId } from '../operation';

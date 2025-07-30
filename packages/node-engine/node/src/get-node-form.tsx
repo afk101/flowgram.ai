@@ -5,10 +5,10 @@
 
 import React from 'react';
 
-import { Disposable, Event } from '@q/flowgram.ai.utils';
-import { FlowNodeFormData, NodeRender, OnFormValuesChangePayload } from '@q/flowgram.ai.form-core';
-import { FieldName, FieldValue, FormState } from '@q/flowgram.ai.form';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { Disposable, Event } from '@flowgram.ai/utils';
+import { FlowNodeFormData, NodeRender, OnFormValuesChangePayload } from '@flowgram.ai/form-core';
+import { FieldName, FieldValue, FormState } from '@flowgram.ai/form';
+import { FlowNodeEntity } from '@flowgram.ai/document';
 
 import { onFormValueChangeInPayload } from './types';
 import { FormModelV2 } from './form-model-v2';

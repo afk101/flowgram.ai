@@ -10,8 +10,8 @@ import {
   Form,
   FormModelV2,
   useNodeRender,
-} from '@q/flowgram.ai.free-layout-editor';
-import { useNodeSize } from '@q/flowgram.ai.free-container-plugin';
+} from '@flowgram.ai/free-layout-editor';
+import { useNodeSize } from '@flowgram.ai/free-container-plugin';
 
 import { HEADER_HEIGHT, HEADER_PADDING } from '../constant';
 import { UngroupButton } from './ungroup';

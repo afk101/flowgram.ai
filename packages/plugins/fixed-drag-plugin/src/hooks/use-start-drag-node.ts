@@ -5,8 +5,8 @@
 
 import { useMemo } from 'react';
 
-import { FlowDragLayer } from '@q/flowgram.ai.renderer';
-import { usePlayground } from '@q/flowgram.ai.core';
+import { FlowDragLayer } from '@flowgram.ai/renderer';
+import { usePlayground } from '@flowgram.ai/core';
 
 export function useStartDragNode() {
   const playground = usePlayground();

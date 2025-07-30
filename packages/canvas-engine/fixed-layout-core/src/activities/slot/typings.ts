@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeBaseType } from '@q/flowgram.ai.document';
+import { FlowNodeBaseType } from '@flowgram.ai/document';
 
 export enum SlotNodeType {
   Slot = FlowNodeBaseType.SLOT,

@@ -8,7 +8,7 @@ import {
   FlowNodeBaseType,
   type FlowNodeRegistry,
   FlowTransitionLineEnum,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 
 import { TryCatchSpacings, TryCatchTypeEnum } from './constants';
 

@@ -12,7 +12,7 @@ import {
   FlowGroupService,
   type FlowNodeEntity,
   SelectorBoxPopoverProps,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 import { Button, ButtonGroup, Tooltip } from '@douyinfe/semi-ui';
 import {
   IconCopy,

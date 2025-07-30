@@ -7,9 +7,9 @@
 import React from 'react';
 
 import { inject } from 'inversify';
-import { domUtils } from '@q/flowgram.ai.utils';
-import { nanoid } from '@q/flowgram.ai.free-layout-core';
-import { Layer } from '@q/flowgram.ai.core';
+import { domUtils } from '@flowgram.ai/utils';
+import { nanoid } from '@flowgram.ai/free-layout-core';
+import { Layer } from '@flowgram.ai/core';
 
 import type {
   CallNodePanelParams,

@@ -11,7 +11,7 @@ import {
   PluginContext,
   createPluginContextDefault,
   FlowDocument,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 
 import { FreeLayoutPluginContext, FreeLayoutProps, createFreeLayoutPreset } from '../src';
 

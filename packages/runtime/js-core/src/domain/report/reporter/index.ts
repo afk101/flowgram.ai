@@ -12,7 +12,7 @@ import {
   NodeReport,
   WorkflowReports,
   IMessageCenter,
-} from '@q/flowgram.ai.runtime-interface';
+} from '@flowgram.ai/runtime-interface';
 
 import { WorkflowRuntimeReport } from '../report-value-object';
 

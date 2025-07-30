@@ -21,8 +21,8 @@ import {
   TaskValidateDefine,
   TaskValidateInput,
   TaskValidateOutput,
-} from '@q/flowgram.ai.runtime-interface';
-import { injectable } from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/runtime-interface';
+import { injectable } from '@flowgram.ai/free-layout-editor';
 
 import { ServerConfig } from '../../type';
 import type { ServerError } from './type';

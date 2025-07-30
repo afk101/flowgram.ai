@@ -8,8 +8,8 @@ import {
   FlowDocumentContainerModule,
   FlowNodeRegistry,
   type FlowDocumentJSON,
-} from '@q/flowgram.ai.document';
-import { EntityManager } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/document';
+import { EntityManager } from '@flowgram.ai/core';
 
 import { FixedLayoutContainerModule } from '../src/fixed-layout-container-module';
 

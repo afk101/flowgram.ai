@@ -7,7 +7,7 @@
 
 import { FC } from 'react';
 
-import { WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowNodeEntity } from '@flowgram.ai/free-layout-editor';
 
 import { NodeMenu } from '@editor/components/node-menu';
 

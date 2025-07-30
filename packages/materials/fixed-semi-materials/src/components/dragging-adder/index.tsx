@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { FlowDragLayer, usePlayground } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowDragLayer, usePlayground } from '@flowgram.ai/fixed-layout-editor';
 
 import { UIDragNodeContainer } from './styles';
 

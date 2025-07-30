@@ -7,9 +7,9 @@
 import { PreviewEditor } from '../preview-editor';
 import { InfiniteCanvas } from './infinite-canvas.tsx';
 
-import editorCode from '!!raw-loader!@q/flowgram.ai.demo-playground/src/editor.tsx';
-import toolCode from '!!raw-loader!@q/flowgram.ai.demo-playground/src/components/playground-tools.tsx';
-import cardCode from '!!raw-loader!@q/flowgram.ai.demo-playground/src/components/card.tsx';
+import editorCode from '!!raw-loader!@flowgram.ai/demo-playground/src/editor.tsx';
+import toolCode from '!!raw-loader!@flowgram.ai/demo-playground/src/components/playground-tools.tsx';
+import cardCode from '!!raw-loader!@flowgram.ai/demo-playground/src/components/card.tsx';
 
 export const InfiniteCanvasPreview = () => {
   const files = {

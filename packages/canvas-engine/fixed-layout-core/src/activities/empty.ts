@@ -9,7 +9,7 @@ import {
   FlowTransitionLabelEnum,
   ConstantKeys,
   getDefaultSpacing,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 
 /**
  * 占位节点，宽高为 0, 该节点下边同样有 "添加 label"

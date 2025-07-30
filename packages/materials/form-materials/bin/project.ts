@@ -39,13 +39,13 @@ export function getProjectInfo(): ProjectInfo {
 
   // fixed layout or free layout
   const flowgramVersion: string | undefined =
-    packageJson.dependencies['@q/flowgram.ai.fixed-layout-editor'] ||
-    packageJson.dependencies['@q/flowgram.ai.free-layout-editor'] ||
-    packageJson.dependencies['@q/flowgram.ai.editor'];
+    packageJson.dependencies['@flowgram.ai/fixed-layout-editor'] ||
+    packageJson.dependencies['@flowgram.ai/free-layout-editor'] ||
+    packageJson.dependencies['@flowgram.ai/editor'];
 
   if (!flowgramVersion) {
     throw new Error(
-      'Please install @q/flowgram.ai.fixed-layout-editor or @q/flowgram.ai.free-layout-editor'
+      'Please install @flowgram.ai/fixed-layout-editor or @flowgram.ai/free-layout-editor'
     );
   }
 

@@ -5,10 +5,10 @@
 
 import { interfaces } from 'inversify';
 import { fireEvent, waitFor } from '@testing-library/react';
-import { IPoint } from '@q/flowgram.ai.utils';
-import { FlowNodeBaseType } from '@q/flowgram.ai.document';
-import { PlaygroundConfigEntity, PositionData } from '@q/flowgram.ai.core';
-import { TransformData } from '@q/flowgram.ai.core';
+import { IPoint } from '@flowgram.ai/utils';
+import { FlowNodeBaseType } from '@flowgram.ai/document';
+import { PlaygroundConfigEntity, PositionData } from '@flowgram.ai/core';
+import { TransformData } from '@flowgram.ai/core';
 
 import { createWorkflowContainer, baseJSON, nestJSON } from '../mocks';
 import {

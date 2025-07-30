@@ -6,8 +6,8 @@
 import React from 'react';
 
 import { injectable } from 'inversify';
-import { Layer } from '@q/flowgram.ai.core';
-import { domUtils } from '@q/flowgram.ai.utils';
+import { Layer } from '@flowgram.ai/core';
+import { domUtils } from '@flowgram.ai/utils';
 
 export interface PlaygroundReactContentProps {
   className?: string;

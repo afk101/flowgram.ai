@@ -7,8 +7,8 @@ import {
   WorkflowContentChangeType,
   WorkflowDocument,
   WorkflowDocumentOptionsDefault,
-} from '@q/flowgram.ai.free-layout-core';
-import { FlowNodeEntity, FlowNodeFormData, type FlowNodeJSON } from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/free-layout-core';
+import { FlowNodeEntity, FlowNodeFormData, type FlowNodeJSON } from '@flowgram.ai/editor';
 
 import { FreeLayoutProps } from './free-layout-props';
 

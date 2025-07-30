@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FreeLayoutPluginContext, ShortcutsRegistry } from '@q/flowgram.ai.free-layout-editor';
+import { FreeLayoutPluginContext, ShortcutsRegistry } from '@flowgram.ai/free-layout-editor';
 
 import { ZoomOutShortcut } from './zoom-out';
 import { ZoomInShortcut } from './zoom-in';

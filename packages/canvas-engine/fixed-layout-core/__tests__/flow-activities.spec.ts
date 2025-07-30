@@ -10,7 +10,7 @@ import {
   type FlowDocumentJSON,
   FlowNodeTransformData,
   FlowOperationBaseService,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 
 import {
   createDocumentContainer,

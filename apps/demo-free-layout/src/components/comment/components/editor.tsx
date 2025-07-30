@@ -5,7 +5,7 @@
 
 import { type FC, type CSSProperties, useEffect, useRef, useState, useMemo } from 'react';
 
-import { usePlayground } from '@q/flowgram.ai.free-layout-editor';
+import { usePlayground } from '@flowgram.ai/free-layout-editor';
 
 import { CommentEditorModel } from '../model';
 import { CommentEditorEvent } from '../constant';

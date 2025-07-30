@@ -4,8 +4,8 @@
  */
 
 import { nanoid } from 'nanoid';
-import { Disposable } from '@q/flowgram.ai.utils';
-import { type NodeFormContext } from '@q/flowgram.ai.form-core';
+import { Disposable } from '@flowgram.ai/utils';
+import { type NodeFormContext } from '@flowgram.ai/form-core';
 
 import { type FormMeta, type FormPluginCtx, type FormPluginSetupMetaCtx } from './types';
 import { FormModelV2 } from './form-model-v2';

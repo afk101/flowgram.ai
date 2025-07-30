@@ -5,7 +5,7 @@
 
 import { useState } from 'react';
 
-import { usePlayground, usePlaygroundTools } from '@q/flowgram.ai.free-layout-editor';
+import { usePlayground, usePlaygroundTools } from '@flowgram.ai/free-layout-editor';
 import { Divider, Dropdown } from '@douyinfe/semi-ui';
 
 import { SelectZoom } from './styles';

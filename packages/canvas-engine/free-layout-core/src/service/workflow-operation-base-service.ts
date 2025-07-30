@@ -4,9 +4,9 @@
  */
 
 import { inject } from 'inversify';
-import { IPoint, Emitter } from '@q/flowgram.ai.utils';
-import { FlowNodeEntityOrId, FlowOperationBaseServiceImpl } from '@q/flowgram.ai.document';
-import { TransformData } from '@q/flowgram.ai.core';
+import { IPoint, Emitter } from '@flowgram.ai/utils';
+import { FlowNodeEntityOrId, FlowOperationBaseServiceImpl } from '@flowgram.ai/document';
+import { TransformData } from '@flowgram.ai/core';
 
 import { WorkflowDocument } from '../workflow-document';
 import {

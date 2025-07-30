@@ -7,16 +7,16 @@
 import { PreviewEditor } from '../preview-editor';
 import { FixedLayoutSimple } from './index';
 
-import nodeRegistriesCode from '!!raw-loader!@q/flowgram.ai.demo-fixed-layout-simple/src/node-registries.ts';
-import initialDataCode from '!!raw-loader!@q/flowgram.ai.demo-fixed-layout-simple/src/initial-data.ts';
-import indexCssCode from '!!raw-loader!@q/flowgram.ai.demo-fixed-layout-simple/src/index.css';
-import useEditorPropsCode from '!!raw-loader!@q/flowgram.ai.demo-fixed-layout-simple/src/hooks/use-editor-props.tsx';
-import editorCode from '!!raw-loader!@q/flowgram.ai.demo-fixed-layout-simple/src/editor.tsx';
-import toolsCode from '!!raw-loader!@q/flowgram.ai.demo-fixed-layout-simple/src/components/tools.tsx';
-import nodeAdderCode from '!!raw-loader!@q/flowgram.ai.demo-fixed-layout-simple/src/components/node-adder.tsx';
-import miniMapCode from '!!raw-loader!@q/flowgram.ai.demo-fixed-layout-simple/src/components/minimap.tsx';
-import branchAdderCode from '!!raw-loader!@q/flowgram.ai.demo-fixed-layout-simple/src/components/branch-adder.tsx';
-import baseNodeCode from '!!raw-loader!@q/flowgram.ai.demo-fixed-layout-simple/src/components/base-node.tsx';
+import nodeRegistriesCode from '!!raw-loader!@flowgram.ai/demo-fixed-layout-simple/src/node-registries.ts';
+import initialDataCode from '!!raw-loader!@flowgram.ai/demo-fixed-layout-simple/src/initial-data.ts';
+import indexCssCode from '!!raw-loader!@flowgram.ai/demo-fixed-layout-simple/src/index.css';
+import useEditorPropsCode from '!!raw-loader!@flowgram.ai/demo-fixed-layout-simple/src/hooks/use-editor-props.tsx';
+import editorCode from '!!raw-loader!@flowgram.ai/demo-fixed-layout-simple/src/editor.tsx';
+import toolsCode from '!!raw-loader!@flowgram.ai/demo-fixed-layout-simple/src/components/tools.tsx';
+import nodeAdderCode from '!!raw-loader!@flowgram.ai/demo-fixed-layout-simple/src/components/node-adder.tsx';
+import miniMapCode from '!!raw-loader!@flowgram.ai/demo-fixed-layout-simple/src/components/minimap.tsx';
+import branchAdderCode from '!!raw-loader!@flowgram.ai/demo-fixed-layout-simple/src/components/branch-adder.tsx';
+import baseNodeCode from '!!raw-loader!@flowgram.ai/demo-fixed-layout-simple/src/components/base-node.tsx';
 
 const indexCode = {
   code: editorCode,

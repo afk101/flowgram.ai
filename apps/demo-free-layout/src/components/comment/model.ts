@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Emitter } from '@q/flowgram.ai.free-layout-editor';
+import { Emitter } from '@flowgram.ai/free-layout-editor';
 
 import { CommentEditorEventParams } from './type';
 import { CommentEditorDefaultValue, CommentEditorEvent } from './constant';

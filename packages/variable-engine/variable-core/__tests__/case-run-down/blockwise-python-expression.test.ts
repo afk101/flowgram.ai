@@ -6,7 +6,7 @@
 import { describe, expect, test } from 'vitest';
 import { isEqual } from 'lodash';
 import { Container, injectable } from 'inversify';
-import { Emitter } from '@q/flowgram.ai.utils';
+import { Emitter } from '@flowgram.ai/utils';
 
 import { CreateASTParams } from '../../src/ast/types';
 import {

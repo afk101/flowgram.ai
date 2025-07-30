@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { FlowGramNode, WorkflowSchema } from '@q/flowgram.ai.runtime-interface';
+import { FlowGramNode, WorkflowSchema } from '@flowgram.ai/runtime-interface';
 
 import { flatSchema } from './flat-schema';
 

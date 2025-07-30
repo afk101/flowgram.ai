@@ -12,7 +12,7 @@ import {
   WorkflowDocument,
   WorkflowDragService,
   WorkflowSelectService,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 import { IconButton, Tooltip } from '@douyinfe/semi-ui';
 
 import { WorkflowNodeType } from '../../nodes';

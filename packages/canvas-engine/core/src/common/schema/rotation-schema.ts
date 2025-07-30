@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { RotationSchemaDecoration, Schema } from '@q/flowgram.ai.utils';
-import type { RotationSchema } from '@q/flowgram.ai.utils';
+import { RotationSchemaDecoration, Schema } from '@flowgram.ai/utils';
+import type { RotationSchema } from '@flowgram.ai/utils';
 
 import { EntityData } from '../entity-data';
 

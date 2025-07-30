@@ -7,7 +7,7 @@ import React from 'react';
 import './index.less';
 
 const InfiniteCanvas = React.lazy(() =>
-  import('@q/flowgram.ai.demo-playground').then((module) => ({
+  import('@flowgram.ai/demo-playground').then((module) => ({
     default: module.PlaygroundEditor,
   }))
 );

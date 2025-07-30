@@ -5,9 +5,9 @@
 
 import { last } from 'lodash-es';
 import { inject, injectable } from 'inversify';
-import { DisposableCollection, Emitter, type IPoint } from '@q/flowgram.ai.utils';
-import { FlowNodeRenderData, FlowNodeTransformData } from '@q/flowgram.ai.document';
-import { EntityManager, PlaygroundConfigEntity } from '@q/flowgram.ai.core';
+import { DisposableCollection, Emitter, type IPoint } from '@flowgram.ai/utils';
+import { FlowNodeRenderData, FlowNodeTransformData } from '@flowgram.ai/document';
+import { EntityManager, PlaygroundConfigEntity } from '@flowgram.ai/core';
 
 import { WorkflowDocumentOptions } from './workflow-document-option';
 import { type WorkflowDocument } from './workflow-document';

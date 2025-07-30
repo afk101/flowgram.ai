@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowTransitionLineEnum } from "@q/flowgram.ai.document"
+import { FlowTransitionLineEnum } from "@flowgram.ai/document"
 
 export const mockDivergeLine1 = {
   type: FlowTransitionLineEnum.DIVERGE_LINE,

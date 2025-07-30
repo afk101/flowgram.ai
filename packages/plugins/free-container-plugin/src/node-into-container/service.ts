@@ -13,7 +13,7 @@ import {
   DisposableCollection,
   Emitter,
   type IPoint,
-} from '@q/flowgram.ai.utils';
+} from '@flowgram.ai/utils';
 import {
   type NodesDragEvent,
   WorkflowDocument,
@@ -23,10 +23,10 @@ import {
   WorkflowNodeMeta,
   WorkflowOperationBaseService,
   WorkflowSelectService,
-} from '@q/flowgram.ai.free-layout-core';
-import { HistoryService } from '@q/flowgram.ai.free-history-plugin';
-import { FlowNodeTransformData, FlowNodeRenderData, FlowNodeBaseType } from '@q/flowgram.ai.document';
-import { PlaygroundConfigEntity, TransformData } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/free-layout-core';
+import { HistoryService } from '@flowgram.ai/free-history-plugin';
+import { FlowNodeTransformData, FlowNodeRenderData, FlowNodeBaseType } from '@flowgram.ai/document';
+import { PlaygroundConfigEntity, TransformData } from '@flowgram.ai/core';
 
 import type { NodeIntoContainerEvent, NodeIntoContainerState } from './type';
 import { NodeIntoContainerType } from './constant';

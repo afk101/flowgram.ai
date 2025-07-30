@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Disposable, Emitter } from '@q/flowgram.ai.utils';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
-import { EntityData } from '@q/flowgram.ai.core';
+import { Disposable, Emitter } from '@flowgram.ai/utils';
+import { FlowNodeEntity } from '@flowgram.ai/document';
+import { EntityData } from '@flowgram.ai/core';
 
 import { FlowNodeErrorData } from '../error';
 import { FormMetaOrFormMetaGenerator } from './types';
