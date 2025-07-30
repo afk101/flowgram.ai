@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import {Field, FieldRenderProps, FormMeta, FormRenderProps} from "@flowgram.ai/editor";
+import {Field, FieldRenderProps, FormMeta, FormRenderProps} from "@q/flowgram.ai.editor";
 
 
 export const render = ({ form }: FormRenderProps<FormData>) => {

@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { IJsonSchema } from '@flowgram.ai/runtime-interface';
+import { IJsonSchema } from '@q/flowgram.ai.runtime-interface';
 
 import { JSONSchemaValidator } from './json-schema-validator';
 

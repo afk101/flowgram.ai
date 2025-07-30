@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, PaddingSchema, Point } from '@flowgram.ai/utils';
+import { IPoint, PaddingSchema, Point } from '@q/flowgram.ai.utils';
 import {
   FlowGroupController,
   FlowNodeBaseType,
@@ -12,7 +12,7 @@ import {
   FlowTransitionLabelEnum,
   type FlowTransitionLine,
   FlowTransitionLineEnum,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import { GroupRenderer, PositionConfig } from './constant';
 

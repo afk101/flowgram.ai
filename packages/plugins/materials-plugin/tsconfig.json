@@ -1,5 +1,5 @@
 {
-  "extends": "@flowgram.ai/ts-config/tsconfig.flow.path.json",
+  "extends": "@q/flowgram.ai.ts-config/tsconfig.flow.path.json",
   "compilerOptions": {
   },
   "include": ["./src"],

@@ -4,7 +4,7 @@
  */
 
 import { Container, ContainerModule, type interfaces } from 'inversify';
-import { bindContributions } from '@flowgram.ai/utils';
+import { bindContributions } from '@q/flowgram.ai.utils';
 import { EditorRegister, Editor } from './editor.mock'
 
 import {

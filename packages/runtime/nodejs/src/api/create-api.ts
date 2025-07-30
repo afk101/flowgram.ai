@@ -4,8 +4,8 @@
  */
 
 import z from 'zod';
-import { WorkflowRuntimeAPIs } from '@flowgram.ai/runtime-js';
-import { FlowGramAPIMethod, FlowGramAPIName, FlowGramAPIs } from '@flowgram.ai/runtime-interface';
+import { WorkflowRuntimeAPIs } from '@q/flowgram.ai.runtime-js';
+import { FlowGramAPIMethod, FlowGramAPIName, FlowGramAPIs } from '@q/flowgram.ai.runtime-interface';
 
 import { APIHandler } from './type';
 import { publicProcedure } from './trpc';

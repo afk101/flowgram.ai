@@ -5,14 +5,14 @@
 
 import * as React from 'react';
 
-import { FormModel, IFormMeta, NodeContext } from '@flowgram.ai/form-core';
-import { FieldName, FieldValue } from '@flowgram.ai/form/src/types';
+import { FormModel, IFormMeta, NodeContext } from '@q/flowgram.ai.form-core';
+import { FieldName, FieldValue } from '@q/flowgram.ai.form/src/types';
 import {
   FormRenderProps,
   IForm,
   Validate as FormValidate,
   ValidateTrigger,
-} from '@flowgram.ai/form';
+} from '@q/flowgram.ai.form';
 
 import { FormPlugin } from './form-plugin';
 import { FormModelV2 } from './form-model-v2';

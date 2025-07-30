@@ -15,7 +15,7 @@ export {
   useEntityDataFromContext,
   useRefresh,
   usePlaygroundLatest,
-} from '@flowgram.ai/core';
+} from '@q/flowgram.ai.core';
 export * from './typings';
 export * from './use-node-render';
 export * from './use-current-dom-node';

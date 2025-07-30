@@ -4,7 +4,7 @@
  */
 
 import { describe, it, expect, beforeEach } from 'vitest';
-import { FlowNodeEntity } from '@flowgram.ai/editor';
+import { FlowNodeEntity } from '@q/flowgram.ai.editor';
 
 import { createHistoryContainer } from '../../create-container';
 import { baseMock } from '../../../__mocks__/flow.mock';

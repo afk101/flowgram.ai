@@ -5,9 +5,9 @@
 
 import type React from 'react';
 
-import { type PositionSchema } from '@flowgram.ai/utils';
-import { type FlowNodeEntity } from '@flowgram.ai/document';
-import { PlaygroundDrag, type PlaygroundDragEvent } from '@flowgram.ai/core';
+import { type PositionSchema } from '@q/flowgram.ai.utils';
+import { type FlowNodeEntity } from '@q/flowgram.ai.document';
+import { PlaygroundDrag, type PlaygroundDragEvent } from '@q/flowgram.ai.core';
 
 import { type WorkflowLineEntity, type WorkflowPortEntity } from '../entities';
 

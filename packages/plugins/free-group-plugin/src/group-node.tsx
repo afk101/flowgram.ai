@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { PositionSchema } from '@flowgram.ai/utils';
-import { WorkflowNodeEntity } from '@flowgram.ai/free-layout-core';
-import { FlowNodeRegistry, FlowNodeBaseType, FlowNodeTransformData } from '@flowgram.ai/document';
+import { PositionSchema } from '@q/flowgram.ai.utils';
+import { WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-core';
+import { FlowNodeRegistry, FlowNodeBaseType, FlowNodeTransformData } from '@q/flowgram.ai.document';
 
 export const GroupNodeRegistry: FlowNodeRegistry = {
   type: FlowNodeBaseType.GROUP,

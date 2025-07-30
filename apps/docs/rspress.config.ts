@@ -8,7 +8,7 @@ import * as path from 'node:path';
 import { merge } from 'webpack-merge';
 import { defineConfig } from 'rspress/config';
 import { pluginLess } from '@rsbuild/plugin-less';
-import { pluginLlms } from '@flowgram.ai/plugin-llms';
+import { pluginLlms } from '@q/flowgram.ai.plugin-llms';
 
 export default defineConfig({
   root: path.join(__dirname, 'src'),

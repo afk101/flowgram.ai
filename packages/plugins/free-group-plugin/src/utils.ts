@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowNodeEntity } from '@flowgram.ai/free-layout-core';
-import { FlowNodeBaseType } from '@flowgram.ai/document';
+import { WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-core';
+import { FlowNodeBaseType } from '@q/flowgram.ai.document';
 
 export namespace WorkflowGroupUtils {
   /** 找到节点所有上级 */

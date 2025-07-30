@@ -8,7 +8,7 @@ import {
   defaultInitialDataTs,
   fieldWrapperCss,
   fieldWrapperTs,
-} from '@flowgram.ai/demo-node-form';
+} from '@q/flowgram.ai.demo-node-form';
 
 import { Editor } from '../editor.tsx';
 import { PreviewEditor } from '../../preview-editor.tsx';
@@ -25,8 +25,8 @@ const nodeRegistryFile = {
   WorkflowNodeRegistry,
   FieldArray,
   FieldArrayRenderProps,
-} from '@flowgram.ai/free-layout-editor';
-import { FieldWrapper } from '@flowgram.ai/demo-node-form';
+} from '@q/flowgram.ai.free-layout-editor';
+import { FieldWrapper } from '@q/flowgram.ai.demo-node-form';
 import { Input, Button, Popover } from '@douyinfe/semi-ui';
 import { IconPlus, IconCrossCircleStroked, IconArrowDown } from '@douyinfe/semi-icons';
 import './index.css';

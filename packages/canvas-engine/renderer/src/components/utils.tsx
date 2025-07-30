@@ -13,7 +13,7 @@ import {
   type Vertex,
   DefaultSpacingKey,
   DEFAULT_SPACING,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import { BASE_DEFAULT_COLOR } from '../hooks/use-base-color';
 

@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Scope } from '@flowgram.ai/variable-core';
-import { FlowNodeEntity } from '@flowgram.ai/document';
+import { Scope } from '@q/flowgram.ai.variable-core';
+import { FlowNodeEntity } from '@q/flowgram.ai.document';
 
 export enum FlowNodeScopeTypeEnum {
   public = 'public',

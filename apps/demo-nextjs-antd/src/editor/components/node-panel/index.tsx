@@ -7,7 +7,7 @@ import './index.scss';
 import { FC } from 'react';
 
 import { Popover } from 'antd';
-import { NodePanelRenderProps } from '@flowgram.ai/free-node-panel-plugin';
+import { NodePanelRenderProps } from '@q/flowgram.ai.free-node-panel-plugin';
 
 import { NodePlaceholder } from './node-placeholder';
 import { NodeList } from './node-list';

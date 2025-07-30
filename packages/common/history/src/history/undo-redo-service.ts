@@ -4,7 +4,7 @@
  */
 
 import { injectable } from 'inversify';
-import { Emitter, DisposableCollection } from '@flowgram.ai/utils';
+import { Emitter, DisposableCollection } from '@q/flowgram.ai.utils';
 
 import {
   IUndoRedoElement,

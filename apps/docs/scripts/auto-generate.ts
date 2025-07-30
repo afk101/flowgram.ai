@@ -120,7 +120,7 @@ async function generateDocs() {
   packages.forEach((packageName) => {
     metaJson.push({
       type: 'dir',
-      label: `@flowgram.ai/${packageName}`,
+      label: `@q/flowgram.ai.${packageName}`,
       name: packageName,
     });
   });

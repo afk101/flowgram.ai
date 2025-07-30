@@ -4,6 +4,6 @@
  */
 
 import { nanoid } from 'nanoid';
-import { FlowNodeEntity } from '@flowgram.ai/fixed-layout-editor';
+import { FlowNodeEntity } from '@q/flowgram.ai.fixed-layout-editor';
 
 export const generateNodeId = (n: FlowNodeEntity) => `${n.type || n.flowNodeType}_${nanoid()}`;

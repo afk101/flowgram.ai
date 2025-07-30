@@ -5,7 +5,7 @@
 
 import { useEffect, useState } from 'react';
 
-import { usePlaygroundTools, useClientContext } from '@flowgram.ai/free-layout-editor';
+import { usePlaygroundTools, useClientContext } from '@q/flowgram.ai.free-layout-editor';
 
 export function Tools() {
   const { history } = useClientContext();

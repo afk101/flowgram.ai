@@ -9,7 +9,7 @@ import {
   IVariableStore,
   IVariable,
   IVariableParseResult,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 import { uuid, WorkflowRuntimeType } from '@infra/utils';
 import { WorkflowRuntimeVariable } from '../variable-value-object';

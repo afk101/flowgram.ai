@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeEntity, useNodeRender, useClientContext } from '@flowgram.ai/fixed-layout-editor';
+import { FlowNodeEntity, useNodeRender, useClientContext } from '@q/flowgram.ai.fixed-layout-editor';
 import { IconDeleteStroked } from '@douyinfe/semi-icons';
 
 export const BaseNode = ({ node }: { node: FlowNodeEntity }) => {

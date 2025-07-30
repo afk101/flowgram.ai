@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { ChangeNodeOperationValue, OperationType } from '@flowgram.ai/document';
-import { PluginContext } from '@flowgram.ai/core';
-import { OperationMeta } from '@flowgram.ai/history';
+import { ChangeNodeOperationValue, OperationType } from '@q/flowgram.ai.document';
+import { PluginContext } from '@q/flowgram.ai.core';
+import { OperationMeta } from '@q/flowgram.ai.history';
 
 import { FixedHistoryFormDataService } from '../services';
 import { baseOperationMeta } from './base';

@@ -5,7 +5,7 @@
 
 import { useEffect } from 'react';
 
-import { useService, useRefresh } from '@flowgram.ai/core';
+import { useService, useRefresh } from '@q/flowgram.ai.core';
 
 import { NodeEngineContext } from '../../node';
 

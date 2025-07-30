@@ -10,7 +10,7 @@ import {
   PlaygroundReactProvider,
   PlaygroundReactRenderer,
   PluginContext,
-} from '@flowgram.ai/core';
+} from '@q/flowgram.ai.core';
 
 import { PlaygroundReactProps, createPlaygroundReactPreset } from '../preset';
 import { PlaygroundContentLayer } from '../layers/playground-content-layer';

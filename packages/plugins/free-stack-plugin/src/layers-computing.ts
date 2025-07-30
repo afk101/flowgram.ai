@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import type { WorkflowNodeEntity } from '@flowgram.ai/free-layout-core';
-import type { WorkflowLineEntity } from '@flowgram.ai/free-layout-core';
-import { FlowNodeRenderData } from '@flowgram.ai/document';
+import type { WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-core';
+import type { WorkflowLineEntity } from '@q/flowgram.ai.free-layout-core';
+import { FlowNodeRenderData } from '@q/flowgram.ai.document';
 
 import type { StackingContext } from './type';
 import { StackingBaseIndex, StackingConfig, StackingType } from './constant';

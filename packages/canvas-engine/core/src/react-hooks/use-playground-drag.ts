@@ -5,7 +5,7 @@
 
 import { useMemo } from 'react';
 
-import { Disposable } from '@flowgram.ai/utils';
+import { Disposable } from '@q/flowgram.ai.utils';
 
 import { PlaygroundDragOptions, PlaygroundDrag } from '../core';
 import { usePlayground } from './use-playground';

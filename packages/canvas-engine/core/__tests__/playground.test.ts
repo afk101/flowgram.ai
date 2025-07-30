@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Rectangle } from '@flowgram.ai/utils';
+import { Rectangle } from '@q/flowgram.ai.utils';
 
 import { createPlayground } from '../__mocks__/playground-container.mock';
 import { createEntity } from '../__mocks__/create-entity.mock';

@@ -4,14 +4,14 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { domUtils } from '@flowgram.ai/utils';
+import { domUtils } from '@q/flowgram.ai.utils';
 import {
   FlowDocument,
   FlowDocumentTransformerEntity,
   FlowNodeEntity,
   FlowNodeTransformData,
-} from '@flowgram.ai/document';
-import { Layer, observeEntity, observeEntityDatas } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.document';
+import { Layer, observeEntity, observeEntityDatas } from '@q/flowgram.ai.core';
 
 import { getScrollViewport } from '../utils';
 

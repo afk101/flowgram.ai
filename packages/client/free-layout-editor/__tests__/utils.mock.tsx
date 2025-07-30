@@ -9,8 +9,8 @@ import { ContainerModule, interfaces } from 'inversify';
 import {
   WorkflowBezierLineContribution,
   WorkflowFoldLineContribution,
-} from '@flowgram.ai/free-lines-plugin';
-import { AutoLayoutService } from '@flowgram.ai/free-auto-layout-plugin';
+} from '@q/flowgram.ai.free-lines-plugin';
+import { AutoLayoutService } from '@q/flowgram.ai.free-auto-layout-plugin';
 
 import { WorkflowAutoLayoutTool } from '../src/tools';
 import {

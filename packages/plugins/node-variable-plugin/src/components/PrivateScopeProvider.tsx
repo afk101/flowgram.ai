@@ -5,8 +5,8 @@
 
 import React, { useMemo } from 'react';
 
-import { FlowNodeVariableData, type Scope, ScopeProvider } from '@flowgram.ai/variable-plugin';
-import { useEntityFromContext } from '@flowgram.ai/core';
+import { FlowNodeVariableData, type Scope, ScopeProvider } from '@q/flowgram.ai.variable-plugin';
+import { useEntityFromContext } from '@q/flowgram.ai.core';
 
 interface VariableProviderProps {
   children: React.ReactElement;

@@ -6,7 +6,7 @@
 import { FC } from 'react';
 
 import { Popover, Tooltip } from 'antd';
-import { Field } from '@flowgram.ai/free-layout-editor';
+import { Field } from '@q/flowgram.ai.free-layout-editor';
 
 import { GroupField } from '../constant';
 import { defaultColor, groupColors } from '../color';

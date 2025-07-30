@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Point } from '@flowgram.ai/utils';
-import { FlowRendererKey } from '@flowgram.ai/renderer';
+import { Point } from '@q/flowgram.ai.utils';
+import { FlowRendererKey } from '@q/flowgram.ai.renderer';
 import {
   DEFAULT_SPACING,
   FlowNodeBaseType,
@@ -16,7 +16,7 @@ import {
   FlowLayoutDefault,
   ConstantKeys,
   getDefaultSpacing,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 /**
  * 水平 Block 的偏移

@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: MIT
  */
 
-import type { EntityManager, PipelineRegistry, PipelineRenderer } from '@flowgram.ai/core';
+import type { EntityManager, PipelineRegistry, PipelineRenderer } from '@q/flowgram.ai.core';
 import type {
   WorkflowDocument,
   WorkflowHoverService,
   WorkflowLineEntity,
   WorkflowNodeEntity,
   WorkflowSelectService,
-} from '@flowgram.ai/free-layout-core';
-import type { Disposable } from '@flowgram.ai/utils';
+} from '@q/flowgram.ai.free-layout-core';
+import type { Disposable } from '@q/flowgram.ai.utils';
 
 import type { StackingContext } from '../src/type';
 import type { StackingComputeMode } from '../src/constant';

@@ -4,10 +4,10 @@
  */
 
 import { ContainerModule } from 'inversify';
-import { FlowRendererContribution } from '@flowgram.ai/renderer';
-import { FlowDocumentContribution } from '@flowgram.ai/document';
-import { PlaygroundContribution } from '@flowgram.ai/core';
-import { bindContributions } from '@flowgram.ai/utils';
+import { FlowRendererContribution } from '@q/flowgram.ai.renderer';
+import { FlowDocumentContribution } from '@q/flowgram.ai.document';
+import { PlaygroundContribution } from '@q/flowgram.ai.core';
+import { bindContributions } from '@q/flowgram.ai.utils';
 
 import { FlowRegisters } from './flow-registers';
 

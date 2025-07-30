@@ -5,13 +5,13 @@
 
 import React from 'react';
 
-import { type IPoint, Rectangle } from '@flowgram.ai/utils';
+import { type IPoint, Rectangle } from '@q/flowgram.ai.utils';
 import {
   type CustomLabelProps,
   type FlowNodeTransitionData,
   type FlowTransitionLabel,
   FlowTransitionLabelEnum,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import { type FlowRendererRegistry } from '../flow-renderer-registry';
 import CollapseAdder from './CollapseAdder';
