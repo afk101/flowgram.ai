@@ -4,15 +4,15 @@
  */
 
 import { interfaces } from 'inversify';
-import { FlowRendererContainerModule, FlowRendererRegistry } from '@flowgram.ai/renderer';
-import { createReduxDevToolPlugin } from '@flowgram.ai/redux-devtool-plugin';
-import { createNodeVariablePlugin } from '@flowgram.ai/node-variable-plugin';
-import { createNodeCorePlugin } from '@flowgram.ai/node-core-plugin';
-import { createMaterialsPlugin } from '@flowgram.ai/materials-plugin';
-import { createI18nPlugin } from '@flowgram.ai/i18n-plugin';
-import { createHistoryNodePlugin } from '@flowgram.ai/history-node-plugin';
-import { FlowDocumentContainerModule } from '@flowgram.ai/document';
-import { createPlaygroundPlugin, Plugin, PluginsProvider } from '@flowgram.ai/core';
+import { FlowRendererContainerModule, FlowRendererRegistry } from '@q/flowgram.ai.renderer';
+import { createReduxDevToolPlugin } from '@q/flowgram.ai.redux-devtool-plugin';
+import { createNodeVariablePlugin } from '@q/flowgram.ai.node-variable-plugin';
+import { createNodeCorePlugin } from '@q/flowgram.ai.node-core-plugin';
+import { createMaterialsPlugin } from '@q/flowgram.ai.materials-plugin';
+import { createI18nPlugin } from '@q/flowgram.ai.i18n-plugin';
+import { createHistoryNodePlugin } from '@q/flowgram.ai.history-node-plugin';
+import { FlowDocumentContainerModule } from '@q/flowgram.ai.document';
+import { createPlaygroundPlugin, Plugin, PluginsProvider } from '@q/flowgram.ai.core';
 
 import { compose } from '../utils/compose';
 import { createFlowEditorClientPlugins } from '../clients/flow-editor-client-plugins';

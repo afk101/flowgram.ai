@@ -4,7 +4,7 @@
  */
 
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { FlowNodeEntity } from '@flowgram.ai/document';
+import { FlowNodeEntity } from '@q/flowgram.ai.document';
 
 import { DataEvent, FormMeta } from '../src/types';
 import { defineFormPluginCreator } from '../src/form-plugin';

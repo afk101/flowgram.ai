@@ -4,7 +4,7 @@
  */
 
 import { injectable, multiInject, optional, postConstruct } from 'inversify';
-import { Disposable, DisposableCollection } from '@flowgram.ai/utils';
+import { Disposable, DisposableCollection } from '@q/flowgram.ai.utils';
 
 import { OperationMeta } from './types';
 import { OperationContribution } from './operation-contribution';

@@ -7,7 +7,7 @@ import {
   definePluginCreator,
   PluginCreator,
   FreeLayoutPluginContext,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 import { ContextMenuLayer } from './context-menu-layer';
 

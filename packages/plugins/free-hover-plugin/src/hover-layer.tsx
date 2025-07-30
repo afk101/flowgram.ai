@@ -5,8 +5,8 @@
 
 /* eslint-disable complexity */
 import { inject, injectable } from 'inversify';
-import { type IPoint } from '@flowgram.ai/utils';
-import { SelectorBoxConfigEntity } from '@flowgram.ai/renderer';
+import { type IPoint } from '@q/flowgram.ai.utils';
+import { SelectorBoxConfigEntity } from '@q/flowgram.ai.renderer';
 import {
   WorkflowDocument,
   WorkflowDragService,
@@ -15,9 +15,9 @@ import {
   WorkflowLinesManager,
   WorkflowNodeEntity,
   WorkflowSelectService,
-} from '@flowgram.ai/free-layout-core';
-import { WorkflowPortEntity } from '@flowgram.ai/free-layout-core';
-import { FlowNodeBaseType, FlowNodeTransformData } from '@flowgram.ai/document';
+} from '@q/flowgram.ai.free-layout-core';
+import { WorkflowPortEntity } from '@q/flowgram.ai.free-layout-core';
+import { FlowNodeBaseType, FlowNodeTransformData } from '@q/flowgram.ai.document';
 import {
   EditorState,
   EditorStateConfigEntity,
@@ -27,7 +27,7 @@ import {
   observeEntity,
   observeEntityDatas,
   type LayerOptions,
-} from '@flowgram.ai/core';
+} from '@q/flowgram.ai.core';
 
 import { getSelectionBounds } from './selection-utils';
 const PORT_BG_CLASS_NAME = 'workflow-port-bg';

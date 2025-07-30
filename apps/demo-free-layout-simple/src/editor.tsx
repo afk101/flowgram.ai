@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { EditorRenderer, FreeLayoutEditorProvider } from '@flowgram.ai/free-layout-editor';
+import { EditorRenderer, FreeLayoutEditorProvider } from '@q/flowgram.ai.free-layout-editor';
 
 import { useEditorProps } from './hooks/use-editor-props';
 import { Tools } from './components/tools';
 import { NodeAddPanel } from './components/node-add-panel';
 import { Minimap } from './components/minimap';
-import '@flowgram.ai/free-layout-editor/index.css';
+import '@q/flowgram.ai.free-layout-editor/index.css';
 import './index.css';
 
 export const Editor = () => {

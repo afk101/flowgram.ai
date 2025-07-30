@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-const { defineConfig } = require('@flowgram.ai/eslint-config');
+const { defineConfig } = require('@q/flowgram.ai.eslint-config');
 
 module.exports = defineConfig({
   preset: 'web',
@@ -11,6 +11,6 @@ module.exports = defineConfig({
   rules: {
     'no-console': 'off',
     'react/no-deprecated': 'off',
-    '@flowgram.ai/e2e-data-testid': 'off',
+    '@q/flowgram.ai.e2e-data-testid': 'off',
   },
 });

@@ -9,7 +9,7 @@ import {
   MessageData,
   WorkflowMessages,
   WorkflowMessageType,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowRuntimeMessage } from '../message-value-object';
 

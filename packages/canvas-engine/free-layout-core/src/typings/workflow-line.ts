@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import type { Rectangle, IPoint } from '@flowgram.ai/utils';
+import type { Rectangle, IPoint } from '@q/flowgram.ai.utils';
 
 import { type WorkflowLineEntity } from '../entities';
 

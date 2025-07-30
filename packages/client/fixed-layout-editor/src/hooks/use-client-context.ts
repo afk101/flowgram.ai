@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { useService, PluginContext } from '@flowgram.ai/editor';
+import { useService, PluginContext } from '@q/flowgram.ai.editor';
 
 import { FixedLayoutPluginContext } from '../preset';
 

@@ -9,7 +9,7 @@ import {
   EffectOptions,
   FlowNodeRegistry,
   FlowNodeVariableData,
-} from '@flowgram.ai/editor';
+} from '@q/flowgram.ai.editor';
 
 export const syncVariableTitle: EffectOptions[] = [
   {

@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FormModelV2 } from '@flowgram.ai/node';
+import { FormModelV2 } from '@q/flowgram.ai.node';
 import {
   createNodeContainerModules,
   createNodeEntityDatas,
   FlowNodeFormData,
   FormManager,
   NodeManager,
-} from '@flowgram.ai/form-core';
-import { FlowDocument, FlowNodeEntity } from '@flowgram.ai/document';
-import { definePluginCreator, EntityManager } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.form-core';
+import { FlowDocument, FlowNodeEntity } from '@q/flowgram.ai.document';
+import { definePluginCreator, EntityManager } from '@q/flowgram.ai.core';
 
 import { registerNodeMaterial } from './utils';
 import { NodeEngineMaterialOptions } from './types';

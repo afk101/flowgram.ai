@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, Rectangle } from '@flowgram.ai/utils';
+import { IPoint, Rectangle } from '@q/flowgram.ai.utils';
 
 export interface StraightData {
   points: IPoint[];

@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { usePlaygroundTools } from '@flowgram.ai/playground-react';
+import { usePlaygroundTools } from '@q/flowgram.ai.playground-react';
 
 export const PlaygroundTools: React.FC<{ minZoom?: number; maxZoom?: number }> = (props) => {
   const tools = usePlaygroundTools(props);

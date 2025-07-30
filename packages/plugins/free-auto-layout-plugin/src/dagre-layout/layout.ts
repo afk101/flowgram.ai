@@ -7,8 +7,8 @@ import {
   WorkflowLineEntity,
   WorkflowNodeEntity,
   WorkflowNodeLinesData,
-} from '@flowgram.ai/free-layout-core';
-import { TransformData } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.free-layout-core';
+import { TransformData } from '@q/flowgram.ai.core';
 
 import { LayoutNode } from './type';
 import { LayoutGraph } from './graph';

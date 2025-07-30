@@ -6,7 +6,7 @@
 import { FC } from 'react';
 
 import classNames from 'classnames';
-import { CodeEditor } from '@flowgram.ai/form-materials';
+import { CodeEditor } from '@q/flowgram.ai.form-materials';
 import { Input, Switch, InputNumber } from '@douyinfe/semi-ui';
 
 import { TypeTag } from '../../../form-components';

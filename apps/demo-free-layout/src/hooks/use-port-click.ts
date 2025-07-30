@@ -8,7 +8,7 @@ import { useCallback } from 'react';
 import {
   WorkflowNodePanelService,
   WorkflowNodePanelUtils,
-} from '@flowgram.ai/free-node-panel-plugin';
+} from '@q/flowgram.ai.free-node-panel-plugin';
 import {
   delay,
   usePlayground,
@@ -19,7 +19,7 @@ import {
   WorkflowNodeEntity,
   WorkflowNodeJSON,
   WorkflowPortEntity,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 /**
  * click port to trigger node select panel

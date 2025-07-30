@@ -1,5 +1,5 @@
 {
-  "name": "@flowgram.ai/eslint-config",
+  "name": "@q/flowgram.ai.eslint-config",
   "version": "0.1.8",
   "author": "chenjiawei.inizio@bytedance.com",
   "maintainers": [],
@@ -36,7 +36,7 @@
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
-    "@flowgram.ai/ts-config": "workspace:*",
+    "@q/flowgram.ai.ts-config": "workspace:*",
     "@types/node": "^18",
     "react": "^18",
     "typescript": "^5.0.4"

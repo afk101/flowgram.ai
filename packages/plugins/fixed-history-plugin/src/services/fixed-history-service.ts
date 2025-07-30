@@ -4,9 +4,9 @@
  */
 
 import { injectable, inject } from 'inversify';
-import { HistoryService, Operation } from '@flowgram.ai/history';
-import { OperationRegistry } from '@flowgram.ai/history';
-import { OperationMeta } from '@flowgram.ai/history';
+import { HistoryService, Operation } from '@q/flowgram.ai.history';
+import { OperationRegistry } from '@q/flowgram.ai.history';
+import { OperationMeta } from '@q/flowgram.ai.history';
 import {
   AddOrDeleteBlockValue,
   AddOrDeleteChildNodeValue,
@@ -14,11 +14,11 @@ import {
   FlowNodeEntity,
   FlowNodeJSON,
   OperationType,
-} from '@flowgram.ai/document';
-import { FlowDocument } from '@flowgram.ai/document';
-import { ChangeNodeOperationValue } from '@flowgram.ai/document';
-import { FlowOperationBaseService } from '@flowgram.ai/document';
-import { PluginContext } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.document';
+import { FlowDocument } from '@q/flowgram.ai.document';
+import { ChangeNodeOperationValue } from '@q/flowgram.ai.document';
+import { FlowOperationBaseService } from '@q/flowgram.ai.document';
+import { PluginContext } from '@q/flowgram.ai.core';
 
 import { IHistoryDocument } from '../types';
 import { FixedHistoryConfig } from '../fixed-history-config';

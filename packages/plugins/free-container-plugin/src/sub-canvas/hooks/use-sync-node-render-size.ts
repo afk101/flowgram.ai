@@ -5,7 +5,7 @@
 
 import { useLayoutEffect } from 'react';
 
-import { useCurrentEntity } from '@flowgram.ai/free-layout-core';
+import { useCurrentEntity } from '@q/flowgram.ai.free-layout-core';
 
 import { NodeSize } from './use-node-size';
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-const { defineConfig } = require('@flowgram.ai/eslint-config');
+const { defineConfig } = require('@q/flowgram.ai.eslint-config');
 
 module.exports = defineConfig({
   parser: '@typescript-eslint/parser',

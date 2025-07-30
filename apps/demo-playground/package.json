@@ -1,5 +1,5 @@
 {
-  "name": "@flowgram.ai/demo-playground",
+  "name": "@q/flowgram.ai.demo-playground",
   "version": "0.1.0",
   "description": "",
   "keywords": [],
@@ -28,13 +28,13 @@
     "watch": "exit 0"
   },
   "dependencies": {
-    "@flowgram.ai/playground-react": "workspace:*",
+    "@q/flowgram.ai.playground-react": "workspace:*",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@flowgram.ai/ts-config": "workspace:*",
-    "@flowgram.ai/eslint-config": "workspace:*",
+    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@q/flowgram.ai.eslint-config": "workspace:*",
     "@rsbuild/core": "^1.2.16",
     "@rsbuild/plugin-react": "^1.1.1",
     "@types/lodash-es": "^4.17.12",
@@ -47,6 +47,16 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  }
+    "registry": "https://registry.qnpm.qihoo.net"
+  },
+  "maintainers": [
+    {
+      "email": "jinshuokang@360.cn",
+      "name": "jinshuokang"
+    },
+    {
+      "email": "chenguangdi@360.cn",
+      "name": "chenguangdi"
+    }
+  ]
 }
