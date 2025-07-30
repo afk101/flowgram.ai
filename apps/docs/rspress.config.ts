@@ -7,8 +7,7 @@ import * as path from 'node:path';
 
 import { merge } from 'webpack-merge';
 import { defineConfig } from 'rspress/config';
-import { pluginLess } from '@rsbuild/plugin-less';
-import { pluginLlms } from '@flowgram.ai/plugin-llms';
+// import { pluginLlms } from '@rspress/plugin-llms';
 
 export default defineConfig({
   root: path.join(__dirname, 'src'),
@@ -18,7 +17,6 @@ export default defineConfig({
   route: {
     exclude: ['./global.d.ts'],
   },
-  builderPlugins: [pluginLess()],
   builderConfig: {
     source: {
       decorators: {
@@ -77,10 +75,10 @@ export default defineConfig({
   lang: 'zh',
   logoText: 'FlowGram.AI',
   plugins: [
-    pluginLlms({
-      llmsTxt: true,
-      llmsFullTxt: true,
-    }),
+    // pluginLlms({
+    //   llmsTxt: true,
+    //   llmsFullTxt: true,
+    // }),
   ],
   themeConfig: {
     localeRedirect: 'auto',

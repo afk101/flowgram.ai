@@ -9,9 +9,10 @@ import classNames from 'classnames';
 import { CodeEditor } from '@flowgram.ai/form-materials';
 import { Input, Switch, InputNumber } from '@douyinfe/semi-ui';
 
+import { useFormMeta } from '../hooks/use-form-meta';
+import { useFields } from '../hooks/use-fields';
+import { useSyncDefault } from '../hooks';
 import { TypeTag } from '../../../form-components';
-import { useFormMeta } from './use-form-meta';
-import { useFields } from './use-fields';
 
 import styles from './index.module.less';
 
@@ -24,6 +25,12 @@ export const TestRunForm: FC<TestRunFormProps> = ({ values, setValues }) => {
   const formMeta = useFormMeta();
 
   const fields = useFields({
+    formMeta,
+    values,
+    setValues,
+  });
+
+  useSyncDefault({
     formMeta,
     values,
     setValues,

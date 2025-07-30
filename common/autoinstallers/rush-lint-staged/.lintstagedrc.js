@@ -12,7 +12,6 @@ module.exports = {
   '**/*.{ts,tsx,js,jsx,mjs}': async files => {
     const match = micromatch.not(files, [
       '**/common/_templates/!(_*)/**/(.)?*',
-      '**/apps/plugin-llms/**'
     ]);
     const filesToLint = await excludeIgnoredFiles(match);
     return [
@@ -22,7 +21,6 @@ module.exports = {
   '**/package.json': async files => {
     const match = micromatch.not(files, [
       '**/common/_templates/!(_*)/**/(.)?*',
-      '**/plugin-llms/*'
     ]);
     const filesToLint = await excludeIgnoredFiles(match);
     return [`eslint --cache ${filesToLint}`];

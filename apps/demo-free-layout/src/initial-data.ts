@@ -207,11 +207,11 @@ export const initialData: FlowDocumentJSON = {
                 content: 0.5,
               },
               systemPrompt: {
-                type: 'constant',
+                type: 'template',
                 content: '# Role\nYou are an AI assistant.\n',
               },
               prompt: {
-                type: 'constant',
+                type: 'template',
                 content: '',
               },
             },
@@ -284,11 +284,11 @@ export const initialData: FlowDocumentJSON = {
                 content: 0.5,
               },
               systemPrompt: {
-                type: 'constant',
+                type: 'template',
                 content: '# Role\nYou are an AI assistant.\n',
               },
               prompt: {
-                type: 'constant',
+                type: 'template',
                 content: '',
               },
             },
@@ -410,11 +410,11 @@ export const initialData: FlowDocumentJSON = {
                 content: 0.5,
               },
               systemPrompt: {
-                type: 'constant',
+                type: 'template',
                 content: '# Role\nYou are an AI assistant.\n',
               },
               prompt: {
-                type: 'constant',
+                type: 'template',
                 content: '# User Input\nquery:{{start_0.query}}\nenable:{{start_0.enable}}',
               },
             },
@@ -487,11 +487,11 @@ export const initialData: FlowDocumentJSON = {
                 content: 0.5,
               },
               systemPrompt: {
-                type: 'constant',
+                type: 'template',
                 content: '# Role\nYou are an AI assistant.\n',
               },
               prompt: {
-                type: 'constant',
+                type: 'template',
                 content: '# LLM Input\nresult:{{llm_8--A3.result}}',
               },
             },

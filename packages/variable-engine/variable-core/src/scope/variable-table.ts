@@ -14,6 +14,8 @@ import { IVariableTable } from './types';
 export class VariableTable implements IVariableTable {
   protected table: Map<string, VariableDeclaration> = new Map();
 
+  toDispose = new DisposableCollection();
+
   protected onDataChangeEmitter = new Emitter<void>();
 
   protected variables$: Subject<VariableDeclaration[]> = new Subject<VariableDeclaration[]>();
@@ -81,7 +83,13 @@ export class VariableTable implements IVariableTable {
 
   constructor(
     public parentTable?: IVariableTable // 父变量表，会包含所有子表的变量
-  ) {}
+  ) {
+    this.toDispose.pushAll([
+      this.onDataChangeEmitter,
+      // active share()
+      this.onAnyVariableChange(() => null),
+    ]);
+  }
 
   get variables(): VariableDeclaration[] {
     return Array.from(this.table.values());
@@ -146,6 +154,6 @@ export class VariableTable implements IVariableTable {
     this.parentTable?.fireChange();
     this.variables$.complete();
     this.variables$.unsubscribe();
-    this.onDataChangeEmitter.dispose();
+    this.toDispose.dispose();
   }
 }

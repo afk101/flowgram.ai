@@ -453,13 +453,6 @@
                 "docs"
             ]
         },
-        {
-            "packageName": "@flowgram.ai/plugin-llms",
-            "projectFolder": "apps/plugin-llms",
-            "tags": [
-                "docs"
-            ]
-        },
         // demos
         {
             "packageName": "@flowgram.ai/demo-fixed-layout",

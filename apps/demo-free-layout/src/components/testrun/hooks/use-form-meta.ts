@@ -13,8 +13,8 @@ import {
 } from '@flowgram.ai/free-layout-editor';
 import { IJsonSchema, JsonSchemaBasicType } from '@flowgram.ai/form-materials';
 
+import { TestRunFormMetaItem } from '../testrun-form/type';
 import { WorkflowNodeType } from '../../../nodes';
-import { TestRunFormMetaItem } from './type';
 
 const getWorkflowInputsDeclare = (document: WorkflowDocument): IJsonSchema => {
   const defaultDeclare = {
