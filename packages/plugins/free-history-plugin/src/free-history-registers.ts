@@ -4,7 +4,7 @@
  */
 
 import { injectable } from 'inversify';
-import { type OperationContribution, type OperationRegistry } from '@flowgram.ai/history';
+import { type OperationContribution, type OperationRegistry } from '@q/flowgram.ai.history';
 
 import { operationMetas } from './operation-metas';
 

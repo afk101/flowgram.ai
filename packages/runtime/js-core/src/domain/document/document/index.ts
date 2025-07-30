@@ -9,7 +9,7 @@ import {
   type IDocument,
   type IEdge,
   type INode,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 import { uuid } from '@infra/utils';
 import { flatSchema } from './flat-schema';

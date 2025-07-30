@@ -4,8 +4,8 @@
  */
 
 import { mapValues } from 'lodash-es';
-import { Field, FieldRenderProps, FormMeta } from '@flowgram.ai/free-layout-editor';
-import { IFlowValue } from '@flowgram.ai/form-antd-materials';
+import { Field, FieldRenderProps, FormMeta } from '@q/flowgram.ai.free-layout-editor';
+import { IFlowValue } from '@q/flowgram.ai.form-antd-materials';
 
 import { JsonSchema } from '@editor/typings';
 import { useIsSidebar } from '@editor/hooks';

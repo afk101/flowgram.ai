@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { WorkflowDragService, useService } from '@flowgram.ai/free-layout-editor';
+import { WorkflowDragService, useService } from '@q/flowgram.ai.free-layout-editor';
 
 const cardkeys = ['Node1', 'Node2'];
 

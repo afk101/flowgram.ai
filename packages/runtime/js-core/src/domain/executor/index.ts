@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowGramNode } from '@flowgram.ai/runtime-interface';
+import { FlowGramNode } from '@q/flowgram.ai.runtime-interface';
 import {
   ExecutionContext,
   ExecutionResult,
   IExecutor,
   INodeExecutor,
   INodeExecutorFactory,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 export class WorkflowRuntimeExecutor implements IExecutor {
   private nodeExecutors: Map<FlowGramNode, INodeExecutor> = new Map();

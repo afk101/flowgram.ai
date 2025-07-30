@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowRendererKey } from '@flowgram.ai/renderer';
+import { FlowRendererKey } from '@q/flowgram.ai.renderer';
 import {
   DEFAULT_SPACING,
   FlowNodeBaseType,
@@ -12,7 +12,7 @@ import {
   FlowTransitionLabelEnum,
   FlowTransitionLineEnum,
   FlowLayoutDefault,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import { TryCatchSpacings, TryCatchTypeEnum } from './constants';
 

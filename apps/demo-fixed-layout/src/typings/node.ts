@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IFlowValue } from '@flowgram.ai/form-materials';
+import { IFlowValue } from '@q/flowgram.ai.form-materials';
 import {
   FlowNodeJSON as FlowNodeJSONDefault,
   FlowNodeRegistry as FlowNodeRegistryDefault,
   FixedLayoutPluginContext,
   FlowNodeEntity,
   FlowNodeMeta as FlowNodeMetaDefault,
-} from '@flowgram.ai/fixed-layout-editor';
+} from '@q/flowgram.ai.fixed-layout-editor';
 
 import { type JsonSchema } from './json-schema';
 

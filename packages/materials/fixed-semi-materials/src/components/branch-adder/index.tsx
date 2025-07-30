@@ -13,7 +13,7 @@ import {
   FlowOperationService,
   usePlayground,
   useService,
-} from '@flowgram.ai/fixed-layout-editor';
+} from '@q/flowgram.ai.fixed-layout-editor';
 import { IconPlus } from '@douyinfe/semi-icons';
 
 import { Container } from './styles';

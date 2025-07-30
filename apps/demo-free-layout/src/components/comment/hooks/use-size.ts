@@ -14,7 +14,7 @@ import {
   useCurrentEntity,
   usePlayground,
   useService,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 import { CommentEditorFormField } from '../constant';
 

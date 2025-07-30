@@ -4,7 +4,7 @@
  */
 
 import { Observable, Subject, merge, share, skip, switchMap } from 'rxjs';
-import { DisposableCollection, Emitter } from '@flowgram.ai/utils';
+import { DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
 
 import { subsToDisposable } from '../utils/toDisposable';
 import { BaseVariableField } from '../ast/declaration/base-variable-field';

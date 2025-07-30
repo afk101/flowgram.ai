@@ -5,8 +5,8 @@
 
 import { useCallback, useEffect, useState } from 'react';
 
-import { useCurrentEntity } from '@flowgram.ai/free-layout-core';
-import { useService } from '@flowgram.ai/core';
+import { useCurrentEntity } from '@q/flowgram.ai.free-layout-core';
+import { useService } from '@q/flowgram.ai.core';
 
 import { NodeIntoContainerService, NodeIntoContainerType } from '../../../node-into-container';
 import { TipsGlobalStore } from './global-store';

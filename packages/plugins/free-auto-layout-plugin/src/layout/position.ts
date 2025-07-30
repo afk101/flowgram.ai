@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowDocument } from '@flowgram.ai/free-layout-core';
-import { PositionSchema, startTween, TransformData } from '@flowgram.ai/core';
+import { WorkflowDocument } from '@q/flowgram.ai.free-layout-core';
+import { PositionSchema, startTween, TransformData } from '@q/flowgram.ai.core';
 
 import { LayoutNode } from './type';
 import { LayoutStore } from './store';

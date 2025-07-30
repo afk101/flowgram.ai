@@ -17,14 +17,14 @@ import {
   Rectangle,
   delay,
   Disposable,
-} from '@flowgram.ai/utils';
+} from '@q/flowgram.ai.utils';
 import {
   FlowNodeTransformData,
   FlowNodeType,
   FlowOperationBaseService,
   type FlowNodeEntity,
-} from '@flowgram.ai/document';
-import { FlowNodeBaseType } from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
+import { FlowNodeBaseType } from '@q/flowgram.ai.document';
 import {
   CommandService,
   MouseTouchEvent,
@@ -32,7 +32,7 @@ import {
   PlaygroundDrag,
   type PlaygroundDragEvent,
   TransformData,
-} from '@flowgram.ai/core';
+} from '@q/flowgram.ai.core';
 
 import { WorkflowLinesManager } from '../workflow-lines-manager';
 import { WorkflowDocumentOptions } from '../workflow-document-option';

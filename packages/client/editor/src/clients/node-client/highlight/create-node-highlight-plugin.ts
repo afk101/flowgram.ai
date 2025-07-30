@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { definePluginCreator } from '@flowgram.ai/core';
+import { definePluginCreator } from '@q/flowgram.ai.core';
 
 import { createHighlightStyle, removeHighlightStyle } from './highlight-style';
 

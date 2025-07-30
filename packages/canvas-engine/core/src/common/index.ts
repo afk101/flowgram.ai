@@ -19,4 +19,4 @@ export * from './playground-decorator-helper';
 export * from './playground-decorators';
 export * from './playground-schedule';
 export * from './protect-wheel-area';
-export { bindContributions, ContributionProvider, bindContributionProvider } from '@flowgram.ai/utils';
+export { bindContributions, ContributionProvider, bindContributionProvider } from '@q/flowgram.ai.utils';

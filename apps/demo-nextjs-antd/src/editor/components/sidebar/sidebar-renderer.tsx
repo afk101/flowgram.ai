@@ -10,7 +10,7 @@ import {
   PlaygroundEntityContext,
   useClientContext,
   useRefresh,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 import { FlowNodeMeta } from '@editor/typings';
 import { IsSidebarContext, SidebarContext } from '@editor/context';

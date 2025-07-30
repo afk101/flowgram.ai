@@ -5,8 +5,8 @@
 
 import { useEffect } from 'react';
 
-import { FlowNodeEntity } from '@flowgram.ai/document';
-import { useEntityFromContext, useRefresh } from '@flowgram.ai/core';
+import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { useEntityFromContext, useRefresh } from '@q/flowgram.ai.core';
 
 import { FlowNodeFormData, FormModel, IFormItem } from '../../form';
 

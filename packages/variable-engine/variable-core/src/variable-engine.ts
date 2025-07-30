@@ -5,8 +5,8 @@
 
 import { Subject } from 'rxjs';
 import { inject, injectable, interfaces, preDestroy } from 'inversify';
-import { Disposable, DisposableCollection } from '@flowgram.ai/utils';
-import { Emitter } from '@flowgram.ai/utils';
+import { Disposable, DisposableCollection } from '@q/flowgram.ai.utils';
+import { Emitter } from '@q/flowgram.ai.utils';
 
 import { subsToDisposable } from './utils/toDisposable';
 import { createMemo } from './utils/memo';

@@ -5,8 +5,8 @@
 
 import { nanoid } from 'nanoid';
 import { get, groupBy, some } from 'lodash';
-import { Disposable, DisposableCollection, Emitter } from '@flowgram.ai/utils';
-import { ReactiveState } from '@flowgram.ai/reactive';
+import { Disposable, DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
+import { ReactiveState } from '@q/flowgram.ai.reactive';
 
 import { toFeedback } from '../utils/validate';
 import { FieldModelState, FieldName, FieldValue, Ref } from '../types/field';

@@ -7,7 +7,7 @@ import {
   definePluginCreator,
   FixedLayoutPluginContext,
   PluginCreator,
-} from '@flowgram.ai/fixed-layout-editor';
+} from '@q/flowgram.ai.fixed-layout-editor';
 
 import { readData } from '../../shortcuts/utils';
 

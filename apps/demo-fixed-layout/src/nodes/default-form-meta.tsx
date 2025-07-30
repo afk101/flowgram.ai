@@ -7,13 +7,13 @@ import {
   autoRenameRefEffect,
   provideJsonSchemaOutputs,
   syncVariableTitle,
-} from '@flowgram.ai/form-materials';
+} from '@q/flowgram.ai.form-materials';
 import {
   FormRenderProps,
   FormMeta,
   ValidateTrigger,
   FeedbackLevel,
-} from '@flowgram.ai/fixed-layout-editor';
+} from '@q/flowgram.ai.fixed-layout-editor';
 
 import { FlowNodeJSON } from '../typings';
 import { FormHeader, FormContent, FormInputs, FormOutputs } from '../form-components';

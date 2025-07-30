@@ -4,7 +4,7 @@
  */
 
 export * from './create-variable-plugin';
-export * from '@flowgram.ai/variable-core';
+export * from '@q/flowgram.ai.variable-core';
 export {
   FlowNodeVariableData,
   GlobalScope,
@@ -14,4 +14,4 @@ export {
   FlowNodeScopeType,
   type FlowNodeScopeMeta,
   type FlowNodeScope,
-} from '@flowgram.ai/variable-layout';
+} from '@q/flowgram.ai.variable-layout';

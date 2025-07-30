@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { FlowNodeEntity } from '@flowgram.ai/document';
+import { FlowNodeEntity } from '@q/flowgram.ai.document';
 
 import { NodeFormContext } from '../form';
 

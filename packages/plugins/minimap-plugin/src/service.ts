@@ -5,11 +5,11 @@
 
 import { debounce } from 'lodash';
 import { inject, injectable } from 'inversify';
-import { Disposable, DisposableCollection, IPoint, Rectangle } from '@flowgram.ai/utils';
-import { FlowNodeEntity, FlowNodeTransformData } from '@flowgram.ai/document';
-import { FlowNodeBaseType } from '@flowgram.ai/document';
-import { FlowDocument } from '@flowgram.ai/document';
-import { EntityManager, MouseTouchEvent, PlaygroundConfigEntity } from '@flowgram.ai/core';
+import { Disposable, DisposableCollection, IPoint, Rectangle } from '@q/flowgram.ai.utils';
+import { FlowNodeEntity, FlowNodeTransformData } from '@q/flowgram.ai.document';
+import { FlowNodeBaseType } from '@q/flowgram.ai.document';
+import { FlowDocument } from '@q/flowgram.ai.document';
+import { EntityManager, MouseTouchEvent, PlaygroundConfigEntity } from '@q/flowgram.ai.core';
 
 import type { MinimapRenderContext, MinimapServiceOptions, MinimapCanvasStyle } from './type';
 import { MinimapDraw } from './draw';

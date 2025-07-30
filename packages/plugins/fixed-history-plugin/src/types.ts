@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { HistoryPluginOptions, OperationMeta } from '@flowgram.ai/history';
-import { FlowNodeEntity, FlowNodeJSON } from '@flowgram.ai/document';
-import { PluginContext } from '@flowgram.ai/core';
+import { HistoryPluginOptions, OperationMeta } from '@q/flowgram.ai.history';
+import { FlowNodeEntity, FlowNodeJSON } from '@q/flowgram.ai.document';
+import { PluginContext } from '@q/flowgram.ai.core';
 
 export interface IHistoryDocument {
   addFromNode(fromNode: FlowNodeEntity | string, json: FlowNodeJSON): FlowNodeEntity;

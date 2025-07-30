@@ -15,7 +15,7 @@ import {
   IVariableStore,
   WorkflowVariableType,
   IFlowTemplateValue,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 import { uuid, WorkflowRuntimeType } from '@infra/utils';
 

@@ -12,7 +12,7 @@ import {
   FlowNodeEntity,
   FlowNodeRenderData,
   type ShortcutsRegistry,
-} from '@flowgram.ai/fixed-layout-editor';
+} from '@q/flowgram.ai.fixed-layout-editor';
 import { Toast } from '@douyinfe/semi-ui';
 
 import { writeData } from './utils';

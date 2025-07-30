@@ -16,8 +16,8 @@ import {
   PipelineLayerPriority,
   PlaygroundConfigEntity,
   SelectionService,
-} from '@flowgram.ai/core';
-import { domUtils } from '@flowgram.ai/utils';
+} from '@q/flowgram.ai.core';
+import { domUtils } from '@q/flowgram.ai.utils';
 
 import {
   FlowRendererCommandCategory,

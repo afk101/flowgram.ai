@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type Disposable, type Event } from '@flowgram.ai/utils';
+import { type Disposable, type Event } from '@q/flowgram.ai.utils';
 
 import { type CommandEvent } from './command';
 

@@ -5,9 +5,9 @@
 
 import type React from 'react';
 
-import type { PositionSchema } from '@flowgram.ai/utils';
-import type { WorkflowNodeEntity, WorkflowPortEntity } from '@flowgram.ai/free-layout-core';
-import type { WorkflowNodeJSON } from '@flowgram.ai/free-layout-core';
+import type { PositionSchema } from '@q/flowgram.ai.utils';
+import type { WorkflowNodeEntity, WorkflowPortEntity } from '@q/flowgram.ai.free-layout-core';
+import type { WorkflowNodeJSON } from '@q/flowgram.ai.free-layout-core';
 
 export interface NodePanelCallParams {
   /** 唤起节点面板的位置 */
