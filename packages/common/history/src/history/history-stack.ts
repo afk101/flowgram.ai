@@ -5,7 +5,7 @@
 
 import { cloneDeep } from 'lodash';
 import { injectable, inject } from 'inversify';
-import { DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
+import { DisposableCollection, Emitter } from '@flowgram.ai/utils';
 
 import { HistoryOperation, Operation, OperationWithId } from '../operation';
 import { HistoryConfig } from '../history-config';

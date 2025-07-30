@@ -6,15 +6,15 @@
 import type React from 'react';
 import { useCallback, useEffect, useRef, useState, useContext, useMemo } from 'react';
 
-import { useObserve } from '@q/flowgram.ai.reactive';
-import { getNodeForm } from '@q/flowgram.ai.node';
-import { FlowNodeRenderData } from '@q/flowgram.ai.document';
+import { useObserve } from '@flowgram.ai/reactive';
+import { getNodeForm } from '@flowgram.ai/node';
+import { FlowNodeRenderData } from '@flowgram.ai/document';
 import {
   MouseTouchEvent,
   PlaygroundEntityContext,
   useListenEvents,
   useService,
-} from '@q/flowgram.ai.core';
+} from '@flowgram.ai/core';
 
 import { WorkflowDragService, WorkflowSelectService } from '../service';
 import { WorkflowNodePortsData } from '../entity-datas';

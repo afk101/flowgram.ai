@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowRendererKey } from '@q/flowgram.ai.renderer';
+import { FlowRendererKey } from '@flowgram.ai/renderer';
 
 export const RENDER_SLOT_ADDER_KEY = FlowRendererKey.SLOT_ADDER;
 export const RENDER_SLOT_COLLAPSE_KEY = FlowRendererKey.SLOT_COLLPASE;

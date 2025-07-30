@@ -5,7 +5,7 @@
 
 import { useEffect, useState } from 'react';
 
-import { useClientContext, FlowLayoutDefault } from '@q/flowgram.ai.fixed-layout-editor';
+import { useClientContext, FlowLayoutDefault } from '@flowgram.ai/fixed-layout-editor';
 
 import { FLOW_LIST } from '../data';
 

@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import type { FlowTransitionLine } from '@q/flowgram.ai.document';
+import type { FlowTransitionLine } from '@flowgram.ai/document';
 
 import { useBaseColor } from '../hooks/use-base-color';
 import { DEFAULT_LINE_ATTRS } from './utils';

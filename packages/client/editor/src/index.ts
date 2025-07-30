@@ -4,17 +4,17 @@
  */
 
 import 'reflect-metadata';
-import { FormModelV2 } from '@q/flowgram.ai.node';
+import { FormModelV2 } from '@flowgram.ai/node';
 
 /* 核心 模块导出 */
-export * from '@q/flowgram.ai.utils';
-export * from '@q/flowgram.ai.core';
-export * from '@q/flowgram.ai.document';
-export * from '@q/flowgram.ai.renderer';
-export * from '@q/flowgram.ai.variable-plugin';
-export * from '@q/flowgram.ai.shortcuts-plugin';
-export * from '@q/flowgram.ai.node-core-plugin';
-export * from '@q/flowgram.ai.i18n-plugin';
+export * from '@flowgram.ai/utils';
+export * from '@flowgram.ai/core';
+export * from '@flowgram.ai/document';
+export * from '@flowgram.ai/renderer';
+export * from '@flowgram.ai/variable-plugin';
+export * from '@flowgram.ai/shortcuts-plugin';
+export * from '@flowgram.ai/node-core-plugin';
+export * from '@flowgram.ai/i18n-plugin';
 export {
   type interfaces,
   injectable,
@@ -27,7 +27,7 @@ export {
   multiInject,
 } from 'inversify';
 
-export { FlowNodeFormData, NodeRender, type NodeRenderProps } from '@q/flowgram.ai.form-core';
+export { FlowNodeFormData, NodeRender, type NodeRenderProps } from '@flowgram.ai/form-core';
 
 export type {
   FormState,
@@ -45,7 +45,7 @@ export type {
   IForm,
   Errors,
   Warnings,
-} from '@q/flowgram.ai.form';
+} from '@flowgram.ai/form';
 
 export {
   Form,
@@ -59,8 +59,8 @@ export {
   useWatch,
   ValidateTrigger,
   FeedbackLevel,
-} from '@q/flowgram.ai.form';
-export * from '@q/flowgram.ai.node';
+} from '@flowgram.ai/form';
+export * from '@flowgram.ai/node';
 export { FormModelV2 as FormModel };
 
 /**
@@ -75,6 +75,6 @@ export * from './clients';
  * Plugin 导出
  */
 
-export * from '@q/flowgram.ai.node-variable-plugin';
+export * from '@flowgram.ai/node-variable-plugin';
 
-export { createPlaygroundReactPreset } from '@q/flowgram.ai.playground-react';
+export { createPlaygroundReactPreset } from '@flowgram.ai/playground-react';

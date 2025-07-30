@@ -13,7 +13,7 @@ import {
   WorkflowOutputs,
   IValidation,
   ValidationResult,
-} from '@q/flowgram.ai.runtime-interface';
+} from '@flowgram.ai/runtime-interface';
 
 import { WorkflowRuntimeContainer } from '@workflow/container';
 

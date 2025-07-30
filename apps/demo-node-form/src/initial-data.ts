@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowJSON } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowJSON } from '@flowgram.ai/free-layout-editor';
 
 export const DEFAULT_INITIAL_DATA: WorkflowJSON = {
   nodes: [

@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.form-materials",
+  "name": "@flowgram.ai/form-materials",
   "version": "0.1.8",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -35,7 +35,7 @@
     "@douyinfe/semi-icons": "^2.80.0",
     "@douyinfe/semi-illustrations": "^2.80.0",
     "@douyinfe/semi-ui": "^2.80.0",
-    "@q/flowgram.ai.editor": "workspace:*",
+    "@flowgram.ai/editor": "workspace:*",
     "lodash": "^4.17.21",
     "nanoid": "^4.0.2",
     "commander": "^11.0.0",
@@ -47,8 +47,8 @@
     "@codemirror/state": "~6.5.2"
   },
   "devDependencies": {
-    "@q/flowgram.ai.eslint-config": "workspace:*",
-    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@flowgram.ai/eslint-config": "workspace:*",
+    "@flowgram.ai/ts-config": "workspace:*",
     "@types/lodash": "^4.14.137",
     "@types/node": "^18",
     "@types/react": "^18",
@@ -70,16 +70,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.qnpm.qihoo.net"
-  },
-  "maintainers": [
-    {
-      "email": "jinshuokang@360.cn",
-      "name": "jinshuokang"
-    },
-    {
-      "email": "chenguangdi@360.cn",
-      "name": "chenguangdi"
-    }
-  ]
+    "registry": "https://registry.npmjs.org/"
+  }
 }

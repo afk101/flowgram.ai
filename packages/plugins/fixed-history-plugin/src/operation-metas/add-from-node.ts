@@ -7,9 +7,9 @@ import {
   type AddOrDeleteFromNodeOperationValue,
   type FlowNodeEntity,
   OperationType,
-} from '@q/flowgram.ai.document';
-import { type PluginContext } from '@q/flowgram.ai.core';
-import { type OperationMeta } from '@q/flowgram.ai.history';
+} from '@flowgram.ai/document';
+import { type PluginContext } from '@flowgram.ai/core';
+import { type OperationMeta } from '@flowgram.ai/history';
 
 import { FixedHistoryConfig } from '../fixed-history-config';
 import { baseOperationMeta } from './base';

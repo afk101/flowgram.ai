@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Field, FlowNodeJSON, FormRenderProps } from '@q/flowgram.ai.free-layout-editor';
-import { SubCanvasRender } from '@q/flowgram.ai.free-container-plugin';
-import { BatchVariableSelector, IFlowRefValue } from '@q/flowgram.ai.form-antd-materials';
+import { Field, FlowNodeJSON, FormRenderProps } from '@flowgram.ai/free-layout-editor';
+import { SubCanvasRender } from '@flowgram.ai/free-container-plugin';
+import { BatchVariableSelector, IFlowRefValue } from '@flowgram.ai/form-antd-materials';
 
 import { useIsSidebar, useNodeRenderContext } from '@editor/hooks';
 import { Feedback, FormContent, FormHeader, FormItem, FormOutputs } from '@editor/form-components';

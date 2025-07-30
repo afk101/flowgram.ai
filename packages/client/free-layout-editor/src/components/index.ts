@@ -6,10 +6,10 @@
 export * from './free-layout-editor-provider';
 export * from './workflow-node-renderer';
 export * from './free-layout-editor';
-export * from '@q/flowgram.ai.free-stack-plugin';
+export * from '@flowgram.ai/free-stack-plugin';
 
 // WARNING: 这里用 export * 会有问题！
 export {
   WorkflowPortRender,
   type WorkflowPortRenderProps,
-} from '@q/flowgram.ai.free-lines-plugin';
+} from '@flowgram.ai/free-lines-plugin';

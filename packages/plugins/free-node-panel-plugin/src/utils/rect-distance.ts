@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Rectangle, IPoint } from '@q/flowgram.ai.utils';
+import { Rectangle, IPoint } from '@flowgram.ai/utils';
 
 export type IRectDistance = (rectA: Rectangle, rectB: Rectangle) => IPoint;
 

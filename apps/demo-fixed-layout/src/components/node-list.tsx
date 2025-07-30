@@ -8,7 +8,7 @@ import {
   FlowNodeEntity,
   FlowNodeRegistry,
   useClientContext,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 import { FlowNodeRegistries } from '../nodes';
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { EditorRenderer, FixedLayoutEditorProvider } from '@q/flowgram.ai.fixed-layout-editor';
+import { EditorRenderer, FixedLayoutEditorProvider } from '@flowgram.ai/fixed-layout-editor';
 
 import { FlowNodeRegistries } from './nodes';
 import { initialData } from './initial-data';
@@ -11,7 +11,7 @@ import { useEditorProps } from './hooks/use-editor-props';
 import { SidebarProvider, SidebarRenderer } from './components/sidebar';
 import { DemoTools } from './components';
 
-import '@q/flowgram.ai.fixed-layout-editor/index.css';
+import '@flowgram.ai/fixed-layout-editor/index.css';
 
 export const Editor = () => {
   /**

@@ -54,7 +54,7 @@ export const fieldWrapperCss = `.error-message {
 }
 `;
 
-export const defaultInitialDataTs = `import { WorkflowJSON } from '@q/flowgram.ai.free-layout-editor';
+export const defaultInitialDataTs = `import { WorkflowJSON } from '@flowgram.ai/free-layout-editor';
 
 export const DEFAULT_INITIAL_DATA: WorkflowJSON = {
   nodes: [

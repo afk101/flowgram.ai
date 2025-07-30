@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type IPoint, Rectangle } from '@q/flowgram.ai.utils';
+import { type IPoint, Rectangle } from '@flowgram.ai/utils';
 
 export enum BezierControlType {
   RIGHT_TOP,

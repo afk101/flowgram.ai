@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type Disposable, Emitter } from '@q/flowgram.ai.utils';
+import { type Disposable, Emitter } from '@flowgram.ai/utils';
 
 import { type FlowNodeType } from './typings';
 

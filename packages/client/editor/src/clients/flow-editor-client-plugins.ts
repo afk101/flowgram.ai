@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { definePluginCreator } from '@q/flowgram.ai.core';
+import { definePluginCreator } from '@flowgram.ai/core';
 
 import { createNodeClientPlugins } from './node-client/create-node-client-plugins';
 import { FlowEditorClient } from './flow-editor-client';

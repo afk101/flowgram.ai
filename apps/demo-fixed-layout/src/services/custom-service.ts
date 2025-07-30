@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { injectable, inject } from '@q/flowgram.ai.fixed-layout-editor';
+import { injectable, inject } from '@flowgram.ai/fixed-layout-editor';
 import {
   FixedLayoutPluginContext,
   SelectionService,
   Playground,
   FlowDocument,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 /**
  * Docs: https://inversify.io/docs/introduction/getting-started/

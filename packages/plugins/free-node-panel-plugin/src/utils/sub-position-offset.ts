@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, Rectangle } from '@q/flowgram.ai.utils';
-import { WorkflowNodeEntity, WorkflowPortEntity } from '@q/flowgram.ai.free-layout-core';
-import { FlowNodeTransformData } from '@q/flowgram.ai.document';
+import { IPoint, Rectangle } from '@flowgram.ai/utils';
+import { WorkflowNodeEntity, WorkflowPortEntity } from '@flowgram.ai/free-layout-core';
+import { FlowNodeTransformData } from '@flowgram.ai/document';
 
 import { rectDistance } from './rect-distance';
 import { isGreaterThan, isLessThan } from './greater-or-less';

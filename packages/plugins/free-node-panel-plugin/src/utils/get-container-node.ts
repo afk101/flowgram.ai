@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowNodeEntity, WorkflowPortEntity } from '@q/flowgram.ai.free-layout-core';
+import { WorkflowNodeEntity, WorkflowPortEntity } from '@flowgram.ai/free-layout-core';
 
 import { isContainer } from './is-container';
 

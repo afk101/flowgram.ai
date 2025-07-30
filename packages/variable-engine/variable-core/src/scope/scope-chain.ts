@@ -4,7 +4,7 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { DisposableCollection, type Event } from '@q/flowgram.ai.utils';
+import { DisposableCollection, type Event } from '@flowgram.ai/utils';
 
 import { VariableEngineProvider } from '../providers';
 import { type Scope } from './scope';

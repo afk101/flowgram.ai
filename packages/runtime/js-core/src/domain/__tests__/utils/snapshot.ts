@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Snapshot, VOData } from '@q/flowgram.ai.runtime-interface';
+import { Snapshot, VOData } from '@flowgram.ai/runtime-interface';
 
 export const snapshotsToVOData = (snapshots: Snapshot[]): VOData<Snapshot>[] =>
   snapshots.map((snapshot) => {

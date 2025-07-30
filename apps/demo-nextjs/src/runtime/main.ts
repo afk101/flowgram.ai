@@ -4,7 +4,7 @@
  */
 
 import 'server-only';
-import { WorkflowJSON } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowJSON } from '@flowgram.ai/free-layout-editor';
 
 import { WorkflowRuntimeModel } from '@runtime/models';
 

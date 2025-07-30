@@ -5,8 +5,8 @@
 
 import { useEffect, useState } from 'react';
 
-import { NodeReport } from '@q/flowgram.ai.runtime-interface';
-import { useCurrentEntity, useService } from '@q/flowgram.ai.free-layout-editor';
+import { NodeReport } from '@flowgram.ai/runtime-interface';
+import { useCurrentEntity, useService } from '@flowgram.ai/free-layout-editor';
 
 import { WorkflowRuntimeService } from '../../../plugins/runtime-plugin/runtime-service';
 import { NodeStatusRender } from './render';

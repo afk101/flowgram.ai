@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FormRenderProps } from '@q/flowgram.ai.free-layout-editor';
+import { FormRenderProps } from '@flowgram.ai/free-layout-editor';
 import { Divider } from '@douyinfe/semi-ui';
 
 import { FormHeader, FormContent, FormOutputs } from '../../form-components';

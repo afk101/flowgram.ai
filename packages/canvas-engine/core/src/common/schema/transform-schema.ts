@@ -15,7 +15,7 @@ import {
   Schema,
   TransformSchema,
   TransformSchemaDecoration,
-} from '@q/flowgram.ai.utils';
+} from '@flowgram.ai/utils';
 
 import { Bounds } from '../utils/bounds';
 import { EntityData } from '../entity-data';

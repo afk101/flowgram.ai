@@ -9,7 +9,7 @@ import {
   useClientContext,
   usePlayground,
   useService,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 import { Dropdown } from '@douyinfe/semi-ui';
 import { IconPlusCircle } from '@douyinfe/semi-icons';
 

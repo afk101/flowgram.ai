@@ -1,79 +1,69 @@
 {
-  "name": "@q/flowgram.ai.free-container-plugin",
-  "version": "0.1.8",
-  "homepage": "https://flowgram.ai/",
-  "repository": "https://github.com/bytedance/flowgram.ai",
-  "license": "MIT",
-  "exports": {
-    "types": "./dist/index.d.ts",
-    "import": "./dist/esm/index.js",
-    "require": "./dist/index.js"
-  },
-  "main": "./dist/index.js",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "npm run build:fast -- --dts-resolve",
-    "build:fast": "tsup src/index.ts --format cjs,esm --sourcemap --legacy-output",
-    "build:watch": "npm run build:fast -- --dts-resolve",
-    "clean": "rimraf dist",
-    "test": "exit 0",
-    "test:cov": "exit 0",
-    "ts-check": "tsc --noEmit",
-    "watch": "npm run build:fast -- --dts-resolve --watch --ignore-watch dist"
-  },
-  "dependencies": {
-    "@q/flowgram.ai.free-history-plugin": "workspace:*",
-    "@q/flowgram.ai.free-lines-plugin": "workspace:*",
-    "@q/flowgram.ai.core": "workspace:*",
-    "@q/flowgram.ai.document": "workspace:*",
-    "@q/flowgram.ai.shortcuts-plugin": "workspace:*",
-    "@q/flowgram.ai.free-layout-core": "workspace:*",
-    "@q/flowgram.ai.renderer": "workspace:*",
-    "@q/flowgram.ai.utils": "workspace:*",
-    "@q/flowgram.ai.i18n": "workspace:*",
-    "@q/flowgram.ai.background-plugin": "workspace:*",
-    "inversify": "^6.0.1",
-    "reflect-metadata": "~0.2.2",
-    "lodash": "^4.17.21"
-  },
-  "devDependencies": {
-    "@q/flowgram.ai.eslint-config": "workspace:*",
-    "@q/flowgram.ai.ts-config": "workspace:*",
-    "@types/bezier-js": "4.1.3",
-    "@types/lodash": "^4.14.137",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@types/styled-components": "^5",
-    "@vitest/coverage-v8": "^0.32.0",
-    "eslint": "^8.54.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "styled-components": "^5",
-    "tsup": "^8.0.1",
-    "typescript": "^5.0.4",
-    "vitest": "^0.34.6"
-  },
-  "peerDependencies": {
-    "react": ">=16.8",
-    "react-dom": ">=16.8",
-    "styled-components": ">=4"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.qnpm.qihoo.net"
-  },
-  "maintainers": [
-    {
-      "email": "jinshuokang@360.cn",
-      "name": "jinshuokang"
+    "name": "@flowgram.ai/free-container-plugin",
+    "version": "0.1.8",
+    "homepage": "https://flowgram.ai/",
+    "repository": "https://github.com/bytedance/flowgram.ai",
+    "license": "MIT",
+    "exports": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/esm/index.js",
+        "require": "./dist/index.js"
     },
-    {
-      "email": "chenguangdi@360.cn",
-      "name": "chenguangdi"
+    "main": "./dist/index.js",
+    "module": "./dist/esm/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "npm run build:fast -- --dts-resolve",
+        "build:fast": "tsup src/index.ts --format cjs,esm --sourcemap --legacy-output",
+        "build:watch": "npm run build:fast -- --dts-resolve",
+        "clean": "rimraf dist",
+        "test": "exit 0",
+        "test:cov": "exit 0",
+        "ts-check": "tsc --noEmit",
+        "watch": "npm run build:fast -- --dts-resolve --watch --ignore-watch dist"
+    },
+    "dependencies": {
+        "@flowgram.ai/free-history-plugin": "workspace:*",
+        "@flowgram.ai/free-lines-plugin": "workspace:*",
+        "@flowgram.ai/core": "workspace:*",
+        "@flowgram.ai/document": "workspace:*",
+        "@flowgram.ai/shortcuts-plugin": "workspace:*",
+        "@flowgram.ai/free-layout-core": "workspace:*",
+        "@flowgram.ai/renderer": "workspace:*",
+        "@flowgram.ai/utils": "workspace:*",
+        "@flowgram.ai/i18n": "workspace:*",
+        "@flowgram.ai/background-plugin": "workspace:*",
+        "inversify": "^6.0.1",
+        "reflect-metadata": "~0.2.2",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@flowgram.ai/eslint-config": "workspace:*",
+        "@flowgram.ai/ts-config": "workspace:*",
+        "@types/bezier-js": "4.1.3",
+        "@types/lodash": "^4.14.137",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "@types/styled-components": "^5",
+        "@vitest/coverage-v8": "^0.32.0",
+        "eslint": "^8.54.0",
+        "react": "^18",
+        "react-dom": "^18",
+        "styled-components": "^5",
+        "tsup": "^8.0.1",
+        "typescript": "^5.0.4",
+        "vitest": "^0.34.6"
+    },
+    "peerDependencies": {
+        "react": ">=16.8",
+        "react-dom": ">=16.8",
+        "styled-components": ">=4"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
     }
-  ]
 }

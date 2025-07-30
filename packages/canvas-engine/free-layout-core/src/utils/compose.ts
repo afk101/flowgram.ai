@@ -3,4 +3,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-export { compose, composeAsync } from '@q/flowgram.ai.utils';
+export { compose, composeAsync } from '@flowgram.ai/utils';

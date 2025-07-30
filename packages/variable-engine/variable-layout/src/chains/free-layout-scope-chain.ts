@@ -4,15 +4,15 @@
  */
 
 import { inject, optional, postConstruct } from 'inversify';
-import { Scope, ScopeChain } from '@q/flowgram.ai.variable-core';
-import { WorkflowNodeLinesData, WorkflowNodeMeta } from '@q/flowgram.ai.free-layout-core';
+import { Scope, ScopeChain } from '@flowgram.ai/variable-core';
+import { WorkflowNodeLinesData, WorkflowNodeMeta } from '@flowgram.ai/free-layout-core';
 import {
   FlowNodeEntity,
   FlowDocument,
   FlowVirtualTree,
   FlowNodeBaseType,
-} from '@q/flowgram.ai.document';
-import { EntityManager } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/document';
+import { EntityManager } from '@flowgram.ai/core';
 
 import { VariableChainConfig } from '../variable-chain-config';
 import { FlowNodeScope, FlowNodeScopeTypeEnum } from '../types';

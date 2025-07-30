@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { WorkflowVariableType } from '@q/flowgram.ai.runtime-interface';
+import { WorkflowVariableType } from '@flowgram.ai/runtime-interface';
 
 import { WorkflowRuntimeType } from './runtime-type';
 
