@@ -18,11 +18,15 @@ import { LineStyle } from './index.style';
 import { ArrowRenderer } from './arrow';
 
 const PADDING = 12;
+const DISTANCE = 8;
 
 // eslint-disable-next-line react/display-name
 export const LineSVG = (props: LineRenderProps) => {
   const { line, color, selected, children, strokePrefix, rendererRegistry } = props;
   const { position, reverse, vertical, hideArrow } = line;
+
+  const fromNode = line?.from?.toJSON();
+  const toNode = line?.to?.toJSON();
 
   const renderData = line.getData(WorkflowLineRenderData);
   const { bounds, path: bezierPath } = renderData;
@@ -38,11 +42,11 @@ export const LineSVG = (props: LineRenderProps) => {
 
   // 箭头位置计算
   const arrowToPos: IPoint = vertical
-    ? { x: toPos.x, y: toPos.y - POINT_RADIUS }
-    : { x: toPos.x - POINT_RADIUS, y: toPos.y };
+    ? { x: toPos.x, y: toPos.y - POINT_RADIUS + DISTANCE }
+    : { x: toPos.x - POINT_RADIUS + DISTANCE, y: toPos.y };
   const arrowFromPos: IPoint = vertical
-    ? { x: fromPos.x, y: fromPos.y + POINT_RADIUS + LINE_OFFSET }
-    : { x: fromPos.x + POINT_RADIUS + LINE_OFFSET, y: fromPos.y };
+    ? { x: fromPos.x, y: fromPos.y + POINT_RADIUS + LINE_OFFSET - DISTANCE }
+    : { x: fromPos.x + POINT_RADIUS + LINE_OFFSET - DISTANCE, y: fromPos.y };
 
   const strokeWidth = selected ? STROKE_WIDTH_SLECTED : STROKE_WIDTH;
 
@@ -86,8 +90,11 @@ export const LineSVG = (props: LineRenderProps) => {
             id={strokeID}
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor={color} offset="0%" />
-            <stop stopColor={color} offset="100%" />
+            <stop stopColor={fromNode?.data?.meta?.color || color} offset="0%" />
+            <stop
+              stopColor={toNode?.data?.meta?.color || fromNode?.data?.meta?.color || color}
+              offset="100%"
+            />
           </linearGradient>
         </defs>
         <g>

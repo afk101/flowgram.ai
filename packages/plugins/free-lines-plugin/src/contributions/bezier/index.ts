@@ -23,6 +23,9 @@ import {
   getBezierVerticalControlPoints,
 } from './bezier-controls';
 
+const DISTANCE = 8;
+const DISTANCE_FROM = 8;
+
 export interface BezierData {
   fromPos: IPoint;
   toPos: IPoint;
@@ -110,21 +113,21 @@ export class WorkflowBezierLineContribution implements WorkflowLineRenderContrib
 
     // 渲染端点位置计算
     const renderToPos: IPoint = this.entity.vertical
-      ? { x: toPos.x, y: toPos.y - POINT_RADIUS }
-      : { x: toPos.x - POINT_RADIUS, y: toPos.y };
+      ? { x: toPos.x, y: toPos.y - POINT_RADIUS + DISTANCE }
+      : { x: toPos.x - POINT_RADIUS + DISTANCE, y: toPos.y };
 
     const getPathData = (): string => {
       const controlPoints = controls.map((s) => `${s.x} ${s.y}`).join(',');
       const curveType = controls.length === 1 ? 'S' : 'C';
 
       if (this.entity.vertical) {
-        return `M${fromPos.x} ${fromPos.y + POINT_RADIUS} ${curveType} ${controlPoints}, ${
-          renderToPos.x
-        } ${renderToPos.y}`;
+        return `M${fromPos.x} ${
+          fromPos.y + POINT_RADIUS - DISTANCE_FROM
+        } ${curveType} ${controlPoints}, ${renderToPos.x} ${renderToPos.y}`;
       }
-      return `M${fromPos.x + POINT_RADIUS} ${fromPos.y} ${curveType} ${controlPoints}, ${
-        renderToPos.x
-      } ${renderToPos.y}`;
+      return `M${fromPos.x + POINT_RADIUS - DISTANCE_FROM} ${
+        fromPos.y
+      } ${curveType} ${controlPoints}, ${renderToPos.x} ${renderToPos.y}`;
     };
     const path = getPathData();
     return path;
