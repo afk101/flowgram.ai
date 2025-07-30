@@ -165,9 +165,9 @@ else
 fi
 
 # ============================================================================
-# 4. 深度遍历 packages 和 apps 文件夹，替换文件内容并添加 maintainers 配置
+# 4. 深度遍历 packages 和 apps 文件夹，替换文件内容、添加 maintainers 配置并更新 registry 地址
 # ============================================================================
-echo "步骤 4: 深度遍历并替换文件内容..."
+echo "步骤 4: 深度遍历并替换文件内容、添加 maintainers 配置并更新 registry 地址..."
 
 # 定义替换函数
 replace_in_file() {
@@ -185,11 +185,17 @@ replace_in_file() {
     fi
 }
 
-# 定义添加 maintainers 配置的函数
-add_maintainers_to_package_json() {
+# 定义添加 maintainers 配置和修改 publishConfig 的函数
+# 替换
+# "publishConfig": {
+#    "access": "public",
+#    "registry": "https://registry.npmjs.org/"
+# }
+# 的registry为"https://registry.qnpm.qihoo.net"
+add_maintainers_and_update_registry() {
     local file="$1"
     if [ -f "$file" ]; then
-        echo "    - 正在为 $file 添加 maintainers 配置..."
+        echo "    - 正在处理 $file (添加 maintainers 配置和更新 registry)..."
 
         # 使用 Node.js 脚本来处理 JSON 文件
         node -e "
@@ -201,25 +207,60 @@ add_maintainers_to_package_json() {
             const maintainersPath = 'scriptsQ/maintainers.json';
             if (!fs.existsSync(maintainersPath)) {
                 console.log('    - 警告: scriptsQ/maintainers.json 文件不存在，跳过添加 maintainers');
-                process.exit(0);
             }
 
-            const maintainersData = JSON.parse(fs.readFileSync(maintainersPath, 'utf8'));
+            let maintainersData = null;
+            if (fs.existsSync(maintainersPath)) {
+                maintainersData = JSON.parse(fs.readFileSync(maintainersPath, 'utf8'));
+            }
 
             // 读取 package.json
             const packageJsonPath = '$file';
             const packageData = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+            let modified = false;
 
-            // 检查是否已经有 maintainers 字段
-            if (!packageData.maintainers) {
-                // 添加 maintainers 字段
+            // 1. 添加或覆盖 maintainers 字段
+            if (maintainersData) {
+                if (packageData.maintainers) {
+                    console.log('    - ✅ 已覆盖现有 maintainers 配置');
+                } else {
+                    console.log('    - ✅ 已添加 maintainers 配置');
+                }
                 packageData.maintainers = maintainersData;
+                modified = true;
+            }
 
-                // 写回文件，保持格式化
-                fs.writeFileSync(packageJsonPath, JSON.stringify(packageData, null, 2) + '\n', 'utf8');
-                console.log('    - ✅ 已添加 maintainers 配置到 $file');
+            // 2. 设置或替换 publishConfig 配置
+            const targetPublishConfig = {
+                access: 'public',
+                registry: 'https://registry.qnpm.qihoo.net'
+            };
+
+            if (packageData.publishConfig) {
+                // 如果已有 publishConfig，检查是否需要更新
+                const currentConfig = JSON.stringify(packageData.publishConfig);
+                const targetConfig = JSON.stringify(targetPublishConfig);
+
+                if (currentConfig !== targetConfig) {
+                    packageData.publishConfig = targetPublishConfig;
+                    modified = true;
+                    console.log('    - ✅ 已替换 publishConfig 配置');
+                } else {
+                    console.log('    - ⚠️  publishConfig 配置已是目标配置，跳过修改');
+                }
             } else {
-                console.log('    - ⚠️  $file 已存在 maintainers 配置，跳过');
+                // 如果没有 publishConfig，创建新的配置
+                packageData.publishConfig = targetPublishConfig;
+                modified = true;
+                console.log('    - ✅ 已创建 publishConfig 配置');
+            }
+
+            // 3. 如果有修改，写回文件
+            if (modified) {
+                fs.writeFileSync(packageJsonPath, JSON.stringify(packageData, null, 2) + '\n', 'utf8');
+                console.log('    - ✅ 已保存修改到 $file');
+            } else {
+                console.log('    - ⚠️  $file 无需修改');
             }
         } catch (error) {
             console.log('    - ❌ 处理 $file 时出错:', error.message);
@@ -236,8 +277,8 @@ if [ -d "packages" ]; then
     find packages -name "package.json" -type f | while read -r file; do
         # 先替换包名
         replace_in_file "$file"
-        # 再添加 maintainers 配置
-        add_maintainers_to_package_json "$file"
+        # 再添加 maintainers 配置和更新 registry
+        add_maintainers_and_update_registry "$file"
     done
 
     # 查找所有 src 文件夹下的文件
@@ -258,8 +299,8 @@ if [ -d "apps" ]; then
     find apps -name "package.json" -type f | while read -r file; do
         # 先替换包名
         replace_in_file "$file"
-        # 再添加 maintainers 配置
-        add_maintainers_to_package_json "$file"
+        # 再添加 maintainers 配置和更新 registry
+        add_maintainers_and_update_registry "$file"
     done
 
     # 查找所有 src 文件夹下的文件
@@ -402,7 +443,7 @@ echo "0. ✅ 已校验分支名格式符合规范"
 echo "1. ✅ 已将 .github 文件夹备份到 .github.bak 并删除原文件夹"
 echo "2. ✅ 已将 common/git-hooks 文件夹备份到 .git-hooks.bak 并删除原文件夹"
 echo "3. ✅ 已修改 rush.json 中的 projects 配置"
-echo "4. ✅ 已替换 packages 和 apps 文件夹中的包名引用，并添加 maintainers 配置"
+echo "4. ✅ 已替换 packages 和 apps 文件夹中的包名引用，添加 maintainers 配置并更新 publishConfig registry 地址"
 echo "5. ✅ 已替换 apps/create-app/src/index.ts 中的 registry URL"
 echo "6. ✅ 已处理 .npmrc-publish 文件配置"
 echo "7. ✅ 已创建 .env 和 .env.example 文件"
