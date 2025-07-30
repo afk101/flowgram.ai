@@ -4,9 +4,9 @@
  */
 
 import { isEqual } from 'lodash-es';
-import { FlowNodeRenderData } from '@q/flowgram.ai.document';
-import { EntityData, SizeData } from '@q/flowgram.ai.core';
-import { type IPoint } from '@q/flowgram.ai.utils';
+import { FlowNodeRenderData } from '@flowgram.ai/document';
+import { EntityData, SizeData } from '@flowgram.ai/core';
+import { type IPoint } from '@flowgram.ai/utils';
 
 import { type WorkflowPortType, getPortEntityId } from '../utils/statics';
 import { type WorkflowNodeMeta } from '../typings';

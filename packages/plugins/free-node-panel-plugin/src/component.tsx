@@ -5,7 +5,7 @@
 
 import React, { FC, ReactNode, useEffect, useRef } from 'react';
 
-import { PositionSchema } from '@q/flowgram.ai.utils';
+import { PositionSchema } from '@flowgram.ai/utils';
 
 interface NodePanelContainerProps {
   onSelect: (nodeType: string | undefined) => void;

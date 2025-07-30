@@ -4,7 +4,7 @@
  */
 
 import { nanoid } from 'nanoid';
-import { FlowNodeSplitType } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowNodeSplitType } from '@flowgram.ai/fixed-layout-editor';
 
 import { defaultFormMeta } from '../default-form-meta';
 import { FlowNodeRegistry } from '../../typings';

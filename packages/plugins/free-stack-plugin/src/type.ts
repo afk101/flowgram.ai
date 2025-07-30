@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import type { WorkflowEntityHoverable } from '@q/flowgram.ai.free-layout-core';
-import type { Entity } from '@q/flowgram.ai.core';
+import type { WorkflowEntityHoverable } from '@flowgram.ai/free-layout-core';
+import type { Entity } from '@flowgram.ai/core';
 
 export type StackingContext = {
   hoveredEntity?: WorkflowEntityHoverable;

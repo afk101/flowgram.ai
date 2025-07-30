@@ -4,11 +4,11 @@
  */
 
 import { get } from 'lodash';
-import { FormModelV2, isFormModelV2 } from '@q/flowgram.ai.node';
-import { HistoryService, Operation } from '@q/flowgram.ai.history';
-import { StackOperation } from '@q/flowgram.ai.history';
-import { FlowNodeFormData } from '@q/flowgram.ai.form-core';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { FormModelV2, isFormModelV2 } from '@flowgram.ai/node';
+import { HistoryService, Operation } from '@flowgram.ai/history';
+import { StackOperation } from '@flowgram.ai/history';
+import { FlowNodeFormData } from '@flowgram.ai/form-core';
+import { FlowNodeEntity } from '@flowgram.ai/document';
 
 import { ChangeFormValuesOperationValue, NodeOperationType } from '../types';
 

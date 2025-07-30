@@ -10,7 +10,7 @@ import {
   FlowNodeRenderData,
   FlowNodeTransformData,
   type CollapseProps,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 import { Arrow } from '../../assets';
 import { Container } from './styles';

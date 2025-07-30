@@ -6,7 +6,7 @@
 import { useEffect, useRef } from 'react';
 
 import { Input, Typography } from 'antd';
-import { Field, FieldRenderProps } from '@q/flowgram.ai.free-layout-editor';
+import { Field, FieldRenderProps } from '@flowgram.ai/free-layout-editor';
 
 import { Feedback } from '../feedback';
 // import { Title } from "./styles";

@@ -7,14 +7,14 @@ import {
   JsonSchemaEditor,
   provideJsonSchemaOutputs,
   syncVariableTitle,
-} from '@q/flowgram.ai.form-materials';
+} from '@flowgram.ai/form-materials';
 import {
   Field,
   FieldRenderProps,
   FormRenderProps,
   FormMeta,
   ValidateTrigger,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 import { FlowNodeJSON, JsonSchema } from '../../typings';
 import { useIsSidebar } from '../../hooks';

@@ -5,7 +5,7 @@
 
 import { useEffect } from 'react';
 
-import { useRefresh } from '@q/flowgram.ai.core';
+import { useRefresh } from '@flowgram.ai/core';
 
 import { useCurrentScope } from '../context';
 import { ScopeAvailableData } from '../../scope/datas';

@@ -4,8 +4,8 @@
  */
 
 import { ContainerModule } from 'inversify';
-import { bindContributions } from '@q/flowgram.ai.utils';
-import { FlowDocument, FlowDocumentContribution } from '@q/flowgram.ai.document';
+import { bindContributions } from '@flowgram.ai/utils';
+import { FlowDocument, FlowDocumentContribution } from '@flowgram.ai/document';
 
 import { WorkflowLinesManager } from './workflow-lines-manager';
 import {

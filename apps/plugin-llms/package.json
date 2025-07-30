@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.plugin-llms",
+  "name": "@flowgram.ai/plugin-llms",
   "version": "2.0.0-beta.4",
   "description": "Copy from rspress. polyfill for csg.",
   "bugs": "https://github.com/web-infra-dev/rspress/issues",
@@ -37,19 +37,5 @@
     "@types/node": "^18",
     "typescript": "^5.0.4",
     "vfile": "^6.0.3"
-  },
-  "maintainers": [
-    {
-      "email": "jinshuokang@360.cn",
-      "name": "jinshuokang"
-    },
-    {
-      "email": "chenguangdi@360.cn",
-      "name": "chenguangdi"
-    }
-  ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.qnpm.qihoo.net"
   }
 }

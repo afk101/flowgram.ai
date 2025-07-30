@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IJsonSchema } from '@q/flowgram.ai.runtime-interface';
+import { IJsonSchema } from '@flowgram.ai/runtime-interface';
 
 // Define validation result type
 type ValidationResult = {

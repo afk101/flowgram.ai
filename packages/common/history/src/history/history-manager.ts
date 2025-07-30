@@ -4,7 +4,7 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { type Disposable, DisposableCollection } from '@q/flowgram.ai.utils';
+import { type Disposable, DisposableCollection } from '@flowgram.ai/utils';
 
 import { OperationWithId } from '../operation';
 import { HistoryConfig } from '../history-config';

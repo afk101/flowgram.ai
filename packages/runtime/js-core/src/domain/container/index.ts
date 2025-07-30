@@ -9,7 +9,7 @@ import {
   IEngine,
   IExecutor,
   IValidation,
-} from '@q/flowgram.ai.runtime-interface';
+} from '@flowgram.ai/runtime-interface';
 
 import { WorkflowRuntimeNodeExecutors } from '@nodes/index';
 import { WorkflowRuntimeValidation } from '../validation';

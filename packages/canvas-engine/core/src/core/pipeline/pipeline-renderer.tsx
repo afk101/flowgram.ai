@@ -12,7 +12,7 @@ import {
   type Message,
   MessageLoop,
 } from '@phosphor/messaging';
-import { type Disposable, DisposableCollection, domUtils, Emitter } from '@q/flowgram.ai.utils';
+import { type Disposable, DisposableCollection, domUtils, Emitter } from '@flowgram.ai/utils';
 
 import { type Layer } from '../layer';
 import { LoggerService } from '../../services';

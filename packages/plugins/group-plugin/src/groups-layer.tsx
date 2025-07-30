@@ -6,7 +6,7 @@
 import React from 'react';
 
 import { inject, injectable } from 'inversify';
-import { FlowRendererRegistry } from '@q/flowgram.ai.renderer';
+import { FlowRendererRegistry } from '@flowgram.ai/renderer';
 import {
   FlowDocument,
   FlowDocumentTransformerEntity,
@@ -15,9 +15,9 @@ import {
   FlowNodeEntity,
   FlowNodeRenderData,
   FlowNodeTransformData,
-} from '@q/flowgram.ai.document';
-import { Layer, observeEntity, observeEntityDatas } from '@q/flowgram.ai.core';
-import { domUtils } from '@q/flowgram.ai.utils';
+} from '@flowgram.ai/document';
+import { Layer, observeEntity, observeEntityDatas } from '@flowgram.ai/core';
+import { domUtils } from '@flowgram.ai/utils';
 
 import { GroupsLayerOptions, IGroupBox } from './type';
 import { GroupRenderer } from './constant';

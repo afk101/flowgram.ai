@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { ShortcutsHandler } from '@q/flowgram.ai.shortcuts-plugin';
-import { WorkflowSelectService, WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-core';
-import { FlowNodeBaseType } from '@q/flowgram.ai.document';
-import { PluginContext } from '@q/flowgram.ai.core';
+import { ShortcutsHandler } from '@flowgram.ai/shortcuts-plugin';
+import { WorkflowSelectService, WorkflowNodeEntity } from '@flowgram.ai/free-layout-core';
+import { FlowNodeBaseType } from '@flowgram.ai/document';
+import { PluginContext } from '@flowgram.ai/core';
 
 import { WorkflowGroupService } from '../workflow-group-service';
 import { WorkflowGroupCommand } from '../constant';

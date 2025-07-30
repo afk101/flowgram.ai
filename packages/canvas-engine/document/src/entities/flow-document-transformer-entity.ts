@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Emitter } from '@q/flowgram.ai.utils';
-import { ConfigEntity, type EntityOpts } from '@q/flowgram.ai.core';
+import { Emitter } from '@flowgram.ai/utils';
+import { ConfigEntity, type EntityOpts } from '@flowgram.ai/core';
 
 import type { FlowDocument } from '../flow-document';
 import { FlowNodeTransformData } from '../datas';

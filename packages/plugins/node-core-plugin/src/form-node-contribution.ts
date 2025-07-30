@@ -4,7 +4,7 @@
  */
 
 import { injectable } from 'inversify';
-import { NodeContribution, NodeManager, PLUGIN_KEY } from '@q/flowgram.ai.form-core';
+import { NodeContribution, NodeManager, PLUGIN_KEY } from '@flowgram.ai/form-core';
 
 import { FormRender } from './form-render';
 

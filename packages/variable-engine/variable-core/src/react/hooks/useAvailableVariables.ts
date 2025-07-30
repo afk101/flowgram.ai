@@ -5,7 +5,7 @@
 
 import { useEffect } from 'react';
 
-import { useRefresh, useService } from '@q/flowgram.ai.core';
+import { useRefresh, useService } from '@flowgram.ai/core';
 
 import { useCurrentScope } from '../context';
 import { VariableEngine } from '../../variable-engine';

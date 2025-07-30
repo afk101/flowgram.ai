@@ -1,5 +1,5 @@
 {
-  "extends": "@q/flowgram.ai.ts-config/tsconfig.infra.node.json",
+  "extends": "@flowgram.ai/ts-config/tsconfig.infra.node.json",
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "dist",

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Rectangle } from '@q/flowgram.ai.utils';
+import { Rectangle } from '@flowgram.ai/utils';
 
 import { FlowNodeEntity } from '../../entities';
 import { FlowNodeRenderData, FlowNodeTransformData } from '../../datas';

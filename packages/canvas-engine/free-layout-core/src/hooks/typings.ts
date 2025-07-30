@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type NodeFormProps } from '@q/flowgram.ai.node';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { type NodeFormProps } from '@flowgram.ai/node';
+import { FlowNodeEntity } from '@flowgram.ai/document';
 
 import { type WorkflowPortEntity } from '../entities';
 

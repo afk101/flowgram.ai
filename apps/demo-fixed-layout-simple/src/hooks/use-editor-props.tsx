@@ -5,8 +5,8 @@
 
 import { useMemo } from 'react';
 
-import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin';
-import { defaultFixedSemiMaterials } from '@q/flowgram.ai.fixed-semi-materials';
+import { createMinimapPlugin } from '@flowgram.ai/minimap-plugin';
+import { defaultFixedSemiMaterials } from '@flowgram.ai/fixed-semi-materials';
 import {
   Field,
   type FixedLayoutProps,
@@ -14,7 +14,7 @@ import {
   FlowNodeRegistry,
   FlowRendererKey,
   FlowTextKey,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 import { SlotAdder } from '../components/slot-adder';
 import { NodeAdder } from '../components/node-adder';

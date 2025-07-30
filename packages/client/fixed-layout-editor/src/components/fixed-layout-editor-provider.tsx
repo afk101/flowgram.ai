@@ -6,14 +6,14 @@
 import React, { useMemo, useCallback, forwardRef } from 'react';
 
 import { interfaces } from 'inversify';
-import { HistoryService } from '@q/flowgram.ai.history';
+import { HistoryService } from '@flowgram.ai/history';
 import {
   FlowDocument,
   createPluginContextDefault,
   PlaygroundReactProvider,
   ClipboardService,
   SelectionService,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 
 import { FlowOperationService } from '../types';
 import { createFixedLayoutPreset, FixedLayoutPluginContext, FixedLayoutProps } from '../preset';

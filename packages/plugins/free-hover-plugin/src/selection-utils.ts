@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Rectangle } from '@q/flowgram.ai.utils';
-import { WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-core';
-import { FlowNodeTransformData } from '@q/flowgram.ai.document';
-import { type Entity } from '@q/flowgram.ai.core';
+import { Rectangle } from '@flowgram.ai/utils';
+import { WorkflowNodeEntity } from '@flowgram.ai/free-layout-core';
+import { FlowNodeTransformData } from '@flowgram.ai/document';
+import { type Entity } from '@flowgram.ai/core';
 
 const BOUNDS_PADDING = 2;
 

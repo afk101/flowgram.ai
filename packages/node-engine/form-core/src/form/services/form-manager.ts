@@ -5,8 +5,8 @@
 
 import { mapValues } from 'lodash';
 import { inject, injectable, multiInject, optional, postConstruct } from 'inversify';
-import { Emitter } from '@q/flowgram.ai.utils';
-import { injectPlaygroundContext, PlaygroundContext } from '@q/flowgram.ai.core';
+import { Emitter } from '@flowgram.ai/utils';
+import { injectPlaygroundContext, PlaygroundContext } from '@flowgram.ai/core';
 
 import { AbilityClass, FormItemAbility } from '../models/form-item-ability';
 import { FormAbilityExtensionRegistry, FormModel } from '../models';

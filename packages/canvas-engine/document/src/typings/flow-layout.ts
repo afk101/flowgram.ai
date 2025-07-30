@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, PaddingSchema, ScrollSchema, SizeSchema } from '@q/flowgram.ai.utils';
+import { IPoint, PaddingSchema, ScrollSchema, SizeSchema } from '@flowgram.ai/utils';
 
 import { type FlowNodeEntity } from '../entities';
 import { type FlowNodeTransformData } from '../datas';

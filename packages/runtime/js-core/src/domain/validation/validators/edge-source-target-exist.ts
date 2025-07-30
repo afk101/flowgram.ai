@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowSchema } from '@q/flowgram.ai.runtime-interface';
+import { WorkflowSchema } from '@flowgram.ai/runtime-interface';
 
 export const edgeSourceTargetExist = (schema: WorkflowSchema) => {
   const { nodes, edges } = schema;

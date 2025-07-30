@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type Disposable } from '@q/flowgram.ai.utils';
+import { type Disposable } from '@flowgram.ai/utils';
 
 import type { EntityDataRegistry } from './entity-data';
 import { EntityData } from './entity-data';

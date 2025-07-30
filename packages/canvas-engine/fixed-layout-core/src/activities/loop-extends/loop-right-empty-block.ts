@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type FlowNodeRegistry } from '@q/flowgram.ai.document';
+import { type FlowNodeRegistry } from '@flowgram.ai/document';
 
 import { BlockRegistry } from '../block';
 import { LoopTypeEnum } from './constants';

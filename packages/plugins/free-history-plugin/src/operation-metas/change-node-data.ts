@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeFormData } from '@q/flowgram.ai.form-core';
-import { type PluginContext } from '@q/flowgram.ai.core';
-import { WorkflowDocument } from '@q/flowgram.ai.free-layout-core';
-import { type OperationMeta } from '@q/flowgram.ai.history';
+import { FlowNodeFormData } from '@flowgram.ai/form-core';
+import { type PluginContext } from '@flowgram.ai/core';
+import { WorkflowDocument } from '@flowgram.ai/free-layout-core';
+import { type OperationMeta } from '@flowgram.ai/history';
 
 import { FreeOperationType, type ChangeNodeDataValue } from '../types';
 import { baseOperationMeta } from './base';

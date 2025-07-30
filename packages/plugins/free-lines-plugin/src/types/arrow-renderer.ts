@@ -5,8 +5,8 @@
 
 import React from 'react';
 
-import { type IPoint } from '@q/flowgram.ai.utils';
-import { type WorkflowLineEntity } from '@q/flowgram.ai.free-layout-core';
+import { type IPoint } from '@flowgram.ai/utils';
+import { type WorkflowLineEntity } from '@flowgram.ai/free-layout-core';
 
 /**
  * 箭头渲染器属性接口

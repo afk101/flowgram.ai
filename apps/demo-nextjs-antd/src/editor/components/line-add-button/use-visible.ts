@@ -4,7 +4,7 @@
  */
 
 import './index.scss';
-import { WorkflowLineEntity, usePlayground } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowLineEntity, usePlayground } from '@flowgram.ai/free-layout-editor';
 
 export const useVisible = (params: {
   line: WorkflowLineEntity;

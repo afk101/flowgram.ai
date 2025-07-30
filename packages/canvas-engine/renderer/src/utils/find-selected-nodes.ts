@@ -4,7 +4,7 @@
  */
 
 import { uniq } from 'lodash';
-import { type FlowNodeEntity } from '@q/flowgram.ai.document';
+import { type FlowNodeEntity } from '@flowgram.ai/document';
 
 function getNodePath(node: FlowNodeEntity): FlowNodeEntity[] {
   const path: FlowNodeEntity[] = [node];

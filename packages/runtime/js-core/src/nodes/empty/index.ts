@@ -8,7 +8,7 @@ import {
   ExecutionResult,
   FlowGramNode,
   INodeExecutor,
-} from '@q/flowgram.ai.runtime-interface';
+} from '@flowgram.ai/runtime-interface';
 
 export class BlockStartExecutor implements INodeExecutor {
   public type = FlowGramNode.BlockStart;

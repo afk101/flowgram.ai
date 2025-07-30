@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, Point, Rectangle } from '@q/flowgram.ai.utils';
+import { IPoint, Point, Rectangle } from '@flowgram.ai/utils';
 import {
   POINT_RADIUS,
   WorkflowLineEntity,
   WorkflowLineRenderContribution,
-} from '@q/flowgram.ai.free-layout-core';
+} from '@flowgram.ai/free-layout-core';
 
 import { LINE_PADDING } from '../../constants/lines';
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { ExecutionContext, ExecutionResult } from '@q/flowgram.ai.runtime-interface';
+import { ExecutionContext, ExecutionResult } from '@flowgram.ai/runtime-interface';
 
 import { LLMExecutor, LLMExecutorInputs } from '@nodes/llm';
 import { delay } from '@infra/utils';

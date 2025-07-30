@@ -4,7 +4,7 @@
  */
 
 import { Subject, filter } from 'rxjs';
-import { Disposable } from '@q/flowgram.ai.utils';
+import { Disposable } from '@flowgram.ai/utils';
 
 import { type Scope } from '../scope';
 import { subsToDisposable } from '../../utils/toDisposable';
