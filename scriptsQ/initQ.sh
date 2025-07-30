@@ -513,26 +513,38 @@ done
 echo "  - 所有 .eslintrc.js 和 .eslintrc.cjs 文件处理完成"
 
 # ============================================================================
-# 12. 处理 config/eslint-config/tsconfig.json 文件中的extends引用
+# 12. 深度遍历 e2e、apps、packages、config 文件夹，替换 tsconfig.json 文件中的包名引用
 # ============================================================================
-echo "步骤 12: 处理 config/eslint-config/tsconfig.json 文件中的extends引用..."
+echo "步骤 12: 深度遍历 e2e、apps、packages、config 文件夹，替换 tsconfig.json 文件中的包名引用..."
 
-if [ -f "config/eslint-config/tsconfig.json" ]; then
-    echo "  - 正在处理 config/eslint-config/tsconfig.json"
-    # 使用 sed 进行替换，兼容 macOS 和 Linux
-    if [[ "$OSTYPE" == "darwin"* ]]; then
-        # macOS
-        sed -i '' 's/@flowgram\.ai\//@q\/flowgram.ai./g' "config/eslint-config/tsconfig.json"
+# 定义要处理的文件夹列表
+FOLDERS_TO_PROCESS_TSCONFIG=("e2e" "apps" "packages" "config")
+
+for folder in "${FOLDERS_TO_PROCESS_TSCONFIG[@]}"; do
+    if [ -d "$folder" ]; then
+        echo "  - 处理 $folder 文件夹..."
+
+        # 查找所有 tsconfig.json 文件并处理
+        find "$folder" -name "tsconfig.json" -type f | while read -r file; do
+            echo "    - 正在处理: $file"
+            # 使用 sed 进行替换，兼容 macOS 和 Linux
+            if [[ "$OSTYPE" == "darwin"* ]]; then
+                # macOS
+                sed -i '' 's/@flowgram\.ai\//@q\/flowgram.ai./g' "$file"
+            else
+                # Linux
+                sed -i 's/@flowgram\.ai\//@q\/flowgram.ai./g' "$file"
+            fi
+            echo "    - 已处理: $file"
+        done
+
+        echo "  - $folder 文件夹中的 tsconfig.json 文件处理完成"
     else
-        # Linux
-        sed -i 's/@flowgram\.ai\//@q\/flowgram.ai./g' "config/eslint-config/tsconfig.json"
+        echo "  - $folder 文件夹不存在，跳过"
     fi
-    echo "  - 已处理: config/eslint-config/tsconfig.json"
-else
-    echo "  - config/eslint-config/tsconfig.json 文件不存在，跳过此步骤"
-fi
+done
 
-echo "  - config/eslint-config/tsconfig.json 文件处理完成"
+echo "  - 所有 tsconfig.json 文件处理完成"
 
 # ============================================================================
 # 完成
@@ -553,7 +565,7 @@ echo "8. ✅ 已创建根目录 .npmrc 文件"
 echo "9. ✅ 已处理 version-policies.json 文件配置"
 echo "10. ✅ 已深度遍历 e2e 和 config 文件夹下的所有 package.json 文件，修改包名引用"
 echo "11. ✅ 已深度遍历 e2e、apps、packages、config 文件夹下的所有 .eslintrc.js 和 .eslintrc.cjs 文件，修改包名引用"
-echo "12. ✅ 已处理 config/eslint-config/tsconfig.json 文件中的extends引用"
+echo "12. ✅ 已深度遍历 e2e、apps、packages、config 文件夹下的所有 tsconfig.json 文件，修改包名引用"
 echo ""
 echo "备份文件位置："
 echo "- .github.bak/ (原 .github 文件夹内容)"
