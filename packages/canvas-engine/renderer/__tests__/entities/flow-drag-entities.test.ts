@@ -4,14 +4,14 @@
  */
 
 import { beforeEach, describe, expect, it } from 'vitest';
-import { Rectangle } from '@flowgram.ai/utils';
+import { Rectangle } from '@q/flowgram.ai.utils';
 import {
   FlowDocument,
   FlowNodeTransitionData,
   FlowTransitionLabelEnum,
   LABEL_SIDE_TYPE,
-} from '@flowgram.ai/document';
-import { EntityManager, PlaygroundConfigEntity, PlaygroundContext } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.document';
+import { EntityManager, PlaygroundConfigEntity, PlaygroundContext } from '@q/flowgram.ai.core';
 
 import { FlowDragEntity } from '../../src/entities/flow-drag-entity';
 import { flowJson } from '../../__mocks__/flow-json.mock';

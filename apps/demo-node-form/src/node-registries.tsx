@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowNodeRegistry } from '@flowgram.ai/free-layout-editor';
+import { WorkflowNodeRegistry } from '@q/flowgram.ai.free-layout-editor';
 
 import { DEFAULT_FORM_META } from './form-meta';
 

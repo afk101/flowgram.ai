@@ -6,8 +6,8 @@
 import { FC, useContext, useEffect, useState } from 'react';
 
 import classnames from 'classnames';
-import { WorkflowInputs, WorkflowOutputs } from '@flowgram.ai/runtime-interface';
-import { useService } from '@flowgram.ai/free-layout-editor';
+import { WorkflowInputs, WorkflowOutputs } from '@q/flowgram.ai.runtime-interface';
+import { useService } from '@q/flowgram.ai.free-layout-editor';
 import { Button, SideSheet, Switch } from '@douyinfe/semi-ui';
 import { IconClose, IconPlay, IconSpin } from '@douyinfe/semi-icons';
 

@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowContentChangeType } from '@flowgram.ai/free-layout-core';
-import { type FlowNodeEntity } from '@flowgram.ai/document';
+import { WorkflowContentChangeType } from '@q/flowgram.ai.free-layout-core';
+import { type FlowNodeEntity } from '@q/flowgram.ai.document';
 
 import {
   type ContentChangeTypeToOperation,

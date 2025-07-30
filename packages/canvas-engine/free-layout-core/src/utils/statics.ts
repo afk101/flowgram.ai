@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Rectangle } from '@flowgram.ai/utils';
+import { Rectangle } from '@q/flowgram.ai.utils';
 
 import { type WorkflowNodeEntity } from '../entities/workflow-node-entity';
 export type WorkflowPortType = 'input' | 'output';

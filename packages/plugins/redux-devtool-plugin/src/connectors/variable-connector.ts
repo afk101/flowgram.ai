@@ -4,7 +4,7 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { Scope, VariableEngine } from '@flowgram.ai/variable-core';
+import { Scope, VariableEngine } from '@q/flowgram.ai.variable-core';
 
 import { BaseConnector } from './base';
 
@@ -18,7 +18,7 @@ export class VariableConnector extends BaseConnector {
   scopes: Record<string, any> = {};
 
   getName(): string {
-    return '@flowgram.ai/VariableEngine';
+    return '@q/flowgram.ai.VariableEngine';
   }
 
   getState() {

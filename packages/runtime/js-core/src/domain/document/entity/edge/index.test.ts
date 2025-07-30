@@ -4,7 +4,7 @@
  */
 
 import { beforeEach, describe, expect, it } from 'vitest';
-import { WorkflowEdgeSchema, CreateEdgeParams, INode, IPort } from '@flowgram.ai/runtime-interface';
+import { WorkflowEdgeSchema, CreateEdgeParams, INode, IPort } from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowRuntimeEdge } from '.';
 

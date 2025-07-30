@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FormItem } from '@flowgram.ai/form-core';
-import { FlowNodeRenderData } from '@flowgram.ai/document';
+import { FormItem } from '@q/flowgram.ai.form-core';
+import { FlowNodeRenderData } from '@q/flowgram.ai.document';
 
 import { HIGHLIGHT_CLASSNAME } from './highlight-style';
 import { DEFAULT_HIGHLIGHT_PADDING } from './constants';

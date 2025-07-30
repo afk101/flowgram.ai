@@ -38,7 +38,7 @@ interface NewFlowRefValueSchema {
  * 2. Call formatLegacyRefOnInit on the formData after submitting
  *
  * Example:
- * import { formatLegacyRefOnSubmit, formatLegacyRefOnInit } from '@flowgram.ai/form-materials';
+ * import { formatLegacyRefOnSubmit, formatLegacyRefOnInit } from '@q/flowgram.ai.form-materials';
  * formMeta: {
  *  formatOnSubmit: (data) => formatLegacyRefOnSubmit(data),
  *  formatOnInit: (data) => formatLegacyRefOnInit(data),
@@ -88,7 +88,7 @@ export function formatLegacyRefOnSubmit(value: any): any {
  * 2. Call formatLegacyRefOnInit on the formData after submitting
  *
  * Example:
- * import { formatLegacyRefOnSubmit, formatLegacyRefOnInit } from '@flowgram.ai/form-materials';
+ * import { formatLegacyRefOnSubmit, formatLegacyRefOnInit } from '@q/flowgram.ai.form-materials';
  *
  * formMeta: {
  *  formatOnSubmit: (data) => formatLegacyRefOnSubmit(data),

@@ -10,7 +10,7 @@ import {
   FlowTransitionLabelEnum,
   ConstantKeys,
   getDefaultSpacing,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 /**
  * 可以动态添加分支的分支节点

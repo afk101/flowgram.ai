@@ -4,9 +4,9 @@
  */
 
 import { find, mergeWith } from 'lodash';
-import { FormFeedback, FormPathService } from '@flowgram.ai/form-core';
-import { FormValidateReturn } from '@flowgram.ai/form/src/types';
-import { type FieldModel, FieldName } from '@flowgram.ai/form';
+import { FormFeedback, FormPathService } from '@q/flowgram.ai.form-core';
+import { FormValidateReturn } from '@q/flowgram.ai.form/src/types';
+import { type FieldModel, FieldName } from '@q/flowgram.ai.form';
 
 import { EffectOptions } from './types';
 

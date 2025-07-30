@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { OperationMeta } from '@flowgram.ai/history';
+import { OperationMeta } from '@q/flowgram.ai.history';
 
 import { changeFormValueOperationMeta } from './change-form-values';
 

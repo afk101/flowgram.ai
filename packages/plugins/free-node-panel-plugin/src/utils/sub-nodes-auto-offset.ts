@@ -8,8 +8,8 @@ import {
   WorkflowLinesManager,
   WorkflowNodeEntity,
   WorkflowPortEntity,
-} from '@flowgram.ai/free-layout-core';
-import { HistoryService } from '@flowgram.ai/free-history-plugin';
+} from '@q/flowgram.ai.free-layout-core';
+import { HistoryService } from '@q/flowgram.ai.free-history-plugin';
 
 import { updateSubSequentNodesPosition } from './update-sub-nodes-position';
 import { subPositionOffset, XYSchema } from './sub-position-offset';

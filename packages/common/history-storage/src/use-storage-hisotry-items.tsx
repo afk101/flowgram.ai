@@ -5,7 +5,7 @@
 
 import { groupBy } from 'lodash';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { HistoryItem, HistoryOperation, HistoryStack } from '@flowgram.ai/history';
+import { HistoryItem, HistoryOperation, HistoryStack } from '@q/flowgram.ai.history';
 
 import { HistoryStorageManager } from './history-storage-manager';
 export function useStorageHistoryItems(

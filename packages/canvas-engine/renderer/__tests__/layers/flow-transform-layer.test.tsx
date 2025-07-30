@@ -9,12 +9,12 @@ import {
   FlowDocument,
   FlowDocumentContainerModule,
   FlowDocumentContribution,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 import {
   createDefaultPlaygroundConfig,
   PlaygroundConfig,
   PlaygroundContainerModule,
-} from '@flowgram.ai/core';
+} from '@q/flowgram.ai.core';
 
 import { FlowRendererRegistry } from '../../src/flow-renderer-registry';
 import { FlowRendererContribution } from '../../src/flow-renderer-contribution';

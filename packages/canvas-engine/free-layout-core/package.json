@@ -1,5 +1,5 @@
 {
-  "name": "@flowgram.ai/free-layout-core",
+  "name": "@q/flowgram.ai.free-layout-core",
   "version": "0.2.26-6",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -40,20 +40,20 @@
     "watch": "npm run build:fast -- --dts-resolve --watch --ignore-watch dist"
   },
   "dependencies": {
-    "@flowgram.ai/core": "workspace:*",
-    "@flowgram.ai/document": "workspace:*",
-    "@flowgram.ai/form-core": "workspace:*",
-    "@flowgram.ai/node": "workspace:*",
-    "@flowgram.ai/reactive": "workspace:*",
-    "@flowgram.ai/utils": "workspace:*",
+    "@q/flowgram.ai.core": "workspace:*",
+    "@q/flowgram.ai.document": "workspace:*",
+    "@q/flowgram.ai.form-core": "workspace:*",
+    "@q/flowgram.ai.node": "workspace:*",
+    "@q/flowgram.ai.reactive": "workspace:*",
+    "@q/flowgram.ai.utils": "workspace:*",
     "inversify": "^6.0.1",
     "reflect-metadata": "~0.2.2",
     "lodash-es": "^4.17.21",
     "nanoid": "^4.0.2"
   },
   "devDependencies": {
-    "@flowgram.ai/eslint-config": "workspace:*",
-    "@flowgram.ai/ts-config": "workspace:*",
+    "@q/flowgram.ai.eslint-config": "workspace:*",
+    "@q/flowgram.ai.ts-config": "workspace:*",
     "@testing-library/react": "^12",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/bezier-js": "4.1.3",
@@ -72,6 +72,16 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  }
+    "registry": "https://registry.qnpm.qihoo.net"
+  },
+  "maintainers": [
+    {
+      "email": "jinshuokang@360.cn",
+      "name": "jinshuokang"
+    },
+    {
+      "email": "chenguangdi@360.cn",
+      "name": "chenguangdi"
+    }
+  ]
 }

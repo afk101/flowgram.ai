@@ -9,7 +9,7 @@ import {
   type FlowNodeEntity,
   type FlowNodeJSON,
   type FlowNodeRegistry,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import {
   CatchBlockRegistry,

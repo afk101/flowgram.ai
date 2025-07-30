@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeBaseType } from '@flowgram.ai/document';
-import { type FlowNodeEntity } from '@flowgram.ai/document';
-import { FlowNodeJSON } from '@flowgram.ai/document';
+import { FlowNodeBaseType } from '@q/flowgram.ai.document';
+import { type FlowNodeEntity } from '@q/flowgram.ai.document';
+import { FlowNodeJSON } from '@q/flowgram.ai.document';
 
 import { SlotNodeType } from '../typings';
 

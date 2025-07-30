@@ -8,7 +8,7 @@ import {
   WorkflowNodeProps,
   WorkflowNodeRenderer,
   useNodeRender,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 export const NodeRender = (props: WorkflowNodeProps) => {
   const { form, selected } = useNodeRender();

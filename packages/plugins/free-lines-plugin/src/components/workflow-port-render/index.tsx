@@ -12,8 +12,8 @@ import {
   type WorkflowPortEntity,
   usePlaygroundReadonlyState,
   WorkflowLinesManager,
-} from '@flowgram.ai/free-layout-core';
-import { MouseTouchEvent, useService } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.free-layout-core';
+import { MouseTouchEvent, useService } from '@q/flowgram.ai.core';
 
 import { PORT_BG_CLASS_NAME } from '../../constants/points';
 import { WorkflowPointStyle } from './style';

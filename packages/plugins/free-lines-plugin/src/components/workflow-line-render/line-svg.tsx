@@ -6,9 +6,9 @@
 import React from 'react';
 
 import clsx from 'clsx';
-import { type IPoint } from '@flowgram.ai/utils';
-import { POINT_RADIUS } from '@flowgram.ai/free-layout-core';
-import { WorkflowLineRenderData } from '@flowgram.ai/free-layout-core';
+import { type IPoint } from '@q/flowgram.ai.utils';
+import { POINT_RADIUS } from '@q/flowgram.ai.free-layout-core';
+import { WorkflowLineRenderData } from '@q/flowgram.ai.free-layout-core';
 
 import { type ArrowRendererComponent } from '../../types/arrow-renderer';
 import { LineRenderProps } from '../../type';

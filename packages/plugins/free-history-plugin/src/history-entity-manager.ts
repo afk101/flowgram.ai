@@ -6,8 +6,8 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import { cloneDeep, isEqual } from 'lodash';
 import { injectable } from 'inversify';
-import { type EntityData } from '@flowgram.ai/core';
-import { type Disposable, DisposableCollection } from '@flowgram.ai/utils';
+import { type EntityData } from '@q/flowgram.ai.core';
+import { type Disposable, DisposableCollection } from '@q/flowgram.ai.utils';
 
 @injectable()
 export class HistoryEntityManager implements Disposable {

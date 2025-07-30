@@ -10,7 +10,7 @@ import {
   DisposableCollection,
   type DOMCache,
   domUtils,
-} from '@flowgram.ai/utils';
+} from '@q/flowgram.ai.utils';
 
 // import { Adsorber } from '../utils/adsorber';
 // import { PlaygroundDrag, type PlaygroundDragEntitiesOpts } from '../utils';
@@ -22,7 +22,7 @@ import {
   PlaygroundContext,
   type PositionSchema,
 } from '../../common';
-// import { SelectionService } from '@flowgram.ai/application-common';
+// import { SelectionService } from '@q/flowgram.ai.application-common';
 import { type PlaygroundConfigEntity } from './config';
 
 export interface LayerOptions {}

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { ClipboardService } from '@flowgram.ai/fixed-layout-editor';
+import { ClipboardService } from '@q/flowgram.ai.fixed-layout-editor';
 
 export const readData = async (clipboard: ClipboardService) => {
   let str: string = '';

@@ -5,8 +5,8 @@
 
 import { useEffect, useState } from 'react';
 
-import { useService } from '@flowgram.ai/core';
-import { HistoryService } from '@flowgram.ai/history';
+import { useService } from '@q/flowgram.ai.core';
+import { HistoryService } from '@q/flowgram.ai.history';
 
 interface UndoRedo {
   canUndo: boolean;

@@ -9,8 +9,8 @@ import {
   FormMeta,
   WorkflowNodeRegistry,
   FormRenderProps,
-} from '@flowgram.ai/free-layout-editor';
-import { FieldWrapper } from '@flowgram.ai/demo-node-form';
+} from '@q/flowgram.ai.free-layout-editor';
+import { FieldWrapper } from '@q/flowgram.ai.demo-node-form';
 import { Input } from '@douyinfe/semi-ui';
 import '../index.css';
 

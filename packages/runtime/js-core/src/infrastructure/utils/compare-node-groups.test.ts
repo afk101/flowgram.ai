@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { INode } from '@flowgram.ai/runtime-interface';
+import { INode } from '@q/flowgram.ai.runtime-interface';
 
 import { compareNodeGroups } from './compare-node-groups';
 

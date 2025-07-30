@@ -386,7 +386,7 @@
         //    * in "version-policies.json" file.  See the "rush publish" documentation for more info.
         //    * NOTE: "versionPolicyName" and "shouldPublish" are alternatives; you cannot specify them both.
         //    */
-        //   // "versionPolicyName": "",
+        //   // "versionPolicyName": "MyProject-prerelease",
         //
         //   /**
         //    * An optional set of custom tags that can be used to select this project.  For example,
@@ -406,14 +406,14 @@
         // },
         //
         {
-            "packageName": "@flowgram.ai/e2e-fixed-layout",
+            "packageName": "@q/flowgram.ai.e2e-fixed-layout",
             "projectFolder": "e2e/fixed-layout",
             "tags": [
                 "e2e"
             ]
         },
         {
-            "packageName": "@flowgram.ai/e2e-free-layout",
+            "packageName": "@q/flowgram.ai.e2e-free-layout",
             "projectFolder": "e2e/free-layout",
             "tags": [
                 "e2e"
@@ -421,33 +421,36 @@
         },
         // eslint 通用配置
         {
-            "packageName": "@flowgram.ai/eslint-config",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.eslint-config",
             "projectFolder": "config/eslint-config",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "config"
             ]
         },
         // ts 通用配置
         {
-            "packageName": "@flowgram.ai/ts-config",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.ts-config",
             "projectFolder": "config/ts-config",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "config"
             ]
         },
         {
-            "packageName": "@flowgram.ai/create-app",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.create-app",
             "projectFolder": "apps/create-app",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "cli"
             ]
         },
         // 官网
         {
-            "packageName": "@flowgram.ai/docs",
+            "packageName": "@q/flowgram.ai.docs",
             "projectFolder": "apps/docs",
             "tags": [
                 "docs"
@@ -455,443 +458,492 @@
         },
         // demos
         {
-            "packageName": "@flowgram.ai/demo-fixed-layout",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.demo-fixed-layout",
             "projectFolder": "apps/demo-fixed-layout",
             "tags": [
                 "level-1",
                 "team-flow",
                 "demo"
             ],
-            "versionPolicyName": "appPolicy"
+            "versionPolicyName": "MyProject-prerelease"
         },
         {
-            "packageName": "@flowgram.ai/utils",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.utils",
             "projectFolder": "packages/common/utils",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/core",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.core",
             "projectFolder": "packages/canvas-engine/core",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/document",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.document",
             "projectFolder": "packages/canvas-engine/document",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/renderer",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.renderer",
             "projectFolder": "packages/canvas-engine/renderer",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/reactive",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.reactive",
             "projectFolder": "packages/common/reactive",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/background-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.background-plugin",
             "projectFolder": "packages/plugins/background-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/fixed-layout-core",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.fixed-layout-core",
             "projectFolder": "packages/canvas-engine/fixed-layout-core",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-layout-core",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-layout-core",
             "projectFolder": "packages/canvas-engine/free-layout-core",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/editor",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.editor",
             "projectFolder": "packages/client/editor",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/fixed-drag-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.fixed-drag-plugin",
             "projectFolder": "packages/plugins/fixed-drag-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/fixed-history-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.fixed-history-plugin",
             "projectFolder": "packages/plugins/fixed-history-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/fixed-layout-editor",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.fixed-layout-editor",
             "projectFolder": "packages/client/fixed-layout-editor",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/form",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.form",
             "projectFolder": "packages/node-engine/form",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/form-core",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.form-core",
             "projectFolder": "packages/node-engine/form-core",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-history-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-history-plugin",
             "projectFolder": "packages/plugins/free-history-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-hover-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-hover-plugin",
             "projectFolder": "packages/plugins/free-hover-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-layout-editor",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-layout-editor",
             "projectFolder": "packages/client/free-layout-editor",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-lines-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-lines-plugin",
             "projectFolder": "packages/plugins/free-lines-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-node-panel-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-node-panel-plugin",
             "projectFolder": "packages/plugins/free-node-panel-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-snap-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-snap-plugin",
             "projectFolder": "packages/plugins/free-snap-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-stack-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-stack-plugin",
             "projectFolder": "packages/plugins/free-stack-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-container-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-container-plugin",
             "projectFolder": "packages/plugins/free-container-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-group-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-group-plugin",
             "projectFolder": "packages/plugins/free-group-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/group-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.group-plugin",
             "projectFolder": "packages/plugins/group-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/history-node-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.history-node-plugin",
             "projectFolder": "packages/plugins/history-node-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/minimap-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.minimap-plugin",
             "projectFolder": "packages/plugins/minimap-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/node",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.node",
             "projectFolder": "packages/node-engine/node",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/node-core-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.node-core-plugin",
             "projectFolder": "packages/plugins/node-core-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/node-variable-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.node-variable-plugin",
             "projectFolder": "packages/plugins/node-variable-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/playground-react",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.playground-react",
             "projectFolder": "packages/client/playground-react",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/redux-devtool-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.redux-devtool-plugin",
             "projectFolder": "packages/plugins/redux-devtool-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/select-box-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.select-box-plugin",
             "projectFolder": "packages/plugins/select-box-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/shortcuts-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.shortcuts-plugin",
             "projectFolder": "packages/plugins/shortcuts-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/variable-core",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.variable-core",
             "projectFolder": "packages/variable-engine/variable-core",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/variable-layout",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.variable-layout",
             "projectFolder": "packages/variable-engine/variable-layout",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/variable-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.variable-plugin",
             "projectFolder": "packages/plugins/variable-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/command",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.command",
             "projectFolder": "packages/common/command",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/history",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.history",
             "projectFolder": "packages/common/history",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/history-storage",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.history-storage",
             "projectFolder": "packages/common/history-storage",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-2",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/materials-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.materials-plugin",
             "projectFolder": "packages/plugins/materials-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/fixed-semi-materials",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.fixed-semi-materials",
             "projectFolder": "packages/materials/fixed-semi-materials",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/form-materials",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.form-materials",
             "projectFolder": "packages/materials/form-materials",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/form-antd-materials",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.form-antd-materials",
             "projectFolder": "packages/materials/form-antd-materials",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-auto-layout-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.free-auto-layout-plugin",
             "projectFolder": "packages/plugins/free-auto-layout-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/i18n-plugin",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.i18n-plugin",
             "projectFolder": "packages/plugins/i18n-plugin",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/i18n",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.i18n",
             "projectFolder": "packages/common/i18n",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/demo-free-layout",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.demo-free-layout",
             "projectFolder": "apps/demo-free-layout",
             "tags": [
                 "level-1",
                 "team-flow",
                 "demo"
             ],
-            "versionPolicyName": "appPolicy"
+            "versionPolicyName": "MyProject-prerelease"
         },
         {
-            "packageName": "@flowgram.ai/demo-fixed-layout-simple",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.demo-fixed-layout-simple",
             "projectFolder": "apps/demo-fixed-layout-simple",
-            "versionPolicyName": "appPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow",
@@ -899,9 +951,10 @@
             ]
         },
         {
-            "packageName": "@flowgram.ai/demo-free-layout-simple",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.demo-free-layout-simple",
             "projectFolder": "apps/demo-free-layout-simple",
-            "versionPolicyName": "appPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow",
@@ -909,7 +962,7 @@
             ]
         },
         {
-            "packageName": "@flowgram.ai/demo-node-form",
+            "packageName": "@q/flowgram.ai.demo-node-form",
             "projectFolder": "apps/demo-node-form",
             "tags": [
                 "level-1",
@@ -918,9 +971,10 @@
             ]
         },
         {
-            "packageName": "@flowgram.ai/demo-nextjs",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.demo-nextjs",
             "projectFolder": "apps/demo-nextjs",
-            "versionPolicyName": "appPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow",
@@ -928,9 +982,10 @@
             ]
         },
         {
-            "packageName": "@flowgram.ai/demo-nextjs-antd",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.demo-nextjs-antd",
             "projectFolder": "apps/demo-nextjs-antd",
-            "versionPolicyName": "appPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow",
@@ -938,9 +993,10 @@
             ]
         },
         {
-            "packageName": "@flowgram.ai/demo-react-16",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.demo-react-16",
             "projectFolder": "apps/demo-react-16",
-            "versionPolicyName": "appPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow",
@@ -948,9 +1004,10 @@
             ]
         },
         {
-            "packageName": "@flowgram.ai/demo-vite",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.demo-vite",
             "projectFolder": "apps/demo-vite",
-            "versionPolicyName": "appPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow",
@@ -958,9 +1015,10 @@
             ]
         },
         {
-            "packageName": "@flowgram.ai/demo-playground",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.demo-playground",
             "projectFolder": "apps/demo-playground",
-            "versionPolicyName": "appPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow",
@@ -968,27 +1026,30 @@
             ]
         },
         {
-            "packageName": "@flowgram.ai/runtime-nodejs",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.runtime-nodejs",
             "projectFolder": "packages/runtime/nodejs",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/runtime-js",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.runtime-js",
             "projectFolder": "packages/runtime/js-core",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"
             ]
         },
         {
-            "packageName": "@flowgram.ai/runtime-interface",
+            "shouldPublish": true,
+            "packageName": "@q/flowgram.ai.runtime-interface",
             "projectFolder": "packages/runtime/interface",
-            "versionPolicyName": "publishPolicy",
+            "versionPolicyName": "MyProject-prerelease",
             "tags": [
                 "level-1",
                 "team-flow"

@@ -13,7 +13,7 @@ import {
   WorkflowNodeEntity,
   WorkflowNodeMeta,
   WorkflowSelectService,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 import { WorkflowNodeType } from '@editor/nodes';
 import { FlowCommandId } from '../constants';

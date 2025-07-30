@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Rectangle } from '@flowgram.ai/utils';
-import { type PlaygroundConfigEntity } from '@flowgram.ai/core';
+import { Rectangle } from '@q/flowgram.ai.utils';
+import { type PlaygroundConfigEntity } from '@q/flowgram.ai.core';
 
 export interface ScrollData {
   scrollX: number;

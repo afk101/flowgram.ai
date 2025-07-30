@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import type { FlowNodeEntity } from '@flowgram.ai/fixed-layout-editor';
+import type { FlowNodeEntity } from '@q/flowgram.ai.fixed-layout-editor';
 
 import { UIDragNodeContainer, UIDragCounts } from './styles';
 

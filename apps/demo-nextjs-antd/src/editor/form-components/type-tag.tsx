@@ -5,7 +5,7 @@
 
 import styled from 'styled-components';
 import { Tag, Tooltip } from 'antd';
-import { ArrayIcons, VariableTypeIcons } from '@flowgram.ai/form-antd-materials';
+import { ArrayIcons, VariableTypeIcons } from '@q/flowgram.ai.form-antd-materials';
 
 interface PropsType {
   name?: string | JSX.Element;

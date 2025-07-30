@@ -1,5 +1,5 @@
 {
-  "name": "@flowgram.ai/create-app",
+  "name": "@q/flowgram.ai.create-app",
   "version": "0.2.26-6",
   "description": "A CLI tool to create demo projects",
   "bin": {
@@ -35,6 +35,16 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  }
+    "registry": "https://registry.qnpm.qihoo.net"
+  },
+  "maintainers": [
+    {
+      "email": "jinshuokang@360.cn",
+      "name": "jinshuokang"
+    },
+    {
+      "email": "chenguangdi@360.cn",
+      "name": "chenguangdi"
+    }
+  ]
 }

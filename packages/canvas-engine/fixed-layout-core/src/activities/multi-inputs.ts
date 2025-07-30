@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Point } from '@flowgram.ai/utils';
-import { FlowRendererKey } from '@flowgram.ai/renderer';
+import { Point } from '@q/flowgram.ai.utils';
+import { FlowRendererKey } from '@q/flowgram.ai.renderer';
 import {
   FlowNodeBaseType,
   type FlowNodeRegistry,
@@ -13,7 +13,7 @@ import {
   FlowNodeSplitType,
   getDefaultSpacing,
   ConstantKeys,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 /**
  * 多输入节点, 只能作为 开始节点

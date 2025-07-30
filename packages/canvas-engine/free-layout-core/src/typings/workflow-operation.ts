@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, Event } from '@flowgram.ai/utils';
+import { IPoint, Event } from '@q/flowgram.ai.utils';
 import {
   FlowNodeEntity,
   FlowNodeEntityOrId,
   FlowOperationBaseService,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 export interface NodePostionUpdateEvent {
   node: FlowNodeEntity;

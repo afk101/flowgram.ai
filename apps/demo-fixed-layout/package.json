@@ -1,5 +1,5 @@
 {
-  "name": "@flowgram.ai/demo-fixed-layout",
+  "name": "@q/flowgram.ai.demo-fixed-layout",
   "version": "0.2.26-6",
   "description": "",
   "keywords": [],
@@ -30,11 +30,11 @@
   "dependencies": {
     "@douyinfe/semi-icons": "^2.80.0",
     "@douyinfe/semi-ui": "^2.80.0",
-    "@flowgram.ai/fixed-layout-editor": "workspace:*",
-    "@flowgram.ai/fixed-semi-materials": "workspace:*",
-    "@flowgram.ai/form-materials": "workspace:*",
-    "@flowgram.ai/group-plugin": "workspace:*",
-    "@flowgram.ai/minimap-plugin": "workspace:*",
+    "@q/flowgram.ai.fixed-layout-editor": "workspace:*",
+    "@q/flowgram.ai.fixed-semi-materials": "workspace:*",
+    "@q/flowgram.ai.form-materials": "workspace:*",
+    "@q/flowgram.ai.group-plugin": "workspace:*",
+    "@q/flowgram.ai.minimap-plugin": "workspace:*",
     "lodash-es": "^4.17.21",
     "nanoid": "^4.0.2",
     "react": "^18",
@@ -42,8 +42,8 @@
     "styled-components": "^5"
   },
   "devDependencies": {
-    "@flowgram.ai/ts-config": "workspace:*",
-    "@flowgram.ai/eslint-config": "workspace:*",
+    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@q/flowgram.ai.eslint-config": "workspace:*",
     "@rsbuild/core": "^1.2.16",
     "@rsbuild/plugin-react": "^1.1.1",
     "@rsbuild/plugin-less": "^1.1.1",
@@ -60,6 +60,16 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  }
+    "registry": "https://registry.qnpm.qihoo.net"
+  },
+  "maintainers": [
+    {
+      "email": "jinshuokang@360.cn",
+      "name": "jinshuokang"
+    },
+    {
+      "email": "chenguangdi@360.cn",
+      "name": "chenguangdi"
+    }
+  ]
 }

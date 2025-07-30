@@ -4,7 +4,7 @@
  */
 
 import { decorate, injectable, Container, type interfaces } from 'inversify';
-import { EntityManager } from '@flowgram.ai/core';
+import { EntityManager } from '@q/flowgram.ai.core';
 
 import {
   type FlowDocument,

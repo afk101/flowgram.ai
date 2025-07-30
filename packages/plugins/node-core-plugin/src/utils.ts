@@ -16,7 +16,7 @@ import {
   SetterExtension,
   ValidationAbility,
   ValidationExtension,
-} from '@flowgram.ai/form-core';
+} from '@q/flowgram.ai.form-core';
 
 import { NodeEngineMaterialOptions } from './types';
 

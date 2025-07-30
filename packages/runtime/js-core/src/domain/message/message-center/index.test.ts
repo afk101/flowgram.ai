@@ -4,7 +4,7 @@
  */
 
 import { beforeEach, describe, expect, it } from 'vitest';
-import { WorkflowMessageType, MessageData } from '@flowgram.ai/runtime-interface';
+import { WorkflowMessageType, MessageData } from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowRuntimeMessageCenter } from './index';
 

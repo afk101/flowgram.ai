@@ -6,7 +6,7 @@
 import ReactDOM from 'react-dom';
 import React, { useEffect, useState, useCallback } from 'react';
 
-import { NOOP } from '@flowgram.ai/utils';
+import { NOOP } from '@q/flowgram.ai.utils';
 
 import type { Layer } from '../layer';
 import { type PipelineRenderer } from './pipeline-renderer';

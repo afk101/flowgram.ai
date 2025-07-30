@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowSchema, FlowGramNode } from '@flowgram.ai/runtime-interface';
+import { WorkflowSchema, FlowGramNode } from '@q/flowgram.ai.runtime-interface';
 
 const blockStartEndNode = (schema: WorkflowSchema) => {
   // Optimize performance by using single traversal instead of two separate filter operations

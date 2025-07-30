@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { domUtils } from '@flowgram.ai/utils';
+import { domUtils } from '@q/flowgram.ai.utils';
 import { Layer } from '../src/core';
 import { Entity, EntityData, observeEntityDatas } from '../src/common';
 

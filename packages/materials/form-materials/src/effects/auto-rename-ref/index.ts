@@ -9,7 +9,7 @@ import {
   Effect,
   EffectOptions,
   VariableFieldKeyRenameService,
-} from '@flowgram.ai/editor';
+} from '@q/flowgram.ai.editor';
 
 import { IFlowRefValue, IFlowTemplateValue } from '../../typings';
 
