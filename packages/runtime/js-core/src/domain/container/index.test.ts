@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { IEngine, IExecutor, IValidation } from '@flowgram.ai/runtime-interface';
+import { IEngine, IExecutor, IValidation } from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowRuntimeContainer } from './index';
 

@@ -3,4 +3,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-export { PlaygroundReactRenderer as EditorRenderer } from '@flowgram.ai/core';
+export { PlaygroundReactRenderer as EditorRenderer } from '@q/flowgram.ai.core';

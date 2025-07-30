@@ -6,12 +6,12 @@
 import React, { useMemo, useCallback } from 'react';
 
 import { interfaces } from 'inversify';
-import { FlowDocument } from '@flowgram.ai/document';
+import { FlowDocument } from '@q/flowgram.ai.document';
 import {
   PlaygroundReactProvider,
   createPluginContextDefault,
   SelectionService,
-} from '@flowgram.ai/core';
+} from '@q/flowgram.ai.core';
 
 import { EditorPluginContext, EditorProps, createDefaultPreset } from '../preset';
 

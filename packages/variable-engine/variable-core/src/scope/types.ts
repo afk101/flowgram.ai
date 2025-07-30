@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Event, Disposable } from '@flowgram.ai/utils';
+import { Event, Disposable } from '@q/flowgram.ai.utils';
 
 import { BaseVariableField, VariableDeclaration } from '../ast';
 import { type Scope } from './scope';

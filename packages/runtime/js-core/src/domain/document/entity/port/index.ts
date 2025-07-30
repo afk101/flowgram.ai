@@ -9,7 +9,7 @@ import {
   IEdge,
   INode,
   IPort,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 export class WorkflowRuntimePort implements IPort {
   public readonly id: string;

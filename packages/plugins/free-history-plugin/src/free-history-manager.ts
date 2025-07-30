@@ -6,18 +6,18 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import { cloneDeep } from 'lodash';
 import { injectable, inject, optional } from 'inversify';
-import { DisposableCollection, Disposable } from '@flowgram.ai/utils';
-import { HistoryService } from '@flowgram.ai/history';
+import { DisposableCollection, Disposable } from '@q/flowgram.ai.utils';
+import { HistoryService } from '@q/flowgram.ai.history';
 import {
   WorkflowDocument,
   WorkflowResetLayoutService,
   WorkflowDragService,
   WorkflowOperationBaseService,
-} from '@flowgram.ai/free-layout-core';
-import { FlowNodeFormData } from '@flowgram.ai/form-core';
-import { FormManager } from '@flowgram.ai/form-core';
-import { OperationType } from '@flowgram.ai/document';
-import { type PluginContext, PositionData } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.free-layout-core';
+import { FlowNodeFormData } from '@q/flowgram.ai.form-core';
+import { FormManager } from '@q/flowgram.ai.form-core';
+import { OperationType } from '@q/flowgram.ai.document';
+import { type PluginContext, PositionData } from '@q/flowgram.ai.core';
 
 import { DragNodeOperationValue, type FreeHistoryPluginOptions, FreeOperationType } from './types';
 import { HistoryEntityManager } from './history-entity-manager';

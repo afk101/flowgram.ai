@@ -7,20 +7,20 @@ import ReactDOM from 'react-dom';
 import React from 'react';
 
 import { inject, injectable } from 'inversify';
-import { Cache, type CacheOriginItem, domUtils } from '@flowgram.ai/utils';
+import { Cache, type CacheOriginItem, domUtils } from '@q/flowgram.ai.utils';
 import {
   FlowDocument,
   FlowDocumentTransformerEntity,
   FlowNodeEntity,
   FlowNodeRenderData,
   FlowNodeTransformData,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 import {
   Layer,
   observeEntity,
   observeEntityDatas,
   PlaygroundEntityContext,
-} from '@flowgram.ai/core';
+} from '@q/flowgram.ai.core';
 
 import { FlowRendererKey, FlowRendererRegistry } from '../flow-renderer-registry';
 

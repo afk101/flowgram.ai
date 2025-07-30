@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IReport, VOData } from '@flowgram.ai/runtime-interface';
+import { IReport, VOData } from '@q/flowgram.ai.runtime-interface';
 
 import { uuid } from '@infra/utils';
 

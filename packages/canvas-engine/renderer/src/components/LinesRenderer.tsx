@@ -5,15 +5,15 @@
 
 import React from 'react';
 
-import { Rectangle } from '@flowgram.ai/utils';
+import { Rectangle } from '@q/flowgram.ai.utils';
 import {
   FlowDragService,
   type FlowNodeTransitionData,
   type FlowTransitionLine,
   FlowTransitionLineEnum,
   DefaultSpacingKey,
-} from '@flowgram.ai/document';
-import { getDefaultSpacing } from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
+import { getDefaultSpacing } from '@q/flowgram.ai.document';
 
 import { type FlowRendererRegistry } from '../flow-renderer-registry';
 import StraightLine from './StraightLine';

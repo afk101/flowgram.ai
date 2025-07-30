@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type IPoint, Point, Rectangle } from '@flowgram.ai/utils';
+import { type IPoint, Point, Rectangle } from '@q/flowgram.ai.utils';
 
 /**
  * 计算点到线段的距离

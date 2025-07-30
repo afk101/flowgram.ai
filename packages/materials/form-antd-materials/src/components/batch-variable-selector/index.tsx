@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { PrivateScopeProvider } from '@flowgram.ai/editor';
+import { PrivateScopeProvider } from '@q/flowgram.ai.editor';
 
 import { VariableSelector, VariableSelectorProps } from '../variable-selector';
 import { IJsonSchema } from '../../typings';

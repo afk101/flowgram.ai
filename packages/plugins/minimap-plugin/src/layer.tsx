@@ -6,8 +6,8 @@
 import React from 'react';
 
 import { inject, injectable } from 'inversify';
-import { Layer } from '@flowgram.ai/core';
-import { domUtils } from '@flowgram.ai/utils';
+import { Layer } from '@q/flowgram.ai.core';
+import { domUtils } from '@q/flowgram.ai.utils';
 
 import { MinimapLayerOptions } from './type';
 import { FlowMinimapService } from './service';

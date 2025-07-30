@@ -4,7 +4,7 @@
  */
 
 import { inject, injectable, optional } from 'inversify';
-import { Emitter } from '@flowgram.ai/utils';
+import { Emitter } from '@q/flowgram.ai.utils';
 
 export const FlowDocumentConfigDefaultData = Symbol('FlowDocumentConfigDefaultData');
 

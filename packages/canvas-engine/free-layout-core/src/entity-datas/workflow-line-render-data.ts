@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, Rectangle } from '@flowgram.ai/utils';
-import { EntityData } from '@flowgram.ai/core';
+import { IPoint, Rectangle } from '@q/flowgram.ai.utils';
+import { EntityData } from '@q/flowgram.ai.core';
 
 import {
   LinePosition,

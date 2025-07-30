@@ -5,7 +5,7 @@
 
 import { useRef } from 'react';
 
-import { FormModel } from '@flowgram.ai/form-core';
+import { FormModel } from '@q/flowgram.ai.form-core';
 
 interface HighlightProps {
   form: FormModel;

@@ -19,7 +19,7 @@ import {
   WorkflowNodeMeta,
   WorkflowSelectService,
   delay,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 import { WorkflowClipboardData, WorkflowClipboardRect } from '../type';
 import { FlowCommandId, WorkflowClipboardDataID } from '../constants';

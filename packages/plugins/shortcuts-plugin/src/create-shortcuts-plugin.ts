@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { bindContributionProvider, definePluginCreator } from '@flowgram.ai/core';
+import { bindContributionProvider, definePluginCreator } from '@q/flowgram.ai.core';
 
 import { ShortcutsRegistry, ShortcutsContribution } from './shortcuts-contribution';
 import { ShortcutsLayer } from './layers';

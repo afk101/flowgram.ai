@@ -4,8 +4,8 @@
  */
 
 import { inject, injectable, postConstruct } from 'inversify';
-import { HistoryService } from '@flowgram.ai/history';
-import { FixedHistoryService } from '@flowgram.ai/fixed-history-plugin';
+import { HistoryService } from '@q/flowgram.ai.history';
+import { FixedHistoryService } from '@q/flowgram.ai.fixed-history-plugin';
 import {
   AddBlockConfig,
   AddOrDeleteNodeValue,
@@ -17,7 +17,7 @@ import {
   MoveChildNodesOperationValue,
   OnNodeAddEvent,
   OperationType,
-} from '@flowgram.ai/editor';
+} from '@q/flowgram.ai.editor';
 
 import { FlowOperationService } from '../types';
 import { FlowOperationServiceImpl } from './flow-operation-service';

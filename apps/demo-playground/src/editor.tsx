@@ -10,13 +10,13 @@ import {
   PlaygroundReact,
   PlaygroundReactContent,
   PlaygroundReactProps,
-} from '@flowgram.ai/playground-react';
+} from '@q/flowgram.ai.playground-react';
 
 import { PlaygroundTools } from './components/playground-tools';
 import { StaticCard, DragableCard } from './components/card';
 
 // Load style
-import '@flowgram.ai/playground-react/index.css';
+import '@q/flowgram.ai.playground-react/index.css';
 
 /**
  * The ability to zoom to provide an infinite canvas

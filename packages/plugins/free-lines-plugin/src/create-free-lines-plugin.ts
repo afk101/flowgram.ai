@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowLinesManager } from '@flowgram.ai/free-layout-core';
-import { definePluginCreator, PluginContext } from '@flowgram.ai/core';
+import { WorkflowLinesManager } from '@q/flowgram.ai.free-layout-core';
+import { definePluginCreator, PluginContext } from '@q/flowgram.ai.core';
 
 import { FreeLinesPluginOptions } from './type';
 import { WorkflowLinesLayer } from './layer';

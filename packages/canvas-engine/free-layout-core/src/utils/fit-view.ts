@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type PlaygroundConfigEntity, TransformData } from '@flowgram.ai/core';
-import { Rectangle } from '@flowgram.ai/utils';
+import { type PlaygroundConfigEntity, TransformData } from '@q/flowgram.ai.core';
+import { Rectangle } from '@q/flowgram.ai.utils';
 
 import { type WorkflowDocument } from '../workflow-document';
 

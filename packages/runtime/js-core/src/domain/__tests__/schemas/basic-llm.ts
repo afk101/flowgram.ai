@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import type { WorkflowSchema } from '@flowgram.ai/runtime-interface';
+import type { WorkflowSchema } from '@q/flowgram.ai.runtime-interface';
 
 export const basicLLMSchema: WorkflowSchema = {
   nodes: [

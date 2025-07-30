@@ -5,8 +5,8 @@
 
 import { useState, useEffect } from 'react';
 
-import { useRefresh } from '@flowgram.ai/free-layout-editor';
-import { useClientContext } from '@flowgram.ai/free-layout-editor';
+import { useRefresh } from '@q/flowgram.ai.free-layout-editor';
+import { useClientContext } from '@q/flowgram.ai.free-layout-editor';
 import { Tooltip, IconButton, Divider } from '@douyinfe/semi-ui';
 import { IconUndo, IconRedo } from '@douyinfe/semi-icons';
 

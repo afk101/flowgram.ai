@@ -5,9 +5,9 @@
 
 import React, { useEffect } from 'react';
 
-import { useRefresh } from '@flowgram.ai/utils';
-import { FlowNodeEntity } from '@flowgram.ai/document';
-import { PlaygroundContext } from '@flowgram.ai/core';
+import { useRefresh } from '@q/flowgram.ai.utils';
+import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { PlaygroundContext } from '@q/flowgram.ai.core';
 
 import { NodeContext } from '../node';
 import { FormModel } from './models';

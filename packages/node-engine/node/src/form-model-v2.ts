@@ -4,7 +4,7 @@
  */
 
 import { get, groupBy, isEmpty, mapKeys } from 'lodash';
-import { Disposable, DisposableCollection, Emitter } from '@flowgram.ai/utils';
+import { Disposable, DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
 import {
   FlowNodeFormData,
   FormFeedback,
@@ -15,7 +15,7 @@ import {
   IFormItem,
   NodeFormContext,
   OnFormValuesChangePayload,
-} from '@flowgram.ai/form-core';
+} from '@q/flowgram.ai.form-core';
 import {
   createForm,
   FieldArrayModel,
@@ -28,9 +28,9 @@ import {
   IField,
   IFieldArray,
   toForm,
-} from '@flowgram.ai/form';
-import { FlowNodeEntity } from '@flowgram.ai/document';
-import { PlaygroundContext, PluginContext } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.form';
+import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { PlaygroundContext, PluginContext } from '@q/flowgram.ai.core';
 
 import { convertGlobPath, findMatchedInMap, formFeedbacksToNodeCoreFormFeedbacks } from './utils';
 import {
