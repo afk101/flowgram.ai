@@ -7,7 +7,7 @@ import React from 'react';
 
 import { groupBy, throttle } from 'lodash';
 import { inject, injectable } from 'inversify';
-import { domUtils } from '@flowgram.ai/utils';
+import { domUtils } from '@q/flowgram.ai.utils';
 import {
   FlowDocument,
   FlowDocumentTransformerEntity,
@@ -15,8 +15,8 @@ import {
   FlowNodeTransitionData,
   FlowRendererStateEntity,
   FlowDragService,
-} from '@flowgram.ai/document';
-import { Layer, observeEntity, observeEntityDatas } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.document';
+import { Layer, observeEntity, observeEntityDatas } from '@q/flowgram.ai.core';
 
 import { FlowRendererRegistry } from '../flow-renderer-registry';
 import { createLines } from '../components/LinesRenderer';

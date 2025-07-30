@@ -4,7 +4,7 @@
  */
 
 import { injectable, inject, multiInject, optional } from 'inversify';
-import { IPoint, OriginSchema, PaddingSchema, ScrollSchema, SizeSchema } from '@flowgram.ai/utils';
+import { IPoint, OriginSchema, PaddingSchema, ScrollSchema, SizeSchema } from '@q/flowgram.ai.utils';
 
 import { type FlowLayout, FlowLayoutDefault, FlowLayoutContribution } from '../typings';
 import { type FlowDocument, FlowDocumentProvider } from '../flow-document';

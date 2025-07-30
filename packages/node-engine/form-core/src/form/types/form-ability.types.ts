@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeEntity } from '@flowgram.ai/document';
-import { PlaygroundContext } from '@flowgram.ai/core';
-import { MaybePromise } from '@flowgram.ai/utils';
+import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { PlaygroundContext } from '@q/flowgram.ai.core';
+import { MaybePromise } from '@q/flowgram.ai.utils';
 
 import { type IFormItem } from './form-model.types';
 import { IFormItemMeta } from './form-meta.types';

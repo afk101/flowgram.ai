@@ -4,7 +4,7 @@
  */
 
 import { nanoid } from 'nanoid';
-import { type FlowNodeEntity, useClientContext } from '@flowgram.ai/fixed-layout-editor';
+import { type FlowNodeEntity, useClientContext } from '@q/flowgram.ai.fixed-layout-editor';
 import { IconPlus } from '@douyinfe/semi-icons';
 
 interface PropsType {

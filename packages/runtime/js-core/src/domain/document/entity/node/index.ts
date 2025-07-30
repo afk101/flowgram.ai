@@ -12,7 +12,7 @@ import {
   IPort,
   NodeVariable,
   WorkflowPortType,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 import { traverseNodes } from '@infra/index';
 

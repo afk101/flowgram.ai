@@ -8,7 +8,7 @@ import {
   type FlowDocumentContribution,
   FlowNodeRenderData,
   FlowNodeTransformData,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import { WorkflowDocument } from './workflow-document';
 import { FreeLayout } from './layout';

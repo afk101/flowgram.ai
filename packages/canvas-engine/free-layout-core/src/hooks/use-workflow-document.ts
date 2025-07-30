@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { useService } from '@flowgram.ai/core';
+import { useService } from '@q/flowgram.ai.core';
 
 import { WorkflowDocument } from '../workflow-document';
 

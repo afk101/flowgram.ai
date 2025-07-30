@@ -10,7 +10,7 @@ import {
   type Message,
   MessageLoop,
 } from '@phosphor/messaging';
-import { Disposable, DisposableCollection, Emitter } from '@flowgram.ai/utils';
+import { Disposable, DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
 
 import { type Layer, type LayerRegistry, PlaygroundConfigEntity } from '../layer';
 import {

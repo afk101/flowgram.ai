@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { ConstantKeys, FlowDocumentOptions } from '@flowgram.ai/document';
-import { useService } from '@flowgram.ai/core';
+import { ConstantKeys, FlowDocumentOptions } from '@q/flowgram.ai.document';
+import { useService } from '@q/flowgram.ai.core';
 
 export const BASE_DEFAULT_COLOR = '#BBBFC4';
 export const BASE_DEFAULT_ACTIVATED_COLOR = '#82A7FC';

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { useService } from '@flowgram.ai/free-layout-core';
+import { useService } from '@q/flowgram.ai.free-layout-core';
 
 import { WorkflowAutoLayoutTool } from '../tools';
 

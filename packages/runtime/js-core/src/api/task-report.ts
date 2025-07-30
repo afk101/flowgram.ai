@@ -8,7 +8,7 @@ import {
   TaskReportInput,
   TaskReportOutput,
   TaskReportDefine,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowApplication } from '@application/workflow';
 

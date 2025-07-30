@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import type { IPoint } from '@flowgram.ai/utils';
-import type { FlowNodeJSON, FlowNodeMeta } from '@flowgram.ai/document';
+import type { IPoint } from '@q/flowgram.ai.utils';
+import type { FlowNodeJSON, FlowNodeMeta } from '@q/flowgram.ai.document';
 
 import type { WorkflowNodeEntity, WorkflowPorts } from '../entities';
 import type { WorkflowSubCanvas } from './workflow-sub-canvas';

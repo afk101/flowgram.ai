@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type OperationMeta } from '@flowgram.ai/history';
-import { FlowDocument } from '@flowgram.ai/document';
-import { type PluginContext } from '@flowgram.ai/core';
+import { type OperationMeta } from '@q/flowgram.ai.history';
+import { FlowDocument } from '@q/flowgram.ai.document';
+import { type PluginContext } from '@q/flowgram.ai.core';
 
 import { getFormModelV2, shouldChangeFormValuesMerge } from '../utils';
 import { ChangeFormValuesOperationValue, NodeOperationType } from '../types';

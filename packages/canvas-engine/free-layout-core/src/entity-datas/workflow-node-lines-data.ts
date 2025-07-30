@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Disposable } from '@flowgram.ai/utils';
-import { EntityData } from '@flowgram.ai/core';
+import { Disposable } from '@q/flowgram.ai.utils';
+import { EntityData } from '@q/flowgram.ai.core';
 
 import { type WorkflowLineEntity, type WorkflowNodeEntity } from '../entities';
 

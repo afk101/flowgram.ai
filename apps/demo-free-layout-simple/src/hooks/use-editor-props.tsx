@@ -5,15 +5,15 @@
 
 import { useMemo } from 'react';
 
-import { createMinimapPlugin } from '@flowgram.ai/minimap-plugin';
-import { createFreeSnapPlugin } from '@flowgram.ai/free-snap-plugin';
+import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin';
+import { createFreeSnapPlugin } from '@q/flowgram.ai.free-snap-plugin';
 import {
   FreeLayoutProps,
   WorkflowNodeProps,
   WorkflowNodeRenderer,
   Field,
   useNodeRender,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 import { nodeRegistries } from '../node-registries';
 import { initialData } from '../initial-data';

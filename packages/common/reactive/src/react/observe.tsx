@@ -5,7 +5,7 @@
 
 import React, { useRef, useEffect } from 'react';
 
-import { useRefresh } from '@flowgram.ai/utils';
+import { useRefresh } from '@q/flowgram.ai.utils';
 
 import { Tracker } from '../core/tracker';
 

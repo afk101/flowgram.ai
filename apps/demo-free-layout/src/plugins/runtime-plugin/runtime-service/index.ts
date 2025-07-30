@@ -9,7 +9,7 @@ import {
   WorkflowInputs,
   WorkflowOutputs,
   WorkflowStatus,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 import {
   injectable,
   inject,
@@ -20,7 +20,7 @@ import {
   WorkflowNodeLinesData,
   Emitter,
   getNodeForm,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 import { WorkflowRuntimeClient } from '../client';
 import { WorkflowNodeType } from '../../../nodes';

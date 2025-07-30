@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { definePluginCreator, PluginContext } from '@flowgram.ai/core';
+import { definePluginCreator, PluginContext } from '@q/flowgram.ai.core';
 
 import { CreateGroupPluginOptions } from './type';
 import { groupRegisters } from './registers';

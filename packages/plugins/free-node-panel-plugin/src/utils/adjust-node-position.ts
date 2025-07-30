@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { PositionSchema } from '@flowgram.ai/utils';
+import { PositionSchema } from '@q/flowgram.ai.utils';
 import {
   WorkflowDocument,
   WorkflowDragService,
   WorkflowNodeEntity,
   WorkflowPortEntity,
-} from '@flowgram.ai/free-layout-core';
+} from '@q/flowgram.ai.free-layout-core';
 
 export type IAdjustNodePosition = (params: {
   nodeType: string;

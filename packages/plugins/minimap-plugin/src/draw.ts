@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import type { IPoint, Rectangle } from '@flowgram.ai/utils';
+import type { IPoint, Rectangle } from '@q/flowgram.ai.utils';
 
 export namespace MinimapDraw {
   /** 矩形是否合法 */

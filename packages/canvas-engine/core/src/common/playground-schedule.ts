@@ -4,7 +4,7 @@
  */
 
 import { throttle } from 'lodash';
-import { type Disposable } from '@flowgram.ai/utils';
+import { type Disposable } from '@q/flowgram.ai.utils';
 
 // TODO 先用 throttle 替代
 export class PlaygroundSchedule implements Disposable {

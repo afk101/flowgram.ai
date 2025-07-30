@@ -7,9 +7,9 @@ import ReactDOM from 'react-dom';
 import React, { ReactNode, useLayoutEffect, useState } from 'react';
 
 import { inject, injectable } from 'inversify';
-import { domUtils } from '@flowgram.ai/utils';
-import { FlowRendererRegistry } from '@flowgram.ai/renderer';
-import { StackingContextManager } from '@flowgram.ai/free-stack-plugin';
+import { domUtils } from '@q/flowgram.ai.utils';
+import { FlowRendererRegistry } from '@q/flowgram.ai.renderer';
+import { StackingContextManager } from '@q/flowgram.ai.free-stack-plugin';
 import {
   nanoid,
   WorkflowDocument,
@@ -19,8 +19,8 @@ import {
   WorkflowNodeEntity,
   WorkflowPortEntity,
   WorkflowSelectService,
-} from '@flowgram.ai/free-layout-core';
-import { Layer, observeEntities, observeEntityDatas, TransformData } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.free-layout-core';
+import { Layer, observeEntities, observeEntityDatas, TransformData } from '@q/flowgram.ai.core';
 
 import { LineRenderProps, LinesLayerOptions } from '../type';
 import { WorkflowLineRender } from '../components';

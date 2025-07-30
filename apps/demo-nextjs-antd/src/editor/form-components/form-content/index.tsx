@@ -7,7 +7,7 @@
 
 import React from 'react';
 
-import { FlowNodeRegistry } from '@flowgram.ai/free-layout-editor';
+import { FlowNodeRegistry } from '@q/flowgram.ai.free-layout-editor';
 
 import { useIsSidebar, useNodeRenderContext } from '@editor/hooks';
 import { FormTitleDescription, FormWrapper } from './styles';

@@ -5,8 +5,8 @@
 
 import React, { useState, useContext } from 'react';
 
-import { WorkflowPortRender } from '@flowgram.ai/free-layout-editor';
-import { useClientContext } from '@flowgram.ai/free-layout-editor';
+import { WorkflowPortRender } from '@q/flowgram.ai.free-layout-editor';
+import { useClientContext } from '@q/flowgram.ai.free-layout-editor';
 
 import { FlowNodeMeta } from '../../typings';
 import { useNodeRenderContext, usePortClick } from '../../hooks';

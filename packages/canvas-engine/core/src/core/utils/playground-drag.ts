@@ -9,7 +9,7 @@ import {
   generateLocalId,
   type LocalId,
   type Rectangle,
-} from '@flowgram.ai/utils';
+} from '@q/flowgram.ai.utils';
 
 import type { PlaygroundConfigEntity } from '../layer/config';
 import type { PositionSchema } from '../../common/schema/position-schema';

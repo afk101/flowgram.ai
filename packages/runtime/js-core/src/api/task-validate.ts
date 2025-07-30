@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { TaskValidateInput, TaskValidateOutput } from '@flowgram.ai/runtime-interface';
+import { TaskValidateInput, TaskValidateOutput } from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowApplication } from '@application/workflow';
 

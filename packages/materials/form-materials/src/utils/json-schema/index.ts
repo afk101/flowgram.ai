@@ -4,7 +4,7 @@
  */
 
 import { get } from 'lodash';
-import { ASTFactory, ASTKind, ASTMatch, ASTNode, ASTNodeJSON, BaseType } from '@flowgram.ai/editor';
+import { ASTFactory, ASTKind, ASTMatch, ASTNode, ASTNodeJSON, BaseType } from '@q/flowgram.ai.editor';
 
 import { IJsonSchema } from '../../typings/json-schema';
 

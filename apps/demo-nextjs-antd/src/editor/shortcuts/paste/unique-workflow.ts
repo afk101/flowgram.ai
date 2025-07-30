@@ -4,7 +4,7 @@
  */
 
 import { customAlphabet } from 'nanoid';
-import type { WorkflowJSON, WorkflowNodeJSON } from '@flowgram.ai/free-layout-editor';
+import type { WorkflowJSON, WorkflowNodeJSON } from '@q/flowgram.ai.free-layout-editor';
 
 import { TraverseContext, traverse } from './traverse';
 

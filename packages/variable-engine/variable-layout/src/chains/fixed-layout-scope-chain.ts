@@ -4,9 +4,9 @@
  */
 
 import { inject, optional } from 'inversify';
-import { Scope, ScopeChain } from '@flowgram.ai/variable-core';
-import { FlowDocument, type FlowVirtualTree } from '@flowgram.ai/document';
-import { FlowNodeEntity } from '@flowgram.ai/document';
+import { Scope, ScopeChain } from '@q/flowgram.ai.variable-core';
+import { FlowDocument, type FlowVirtualTree } from '@q/flowgram.ai.document';
+import { FlowNodeEntity } from '@q/flowgram.ai.document';
 
 import { VariableChainConfig } from '../variable-chain-config';
 import { FlowNodeScope, FlowNodeScopeTypeEnum, ScopeChainNode } from '../types';

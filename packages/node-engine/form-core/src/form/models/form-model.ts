@@ -4,8 +4,8 @@
  */
 
 import { injectable } from 'inversify';
-import { DisposableCollection, Event, MaybePromise } from '@flowgram.ai/utils';
-import { type FlowNodeEntity } from '@flowgram.ai/document';
+import { DisposableCollection, Event, MaybePromise } from '@q/flowgram.ai.utils';
+import { type FlowNodeEntity } from '@q/flowgram.ai.document';
 
 import { FormFeedback, FormModelValid, IFormItem } from '../types';
 import { FormManager } from '../services/form-manager';
