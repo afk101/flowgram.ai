@@ -5,7 +5,7 @@
 
 import { useContext, useLayoutEffect } from 'react';
 
-import { Disposable } from '@flowgram.ai/utils';
+import { Disposable } from '@q/flowgram.ai.utils';
 
 import { PlaygroundEntityContext } from '../react';
 import { Entity, EntityManager } from '../common';

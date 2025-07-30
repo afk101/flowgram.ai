@@ -4,8 +4,8 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { domUtils, PositionSchema } from '@flowgram.ai/utils';
-import { FlowDocument, FlowNodeEntity, FlowNodeTransformData } from '@flowgram.ai/document';
+import { domUtils, PositionSchema } from '@q/flowgram.ai.utils';
+import { FlowDocument, FlowNodeEntity, FlowNodeTransformData } from '@q/flowgram.ai.document';
 import {
   ContextMenuService,
   EditorState,
@@ -17,7 +17,7 @@ import {
   PlaygroundConfigEntity,
   PlaygroundDrag,
   SelectionService,
-} from '@flowgram.ai/core';
+} from '@q/flowgram.ai.core';
 
 import { FlowSelectConfigEntity, SelectorBoxConfigEntity } from '../entities';
 

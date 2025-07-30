@@ -7,7 +7,7 @@
 
 import { useMemo } from 'react';
 
-import { useScopeAvailable } from '@flowgram.ai/editor';
+import { useScopeAvailable } from '@q/flowgram.ai.editor';
 
 import { rules } from '../constants';
 import { JsonSchemaUtils } from '../../../utils';

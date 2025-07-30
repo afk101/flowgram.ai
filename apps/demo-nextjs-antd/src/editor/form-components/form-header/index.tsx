@@ -9,7 +9,7 @@ import './index.scss';
 import { useState } from 'react';
 
 import { Button } from 'antd';
-import { CommandService, useClientContext } from '@flowgram.ai/free-layout-editor';
+import { CommandService, useClientContext } from '@q/flowgram.ai.free-layout-editor';
 import { CaretDownOutlined, CaretUpOutlined } from '@ant-design/icons';
 
 import { FlowCommandId } from '@editor/shortcuts';

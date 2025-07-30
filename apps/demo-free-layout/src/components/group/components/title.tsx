@@ -5,7 +5,7 @@
 
 import { FC, useState } from 'react';
 
-import { Field } from '@flowgram.ai/free-layout-editor';
+import { Field } from '@q/flowgram.ai.free-layout-editor';
 import { Input } from '@douyinfe/semi-ui';
 
 import { GroupField } from '../constant';

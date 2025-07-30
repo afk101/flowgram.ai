@@ -5,7 +5,7 @@
 
 import { difference } from 'lodash';
 import { inject, injectable, postConstruct, preDestroy } from 'inversify';
-import { DisposableCollection, Emitter } from '@flowgram.ai/utils';
+import { DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
 
 import { VariableEngine } from '../variable-engine';
 import {

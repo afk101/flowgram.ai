@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Event } from '@flowgram.ai/utils';
-import { Disposable } from '@flowgram.ai/utils';
+import { Event } from '@q/flowgram.ai.utils';
+import { Disposable } from '@q/flowgram.ai.utils';
 
 import { type FlowNodeEntity } from '../entities/flow-node-entity';
 import { AddNodeData, FlowNodeJSON } from './flow';

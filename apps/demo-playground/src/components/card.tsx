@@ -5,7 +5,7 @@
 
 import React, { useCallback, useState } from 'react';
 
-import { usePlayground, usePlaygroundDrag } from '@flowgram.ai/playground-react';
+import { usePlayground, usePlaygroundDrag } from '@q/flowgram.ai.playground-react';
 
 export function StaticCard() {
   return (

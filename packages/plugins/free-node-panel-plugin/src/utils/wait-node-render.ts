@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { delay } from '@flowgram.ai/free-layout-core';
+import { delay } from '@q/flowgram.ai.free-layout-core';
 
 export type IWaitNodeRender = () => Promise<void>;
 

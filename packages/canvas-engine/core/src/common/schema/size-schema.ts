@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { SizeSchema, SizeSchemaDecoration, Schema } from '@flowgram.ai/utils';
+import { SizeSchema, SizeSchemaDecoration, Schema } from '@q/flowgram.ai.utils';
 
 import { EntityData } from '../entity-data';
 

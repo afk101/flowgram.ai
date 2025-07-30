@@ -8,8 +8,8 @@ import { useCallback } from 'react';
 import {
   WorkflowNodePanelService,
   WorkflowNodePanelUtils,
-} from '@flowgram.ai/free-node-panel-plugin';
-import { LineRenderProps } from '@flowgram.ai/free-lines-plugin';
+} from '@q/flowgram.ai.free-node-panel-plugin';
+import { LineRenderProps } from '@q/flowgram.ai.free-lines-plugin';
 import {
   delay,
   HistoryService,
@@ -19,7 +19,7 @@ import {
   WorkflowLinesManager,
   WorkflowNodeEntity,
   WorkflowNodeJSON,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 import './index.less';
 import { useVisible } from './use-visible';

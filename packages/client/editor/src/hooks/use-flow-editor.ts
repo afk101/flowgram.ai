@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { useService } from '@flowgram.ai/core';
+import { useService } from '@q/flowgram.ai.core';
 
 import { FlowEditorClient } from '../clients';
 

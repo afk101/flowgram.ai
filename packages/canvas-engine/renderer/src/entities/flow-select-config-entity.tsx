@@ -7,9 +7,9 @@ import {
   type FlowNodeEntity,
   FlowNodeRenderData,
   FlowNodeTransformData,
-} from '@flowgram.ai/document';
-import { ConfigEntity } from '@flowgram.ai/core';
-import { Compare, Rectangle } from '@flowgram.ai/utils';
+} from '@q/flowgram.ai.document';
+import { ConfigEntity } from '@q/flowgram.ai.core';
+import { Compare, Rectangle } from '@q/flowgram.ai.utils';
 
 import { findSelectedNodes } from '../utils/find-selected-nodes';
 

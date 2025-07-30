@@ -4,8 +4,8 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { Emitter, type PositionSchema } from '@flowgram.ai/utils';
-import { EntityManager } from '@flowgram.ai/core';
+import { Emitter, type PositionSchema } from '@q/flowgram.ai.utils';
+import { EntityManager } from '@q/flowgram.ai.core';
 
 import {
   type WorkflowLineEntity,

@@ -4,7 +4,7 @@
  */
 
 import { injectable } from 'inversify';
-import { Emitter, type Event, type MaybePromise } from '@flowgram.ai/utils';
+import { Emitter, type Event, type MaybePromise } from '@q/flowgram.ai.utils';
 
 export const ClipboardService = Symbol('ClipboardService');
 

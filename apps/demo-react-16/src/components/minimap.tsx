@@ -5,8 +5,8 @@
 
 import React from 'react';
 
-import { FlowMinimapService, MinimapRender } from '@flowgram.ai/minimap-plugin';
-import { useService } from '@flowgram.ai/free-layout-editor';
+import { FlowMinimapService, MinimapRender } from '@q/flowgram.ai.minimap-plugin';
+import { useService } from '@q/flowgram.ai.free-layout-editor';
 
 export const Minimap = () => {
   const minimapService = useService(FlowMinimapService);

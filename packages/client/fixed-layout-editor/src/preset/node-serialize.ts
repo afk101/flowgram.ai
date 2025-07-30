@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeEntity, FlowNodeJSON, FlowNodeFormData } from '@flowgram.ai/editor';
+import { FlowNodeEntity, FlowNodeJSON, FlowNodeFormData } from '@q/flowgram.ai.editor';
 
 import { FixedLayoutProps } from './fixed-layout-props';
 
