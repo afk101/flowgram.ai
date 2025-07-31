@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowRendererKey, FlowTextKey } from '@flowgram.ai/renderer';
+import { FlowRendererKey, FlowTextKey } from '@q/flowgram.ai.renderer';
 import {
   FlowNodeBaseType,
   type FlowNodeRegistry,
@@ -13,7 +13,7 @@ import {
   FlowLayoutDefault,
   getDefaultSpacing,
   ConstantKeys,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 
 import { TryCatchSpacings, TryCatchTypeEnum } from './constants';
 

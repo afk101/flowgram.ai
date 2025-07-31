@@ -6,7 +6,7 @@
 import React from 'react';
 
 import { min } from 'lodash';
-import { type FlowNodeEntity, FlowNodeTransformData } from '@flowgram.ai/fixed-layout-editor';
+import { type FlowNodeEntity, FlowNodeTransformData } from '@q/flowgram.ai.fixed-layout-editor';
 
 import { Ellipse } from '../../assets';
 import { UILineContainer, UILine } from './styles';

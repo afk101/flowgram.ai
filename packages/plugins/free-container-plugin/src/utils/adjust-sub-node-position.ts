@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IPoint, PaddingSchema } from '@flowgram.ai/utils';
-import { WorkflowNodeEntity } from '@flowgram.ai/free-layout-core';
-import { FlowNodeBaseType } from '@flowgram.ai/document';
+import { IPoint, PaddingSchema } from '@q/flowgram.ai.utils';
+import { WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-core';
+import { FlowNodeBaseType } from '@q/flowgram.ai.document';
 
 /**
  * 如果存在容器节点，且传入鼠标坐标，需要用容器的坐标减去传入的鼠标坐标

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import type { WorkflowNodeEntity } from '@flowgram.ai/free-layout-core';
+import type { WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-core';
 
 export interface LayoutNode {
   id: string;

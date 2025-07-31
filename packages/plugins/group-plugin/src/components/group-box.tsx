@@ -7,8 +7,8 @@
 import { useEffect, type CSSProperties } from 'react';
 import React from 'react';
 
-import { FlowGroupController } from '@flowgram.ai/document';
-import type { Rectangle } from '@flowgram.ai/utils';
+import { FlowGroupController } from '@q/flowgram.ai.document';
+import type { Rectangle } from '@q/flowgram.ai.utils';
 
 import { IGroupBox } from '../type';
 import { useHover } from './hooks';

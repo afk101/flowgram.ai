@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { Disposable, Emitter } from '@flowgram.ai/utils';
+import { Disposable, Emitter } from '@q/flowgram.ai.utils';
 import { ConfigEntity, EntityOpts } from '../../../common';
 import type { PlaygroundConfigEntity } from './playground-config-entity';
 

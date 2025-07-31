@@ -5,13 +5,13 @@
 
 import { isEqual } from 'lodash';
 import { interfaces } from 'inversify';
-import { FlowNodeFormData } from '@flowgram.ai/form-core';
-import { FlowOperationBaseService } from '@flowgram.ai/document';
-import { FlowDocument } from '@flowgram.ai/document';
-import { definePluginCreator } from '@flowgram.ai/core';
-import { bindContributions } from '@flowgram.ai/utils';
-import { HistoryContainerModule, OperationService } from '@flowgram.ai/history';
-import { OperationContribution } from '@flowgram.ai/history';
+import { FlowNodeFormData } from '@q/flowgram.ai.form-core';
+import { FlowOperationBaseService } from '@q/flowgram.ai.document';
+import { FlowDocument } from '@q/flowgram.ai.document';
+import { definePluginCreator } from '@q/flowgram.ai.core';
+import { bindContributions } from '@q/flowgram.ai.utils';
+import { HistoryContainerModule, OperationService } from '@q/flowgram.ai.history';
+import { OperationContribution } from '@q/flowgram.ai.history';
 
 import { FixedHistoryPluginOptions } from './types';
 import { FixedHistoryService } from './services/fixed-history-service';

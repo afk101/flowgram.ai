@@ -9,7 +9,7 @@ import {
   type FlowNodeEntity,
   FlowNodeRenderData,
   FlowNodeTransformData,
-} from '@flowgram.ai/fixed-layout-editor';
+} from '@q/flowgram.ai.fixed-layout-editor';
 
 import Collapse from './collapse';
 

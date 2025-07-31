@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { ICache } from '@flowgram.ai/runtime-interface';
+import { ICache } from '@q/flowgram.ai.runtime-interface';
 
 export class WorkflowRuntimeCache implements ICache {
   private map: Map<string, any>;

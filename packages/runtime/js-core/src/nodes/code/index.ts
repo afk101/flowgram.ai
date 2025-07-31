@@ -10,7 +10,7 @@ import {
   FlowGramNode,
   INode,
   INodeExecutor,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 export interface CodeExecutorInputs {
   params: Record<string, any>;

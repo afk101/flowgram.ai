@@ -11,7 +11,7 @@ import {
   FlowGramNode,
   INodeExecutor,
   WorkflowVariableType,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowRuntimeType } from '@infra/index';
 import { ConditionValue, Conditions } from './type';

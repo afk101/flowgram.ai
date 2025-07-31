@@ -18,7 +18,7 @@ import {
   WorkflowNodeLinesData,
   WorkflowNodeMeta,
   WorkflowSelectService,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 import { Toast } from '@douyinfe/semi-ui';
 
 import type {

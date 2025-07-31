@@ -6,7 +6,7 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion -- no need */
 import { throttle } from 'lodash';
 import { inject, injectable } from 'inversify';
-import { type Disposable, DisposableCollection, Emitter } from '@flowgram.ai/utils';
+import { type Disposable, DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
 import {
   type NodesDragEvent,
   WorkflowDocument,
@@ -16,10 +16,10 @@ import {
   WorkflowNodeMeta,
   WorkflowOperationBaseService,
   WorkflowSelectService,
-} from '@flowgram.ai/free-layout-core';
-import { HistoryService } from '@flowgram.ai/free-history-plugin';
-import { FlowNodeRenderData, FlowNodeBaseType } from '@flowgram.ai/document';
-import { PlaygroundConfigEntity, TransformData } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.free-layout-core';
+import { HistoryService } from '@q/flowgram.ai.free-history-plugin';
+import { FlowNodeRenderData, FlowNodeBaseType } from '@q/flowgram.ai.document';
+import { PlaygroundConfigEntity, TransformData } from '@q/flowgram.ai.core';
 
 import type { NodeIntoContainerEvent, NodeIntoContainerState } from './type';
 import { NodeIntoContainerType } from './constant';

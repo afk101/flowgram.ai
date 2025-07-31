@@ -12,7 +12,7 @@ import {
   HTTPNodeSchema,
   INode,
   INodeExecutor,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 export interface HTTPExecutorInputs {
   method: HTTPMethod;

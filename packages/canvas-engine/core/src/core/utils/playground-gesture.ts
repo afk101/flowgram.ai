@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Disposable, DisposableImpl } from '@flowgram.ai/utils';
+import { Disposable, DisposableImpl } from '@q/flowgram.ai.utils';
 
 import { type PlaygroundConfigEntity } from '../layer/config/playground-config-entity';
 import { Gesture } from './use-gesture';

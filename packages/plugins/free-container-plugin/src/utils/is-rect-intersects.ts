@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Rectangle } from '@flowgram.ai/utils';
+import { Rectangle } from '@q/flowgram.ai.utils';
 
 export const isRectIntersects = (rectA: Rectangle, rectB: Rectangle): boolean => {
   // 检查水平方向是否有重叠

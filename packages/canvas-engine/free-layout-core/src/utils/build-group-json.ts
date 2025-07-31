@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowNodeBaseType } from '@flowgram.ai/document';
+import { FlowNodeBaseType } from '@q/flowgram.ai.document';
 
 import { WorkflowJSON, WorkflowNodeJSON } from '../typings';
 

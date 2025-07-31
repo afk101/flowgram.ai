@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Snapshot, ISnapshotCenter, SnapshotData, ISnapshot } from '@flowgram.ai/runtime-interface';
+import { Snapshot, ISnapshotCenter, SnapshotData, ISnapshot } from '@q/flowgram.ai.runtime-interface';
 
 import { uuid } from '@infra/utils';
 import { WorkflowRuntimeSnapshot } from '../snapshot-entity';

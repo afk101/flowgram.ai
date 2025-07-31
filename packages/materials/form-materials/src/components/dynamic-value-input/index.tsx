@@ -5,7 +5,7 @@
 
 import React, { useMemo, useState } from 'react';
 
-import { useScopeAvailable } from '@flowgram.ai/editor';
+import { useScopeAvailable } from '@q/flowgram.ai.editor';
 import { IconButton } from '@douyinfe/semi-ui';
 import { IconSetting } from '@douyinfe/semi-icons';
 

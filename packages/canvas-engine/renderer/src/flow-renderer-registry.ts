@@ -4,8 +4,8 @@
  */
 
 import { inject, injectable, multiInject, optional } from 'inversify';
-import { I18n } from '@flowgram.ai/i18n';
-import { type Layer, type LayerRegistry, PipelineRegistry } from '@flowgram.ai/core';
+import { I18n } from '@q/flowgram.ai.i18n';
+import { type Layer, type LayerRegistry, PipelineRegistry } from '@q/flowgram.ai.core';
 
 import { FlowRendererContribution } from './flow-renderer-contribution';
 

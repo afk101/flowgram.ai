@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowNodeEntity, WorkflowNodeMeta } from '@flowgram.ai/free-layout-core';
+import { WorkflowNodeEntity, WorkflowNodeMeta } from '@q/flowgram.ai.free-layout-core';
 
 export const isContainer = (node?: WorkflowNodeEntity): boolean =>
   node?.getNodeMeta<WorkflowNodeMeta>().isContainer ?? false;

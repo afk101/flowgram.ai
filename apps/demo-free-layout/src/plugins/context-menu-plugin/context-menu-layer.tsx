@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { NodePanelResult, WorkflowNodePanelService } from '@flowgram.ai/free-node-panel-plugin';
+import { NodePanelResult, WorkflowNodePanelService } from '@q/flowgram.ai.free-node-panel-plugin';
 import {
   Layer,
   injectable,
@@ -16,8 +16,8 @@ import {
   WorkflowDocument,
   PositionSchema,
   WorkflowDragService,
-} from '@flowgram.ai/free-layout-editor';
-import { ContainerUtils } from '@flowgram.ai/free-container-plugin';
+} from '@q/flowgram.ai.free-layout-editor';
+import { ContainerUtils } from '@q/flowgram.ai.free-container-plugin';
 
 @injectable()
 export class ContextMenuLayer extends Layer {

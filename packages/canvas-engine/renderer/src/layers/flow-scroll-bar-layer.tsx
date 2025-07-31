@@ -4,19 +4,19 @@
  */
 
 import { inject, injectable, optional } from 'inversify';
-import { FlowDocument, FlowNodeTransformData } from '@flowgram.ai/document';
+import { FlowDocument, FlowNodeTransformData } from '@q/flowgram.ai.document';
 import {
   Layer,
   observeEntity,
   PlaygroundConfigEntity,
   PlaygroundDrag,
-} from '@flowgram.ai/core';
-import { domUtils, Rectangle } from '@flowgram.ai/utils';
+} from '@q/flowgram.ai.core';
+import { domUtils, Rectangle } from '@q/flowgram.ai.utils';
 // import {
 //   FlowDocument,
 //   FlowDocumentTransformerEntity,
 //   FlowNodeTransformData,
-// } from '@flowgram.ai/document'
+// } from '@q/flowgram.ai.document'
 
 import { ScrollBarEvents } from '../utils/scroll-bar-events';
 import { getScrollViewport } from '../utils';

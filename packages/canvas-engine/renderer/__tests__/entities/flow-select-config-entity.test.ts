@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Rectangle } from '@flowgram.ai/utils';
-import { FlowDocument, FlowNodeTransformData } from '@flowgram.ai/document';
-import { EntityManager } from '@flowgram.ai/core';
+import { Rectangle } from '@q/flowgram.ai.utils';
+import { FlowDocument, FlowNodeTransformData } from '@q/flowgram.ai.document';
+import { EntityManager } from '@q/flowgram.ai.core';
 
 import { FlowSelectConfigEntity } from '../../src/entities/flow-select-config-entity';
 import { FLOW_SELECTED_NODES } from '../../__mocks__/flow-selected-nodes.mock';

@@ -20,7 +20,7 @@ import {
   WorkflowNodeMeta,
   WorkflowSelectService,
   Playground,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 import { Toast } from '@douyinfe/semi-ui';
 
 import { WorkflowClipboardData, WorkflowClipboardRect } from '../type';

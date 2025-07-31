@@ -10,7 +10,7 @@ import {
   InvokeParams,
   IJsonSchema,
   FlowGramNode,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 import { JSONSchemaValidator } from '@infra/index';
 import { cycleDetection, edgeSourceTargetExist, startEndNode, schemaFormat } from './validators';

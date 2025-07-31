@@ -6,8 +6,8 @@
 import { FunctionComponent } from 'react';
 
 import { Button, Tooltip } from 'antd';
-import { SelectorBoxPopoverProps } from '@flowgram.ai/free-layout-editor';
-import { WorkflowGroupCommand } from '@flowgram.ai/free-group-plugin';
+import { SelectorBoxPopoverProps } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowGroupCommand } from '@q/flowgram.ai.free-group-plugin';
 import { CopyOutlined, DeleteOutlined, ExpandAltOutlined, ShrinkOutlined } from '@ant-design/icons';
 
 import { FlowCommandId } from '@editor/shortcuts/constants';

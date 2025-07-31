@@ -6,7 +6,7 @@
 import React from 'react';
 
 import { describe, it, expect } from 'vitest';
-import { FlowDocument, FlowNodeFormData } from '@flowgram.ai/editor';
+import { FlowDocument, FlowNodeFormData } from '@q/flowgram.ai.editor';
 
 import { mockJSON, mockJSON2, mockSimpleJSON, mockSimpleJSON2 } from '../__mocks__/flow.mocks';
 import { createEditor } from './create-editor';

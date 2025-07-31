@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-// import { FormManager } from '@flowgram.ai/form-core';
-import { NodeManager } from '@flowgram.ai/form-core';
-import { definePluginCreator } from '@flowgram.ai/core';
+// import { FormManager } from '@q/flowgram.ai.form-core';
+import { NodeManager } from '@q/flowgram.ai.form-core';
+import { definePluginCreator } from '@q/flowgram.ai.core';
 
 import { withNodeVariables } from './with-node-variables';
 

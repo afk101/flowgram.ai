@@ -4,8 +4,8 @@
  */
 
 import { injectable } from 'inversify';
-import { type FlowNodeTransformData } from '@flowgram.ai/document';
-import { Disposable } from '@flowgram.ai/utils';
+import { type FlowNodeTransformData } from '@q/flowgram.ai.document';
+import { Disposable } from '@q/flowgram.ai.utils';
 
 import { isHidden, isRectInit } from './utils/element';
 

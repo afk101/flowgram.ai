@@ -5,7 +5,7 @@
 
 import { FC } from 'react';
 
-import { Field } from '@flowgram.ai/free-layout-editor';
+import { Field } from '@q/flowgram.ai.free-layout-editor';
 import { Popover, Tooltip } from '@douyinfe/semi-ui';
 
 import { GroupField } from '../constant';

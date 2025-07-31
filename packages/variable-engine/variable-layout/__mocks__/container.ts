@@ -8,8 +8,8 @@ import {
   ASTFactory,
   ScopeChain,
   VariableContainerModule,
-} from '@flowgram.ai/variable-core';
-import { createPlaygroundContainer } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.variable-core';
+import { createPlaygroundContainer } from '@q/flowgram.ai.core';
 import {
   FreeLayoutScopeChain,
   FixedLayoutScopeChain,
@@ -19,13 +19,13 @@ import {
   bindGlobalScope,
   ScopeChainTransformService,
 } from '../src';
-import { EntityManager } from '@flowgram.ai/core';
-import { VariableEngine } from '@flowgram.ai/variable-core';
+import { EntityManager } from '@q/flowgram.ai.core';
+import { VariableEngine } from '@q/flowgram.ai.variable-core';
 import {
   FlowDocument,
   FlowDocumentContainerModule,
-} from '@flowgram.ai/document';
-import { WorkflowDocumentContainerModule, WorkflowLinesManager, WorkflowSimpleLineContribution } from '@flowgram.ai/free-layout-core';
+} from '@q/flowgram.ai.document';
+import { WorkflowDocumentContainerModule, WorkflowLinesManager, WorkflowSimpleLineContribution } from '@q/flowgram.ai.free-layout-core';
 
 export interface TestConfig extends VariableChainConfig {
   enableGlobalScope?: boolean;

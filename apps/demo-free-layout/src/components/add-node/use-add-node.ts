@@ -4,7 +4,7 @@
  */
 import { useCallback } from 'react';
 
-import { NodePanelResult, WorkflowNodePanelService } from '@flowgram.ai/free-node-panel-plugin';
+import { NodePanelResult, WorkflowNodePanelService } from '@q/flowgram.ai.free-node-panel-plugin';
 import {
   useService,
   WorkflowDocument,
@@ -16,7 +16,7 @@ import {
   getAntiOverlapPosition,
   WorkflowNodeMeta,
   FlowNodeBaseType,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 // hook to get panel position from mouse event - 从鼠标事件获取面板位置的 hook
 const useGetPanelPosition = () => {
   const playground = usePlayground();

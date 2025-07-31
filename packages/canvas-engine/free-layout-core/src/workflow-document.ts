@@ -5,21 +5,21 @@
 
 import { customAlphabet } from 'nanoid';
 import { inject, injectable, optional, postConstruct } from 'inversify';
-import { Emitter, type IPoint } from '@flowgram.ai/utils';
-import { NodeEngineContext } from '@flowgram.ai/form-core';
+import { Emitter, type IPoint } from '@q/flowgram.ai.utils';
+import { NodeEngineContext } from '@q/flowgram.ai.form-core';
 import {
   AddNodeData,
   FlowDocument,
   FlowNodeBaseType,
   FlowNodeTransformData,
-} from '@flowgram.ai/document';
+} from '@q/flowgram.ai.document';
 import {
   injectPlaygroundContext,
   PlaygroundConfigEntity,
   PlaygroundContext,
   PositionData,
   TransformData,
-} from '@flowgram.ai/core';
+} from '@q/flowgram.ai.core';
 
 import { WorkflowLinesManager } from './workflow-lines-manager';
 import {

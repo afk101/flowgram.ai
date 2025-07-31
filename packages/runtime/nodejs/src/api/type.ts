@@ -4,7 +4,7 @@
  */
 
 import { BuildProcedure } from '@trpc/server';
-import { FlowGramAPIDefine } from '@flowgram.ai/runtime-interface';
+import { FlowGramAPIDefine } from '@q/flowgram.ai.runtime-interface';
 
 export interface APIHandler {
   define: FlowGramAPIDefine;

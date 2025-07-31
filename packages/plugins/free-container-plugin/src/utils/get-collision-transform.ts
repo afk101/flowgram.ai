@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { PositionSchema, Rectangle } from '@flowgram.ai/utils';
-import { WorkflowDocument } from '@flowgram.ai/free-layout-core';
-import { FlowNodeTransformData } from '@flowgram.ai/document';
+import { PositionSchema, Rectangle } from '@q/flowgram.ai.utils';
+import { WorkflowDocument } from '@q/flowgram.ai.free-layout-core';
+import { FlowNodeTransformData } from '@q/flowgram.ai.document';
 
 import { isRectIntersects } from './is-rect-intersects';
 import { isPointInRect } from './is-point-in-rect';

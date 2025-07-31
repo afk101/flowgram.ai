@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { IExecutor } from '@flowgram.ai/runtime-interface';
+import { IExecutor } from '@q/flowgram.ai.runtime-interface';
 
 import { MockLLMExecutor } from './executor/llm';
 import { WorkflowRuntimeContainer } from '../container';

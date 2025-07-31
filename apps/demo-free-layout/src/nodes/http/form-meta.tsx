@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FormMeta, FormRenderProps } from '@flowgram.ai/free-layout-editor';
-import { createInferInputsPlugin } from '@flowgram.ai/form-materials';
+import { FormMeta, FormRenderProps } from '@q/flowgram.ai.free-layout-editor';
+import { createInferInputsPlugin } from '@q/flowgram.ai.form-materials';
 import { Divider } from '@douyinfe/semi-ui';
 
 import { FormHeader, FormContent, FormOutputs } from '../../form-components';

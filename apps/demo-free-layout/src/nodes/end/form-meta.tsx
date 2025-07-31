@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Field, FormMeta } from '@flowgram.ai/free-layout-editor';
-import { createInferInputsPlugin, IFlowValue, InputsValues } from '@flowgram.ai/form-materials';
+import { Field, FormMeta } from '@q/flowgram.ai.free-layout-editor';
+import { createInferInputsPlugin, IFlowValue, InputsValues } from '@q/flowgram.ai.form-materials';
 
 import { defaultFormMeta } from '../default-form-meta';
 import { useIsSidebar } from '../../hooks';

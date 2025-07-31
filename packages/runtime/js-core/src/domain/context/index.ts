@@ -16,7 +16,7 @@ import {
   ContextData,
   IMessageCenter,
   ICache,
-} from '@flowgram.ai/runtime-interface';
+} from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowRuntimeMessageCenter } from '@workflow/message';
 import { WorkflowRuntimeCache } from '@workflow/cache';

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FormMeta } from '@flowgram.ai/free-layout-editor';
+import { FormMeta } from '@q/flowgram.ai.free-layout-editor';
 
 import { defaultFormMeta } from '../default-form-meta';
 import { useIsSidebar } from '../../hooks';

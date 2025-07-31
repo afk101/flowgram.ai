@@ -9,7 +9,7 @@ import {
   getNodePrivateScope,
   getNodeScope,
   Scope,
-} from '@flowgram.ai/editor';
+} from '@q/flowgram.ai.editor';
 
 import { JsonSchemaUtils } from '../../utils';
 import { IFlowConstantValue, IFlowRefValue, IFlowTemplateValue, IJsonSchema } from '../../typings';

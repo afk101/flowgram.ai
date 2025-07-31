@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { PositionSchema, Rectangle } from '@flowgram.ai/utils';
+import { PositionSchema, Rectangle } from '@q/flowgram.ai.utils';
 
 export const isPointInRect = (point: PositionSchema, rect: Rectangle): boolean =>
   point.x >= rect.left && point.x <= rect.right && point.y >= rect.top && point.y <= rect.bottom;

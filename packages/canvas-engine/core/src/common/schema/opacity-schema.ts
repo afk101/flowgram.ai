@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { OpacitySchemaDecoration, Schema } from '@flowgram.ai/utils';
-import type { OpacitySchema } from '@flowgram.ai/utils';
+import { OpacitySchemaDecoration, Schema } from '@q/flowgram.ai.utils';
+import type { OpacitySchema } from '@q/flowgram.ai.utils';
 
 import { EntityData } from '../entity-data';
 

@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowNodeEntity } from '@flowgram.ai/free-layout-core';
-import { FlowNodeTransformData } from '@flowgram.ai/document';
+import { WorkflowNodeEntity } from '@q/flowgram.ai.free-layout-core';
+import { FlowNodeTransformData } from '@q/flowgram.ai.document';
 
 import { isContainer } from './is-container';
 

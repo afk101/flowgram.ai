@@ -4,7 +4,7 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { Layer, SelectionService, Command } from '@flowgram.ai/core';
+import { Layer, SelectionService, Command } from '@q/flowgram.ai.core';
 
 import { isShortcutsMatch } from '../shortcuts-utils';
 import { ShortcutsRegistry } from '../shortcuts-contribution';

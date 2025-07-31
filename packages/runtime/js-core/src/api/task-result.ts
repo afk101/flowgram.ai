@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { TaskResultInput, TaskResultOutput } from '@flowgram.ai/runtime-interface';
+import { TaskResultInput, TaskResultOutput } from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowApplication } from '@application/workflow';
 

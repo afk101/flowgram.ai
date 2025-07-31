@@ -8,7 +8,7 @@ import {
   WorkflowNodeEntity,
   PositionSchema,
   FlowNodeTransformData,
-} from '@flowgram.ai/free-layout-editor';
+} from '@q/flowgram.ai.free-layout-editor';
 
 import { FlowNodeRegistry } from '../../typings';
 import iconLoop from '../../assets/icon-loop.jpg';

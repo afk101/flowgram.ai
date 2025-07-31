@@ -6,15 +6,15 @@
 import React from 'react';
 
 import { interfaces } from 'inversify';
-import { ShortcutsRegistry } from '@flowgram.ai/shortcuts-plugin';
+import { ShortcutsRegistry } from '@q/flowgram.ai.shortcuts-plugin';
 import {
   PlaygroundLayerOptions,
   Plugin,
   PluginBindConfig,
   PluginContext,
   LayerRegistry,
-} from '@flowgram.ai/core';
-import { BackgroundLayerOptions } from '@flowgram.ai/background-plugin';
+} from '@q/flowgram.ai.core';
+import { BackgroundLayerOptions } from '@q/flowgram.ai.background-plugin';
 
 /**
  * 画布配置配置

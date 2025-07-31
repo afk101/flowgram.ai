@@ -5,7 +5,7 @@
 
 import { useLayoutEffect } from 'react';
 
-import { Disposable } from '@flowgram.ai/utils';
+import { Disposable } from '@q/flowgram.ai.utils';
 
 import { ConfigEntity, EntityManager, EntityRegistry } from '../common';
 import { useRefresh } from './use-refresh';

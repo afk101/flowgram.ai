@@ -6,7 +6,7 @@
 import { Container, ContainerModule, interfaces } from 'inversify';
 import { ScopeChain, VariableContainerModule } from '../src';
 import { MockScopeChain } from './mock-chain';
-import { createPlaygroundContainer } from '@flowgram.ai/core';
+import { createPlaygroundContainer } from '@q/flowgram.ai.core';
 
 export function getContainer(customModule?: interfaces.ContainerModuleCallBack): Container {
   const container = createPlaygroundContainer() as Container;

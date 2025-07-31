@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowNodeSchema, WorkflowSchema, FlowGramNode } from '@flowgram.ai/runtime-interface';
+import { WorkflowNodeSchema, WorkflowSchema, FlowGramNode } from '@q/flowgram.ai.runtime-interface';
 
 import { WorkflowRuntimeEdge } from '../entity';
 

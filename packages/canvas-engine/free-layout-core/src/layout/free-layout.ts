@@ -10,15 +10,15 @@ import {
   Rectangle,
   type ScrollSchema,
   SizeSchema,
-} from '@flowgram.ai/utils';
+} from '@q/flowgram.ai.utils';
 import {
   type FlowDocument,
   type FlowLayout,
   type FlowNodeEntity,
   FlowDocumentProvider,
   FlowNodeTransformData,
-} from '@flowgram.ai/document';
-import { PlaygroundConfigEntity, TransformData } from '@flowgram.ai/core';
+} from '@q/flowgram.ai.document';
+import { PlaygroundConfigEntity, TransformData } from '@q/flowgram.ai.core';
 
 export const FREE_LAYOUT_KEY = 'free-layout';
 /**

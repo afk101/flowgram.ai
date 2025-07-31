@@ -12,7 +12,7 @@ import {
   type BaseType,
   type BaseVariableField,
   useScopeAvailable,
-} from '@flowgram.ai/editor';
+} from '@q/flowgram.ai.editor';
 import { TreeNodeData } from '@douyinfe/semi-ui/lib/es/tree';
 import { Tree } from '@douyinfe/semi-ui';
 

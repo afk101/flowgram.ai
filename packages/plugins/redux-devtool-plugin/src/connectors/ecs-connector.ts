@@ -4,7 +4,7 @@
  */
 
 import { inject, injectable } from 'inversify';
-import { EntityManager } from '@flowgram.ai/core';
+import { EntityManager } from '@q/flowgram.ai.core';
 
 import { BaseConnector } from './base';
 
@@ -13,7 +13,7 @@ export class ECSConnector extends BaseConnector {
   @inject(EntityManager) protected entityManager: EntityManager;
 
   getName(): string {
-    return '@flowgram.ai/EntityManager';
+    return '@q/flowgram.ai.EntityManager';
   }
 
   getState() {

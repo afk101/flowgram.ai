@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FormRenderProps, FormMeta, ValidateTrigger } from '@flowgram.ai/fixed-layout-editor';
+import { FormRenderProps, FormMeta, ValidateTrigger } from '@q/flowgram.ai.fixed-layout-editor';
 
 import { FlowNodeJSON } from '../../typings';
 import { FormHeader, FormContent, FormInputs, FormOutputs } from '../../form-components';

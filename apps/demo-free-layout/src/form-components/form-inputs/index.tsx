@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Field } from '@flowgram.ai/free-layout-editor';
-import { DynamicValueInput, PromptEditorWithVariables } from '@flowgram.ai/form-materials';
+import { Field } from '@q/flowgram.ai.free-layout-editor';
+import { DynamicValueInput, PromptEditorWithVariables } from '@q/flowgram.ai.form-materials';
 
 import { FormItem } from '../form-item';
 import { Feedback } from '../feedback';
