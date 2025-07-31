@@ -1,8 +1,17 @@
 {
   "name": "@q/flowgram.ai.eslint-config",
-  "version": "0.2.28-7",
+  "version": "0.2.28-8",
   "author": "chenjiawei.inizio@bytedance.com",
-  "maintainers": [],
+  "maintainers": [
+    {
+      "email": "jinshuokang@360.cn",
+      "name": "jinshuokang"
+    },
+    {
+      "email": "chenguangdi@360.cn",
+      "name": "chenguangdi"
+    }
+  ],
   "main": "src/index.js",
   "scripts": {
     "build": "tsc -b --force",

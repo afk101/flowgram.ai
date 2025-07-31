@@ -2,7 +2,7 @@
   {
     "definitionName": "lockStepVersion",
     "policyName": "MyProject-prerelease",
-    "version": "0.2.28-7",
+    "version": "0.2.28-8",
     "nextBump": "prerelease"
   }
 ]
