@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# 将所有输出重定向到 publish.txt 文件
-exec > >(tee -a publish.txt) 2>&1
+# # 将所有输出重定向到 publish.txt 文件
+# exec > >(tee -a publish.txt) 2>&1
 
-# 清空之前的日志文件
-> publish.txt
+# # 清空之前的日志文件
+# > publish.txt
 
 echo "📅 发布开始时间: $(date)"
 echo "================================"
