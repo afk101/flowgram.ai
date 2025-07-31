@@ -165,7 +165,7 @@ else
 fi
 
 # ============================================================================
-# 4. 深度遍历 packages 和 apps 文件夹，替换文件内容、添加 maintainers 配置并更新 registry 地址
+# 4. 深度遍历 packages、apps 和 config 文件夹，替换文件内容、添加 maintainers 配置并更新 registry 地址
 # ============================================================================
 echo "步骤 4: 深度遍历并替换文件内容、添加 maintainers 配置并更新 registry 地址..."
 
@@ -311,6 +311,28 @@ if [ -d "apps" ]; then
     echo "  - apps 文件夹处理完成"
 else
     echo "  - apps 文件夹不存在，跳过"
+fi
+
+# 处理 config 文件夹
+if [ -d "config" ]; then
+    echo "  - 处理 config 文件夹..."
+
+    # 查找所有 package.json 文件并处理
+    find config -name "package.json" -type f | while read -r file; do
+        # 先替换包名
+        replace_in_file "$file"
+        # 再添加 maintainers 配置和更新 registry
+        add_maintainers_and_update_registry "$file"
+    done
+
+    # 查找所有 src 文件夹下的文件
+    find config -path "*/src/*" -type f \( -name "*.js" -o -name "*.ts" -o -name "*.jsx" -o -name "*.tsx" -o -name "*.json" -o -name "*.md" \) | while read -r file; do
+        replace_in_file "$file"
+    done
+
+    echo "  - config 文件夹处理完成"
+else
+    echo "  - config 文件夹不存在，跳过"
 fi
 
 # ============================================================================
@@ -653,7 +675,7 @@ echo "0. ✅ 已校验分支名格式符合规范"
 echo "1. ✅ 已将 .github 文件夹备份到 .github.bak 并删除原文件夹"
 echo "2. ✅ 已将 common/git-hooks 文件夹备份到 .git-hooks.bak 并删除原文件夹"
 echo "3. ✅ 已修改 rush.json 中的 projects 配置"
-echo "4. ✅ 已替换 packages 和 apps 文件夹中的包名引用，添加 maintainers 配置并更新 publishConfig registry 地址"
+echo "4. ✅ 已替换 packages、apps 和 config 文件夹中的包名引用，添加 maintainers 配置并更新 publishConfig registry 地址"
 echo "5. ✅ 已替换 apps/create-app/src/index.ts 中的 registry URL"
 echo "6. ✅ 已处理 .npmrc-publish 文件配置"
 echo "7. ✅ 已创建 .env 和 .env.example 文件"
