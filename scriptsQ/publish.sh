@@ -71,13 +71,9 @@ echo "  - 当前版本: $VERSION"
 
 # 统一发布
 echo "📋 步骤 8/9: 发布包到仓库"
-if rush publish --force --apply --publish --target-branch $CURRENT_BRANCH --include-all; then
-    echo "  - ✅ 包发布完成"
-else
-    echo -e "\033[31m❌ 包发布失败！请检查网络连接、.env文件配置和仓库配置\033[0m"
-    echo -e "\033[31m   错误信息: rush publish 命令执行失败\033[0m"
-    exit 1
-fi
+rush publish --force --apply --publish --target-branch $CURRENT_BRANCH --include-all
+echo "  - ✅ 包发布完成"
+
 
 # 提交代码
 echo "📋 步骤 9/9: 提交代码到Git仓库"
