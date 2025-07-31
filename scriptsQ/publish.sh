@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# 将所有输出重定向到 publish.txt 文件
+exec > >(tee -a publish.txt) 2>&1
+
+# 清空之前的日志文件
+> publish.txt
+
+echo "📅 发布开始时间: $(date)"
+echo "================================"
+
 # 检验是否在项目根目录执行脚本
 if [[ ! -f "rush.json" ]] || [[ ! -d "common/config/rush" ]]; then
     echo -e "\033[31m❌ 请在项目根目录执行此脚本！\033[0m"
@@ -92,6 +101,7 @@ echo "  - ✅ 代码提交完成"
 
 echo "================================"
 echo "🎉 发布脚本执行完成！"
+echo "📅 发布结束时间: $(date)"
 echo ""
 echo "📊 执行总结:"
 echo "  - 分支: $CURRENT_BRANCH"
@@ -99,3 +109,4 @@ echo "  - 版本: $VERSION"
 echo "  - 操作: 依赖更新 → 项目构建 → 版本升级 → 包发布 → 代码提交"
 echo "  - 状态: ✅ 全部完成"
 echo ""
+echo "📄 完整日志已保存到: publish.txt"
