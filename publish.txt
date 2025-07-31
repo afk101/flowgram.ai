@@ -1,4 +1,4 @@
-📅 发布开始时间: 2025年 7月31日 星期四 18时30分47秒 CST
+📅 发布开始时间: 2025年 7月31日 星期四 20时57分45秒 CST
 ================================
 🚀 开始执行发布脚本...
 ================================
@@ -39,7 +39,6 @@ Copying "/Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/config/rush/pnpm-
 
 [1mChecking installation in "/Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp"[22m
 
-Deleting files from /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/node_modules
 
 [1mRunning "pnpm install" in /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp[22m
 
@@ -47,50 +46,18 @@ Scope: all 66 workspace projects
 Progress: resolved 0, reused 1, downloaded 0, added 0
 ../../apps/create-app                    |  WARN  deprecated eslint@8.57.1
 ../../apps/demo-nextjs                   |  WARN  deprecated @types/next@9.0.0
-Progress: resolved 135, reused 135, downloaded 0, added 0
-Progress: resolved 354, reused 346, downloaded 0, added 0
-Progress: resolved 782, reused 775, downloaded 0, added 0
-Progress: resolved 1552, reused 1545, downloaded 0, added 0
-Progress: resolved 1714, reused 1707, downloaded 0, added 0
-Progress: resolved 1768, reused 1720, downloaded 0, added 0
+Progress: resolved 142, reused 142, downloaded 0, added 0
+Progress: resolved 627, reused 619, downloaded 0, added 0
+Progress: resolved 1548, reused 1500, downloaded 0, added 0
 Progress: resolved 1771, reused 1723, downloaded 0, added 0
-Progress: resolved 1891, reused 1737, downloaded 0, added 0
 Progress: resolved 1936, reused 1746, downloaded 0, added 0
 Progress: resolved 1950, reused 1752, downloaded 0, added 0
 Progress: resolved 1951, reused 1753, downloaded 0, added 0
-Progress: resolved 1952, reused 1753, downloaded 0, added 0
-Progress: resolved 1952, reused 1754, downloaded 0, added 0
-Progress: resolved 1953, reused 1754, downloaded 0, added 0
-Progress: resolved 1963, reused 1764, downloaded 0, added 0
-Progress: resolved 1963, reused 1765, downloaded 0, added 0
-Progress: resolved 1964, reused 1766, downloaded 0, added 0
-Progress: resolved 1990, reused 1792, downloaded 0, added 0
-Progress: resolved 2007, reused 1809, downloaded 0, added 0
- WARN  23 deprecated subdependencies found: @babel/plugin-proposal-async-generator-functions@7.20.7, @babel/plugin-proposal-class-properties@7.18.6, @babel/plugin-proposal-class-static-block@7.21.0, @babel/plugin-proposal-dynamic-import@7.18.6, @babel/plugin-proposal-export-namespace-from@7.18.9, @babel/plugin-proposal-json-strings@7.18.6, @babel/plugin-proposal-logical-assignment-operators@7.20.7, @babel/plugin-proposal-nullish-coalescing-operator@7.18.6, @babel/plugin-proposal-numeric-separator@7.18.6, @babel/plugin-proposal-object-rest-spread@7.20.7, @babel/plugin-proposal-optional-catch-binding@7.18.6, @babel/plugin-proposal-optional-chaining@7.21.0, @babel/plugin-proposal-private-methods@7.18.6, @babel/plugin-proposal-private-property-in-object@7.21.11, @babel/plugin-proposal-unicode-property-regex@7.18.6, @humanwhocodes/config-array@0.13.0, @humanwhocodes/object-schema@2.0.3, abab@2.0.6, acorn-import-assertions@1.9.0, domexception@4.0.0, glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-.                                        |    +1819 ++++++++++++++++++++++++++++
+Progress: resolved 1953, reused 1755, downloaded 0, added 0
+Progress: resolved 1996, reused 1798, downloaded 0, added 0
 Progress: resolved 2009, reused 1811, downloaded 0, added 0
-Progress: resolved 2009, reused 1811, downloaded 0, added 381
-Progress: resolved 2009, reused 1811, downloaded 0, added 549
-Progress: resolved 2009, reused 1811, downloaded 0, added 718
-Progress: resolved 2009, reused 1811, downloaded 0, added 791
-Progress: resolved 2009, reused 1811, downloaded 0, added 827
-Progress: resolved 2009, reused 1811, downloaded 0, added 863
-Progress: resolved 2009, reused 1811, downloaded 0, added 980
-Progress: resolved 2009, reused 1811, downloaded 0, added 1112
-Progress: resolved 2009, reused 1811, downloaded 0, added 1342
-Progress: resolved 2009, reused 1811, downloaded 0, added 1537
-Progress: resolved 2009, reused 1811, downloaded 0, added 1754
-Progress: resolved 2009, reused 1811, downloaded 0, added 1819, done
-.../esbuild@0.24.0/node_modules/esbuild postinstall$ node install.js
-.../esbuild@0.25.4/node_modules/esbuild postinstall$ node install.js
-.../node_modules/@parcel/watcher install$ node scripts/build-from-source.js
-.../esbuild@0.18.20/node_modules/esbuild postinstall$ node install.js
-.../node_modules/@parcel/watcher install: Done
-.../esbuild@0.24.0/node_modules/esbuild postinstall: Done
-.../esbuild@0.25.4/node_modules/esbuild postinstall: Done
-.../esbuild@0.18.20/node_modules/esbuild postinstall: Done
-.../sharp@0.33.5/node_modules/sharp install$ node install/check
-.../sharp@0.33.5/node_modules/sharp install: Done
+ WARN  23 deprecated subdependencies found: @babel/plugin-proposal-async-generator-functions@7.20.7, @babel/plugin-proposal-class-properties@7.18.6, @babel/plugin-proposal-class-static-block@7.21.0, @babel/plugin-proposal-dynamic-import@7.18.6, @babel/plugin-proposal-export-namespace-from@7.18.9, @babel/plugin-proposal-json-strings@7.18.6, @babel/plugin-proposal-logical-assignment-operators@7.20.7, @babel/plugin-proposal-nullish-coalescing-operator@7.18.6, @babel/plugin-proposal-numeric-separator@7.18.6, @babel/plugin-proposal-object-rest-spread@7.20.7, @babel/plugin-proposal-optional-catch-binding@7.18.6, @babel/plugin-proposal-optional-chaining@7.21.0, @babel/plugin-proposal-private-methods@7.18.6, @babel/plugin-proposal-private-property-in-object@7.21.11, @babel/plugin-proposal-unicode-property-regex@7.18.6, @humanwhocodes/config-array@0.13.0, @humanwhocodes/object-schema@2.0.3, abab@2.0.6, acorn-import-assertions@1.9.0, domexception@4.0.0, glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
+Progress: resolved 2009, reused 1811, downloaded 0, added 0, done
  WARN  Issues with peer dependencies found
 ../../packages/canvas-engine/core
 ├─┬ @testing-library/react 12.1.5
@@ -186,11 +153,11 @@ Progress: resolved 2009, reused 1811, downloaded 0, added 1819, done
   └─┬ @types/react-dom 16.9.25
     └── ✕ unmet peer @types/react@^16.0.0: found 18.3.16
 
-Done in 46.2s
+Done in 15.8s
 
 
 
-[32mRush update finished successfully. (53.58 seconds)[39m
+[32mRush update finished successfully. (16.36 seconds)[39m
   - ✅ 依赖更新完成
 📋 步骤 6/9: 构建项目
 Found configuration in /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/rush.json
@@ -204,278 +171,278 @@ Node.js version is 22.14.0 (LTS)
 [39m
 Starting "rush build"
 
-Analyzing repo state... DONE (0.30 seconds)
+Analyzing repo state... DONE (0.12 seconds)
 
 Executing a maximum of 8 simultaneous processes...
 
-==[ @q/flowgram.ai.create-app ]===================================[ 1 of 65 ]==
-"@q/flowgram.ai.create-app" completed successfully in 4.64 seconds.
+==[ @q/flowgram.ai.ts-config ]====================================[ 1 of 65 ]==
+"@q/flowgram.ai.ts-config" completed successfully in 0.02 seconds.
 
-==[ @q/flowgram.ai.ts-config ]====================================[ 2 of 65 ]==
-"@q/flowgram.ai.ts-config" completed successfully in 0.05 seconds.
+==[ @q/flowgram.ai.create-app ]===================================[ 2 of 65 ]==
+"@q/flowgram.ai.create-app" completed successfully in 3.65 seconds.
 
 ==[ @q/flowgram.ai.eslint-config ]================================[ 3 of 65 ]==
-"@q/flowgram.ai.eslint-config" completed successfully in 3.69 seconds.
+"@q/flowgram.ai.eslint-config" completed successfully in 3.89 seconds.
 
 ==[ @q/flowgram.ai.e2e-free-layout ]==============================[ 4 of 65 ]==
-"@q/flowgram.ai.e2e-free-layout" completed successfully in 0.08 seconds.
+"@q/flowgram.ai.e2e-free-layout" completed successfully in 0.01 seconds.
 
 ==[ @q/flowgram.ai.e2e-fixed-layout ]=============================[ 5 of 65 ]==
-"@q/flowgram.ai.e2e-fixed-layout" completed successfully in 0.08 seconds.
+"@q/flowgram.ai.e2e-fixed-layout" completed successfully in 0.01 seconds.
 
 ==[ @q/flowgram.ai.utils ]========================================[ 6 of 65 ]==
-"@q/flowgram.ai.utils" completed successfully in 5.30 seconds.
+"@q/flowgram.ai.utils" completed successfully in 2.70 seconds.
 
 ==[ @q/flowgram.ai.runtime-interface ]============================[ 7 of 65 ]==
-"@q/flowgram.ai.runtime-interface" completed successfully in 5.72 seconds.
+"@q/flowgram.ai.runtime-interface" completed successfully in 3.42 seconds.
 
-==[ @q/flowgram.ai.reactive ]=====================================[ 8 of 65 ]==
-"@q/flowgram.ai.reactive" completed successfully in 4.80 seconds.
+==[ @q/flowgram.ai.command ]======================================[ 8 of 65 ]==
+"@q/flowgram.ai.command" completed successfully in 10.27 seconds.
 
-==[ @q/flowgram.ai.command ]======================================[ 9 of 65 ]==
-"@q/flowgram.ai.command" completed successfully in 5.13 seconds.
+==[ @q/flowgram.ai.i18n ]=========================================[ 9 of 65 ]==
+"@q/flowgram.ai.i18n" completed successfully in 8.50 seconds.
 
-==[ @q/flowgram.ai.i18n ]========================================[ 10 of 65 ]==
-"@q/flowgram.ai.i18n" completed successfully in 4.90 seconds.
+==[ @q/flowgram.ai.reactive ]====================================[ 10 of 65 ]==
+"@q/flowgram.ai.reactive" completed successfully in 10.39 seconds.
 
 ==[ @q/flowgram.ai.runtime-js ]==================================[ 11 of 65 ]==
-"@q/flowgram.ai.runtime-js" completed successfully in 5.68 seconds.
+"@q/flowgram.ai.runtime-js" completed successfully in 12.36 seconds.
 
-==[ @q/flowgram.ai.form ]========================================[ 12 of 65 ]==
-"@q/flowgram.ai.form" completed successfully in 3.64 seconds.
+==[ @q/flowgram.ai.core ]========================================[ 12 of 65 ]==
+"@q/flowgram.ai.core" completed successfully in 13.36 seconds.
 
-==[ @q/flowgram.ai.core ]========================================[ 13 of 65 ]==
-"@q/flowgram.ai.core" completed successfully in 5.63 seconds.
+==[ @q/flowgram.ai.form ]========================================[ 13 of 65 ]==
+"@q/flowgram.ai.form" completed successfully in 8.62 seconds.
 
 ==[ @q/flowgram.ai.runtime-nodejs ]==============================[ 14 of 65 ]==
-"@q/flowgram.ai.runtime-nodejs" completed successfully in 5.07 seconds.
+"@q/flowgram.ai.runtime-nodejs" completed successfully in 12.25 seconds.
 
-==[ @q/flowgram.ai.history ]=====================================[ 15 of 65 ]==
-"@q/flowgram.ai.history" completed successfully in 6.25 seconds.
+==[ @q/flowgram.ai.i18n-plugin ]=================================[ 15 of 65 ]==
+"@q/flowgram.ai.i18n-plugin" completed successfully in 7.82 seconds.
 
-==[ @q/flowgram.ai.document ]====================================[ 16 of 65 ]==
-"@q/flowgram.ai.document" completed successfully in 7.59 seconds.
+==[ @q/flowgram.ai.history ]=====================================[ 16 of 65 ]==
+"@q/flowgram.ai.history" completed successfully in 11.39 seconds.
 
 ==[ @q/flowgram.ai.background-plugin ]===========================[ 17 of 65 ]==
-"@q/flowgram.ai.background-plugin" completed successfully in 6.48 seconds.
+"@q/flowgram.ai.background-plugin" completed successfully in 8.98 seconds.
 
-==[ @q/flowgram.ai.i18n-plugin ]=================================[ 18 of 65 ]==
-"@q/flowgram.ai.i18n-plugin" completed successfully in 6.68 seconds.
+==[ @q/flowgram.ai.variable-core ]===============================[ 18 of 65 ]==
+"@q/flowgram.ai.variable-core" completed successfully in 13.45 seconds.
 
-==[ @q/flowgram.ai.variable-core ]===============================[ 19 of 65 ]==
-"@q/flowgram.ai.variable-core" completed successfully in 6.98 seconds.
+==[ @q/flowgram.ai.document ]====================================[ 19 of 65 ]==
+"@q/flowgram.ai.document" completed successfully in 13.60 seconds.
 
 ==[ @q/flowgram.ai.history-storage ]=============================[ 20 of 65 ]==
-"@q/flowgram.ai.history-storage" completed successfully in 4.40 seconds.
+"@q/flowgram.ai.history-storage" completed successfully in 6.14 seconds.
 
 ==[ @q/flowgram.ai.redux-devtool-plugin ]========================[ 21 of 65 ]==
-"@q/flowgram.ai.redux-devtool-plugin" completed successfully in 3.79 seconds.
+"@q/flowgram.ai.redux-devtool-plugin" completed successfully in 5.44 seconds.
 
-==[ @q/flowgram.ai.form-core ]===================================[ 22 of 65 ]==
-"@q/flowgram.ai.form-core" completed successfully in 3.90 seconds.
+==[ @q/flowgram.ai.shortcuts-plugin ]============================[ 22 of 65 ]==
+"@q/flowgram.ai.shortcuts-plugin" completed successfully in 5.31 seconds.
 
-==[ @q/flowgram.ai.shortcuts-plugin ]============================[ 23 of 65 ]==
-"@q/flowgram.ai.shortcuts-plugin" completed successfully in 3.87 seconds.
+==[ @q/flowgram.ai.form-core ]===================================[ 23 of 65 ]==
+"@q/flowgram.ai.form-core" completed successfully in 6.71 seconds.
 
 ==[ @q/flowgram.ai.renderer ]====================================[ 24 of 65 ]==
-"@q/flowgram.ai.renderer" completed successfully in 5.31 seconds.
+"@q/flowgram.ai.renderer" completed successfully in 8.26 seconds.
 
 ==[ @q/flowgram.ai.playground-react ]============================[ 25 of 65 ]==
-"@q/flowgram.ai.playground-react" completed successfully in 4.53 seconds.
+"@q/flowgram.ai.playground-react" completed successfully in 4.71 seconds.
 
 ==[ @q/flowgram.ai.node ]========================================[ 26 of 65 ]==
-"@q/flowgram.ai.node" completed successfully in 8.74 seconds.
+"@q/flowgram.ai.node" completed successfully in 10.44 seconds.
 
 ==[ @q/flowgram.ai.fixed-history-plugin ]========================[ 27 of 65 ]==
-"@q/flowgram.ai.fixed-history-plugin" completed successfully in 6.06 seconds.
+"@q/flowgram.ai.fixed-history-plugin" completed successfully in 7.65 seconds.
 
 ==[ @q/flowgram.ai.demo-playground ]=============================[ 28 of 65 ]==
 "@q/flowgram.ai.demo-playground" completed successfully in 0.05 seconds.
 
-==[ @q/flowgram.ai.group-plugin ]================================[ 29 of 65 ]==
-"@q/flowgram.ai.group-plugin" completed successfully in 7.47 seconds.
+==[ @q/flowgram.ai.select-box-plugin ]===========================[ 29 of 65 ]==
+"@q/flowgram.ai.select-box-plugin" completed successfully in 8.89 seconds.
 
-==[ @q/flowgram.ai.select-box-plugin ]===========================[ 30 of 65 ]==
-"@q/flowgram.ai.select-box-plugin" completed successfully in 7.35 seconds.
+==[ @q/flowgram.ai.group-plugin ]================================[ 30 of 65 ]==
+"@q/flowgram.ai.group-plugin" completed successfully in 9.81 seconds.
 
 ==[ @q/flowgram.ai.fixed-drag-plugin ]===========================[ 31 of 65 ]==
-"@q/flowgram.ai.fixed-drag-plugin" completed successfully in 7.89 seconds.
+"@q/flowgram.ai.fixed-drag-plugin" completed successfully in 9.63 seconds.
 
 ==[ @q/flowgram.ai.minimap-plugin ]==============================[ 32 of 65 ]==
-"@q/flowgram.ai.minimap-plugin" completed successfully in 8.05 seconds.
+"@q/flowgram.ai.minimap-plugin" completed successfully in 9.88 seconds.
 
-==[ @q/flowgram.ai.fixed-layout-core ]===========================[ 33 of 65 ]==
-"@q/flowgram.ai.fixed-layout-core" completed successfully in 8.24 seconds.
+==[ @q/flowgram.ai.materials-plugin ]============================[ 33 of 65 ]==
+"@q/flowgram.ai.materials-plugin" completed successfully in 8.08 seconds.
 
-==[ @q/flowgram.ai.materials-plugin ]============================[ 34 of 65 ]==
-"@q/flowgram.ai.materials-plugin" completed successfully in 5.25 seconds.
+==[ @q/flowgram.ai.fixed-layout-core ]===========================[ 34 of 65 ]==
+"@q/flowgram.ai.fixed-layout-core" completed successfully in 10.18 seconds.
 
 ==[ @q/flowgram.ai.history-node-plugin ]=========================[ 35 of 65 ]==
-"@q/flowgram.ai.history-node-plugin" completed successfully in 3.14 seconds.
+"@q/flowgram.ai.history-node-plugin" completed successfully in 3.60 seconds.
 
-==[ @q/flowgram.ai.free-layout-core ]============================[ 36 of 65 ]==
-"@q/flowgram.ai.free-layout-core" completed successfully in 5.52 seconds.
+==[ @q/flowgram.ai.node-core-plugin ]============================[ 36 of 65 ]==
+"@q/flowgram.ai.node-core-plugin" completed successfully in 3.64 seconds.
 
-==[ @q/flowgram.ai.node-core-plugin ]============================[ 37 of 65 ]==
-"@q/flowgram.ai.node-core-plugin" completed successfully in 3.92 seconds.
+==[ @q/flowgram.ai.free-layout-core ]============================[ 37 of 65 ]==
+"@q/flowgram.ai.free-layout-core" completed successfully in 5.29 seconds.
 
-==[ @q/flowgram.ai.variable-layout ]=============================[ 38 of 65 ]==
-"@q/flowgram.ai.variable-layout" completed successfully in 5.32 seconds.
+==[ @q/flowgram.ai.free-stack-plugin ]===========================[ 38 of 65 ]==
+"@q/flowgram.ai.free-stack-plugin" completed successfully in 13.93 seconds.
 
-==[ @q/flowgram.ai.free-stack-plugin ]===========================[ 39 of 65 ]==
-"@q/flowgram.ai.free-stack-plugin" completed successfully in 5.61 seconds.
+==[ @q/flowgram.ai.free-auto-layout-plugin ]=====================[ 39 of 65 ]==
+"@q/flowgram.ai.free-auto-layout-plugin" completed successfully in 13.73 seconds.
 
-==[ @q/flowgram.ai.free-hover-plugin ]===========================[ 40 of 65 ]==
-"@q/flowgram.ai.free-hover-plugin" completed successfully in 6.53 seconds.
+==[ @q/flowgram.ai.free-history-plugin ]=========================[ 40 of 65 ]==
+"@q/flowgram.ai.free-history-plugin" completed successfully in 14.92 seconds.
 
-==[ @q/flowgram.ai.free-snap-plugin ]============================[ 41 of 65 ]==
-"@q/flowgram.ai.free-snap-plugin" completed successfully in 7.44 seconds.
+==[ @q/flowgram.ai.free-hover-plugin ]===========================[ 41 of 65 ]==
+"@q/flowgram.ai.free-hover-plugin" completed successfully in 15.11 seconds.
 
-==[ @q/flowgram.ai.free-history-plugin ]=========================[ 42 of 65 ]==
-"@q/flowgram.ai.free-history-plugin" completed successfully in 7.83 seconds.
+==[ @q/flowgram.ai.free-snap-plugin ]============================[ 42 of 65 ]==
+"@q/flowgram.ai.free-snap-plugin" completed successfully in 15.31 seconds.
 
-==[ @q/flowgram.ai.free-auto-layout-plugin ]=====================[ 43 of 65 ]==
-"@q/flowgram.ai.free-auto-layout-plugin" completed successfully in 8.10 seconds.
+==[ @q/flowgram.ai.variable-layout ]=============================[ 43 of 65 ]==
+"@q/flowgram.ai.variable-layout" completed successfully in 15.45 seconds.
 
-==[ @q/flowgram.ai.variable-plugin ]=============================[ 44 of 65 ]==
-"@q/flowgram.ai.variable-plugin" completed successfully in 3.29 seconds.
+==[ @q/flowgram.ai.free-lines-plugin ]===========================[ 44 of 65 ]==
+"@q/flowgram.ai.free-lines-plugin" completed successfully in 6.01 seconds.
 
-==[ @q/flowgram.ai.free-lines-plugin ]===========================[ 45 of 65 ]==
-"@q/flowgram.ai.free-lines-plugin" completed successfully in 5.60 seconds.
+==[ @q/flowgram.ai.variable-plugin ]=============================[ 45 of 65 ]==
+"@q/flowgram.ai.variable-plugin" completed successfully in 4.46 seconds.
 
 ==[ @q/flowgram.ai.free-node-panel-plugin ]======================[ 46 of 65 ]==
-"@q/flowgram.ai.free-node-panel-plugin" completed successfully in 3.24 seconds.
+"@q/flowgram.ai.free-node-panel-plugin" completed successfully in 5.06 seconds.
 
 ==[ @q/flowgram.ai.node-variable-plugin ]========================[ 47 of 65 ]==
-"@q/flowgram.ai.node-variable-plugin" completed successfully in 3.19 seconds.
+"@q/flowgram.ai.node-variable-plugin" completed successfully in 3.44 seconds.
 
 ==[ @q/flowgram.ai.free-container-plugin ]=======================[ 48 of 65 ]==
-"@q/flowgram.ai.free-container-plugin" completed successfully in 3.43 seconds.
+"@q/flowgram.ai.free-container-plugin" completed successfully in 4.65 seconds.
 
 ==[ @q/flowgram.ai.editor ]======================================[ 49 of 65 ]==
-"@q/flowgram.ai.editor" completed successfully in 3.00 seconds.
+"@q/flowgram.ai.editor" completed successfully in 3.83 seconds.
 
 ==[ @q/flowgram.ai.free-group-plugin ]===========================[ 50 of 65 ]==
-"@q/flowgram.ai.free-group-plugin" completed successfully in 4.49 seconds.
+"@q/flowgram.ai.free-group-plugin" completed successfully in 3.17 seconds.
 
 ==[ @q/flowgram.ai.free-layout-editor ]==========================[ 51 of 65 ]==
-"@q/flowgram.ai.free-layout-editor" completed successfully in 6.73 seconds.
+"@q/flowgram.ai.free-layout-editor" completed successfully in 5.11 seconds.
 
 ==[ @q/flowgram.ai.fixed-layout-editor ]=========================[ 52 of 65 ]==
-"@q/flowgram.ai.fixed-layout-editor" completed successfully in 7.31 seconds.
+"@q/flowgram.ai.fixed-layout-editor" completed successfully in 5.83 seconds.
 
 ==[ @q/flowgram.ai.demo-free-layout-simple ]=====================[ 53 of 65 ]==
-"@q/flowgram.ai.demo-free-layout-simple" completed successfully in 0.18 seconds.
+"@q/flowgram.ai.demo-free-layout-simple" completed successfully in 0.05 seconds.
 
 ==[ @q/flowgram.ai.demo-react-16 ]===============================[ 54 of 65 ]==
-"@q/flowgram.ai.demo-react-16" completed successfully in 0.18 seconds.
+"@q/flowgram.ai.demo-react-16" completed successfully in 0.05 seconds.
 
-==[ @q/flowgram.ai.demo-vite ]===================================[ 55 of 65 ]==
-"@q/flowgram.ai.demo-vite" completed successfully in 0.18 seconds.
+==[ @q/flowgram.ai.demo-node-form ]==============================[ 55 of 65 ]==
+"@q/flowgram.ai.demo-node-form" completed successfully in 0.05 seconds.
 
-==[ @q/flowgram.ai.demo-node-form ]==============================[ 56 of 65 ]==
-"@q/flowgram.ai.demo-node-form" completed successfully in 0.20 seconds.
+==[ @q/flowgram.ai.demo-vite ]===================================[ 56 of 65 ]==
+"@q/flowgram.ai.demo-vite" completed successfully in 0.06 seconds.
 
 ==[ @q/flowgram.ai.form-antd-materials ]=========================[ 57 of 65 ]==
-"@q/flowgram.ai.form-antd-materials" completed successfully in 9.63 seconds.
+"@q/flowgram.ai.form-antd-materials" completed successfully in 17.75 seconds.
 
 ==[ @q/flowgram.ai.form-materials ]==============================[ 58 of 65 ]==
-"@q/flowgram.ai.form-materials" completed successfully in 12.28 seconds.
+"@q/flowgram.ai.form-materials" completed successfully in 20.71 seconds.
 
 ==[ @q/flowgram.ai.demo-nextjs ]=================================[ 59 of 65 ]==
-"@q/flowgram.ai.demo-nextjs" completed successfully in 22.32 seconds.
+"@q/flowgram.ai.demo-nextjs" completed successfully in 46.03 seconds.
 
 ==[ @q/flowgram.ai.demo-free-layout ]============================[ 60 of 65 ]==
-"@q/flowgram.ai.demo-free-layout" completed successfully in 0.09 seconds.
+"@q/flowgram.ai.demo-free-layout" completed successfully in 0.11 seconds.
 
 ==[ @q/flowgram.ai.fixed-semi-materials ]========================[ 61 of 65 ]==
-"@q/flowgram.ai.fixed-semi-materials" completed successfully in 10.16 seconds.
+"@q/flowgram.ai.fixed-semi-materials" completed successfully in 19.25 seconds.
 
 ==[ @q/flowgram.ai.demo-fixed-layout-simple ]====================[ 62 of 65 ]==
-"@q/flowgram.ai.demo-fixed-layout-simple" completed successfully in 0.03 seconds.
+"@q/flowgram.ai.demo-fixed-layout-simple" completed successfully in 0.02 seconds.
 
 ==[ @q/flowgram.ai.demo-fixed-layout ]===========================[ 63 of 65 ]==
 "@q/flowgram.ai.demo-fixed-layout" completed successfully in 0.03 seconds.
 
 ==[ @q/flowgram.ai.demo-nextjs-antd ]============================[ 64 of 65 ]==
-"@q/flowgram.ai.demo-nextjs-antd" completed successfully in 30.47 seconds.
+"@q/flowgram.ai.demo-nextjs-antd" completed successfully in 51.34 seconds.
 
 ==[ @q/flowgram.ai.docs ]========================================[ 65 of 65 ]==
-"@q/flowgram.ai.docs" completed successfully in 21.19 seconds.
+"@q/flowgram.ai.docs" completed successfully in 32.78 seconds.
 
 
 
 ==[ SUCCESS: 65 operations ]===================================================
 
 These operations completed successfully:
-  @q/flowgram.ai.background-plugin           6.48 seconds
-  @q/flowgram.ai.core                        5.63 seconds
-  @q/flowgram.ai.command                     5.13 seconds
-  @q/flowgram.ai.utils                       5.30 seconds
-  @q/flowgram.ai.eslint-config               3.69 seconds
-  @q/flowgram.ai.ts-config                   0.05 seconds
-  @q/flowgram.ai.create-app                  4.64 seconds
+  @q/flowgram.ai.background-plugin           8.98 seconds
+  @q/flowgram.ai.core                        13.36 seconds
+  @q/flowgram.ai.command                     10.27 seconds
+  @q/flowgram.ai.utils                       2.70 seconds
+  @q/flowgram.ai.eslint-config               3.89 seconds
+  @q/flowgram.ai.ts-config                   0.02 seconds
+  @q/flowgram.ai.create-app                  3.65 seconds
   @q/flowgram.ai.demo-fixed-layout           0.03 seconds
-  @q/flowgram.ai.fixed-layout-editor         7.31 seconds
-  @q/flowgram.ai.editor                      3.00 seconds
-  @q/flowgram.ai.document                    7.59 seconds
-  @q/flowgram.ai.form                        3.64 seconds
-  @q/flowgram.ai.reactive                    4.81 seconds
-  @q/flowgram.ai.form-core                   3.90 seconds
-  @q/flowgram.ai.group-plugin                7.47 seconds
-  @q/flowgram.ai.renderer                    5.31 seconds
-  @q/flowgram.ai.i18n                        4.90 seconds
-  @q/flowgram.ai.history                     6.25 seconds
-  @q/flowgram.ai.history-node-plugin         3.14 seconds
-  @q/flowgram.ai.node                        8.74 seconds
-  @q/flowgram.ai.i18n-plugin                 6.68 seconds
-  @q/flowgram.ai.materials-plugin            5.25 seconds
-  @q/flowgram.ai.node-core-plugin            3.92 seconds
-  @q/flowgram.ai.node-variable-plugin        3.19 seconds
-  @q/flowgram.ai.variable-plugin             3.29 seconds
-  @q/flowgram.ai.free-layout-core            5.52 seconds
-  @q/flowgram.ai.variable-core               6.98 seconds
-  @q/flowgram.ai.variable-layout             5.32 seconds
-  @q/flowgram.ai.playground-react            4.53 seconds
-  @q/flowgram.ai.shortcuts-plugin            3.87 seconds
-  @q/flowgram.ai.redux-devtool-plugin        3.79 seconds
-  @q/flowgram.ai.fixed-drag-plugin           7.89 seconds
-  @q/flowgram.ai.fixed-history-plugin        6.06 seconds
-  @q/flowgram.ai.fixed-layout-core           8.24 seconds
-  @q/flowgram.ai.select-box-plugin           7.35 seconds
-  @q/flowgram.ai.fixed-semi-materials        10.16 seconds
-  @q/flowgram.ai.form-materials              12.28 seconds
-  @q/flowgram.ai.minimap-plugin              8.05 seconds
-  @q/flowgram.ai.demo-fixed-layout-simple    0.03 seconds
-  @q/flowgram.ai.demo-free-layout            0.09 seconds
-  @q/flowgram.ai.runtime-interface           5.72 seconds
-  @q/flowgram.ai.free-layout-editor          6.73 seconds
-  @q/flowgram.ai.free-auto-layout-plugin     8.10 seconds
-  @q/flowgram.ai.free-history-plugin         7.83 seconds
-  @q/flowgram.ai.free-hover-plugin           6.53 seconds
-  @q/flowgram.ai.free-lines-plugin           5.60 seconds
-  @q/flowgram.ai.free-stack-plugin           5.61 seconds
-  @q/flowgram.ai.free-snap-plugin            7.44 seconds
-  @q/flowgram.ai.free-node-panel-plugin      3.24 seconds
-  @q/flowgram.ai.free-container-plugin       3.43 seconds
-  @q/flowgram.ai.free-group-plugin           4.49 seconds
-  @q/flowgram.ai.runtime-js                  5.68 seconds
-  @q/flowgram.ai.demo-free-layout-simple     0.18 seconds
-  @q/flowgram.ai.demo-nextjs                 22.32 seconds
-  @q/flowgram.ai.demo-nextjs-antd            30.47 seconds
-  @q/flowgram.ai.form-antd-materials         9.63 seconds
-  @q/flowgram.ai.demo-node-form              0.20 seconds
+  @q/flowgram.ai.fixed-layout-editor         5.83 seconds
+  @q/flowgram.ai.editor                      3.83 seconds
+  @q/flowgram.ai.document                    13.60 seconds
+  @q/flowgram.ai.form                        8.62 seconds
+  @q/flowgram.ai.reactive                    10.39 seconds
+  @q/flowgram.ai.form-core                   6.71 seconds
+  @q/flowgram.ai.group-plugin                9.81 seconds
+  @q/flowgram.ai.renderer                    8.26 seconds
+  @q/flowgram.ai.i18n                        8.50 seconds
+  @q/flowgram.ai.history                     11.39 seconds
+  @q/flowgram.ai.history-node-plugin         3.60 seconds
+  @q/flowgram.ai.node                        10.44 seconds
+  @q/flowgram.ai.i18n-plugin                 7.82 seconds
+  @q/flowgram.ai.materials-plugin            8.08 seconds
+  @q/flowgram.ai.node-core-plugin            3.64 seconds
+  @q/flowgram.ai.node-variable-plugin        3.44 seconds
+  @q/flowgram.ai.variable-plugin             4.46 seconds
+  @q/flowgram.ai.free-layout-core            5.29 seconds
+  @q/flowgram.ai.variable-core               13.45 seconds
+  @q/flowgram.ai.variable-layout             15.45 seconds
+  @q/flowgram.ai.playground-react            4.71 seconds
+  @q/flowgram.ai.shortcuts-plugin            5.31 seconds
+  @q/flowgram.ai.redux-devtool-plugin        5.44 seconds
+  @q/flowgram.ai.fixed-drag-plugin           9.63 seconds
+  @q/flowgram.ai.fixed-history-plugin        7.65 seconds
+  @q/flowgram.ai.fixed-layout-core           10.18 seconds
+  @q/flowgram.ai.select-box-plugin           8.89 seconds
+  @q/flowgram.ai.fixed-semi-materials        19.25 seconds
+  @q/flowgram.ai.form-materials              20.71 seconds
+  @q/flowgram.ai.minimap-plugin              9.88 seconds
+  @q/flowgram.ai.demo-fixed-layout-simple    0.02 seconds
+  @q/flowgram.ai.demo-free-layout            0.11 seconds
+  @q/flowgram.ai.runtime-interface           3.42 seconds
+  @q/flowgram.ai.free-layout-editor          5.11 seconds
+  @q/flowgram.ai.free-auto-layout-plugin     13.73 seconds
+  @q/flowgram.ai.free-history-plugin         14.92 seconds
+  @q/flowgram.ai.free-hover-plugin           15.11 seconds
+  @q/flowgram.ai.free-lines-plugin           6.01 seconds
+  @q/flowgram.ai.free-stack-plugin           13.93 seconds
+  @q/flowgram.ai.free-snap-plugin            15.31 seconds
+  @q/flowgram.ai.free-node-panel-plugin      5.06 seconds
+  @q/flowgram.ai.free-container-plugin       4.65 seconds
+  @q/flowgram.ai.free-group-plugin           3.17 seconds
+  @q/flowgram.ai.runtime-js                  12.36 seconds
+  @q/flowgram.ai.demo-free-layout-simple     0.05 seconds
+  @q/flowgram.ai.demo-nextjs                 46.03 seconds
+  @q/flowgram.ai.demo-nextjs-antd            51.34 seconds
+  @q/flowgram.ai.form-antd-materials         17.76 seconds
+  @q/flowgram.ai.demo-node-form              0.05 seconds
   @q/flowgram.ai.demo-playground             0.05 seconds
-  @q/flowgram.ai.demo-react-16               0.18 seconds
-  @q/flowgram.ai.demo-vite                   0.18 seconds
-  @q/flowgram.ai.docs                        21.19 seconds
-  @q/flowgram.ai.e2e-fixed-layout            0.08 seconds
-  @q/flowgram.ai.e2e-free-layout             0.08 seconds
-  @q/flowgram.ai.history-storage             4.40 seconds
-  @q/flowgram.ai.runtime-nodejs              5.07 seconds
+  @q/flowgram.ai.demo-react-16               0.05 seconds
+  @q/flowgram.ai.demo-vite                   0.06 seconds
+  @q/flowgram.ai.docs                        32.78 seconds
+  @q/flowgram.ai.e2e-fixed-layout            0.01 seconds
+  @q/flowgram.ai.e2e-free-layout             0.01 seconds
+  @q/flowgram.ai.history-storage             6.14 seconds
+  @q/flowgram.ai.runtime-nodejs              12.25 seconds
 
 
-rush build (1 minute 40.8 seconds)
+rush build (2 minutes 42.7 seconds)
   - ✅ 项目构建完成
 📋 步骤 7/9: 升级版本号
 Found configuration in /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/rush.json
@@ -493,7 +460,7 @@ Validating package manager shrinkwrap file.
 
 Finding changes in: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/changes
 
-* DRYRUN: /usr/bin/git checkout -b version/bump-1753958006895 
+* DRYRUN: /usr/bin/git checkout -b version/bump-1753966849583 
 
 * DRYRUN: /usr/bin/git add /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/config/rush/version-policies.json 
 
@@ -501,7 +468,7 @@ Finding changes in: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/change
 
 * DRYRUN: /usr/bin/git commit -m Bump versions [skip ci] 
 
-* DRYRUN: /usr/bin/git push origin HEAD:version/bump-1753958006895 --follow-tags --verbose 
+* DRYRUN: /usr/bin/git push origin HEAD:version/bump-1753966849583 --follow-tags --verbose 
 
 * DRYRUN: /usr/bin/git fetch origin 
 
@@ -509,15 +476,15 @@ Finding changes in: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/change
 
 * DRYRUN: /usr/bin/git pull origin 
 
-* DRYRUN: /usr/bin/git merge version/bump-1753958006895 --no-edit 
+* DRYRUN: /usr/bin/git merge version/bump-1753966849583 --no-edit 
 
 * DRYRUN: /usr/bin/git push origin HEAD:-branch-name- --follow-tags --verbose 
 
-* DRYRUN: /usr/bin/git branch -d version/bump-1753958006895 
+* DRYRUN: /usr/bin/git branch -d version/bump-1753966849583 
 
-* DRYRUN: /usr/bin/git push origin --delete version/bump-1753958006895 
+* DRYRUN: /usr/bin/git push origin --delete version/bump-1753966849583 
   - ✅ 版本号升级完成
-  - 当前版本: 0.2.28-6
+  - 当前版本: 0.2.28-7
 📋 步骤 8/9: 发布包到仓库
 Found configuration in /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/rush.json
 
@@ -540,7 +507,7 @@ Rush publish starts with includeAll and version policy undefined
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.background-plugin@0.2.28-6
+npm notice 📦  @q/flowgram.ai.background-plugin@0.2.28-7
 npm notice Tarball Contents
 npm notice 12.0kB dist/esm/index.js
 npm notice 23.1kB dist/esm/index.js.map
@@ -551,24 +518,24 @@ npm notice 23.4kB dist/index.js.map
 npm notice 1.7kB package.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.background-plugin
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.background-plugin-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.background-plugin-0.2.28-7.tgz
 npm notice package size: 11.6 kB
 npm notice unpacked size: 83.2 kB
-npm notice shasum: 151920a0fc7c7c8f22268ebb173aaf58ee29677a
-npm notice integrity: sha512-KEPG8mXD9lqpr[...]KeqBpBqDJ45yg==
+npm notice shasum: c746a851c67f08173cf94f4f0c47d71559fa95e9
+npm notice integrity: sha512-Kms8JGzgEq5O0[...]joUDKLYWuPEqg==
 npm notice total files: 7
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.background-plugin@0.2.28-6
++ @q/flowgram.ai.background-plugin@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.background-plugin_v0.2.28-6 -m @q/flowgram.ai.background-plugin v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.background-plugin_v0.2.28-7 -m @q/flowgram.ai.background-plugin v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/common/command)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.command@0.2.28-6
+npm notice 📦  @q/flowgram.ai.command@0.2.28-7
 npm notice Tarball Contents
 npm notice 8.7kB dist/esm/index.js
 npm notice 16.9kB dist/esm/index.js.map
@@ -579,24 +546,24 @@ npm notice 17.4kB dist/index.js.map
 npm notice 1.7kB package.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.command
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.command-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.command-0.2.28-7.tgz
 npm notice package size: 8.8 kB
 npm notice unpacked size: 67.4 kB
-npm notice shasum: 786212ec0e2737661da71ab2b315416583fa91ec
-npm notice integrity: sha512-arR/+zs9PJHzl[...]BiuDMIH77/Vvw==
+npm notice shasum: b58f6feea7eb6f4501f0cc9127cb470293a9740a
+npm notice integrity: sha512-LheXbELvvcIBi[...]XIy13iAbwVygA==
 npm notice total files: 7
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.command@0.2.28-6
++ @q/flowgram.ai.command@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.command_v0.2.28-6 -m @q/flowgram.ai.command v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.command_v0.2.28-7 -m @q/flowgram.ai.command v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/canvas-engine/core)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.core@0.2.28-6
+npm notice 📦  @q/flowgram.ai.core@0.2.28-7
 npm notice Tarball Contents
 npm notice 225.6kB dist/esm/index.js
 npm notice 474.2kB dist/esm/index.js.map
@@ -607,24 +574,24 @@ npm notice 472.7kB dist/index.js.map
 npm notice 2.0kB package.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.core
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.core-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.core-0.2.28-7.tgz
 npm notice package size: 346.3 kB
 npm notice unpacked size: 1.6 MB
-npm notice shasum: 13c7f1610c5d469d41e1abf529c42bf5277d525a
-npm notice integrity: sha512-q/fSHHJ4sU0Qh[...]01DVebmcYrNdA==
+npm notice shasum: 0b20e79ef1412e83713bb6194c447b835292e213
+npm notice integrity: sha512-altKlaoF1vJc1[...]fRMwNGgqNBxrg==
 npm notice total files: 7
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.core@0.2.28-6
++ @q/flowgram.ai.core@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.core_v0.2.28-6 -m @q/flowgram.ai.core v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.core_v0.2.28-7 -m @q/flowgram.ai.core v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/create-app)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.create-app@0.2.28-6
+npm notice 📦  @q/flowgram.ai.create-app@0.2.28-7
 npm notice Tarball Contents
 npm notice 47B bin/index.js
 npm notice 5.6kB dist/index.cjs
@@ -635,24 +602,24 @@ npm notice 1.1kB package.json
 npm notice 4.5kB src/index.ts
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.create-app
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.create-app-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.create-app-0.2.28-7.tgz
 npm notice package size: 3.7 kB
 npm notice unpacked size: 15.2 kB
-npm notice shasum: 67bdee171a284ec7f674f356b8263455b458a232
-npm notice integrity: sha512-VkmBHjrCWh3WB[...]bJgRC/ikV8zgg==
+npm notice shasum: 99829b71a4a8f910c46a0145104c18d8a07e83f0
+npm notice integrity: sha512-DtHpb7fBJRYF5[...]fmz+0pl20V/Fw==
 npm notice total files: 7
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.create-app@0.2.28-6
++ @q/flowgram.ai.create-app@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.create-app_v0.2.28-6 -m @q/flowgram.ai.create-app v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.create-app_v0.2.28-7 -m @q/flowgram.ai.create-app v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-fixed-layout)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.demo-fixed-layout@0.2.28-6
+npm notice 📦  @q/flowgram.ai.demo-fixed-layout@0.2.28-7
 npm notice Tarball Contents
 npm notice 411B .eslintrc.js
 npm notice 340B index.html
@@ -792,24 +759,24 @@ npm notice 1.9kB src/typings/node.ts
 npm notice 609B tsconfig.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.demo-fixed-layout
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.demo-fixed-layout-0.2.28-6.tgz
-npm notice package size: 97.1 kB
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.demo-fixed-layout-0.2.28-7.tgz
+npm notice package size: 97.2 kB
 npm notice unpacked size: 230.9 kB
-npm notice shasum: ffdcfdd74b5e23f200cefdd72329977a5616d474
-npm notice integrity: sha512-taVP8IfLkd0CR[...]cMLGls0CURVzw==
+npm notice shasum: 1cd700aabbf9672c1ab93d3dd8ae278f186e0f91
+npm notice integrity: sha512-2v9qcBpcj5FTv[...]qM3HRiTNGI/nQ==
 npm notice total files: 136
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-fixed-layout@0.2.28-6
++ @q/flowgram.ai.demo-fixed-layout@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-fixed-layout_v0.2.28-6 -m @q/flowgram.ai.demo-fixed-layout v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-fixed-layout_v0.2.28-7 -m @q/flowgram.ai.demo-fixed-layout v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-fixed-layout-simple)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.demo-fixed-layout-simple@0.2.28-6
+npm notice 📦  @q/flowgram.ai.demo-fixed-layout-simple@0.2.28-7
 npm notice Tarball Contents
 npm notice 411B .eslintrc.js
 npm notice 340B index.html
@@ -841,24 +808,24 @@ npm notice 2.0kB src/node-registries.ts
 npm notice 585B tsconfig.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.demo-fixed-layout-simple
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.demo-fixed-layout-simple-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.demo-fixed-layout-simple-0.2.28-7.tgz
 npm notice package size: 9.6 kB
 npm notice unpacked size: 37.3 kB
-npm notice shasum: 52cabce4faeacd0151b7f9d5090684093df1eaf6
-npm notice integrity: sha512-6pCa/uLCWjuZ2[...]SYKRdfsAlYT3w==
+npm notice shasum: 8b68caf46bcd33ecd9205a2e1e15ff2c1293035b
+npm notice integrity: sha512-2bb/sQlQI9gjx[...]6XLfUMQp6G2Dw==
 npm notice total files: 28
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-fixed-layout-simple@0.2.28-6
++ @q/flowgram.ai.demo-fixed-layout-simple@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-fixed-layout-simple_v0.2.28-6 -m @q/flowgram.ai.demo-fixed-layout-simple v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-fixed-layout-simple_v0.2.28-7 -m @q/flowgram.ai.demo-fixed-layout-simple v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-free-layout)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.demo-free-layout@0.2.28-6
+npm notice 📦  @q/flowgram.ai.demo-free-layout@0.2.28-7
 npm notice Tarball Contents
 npm notice 411B .eslintrc.js
 npm notice 339B index.html
@@ -1091,24 +1058,24 @@ npm notice 2.6kB src/utils/on-drag-line-end.ts
 npm notice 609B tsconfig.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.demo-free-layout
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.demo-free-layout-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.demo-free-layout-0.2.28-7.tgz
 npm notice package size: 215.5 kB
 npm notice unpacked size: 484.8 kB
-npm notice shasum: 89386db9e926bc276e7906cd6083048d4b9e3f5c
-npm notice integrity: sha512-fsiYJ/R2+OGH0[...]DoebxNIqw0qLA==
+npm notice shasum: 520fa7b18d9a8e80d3fce611c71b68599efb68b1
+npm notice integrity: sha512-CXQTV36UiKEC1[...]Z6Mk2f+cXL5zQ==
 npm notice total files: 229
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-free-layout@0.2.28-6
++ @q/flowgram.ai.demo-free-layout@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-free-layout_v0.2.28-6 -m @q/flowgram.ai.demo-free-layout v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-free-layout_v0.2.28-7 -m @q/flowgram.ai.demo-free-layout v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-free-layout-simple)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.demo-free-layout-simple@0.2.28-6
+npm notice 📦  @q/flowgram.ai.demo-free-layout-simple@0.2.28-7
 npm notice Tarball Contents
 npm notice 411B .eslintrc.js
 npm notice 339B index.html
@@ -1127,24 +1094,24 @@ npm notice 1.1kB src/node-registries.ts
 npm notice 609B tsconfig.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.demo-free-layout-simple
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.demo-free-layout-simple-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.demo-free-layout-simple-0.2.28-7.tgz
 npm notice package size: 5.7 kB
 npm notice unpacked size: 18.4 kB
-npm notice shasum: 0990c57a04d0312a53825d74756f6e9a4d06baf3
-npm notice integrity: sha512-KDjl2VX7vGNdj[...]MR4daWBUo+4zQ==
+npm notice shasum: b0b0e953d2b7ca98cc503cf3a01613dc906c70bc
+npm notice integrity: sha512-kOYPLfbFZ2JPz[...]/sY45NPHHUYSA==
 npm notice total files: 15
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-free-layout-simple@0.2.28-6
++ @q/flowgram.ai.demo-free-layout-simple@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-free-layout-simple_v0.2.28-6 -m @q/flowgram.ai.demo-free-layout-simple v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-free-layout-simple_v0.2.28-7 -m @q/flowgram.ai.demo-free-layout-simple v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-nextjs)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.demo-nextjs@0.2.28-6
+npm notice 📦  @q/flowgram.ai.demo-nextjs@0.2.28-7
 npm notice Tarball Contents
 npm notice 536B .eslintrc.js
 npm notice 480B .gitignore
@@ -1185,24 +1152,24 @@ npm notice 171B src/runtime/models/runtime/type.ts
 npm notice 760B tsconfig.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.demo-nextjs
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.demo-nextjs-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.demo-nextjs-0.2.28-7.tgz
 npm notice package size: 69.2 kB
 npm notice unpacked size: 224.7 kB
-npm notice shasum: 937b6a605d2049bfab5cf23c7223779eba51289e
-npm notice integrity: sha512-Z4hckY31DqQUK[...]E+FskbQSWKYCQ==
+npm notice shasum: 89ac2dff51065a8fac8d4670dd7de4e9c12e5d0e
+npm notice integrity: sha512-A0So21GF7BHKh[...]c0smJy5RwQ/Hw==
 npm notice total files: 37
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-nextjs@0.2.28-6
++ @q/flowgram.ai.demo-nextjs@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-nextjs_v0.2.28-6 -m @q/flowgram.ai.demo-nextjs v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-nextjs_v0.2.28-7 -m @q/flowgram.ai.demo-nextjs v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-nextjs-antd)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.demo-nextjs-antd@0.2.28-6
+npm notice 📦  @q/flowgram.ai.demo-nextjs-antd@0.2.28-7
 npm notice Tarball Contents
 npm notice 536B .eslintrc.js
 npm notice 480B .gitignore
@@ -1371,24 +1338,24 @@ npm notice 2.6kB src/editor/utils/on-drag-line-end.ts
 npm notice 860B tsconfig.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.demo-nextjs-antd
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.demo-nextjs-antd-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.demo-nextjs-antd-0.2.28-7.tgz
 npm notice package size: 186.5 kB
 npm notice unpacked size: 486.0 kB
-npm notice shasum: 7e375e008b242dce69fad5d3db59ad20655949b2
-npm notice integrity: sha512-45xi4tKfNqqhW[...]a2byzXQGD1t9Q==
+npm notice shasum: cb9310bdd82facd52f9b58f265c1ccbaad994b99
+npm notice integrity: sha512-/DMgFW5QdOX69[...]6zz3mMugKFWng==
 npm notice total files: 165
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-nextjs-antd@0.2.28-6
++ @q/flowgram.ai.demo-nextjs-antd@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-nextjs-antd_v0.2.28-6 -m @q/flowgram.ai.demo-nextjs-antd v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-nextjs-antd_v0.2.28-7 -m @q/flowgram.ai.demo-nextjs-antd v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-playground)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.demo-playground@0.2.28-6
+npm notice 📦  @q/flowgram.ai.demo-playground@0.2.28-7
 npm notice Tarball Contents
 npm notice 411B .eslintrc.js
 npm notice 339B index.html
@@ -1402,24 +1369,24 @@ npm notice 145B src/index.tsx
 npm notice 609B tsconfig.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.demo-playground
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.demo-playground-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.demo-playground-0.2.28-7.tgz
 npm notice package size: 3.4 kB
 npm notice unpacked size: 8.6 kB
-npm notice shasum: c77465bd2a31ca35d9a7dbe709c190c78da4a048
-npm notice integrity: sha512-TOe2NcT/2bne0[...]bWcOt3uC28bfQ==
+npm notice shasum: 64d0dfcdd54787228567a97b647146b24cdca668
+npm notice integrity: sha512-jHIDcgKgwkFyw[...]6l7GmeaKUA08g==
 npm notice total files: 10
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-playground@0.2.28-6
++ @q/flowgram.ai.demo-playground@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-playground_v0.2.28-6 -m @q/flowgram.ai.demo-playground v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-playground_v0.2.28-7 -m @q/flowgram.ai.demo-playground v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-react-16)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.demo-react-16@0.2.28-6
+npm notice 📦  @q/flowgram.ai.demo-react-16@0.2.28-7
 npm notice Tarball Contents
 npm notice 495B .eslintrc.js
 npm notice 339B index.html
@@ -1438,24 +1405,24 @@ npm notice 933B src/node-registries.ts
 npm notice 609B tsconfig.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.demo-react-16
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.demo-react-16-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.demo-react-16-0.2.28-7.tgz
 npm notice package size: 5.5 kB
 npm notice unpacked size: 16.9 kB
-npm notice shasum: b4f4d7f7305fb8499f6febbd3956070fa047ad0b
-npm notice integrity: sha512-GUrN2dOOunVwX[...]JCOXiRSMDgBbw==
+npm notice shasum: f64348317e6353d442b490784815e797faa294b1
+npm notice integrity: sha512-RK5f77Wy4OzRf[...]XHcr0d5y5mFoA==
 npm notice total files: 15
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-react-16@0.2.28-6
++ @q/flowgram.ai.demo-react-16@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-react-16_v0.2.28-6 -m @q/flowgram.ai.demo-react-16 v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-react-16_v0.2.28-7 -m @q/flowgram.ai.demo-react-16 v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-vite)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.demo-vite@0.2.28-6
+npm notice 📦  @q/flowgram.ai.demo-vite@0.2.28-7
 npm notice Tarball Contents
 npm notice 445B .eslintrc.js
 npm notice 394B index.html
@@ -1474,24 +1441,24 @@ npm notice 609B tsconfig.json
 npm notice 264B vite.config.js
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.demo-vite
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.demo-vite-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.demo-vite-0.2.28-7.tgz
 npm notice package size: 5.4 kB
 npm notice unpacked size: 16.3 kB
-npm notice shasum: b7ab6698517ee5c0b3cc044547d877df2572550d
-npm notice integrity: sha512-dguLMrokHqAXv[...]nMoG9lNnHN4Pg==
+npm notice shasum: 38a274cc5f0f9b5d4c35076de4f5762b23a9c443
+npm notice integrity: sha512-7iMRBRevN8WNE[...]HiXXs2LloM+hA==
 npm notice total files: 15
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-vite@0.2.28-6
++ @q/flowgram.ai.demo-vite@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-vite_v0.2.28-6 -m @q/flowgram.ai.demo-vite v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-vite_v0.2.28-7 -m @q/flowgram.ai.demo-vite v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/canvas-engine/document)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.document@0.2.28-6
+npm notice 📦  @q/flowgram.ai.document@0.2.28-7
 npm notice Tarball Contents
 npm notice 97.4kB dist/esm/index.js
 npm notice 205.0kB dist/esm/index.js.map
@@ -1502,24 +1469,24 @@ npm notice 205.1kB dist/index.js.map
 npm notice 1.8kB package.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.document
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.document-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.document-0.2.28-7.tgz
 npm notice package size: 153.7 kB
 npm notice unpacked size: 715.5 kB
-npm notice shasum: 4876bdd71ff9a2a1dcf04a945fcf3d30e2dc932a
-npm notice integrity: sha512-VKAObdFnhaeqK[...]9Td+fn34qTqEA==
+npm notice shasum: 0f17063a9fb6f26a3d48d8a73fe6914df3b86405
+npm notice integrity: sha512-/x2/okaFTiqZX[...]kn8GNJ/wfpeyg==
 npm notice total files: 7
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.document@0.2.28-6
++ @q/flowgram.ai.document@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.document_v0.2.28-6 -m @q/flowgram.ai.document v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.document_v0.2.28-7 -m @q/flowgram.ai.document v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/client/editor)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.editor@0.2.28-6
+npm notice 📦  @q/flowgram.ai.editor@0.2.28-7
 npm notice Tarball Contents
 npm notice 12.9kB dist/esm/index.js
 npm notice 28.5kB dist/esm/index.js.map
@@ -1530,24 +1497,24 @@ npm notice 28.5kB dist/index.js.map
 npm notice 2.6kB package.json
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.editor
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.editor-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.editor-0.2.28-7.tgz
 npm notice package size: 14.1 kB
 npm notice unpacked size: 106.6 kB
-npm notice shasum: b4d39a16cc5bcca7f745cf09f947f386832dc41a
-npm notice integrity: sha512-WO41pN/heqSgt[...]vQgdG/m2VFgmA==
+npm notice shasum: 346f70f5dd4155d3fe3e130d7006ff9e8e259424
+npm notice integrity: sha512-po4auVP2/TwFJ[...]00yYqPVWB+Rqg==
 npm notice total files: 7
 npm notice
 npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.editor@0.2.28-6
++ @q/flowgram.ai.editor@0.2.28-7
 
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.editor_v0.2.28-6 -m @q/flowgram.ai.editor v0.2.28-6 
+* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.editor_v0.2.28-7 -m @q/flowgram.ai.editor v0.2.28-7 
 
 * EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (config/eslint-config)
  WARN  using --force I sure hope you know what you are doing
 npm warn using --force Recommended protections disabled.
 npm notice
-npm notice 📦  @q/flowgram.ai.eslint-config@0.2.28-6
+npm notice 📦  @q/flowgram.ai.eslint-config@0.2.28-7
 npm notice Tarball Contents
 npm notice 37B .eslintignore
 npm notice 5.1kB .eslintrc.base.js
@@ -1573,49 +1540,22 @@ npm notice 217B tsconfig.json
 npm notice 287.5kB tsconfig.tsbuildinfo
 npm notice Tarball Details
 npm notice name: @q/flowgram.ai.eslint-config
-npm notice version: 0.2.28-6
-npm notice filename: q-flowgram.ai.eslint-config-0.2.28-6.tgz
+npm notice version: 0.2.28-7
+npm notice filename: q-flowgram.ai.eslint-config-0.2.28-7.tgz
 npm notice package size: 102.7 kB
 npm notice unpacked size: 367.3 kB
-npm notice shasum: 57baa57875e332233412d162183fb3180fd5e43d
-npm notice integrity: sha512-YMDKH6xgu87UL[...]w5i0O739Cxgfw==
+npm notice shasum: b37bc07e80ad337b5e7af9ca6b44315587296bff
+npm notice integrity: sha512-fnoH7W5qWVJDf[...]2jgCixDTGTO5g==
 npm notice total files: 22
 npm notice
-npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
-npm error code E404
-npm error 404 Not Found - PUT https://registry.npmjs.org/@q%2fflowgram.ai.eslint-config - Not found
-npm error 404
-npm error 404  '@q/flowgram.ai.eslint-config@0.2.28-6' is not in this registry.
-npm error 404
-npm error 404 Note that you can also install from a
-npm error 404 tarball, folder, http url, or git url.
-npm error A complete log of this run can be found in: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/publish-home/.npm/_logs/2025-07-31T10_33_42_894Z-debug-0.log
+npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
+npm error code E403
+npm error 403 403 Forbidden - PUT https://registry.qnpm.qihoo.net/@q%2fflowgram.ai.eslint-config - maintainers error
+npm error 403 In most cases, you or one of your dependencies are requesting
+npm error 403 a package version that is forbidden by your security policy, or
+npm error 403 on a server you do not have access to.
+npm error A complete log of this run can be found in: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/publish-home/.npm/_logs/2025-07-31T13_01_14_561Z-debug-0.log
 
 [31mERROR: Process exited with code 1[39m
   - ✅ 包发布完成
 📋 步骤 9/9: 提交代码到Git仓库
-[feature/v0.2.28 5e09833a] release: publish 0.2.28-6
- 64 files changed, 1669 insertions(+), 62 deletions(-)
- create mode 100644 publish.txt
-  - 推送到现有分支...
-To https://github.com/afk101/flowgram.ai.git
-   d53c6d3a..5e09833a  feature/v0.2.28 -> feature/v0.2.28
-remote: Begin check your commit info        
-remote: 
-remote: To create a merge request for feature/v0.2.28, visit:        
-remote:   https://code.geelib.qihoo.net:11443/Agent/flowgram/-/merge_requests/new?merge_request%5Bsource_branch%5D=feature%2Fv0.2.28        
-remote: 
-To https://code.geelib.qihoo.net:11443/Agent/flowgram.git
-   d53c6d3a..5e09833a  feature/v0.2.28 -> feature/v0.2.28
-  - ✅ 代码提交完成
-================================
-🎉 发布脚本执行完成！
-📅 发布结束时间: 2025年 7月31日 星期四 18时33分54秒 CST
-
-📊 执行总结:
-  - 分支: feature/v0.2.28
-  - 版本: 0.2.28-6
-  - 操作: 依赖更新 → 项目构建 → 版本升级 → 包发布 → 代码提交
-  - 状态: ✅ 全部完成
-
-📄 完整日志已保存到: publish.txt
