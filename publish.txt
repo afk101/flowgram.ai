@@ -2001,3 +2001,27 @@ npm error A complete log of this run can be found in: /Users/qihoo/Documents/A_C
 [31mERROR: Process exited with code 1[39m
   - ✅ 包发布完成
 📋 步骤 9/9: 提交代码到Git仓库
+[feature/v0.2.28 cbb0b97d] release: publish 0.2.28-9
+ 63 files changed, 430 insertions(+), 440 deletions(-)
+  - 推送到现有分支...
+To https://github.com/afk101/flowgram.ai.git
+   6251d80e..cbb0b97d  feature/v0.2.28 -> feature/v0.2.28
+remote: Begin check your commit info        
+remote: 
+remote: To create a merge request for feature/v0.2.28, visit:        
+remote:   https://code.geelib.qihoo.net:11443/Agent/flowgram/-/merge_requests/new?merge_request%5Bsource_branch%5D=feature%2Fv0.2.28        
+remote: 
+To https://code.geelib.qihoo.net:11443/Agent/flowgram.git
+   6251d80e..cbb0b97d  feature/v0.2.28 -> feature/v0.2.28
+  - ✅ 代码提交完成
+================================
+🎉 发布脚本执行完成！
+📅 发布结束时间: 2025年 7月31日 星期四 21时23分50秒 CST
+
+📊 执行总结:
+  - 分支: feature/v0.2.28
+  - 版本: 0.2.28-9
+  - 操作: 依赖更新 → 项目构建 → 版本升级 → 包发布 → 代码提交
+  - 状态: ✅ 全部完成
+
+📄 完整日志已保存到: publish.txt
