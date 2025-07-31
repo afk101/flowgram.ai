@@ -25,7 +25,7 @@ import { type WorkflowNodeEntity } from './workflow-node-entity';
 import { type WorkflowLineEntity } from './workflow-line-entity';
 
 // port 的宽度
-export const PORT_SIZE = 24;
+export const PORT_SIZE = 48;
 
 export interface WorkflowPort {
   /**
