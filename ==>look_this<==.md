@@ -99,6 +99,8 @@ git merge v0.2.27 # 将最新版本的代码合并到当前分支，如果有冲
 chmod +x scriptsQ/initQ.sh(一次性)
 ./scriptsQ/initQ.sh
 
+# 修改.env文件的配置!!!!!!!!!
+
 # 非常推荐将Q化代码单独提交，因为会改几千个文件
 git add . && git commit -m 'feat: 升级大版本，执行initQ.sh' -n && git push
 
