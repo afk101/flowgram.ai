@@ -42,13 +42,23 @@ echo "  - ✅ 版本策略配置正确"
 
 # 更新依赖
 echo "📋 步骤 5/9: 更新项目依赖"
-rush update
-echo "  - ✅ 依赖更新完成"
+if rush update; then
+    echo "  - ✅ 依赖更新完成"
+else
+    echo -e "\033[31m❌ 依赖更新失败！请检查网络连接和依赖配置\033[0m"
+    echo -e "\033[31m   错误信息: rush update 命令执行失败\033[0m"
+    exit 1
+fi
 
 # 构建
 echo "📋 步骤 6/9: 构建项目"
-rush build
-echo "  - ✅ 项目构建完成"
+if rush build; then
+    echo "  - ✅ 项目构建完成"
+else
+    echo -e "\033[31m❌ 项目构建失败！请检查代码编译错误\033[0m"
+    echo -e "\033[31m   错误信息: rush build 命令执行失败\033[0m"
+    exit 1
+fi
 
 # 升级版本
 echo "📋 步骤 7/9: 升级版本号"
