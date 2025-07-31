@@ -1,6 +1,6 @@
 {
   "name": "@q/flowgram.ai.eslint-config",
-  "version": "0.2.28-3",
+  "version": "0.2.28-4",
   "author": "chenjiawei.inizio@bytedance.com",
   "maintainers": [],
   "main": "src/index.js",
