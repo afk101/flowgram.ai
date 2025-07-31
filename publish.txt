@@ -1,4 +1,4 @@
-📅 发布开始时间: 2025年 7月31日 星期四 21时21分23秒 CST
+📅 发布开始时间: 2025年 7月31日 星期四 21时38分03秒 CST
 ================================
 🚀 开始执行发布脚本...
 ================================
@@ -44,18 +44,20 @@ Copying "/Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/config/rush/pnpm-
 
 Scope: all 66 workspace projects
 Progress: resolved 0, reused 1, downloaded 0, added 0
-../../apps/create-app                    |  WARN  deprecated eslint@8.57.1
 ../../apps/demo-nextjs                   |  WARN  deprecated @types/next@9.0.0
-Progress: resolved 141, reused 141, downloaded 0, added 0
-Progress: resolved 641, reused 633, downloaded 0, added 0
-Progress: resolved 1440, reused 1391, downloaded 0, added 0
+../../apps/create-app                    |  WARN  deprecated eslint@8.57.1
+Progress: resolved 130, reused 130, downloaded 0, added 0
+Progress: resolved 286, reused 278, downloaded 0, added 0
+Progress: resolved 915, reused 908, downloaded 0, added 0
+Progress: resolved 1658, reused 1651, downloaded 0, added 0
+Progress: resolved 1714, reused 1707, downloaded 0, added 0
 Progress: resolved 1771, reused 1723, downloaded 0, added 0
-Progress: resolved 1936, reused 1746, downloaded 0, added 0
+Progress: resolved 1931, reused 1741, downloaded 0, added 0
+Progress: resolved 1945, reused 1747, downloaded 0, added 0
 Progress: resolved 1950, reused 1752, downloaded 0, added 0
-Progress: resolved 1951, reused 1753, downloaded 0, added 0
-Progress: resolved 1976, reused 1778, downloaded 0, added 0
-Progress: resolved 1999, reused 1801, downloaded 0, added 0
-Progress: resolved 2008, reused 1810, downloaded 0, added 0
+Progress: resolved 1952, reused 1754, downloaded 0, added 0
+Progress: resolved 1963, reused 1765, downloaded 0, added 0
+Progress: resolved 2003, reused 1805, downloaded 0, added 0
  WARN  23 deprecated subdependencies found: @babel/plugin-proposal-async-generator-functions@7.20.7, @babel/plugin-proposal-class-properties@7.18.6, @babel/plugin-proposal-class-static-block@7.21.0, @babel/plugin-proposal-dynamic-import@7.18.6, @babel/plugin-proposal-export-namespace-from@7.18.9, @babel/plugin-proposal-json-strings@7.18.6, @babel/plugin-proposal-logical-assignment-operators@7.20.7, @babel/plugin-proposal-nullish-coalescing-operator@7.18.6, @babel/plugin-proposal-numeric-separator@7.18.6, @babel/plugin-proposal-object-rest-spread@7.20.7, @babel/plugin-proposal-optional-catch-binding@7.18.6, @babel/plugin-proposal-optional-chaining@7.21.0, @babel/plugin-proposal-private-methods@7.18.6, @babel/plugin-proposal-private-property-in-object@7.21.11, @babel/plugin-proposal-unicode-property-regex@7.18.6, @humanwhocodes/config-array@0.13.0, @humanwhocodes/object-schema@2.0.3, abab@2.0.6, acorn-import-assertions@1.9.0, domexception@4.0.0, glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 2009, reused 1811, downloaded 0, added 0
 Progress: resolved 2009, reused 1811, downloaded 0, added 0, done
@@ -154,11 +156,11 @@ Progress: resolved 2009, reused 1811, downloaded 0, added 0, done
   └─┬ @types/react-dom 16.9.25
     └── ✕ unmet peer @types/react@^16.0.0: found 18.3.16
 
-Done in 17.3s
+Done in 19.4s
 
 
 
-[32mRush update finished successfully. (17.80 seconds)[39m
+[32mRush update finished successfully. (20.12 seconds)[39m
   - ✅ 依赖更新完成
 📋 步骤 6/9: 构建项目
 Found configuration in /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/rush.json
@@ -172,1856 +174,197 @@ Node.js version is 22.14.0 (LTS)
 [39m
 Starting "rush build"
 
-Analyzing repo state... DONE (0.11 seconds)
+Analyzing repo state... DONE (0.25 seconds)
 
 Executing a maximum of 8 simultaneous processes...
 
 ==[ @q/flowgram.ai.ts-config ]====================================[ 1 of 65 ]==
-"@q/flowgram.ai.ts-config" completed successfully in 0.02 seconds.
+"@q/flowgram.ai.ts-config" completed successfully in 0.03 seconds.
 
 ==[ @q/flowgram.ai.create-app ]===================================[ 2 of 65 ]==
-"@q/flowgram.ai.create-app" completed successfully in 3.43 seconds.
+"@q/flowgram.ai.create-app" completed successfully in 4.03 seconds.
 
 ==[ @q/flowgram.ai.eslint-config ]================================[ 3 of 65 ]==
-"@q/flowgram.ai.eslint-config" completed successfully in 3.57 seconds.
+"@q/flowgram.ai.eslint-config" completed successfully in 4.17 seconds.
 
-==[ @q/flowgram.ai.utils ]========================================[ 4 of 65 ]==
-"@q/flowgram.ai.utils" completed successfully in 4.05 seconds.
+==[ @q/flowgram.ai.runtime-interface ]============================[ 4 of 65 ]==
+"@q/flowgram.ai.runtime-interface" completed successfully in 6.06 seconds.
 
 ==[ @q/flowgram.ai.e2e-fixed-layout ]=============================[ 5 of 65 ]==
-"@q/flowgram.ai.e2e-fixed-layout" completed successfully in 0.01 seconds.
+"@q/flowgram.ai.e2e-fixed-layout" completed successfully in 0.03 seconds.
 
 ==[ @q/flowgram.ai.e2e-free-layout ]==============================[ 6 of 65 ]==
-"@q/flowgram.ai.e2e-free-layout" completed successfully in 0.01 seconds.
+"@q/flowgram.ai.e2e-free-layout" completed successfully in 0.04 seconds.
 
-==[ @q/flowgram.ai.runtime-interface ]============================[ 7 of 65 ]==
-"@q/flowgram.ai.runtime-interface" completed successfully in 3.22 seconds.
+==[ @q/flowgram.ai.utils ]========================================[ 7 of 65 ]==
+"@q/flowgram.ai.utils" completed successfully in 6.40 seconds.
 
 ==[ @q/flowgram.ai.runtime-js ]===================================[ 8 of 65 ]==
-"@q/flowgram.ai.runtime-js" completed successfully in 5.20 seconds.
+"@q/flowgram.ai.runtime-js" completed successfully in 8.91 seconds.
 
-==[ @q/flowgram.ai.command ]======================================[ 9 of 65 ]==
-"@q/flowgram.ai.command" completed successfully in 3.80 seconds.
+==[ @q/flowgram.ai.i18n ]=========================================[ 9 of 65 ]==
+"@q/flowgram.ai.i18n" completed successfully in 6.55 seconds.
 
-==[ @q/flowgram.ai.i18n ]========================================[ 10 of 65 ]==
-"@q/flowgram.ai.i18n" completed successfully in 4.21 seconds.
+==[ @q/flowgram.ai.command ]=====================================[ 10 of 65 ]==
+"@q/flowgram.ai.command" completed successfully in 7.21 seconds.
 
 ==[ @q/flowgram.ai.reactive ]====================================[ 11 of 65 ]==
-"@q/flowgram.ai.reactive" completed successfully in 4.66 seconds.
+"@q/flowgram.ai.reactive" completed successfully in 7.70 seconds.
 
 ==[ @q/flowgram.ai.core ]========================================[ 12 of 65 ]==
-"@q/flowgram.ai.core" completed successfully in 5.52 seconds.
+"@q/flowgram.ai.core" completed successfully in 9.21 seconds.
 
 ==[ @q/flowgram.ai.form ]========================================[ 13 of 65 ]==
-"@q/flowgram.ai.form" completed successfully in 4.19 seconds.
+"@q/flowgram.ai.form" completed successfully in 6.25 seconds.
 
 ==[ @q/flowgram.ai.runtime-nodejs ]==============================[ 14 of 65 ]==
-"@q/flowgram.ai.runtime-nodejs" completed successfully in 4.98 seconds.
+"@q/flowgram.ai.runtime-nodejs" completed successfully in 8.28 seconds.
 
-==[ @q/flowgram.ai.document ]====================================[ 15 of 65 ]==
-"@q/flowgram.ai.document" completed successfully in 4.20 seconds.
+==[ @q/flowgram.ai.background-plugin ]===========================[ 15 of 65 ]==
+"@q/flowgram.ai.background-plugin" completed successfully in 7.89 seconds.
 
-==[ @q/flowgram.ai.background-plugin ]===========================[ 16 of 65 ]==
-"@q/flowgram.ai.background-plugin" completed successfully in 4.27 seconds.
+==[ @q/flowgram.ai.i18n-plugin ]=================================[ 16 of 65 ]==
+"@q/flowgram.ai.i18n-plugin" completed successfully in 7.38 seconds.
 
-==[ @q/flowgram.ai.i18n-plugin ]=================================[ 17 of 65 ]==
-"@q/flowgram.ai.i18n-plugin" completed successfully in 4.90 seconds.
+==[ @q/flowgram.ai.document ]====================================[ 17 of 65 ]==
+"@q/flowgram.ai.document" completed successfully in 13.15 seconds.
 
 ==[ @q/flowgram.ai.variable-core ]===============================[ 18 of 65 ]==
-"@q/flowgram.ai.variable-core" completed successfully in 5.45 seconds.
+"@q/flowgram.ai.variable-core" completed successfully in 10.81 seconds.
 
 ==[ @q/flowgram.ai.history ]=====================================[ 19 of 65 ]==
-"@q/flowgram.ai.history" completed successfully in 5.82 seconds.
+"@q/flowgram.ai.history" completed successfully in 12.30 seconds.
 
-==[ @q/flowgram.ai.form-core ]===================================[ 20 of 65 ]==
-"@q/flowgram.ai.form-core" completed successfully in 5.40 seconds.
+==[ @q/flowgram.ai.redux-devtool-plugin ]========================[ 20 of 65 ]==
+"@q/flowgram.ai.redux-devtool-plugin" completed successfully in 11.75 seconds.
 
-==[ @q/flowgram.ai.shortcuts-plugin ]============================[ 21 of 65 ]==
-"@q/flowgram.ai.shortcuts-plugin" completed successfully in 2.85 seconds.
+==[ @q/flowgram.ai.history-storage ]=============================[ 21 of 65 ]==
+"@q/flowgram.ai.history-storage" completed successfully in 12.80 seconds.
 
-==[ @q/flowgram.ai.redux-devtool-plugin ]========================[ 22 of 65 ]==
-"@q/flowgram.ai.redux-devtool-plugin" completed successfully in 3.92 seconds.
+==[ @q/flowgram.ai.shortcuts-plugin ]============================[ 22 of 65 ]==
+"@q/flowgram.ai.shortcuts-plugin" completed successfully in 10.14 seconds.
 
-==[ @q/flowgram.ai.renderer ]====================================[ 23 of 65 ]==
-"@q/flowgram.ai.renderer" completed successfully in 6.31 seconds.
+==[ @q/flowgram.ai.form-core ]===================================[ 23 of 65 ]==
+"@q/flowgram.ai.form-core" completed successfully in 12.38 seconds.
 
-==[ @q/flowgram.ai.history-storage ]=============================[ 24 of 65 ]==
-"@q/flowgram.ai.history-storage" completed successfully in 4.19 seconds.
+==[ @q/flowgram.ai.renderer ]====================================[ 24 of 65 ]==
+"@q/flowgram.ai.renderer" completed successfully in 14.30 seconds.
 
 ==[ @q/flowgram.ai.playground-react ]============================[ 25 of 65 ]==
-"@q/flowgram.ai.playground-react" completed successfully in 3.39 seconds.
+"@q/flowgram.ai.playground-react" completed successfully in 6.14 seconds.
 
-==[ @q/flowgram.ai.demo-playground ]=============================[ 26 of 65 ]==
-"@q/flowgram.ai.demo-playground" completed successfully in 0.03 seconds.
+==[ @q/flowgram.ai.node ]========================================[ 26 of 65 ]==
+"@q/flowgram.ai.node" completed successfully in 12.51 seconds.
 
-==[ @q/flowgram.ai.node ]========================================[ 27 of 65 ]==
-"@q/flowgram.ai.node" completed successfully in 5.35 seconds.
+==[ @q/flowgram.ai.fixed-history-plugin ]========================[ 27 of 65 ]==
+"@q/flowgram.ai.fixed-history-plugin" completed successfully in 11.05 seconds.
 
-==[ @q/flowgram.ai.fixed-history-plugin ]========================[ 28 of 65 ]==
-"@q/flowgram.ai.fixed-history-plugin" completed successfully in 6.08 seconds.
+==[ @q/flowgram.ai.demo-playground ]=============================[ 28 of 65 ]==
+"@q/flowgram.ai.demo-playground" completed successfully in 0.04 seconds.
 
 ==[ @q/flowgram.ai.select-box-plugin ]===========================[ 29 of 65 ]==
-"@q/flowgram.ai.select-box-plugin" completed successfully in 5.09 seconds.
+"@q/flowgram.ai.select-box-plugin" completed successfully in 10.37 seconds.
 
-==[ @q/flowgram.ai.minimap-plugin ]==============================[ 30 of 65 ]==
-"@q/flowgram.ai.minimap-plugin" completed successfully in 7.90 seconds.
+==[ @q/flowgram.ai.fixed-drag-plugin ]===========================[ 30 of 65 ]==
+"@q/flowgram.ai.fixed-drag-plugin" completed successfully in 12.15 seconds.
 
-==[ @q/flowgram.ai.fixed-drag-plugin ]===========================[ 31 of 65 ]==
-"@q/flowgram.ai.fixed-drag-plugin" completed successfully in 5.79 seconds.
+==[ @q/flowgram.ai.group-plugin ]================================[ 31 of 65 ]==
+"@q/flowgram.ai.group-plugin" completed successfully in 12.73 seconds.
 
-==[ @q/flowgram.ai.fixed-layout-core ]===========================[ 32 of 65 ]==
-"@q/flowgram.ai.fixed-layout-core" completed successfully in 7.21 seconds.
+==[ @q/flowgram.ai.minimap-plugin ]==============================[ 32 of 65 ]==
+"@q/flowgram.ai.minimap-plugin" completed successfully in 13.47 seconds.
 
 ==[ @q/flowgram.ai.materials-plugin ]============================[ 33 of 65 ]==
-"@q/flowgram.ai.materials-plugin" completed successfully in 7.32 seconds.
+"@q/flowgram.ai.materials-plugin" completed successfully in 10.79 seconds.
 
-==[ @q/flowgram.ai.group-plugin ]================================[ 34 of 65 ]==
-"@q/flowgram.ai.group-plugin" completed successfully in 7.93 seconds.
+==[ @q/flowgram.ai.fixed-layout-core ]===========================[ 34 of 65 ]==
+"@q/flowgram.ai.fixed-layout-core" completed successfully in 12.89 seconds.
 
-==[ @q/flowgram.ai.free-layout-core ]============================[ 35 of 65 ]==
-"@q/flowgram.ai.free-layout-core" completed successfully in 6.34 seconds.
+==[ @q/flowgram.ai.history-node-plugin ]=========================[ 35 of 65 ]==
+"@q/flowgram.ai.history-node-plugin" completed successfully in 6.32 seconds.
 
-==[ @q/flowgram.ai.node-core-plugin ]============================[ 36 of 65 ]==
-"@q/flowgram.ai.node-core-plugin" completed successfully in 3.99 seconds.
+==[ @q/flowgram.ai.free-layout-core ]============================[ 36 of 65 ]==
+"@q/flowgram.ai.free-layout-core" completed successfully in 9.49 seconds.
 
-==[ @q/flowgram.ai.history-node-plugin ]=========================[ 37 of 65 ]==
-"@q/flowgram.ai.history-node-plugin" completed successfully in 4.13 seconds.
+==[ @q/flowgram.ai.node-core-plugin ]============================[ 37 of 65 ]==
+"@q/flowgram.ai.node-core-plugin" completed successfully in 6.66 seconds.
 
-==[ @q/flowgram.ai.variable-layout ]=============================[ 38 of 65 ]==
-"@q/flowgram.ai.variable-layout" completed successfully in 5.96 seconds.
+==[ @q/flowgram.ai.free-hover-plugin ]===========================[ 38 of 65 ]==
+"@q/flowgram.ai.free-hover-plugin" completed successfully in 8.41 seconds.
 
-==[ @q/flowgram.ai.free-hover-plugin ]===========================[ 39 of 65 ]==
-"@q/flowgram.ai.free-hover-plugin" completed successfully in 3.93 seconds.
+==[ @q/flowgram.ai.free-stack-plugin ]===========================[ 39 of 65 ]==
+"@q/flowgram.ai.free-stack-plugin" completed successfully in 11.91 seconds.
 
-==[ @q/flowgram.ai.free-auto-layout-plugin ]=====================[ 40 of 65 ]==
-"@q/flowgram.ai.free-auto-layout-plugin" completed successfully in 5.28 seconds.
+==[ @q/flowgram.ai.free-history-plugin ]=========================[ 40 of 65 ]==
+"@q/flowgram.ai.free-history-plugin" completed successfully in 11.59 seconds.
 
-==[ @q/flowgram.ai.free-stack-plugin ]===========================[ 41 of 65 ]==
-"@q/flowgram.ai.free-stack-plugin" completed successfully in 5.48 seconds.
+==[ @q/flowgram.ai.variable-layout ]=============================[ 41 of 65 ]==
+"@q/flowgram.ai.variable-layout" completed successfully in 11.67 seconds.
 
-==[ @q/flowgram.ai.free-history-plugin ]=========================[ 42 of 65 ]==
-"@q/flowgram.ai.free-history-plugin" completed successfully in 6.33 seconds.
+==[ @q/flowgram.ai.free-snap-plugin ]============================[ 42 of 65 ]==
+"@q/flowgram.ai.free-snap-plugin" completed successfully in 12.72 seconds.
 
-==[ @q/flowgram.ai.free-snap-plugin ]============================[ 43 of 65 ]==
-"@q/flowgram.ai.free-snap-plugin" completed successfully in 6.15 seconds.
+==[ @q/flowgram.ai.free-auto-layout-plugin ]=====================[ 43 of 65 ]==
+"@q/flowgram.ai.free-auto-layout-plugin" completed successfully in 13.50 seconds.
 
-==[ @q/flowgram.ai.free-lines-plugin ]===========================[ 44 of 65 ]==
-"@q/flowgram.ai.free-lines-plugin" completed successfully in 4.39 seconds.
+==[ @q/flowgram.ai.free-node-panel-plugin ]======================[ 44 of 65 ]==
+"@q/flowgram.ai.free-node-panel-plugin" completed successfully in 6.47 seconds.
 
 ==[ @q/flowgram.ai.variable-plugin ]=============================[ 45 of 65 ]==
-"@q/flowgram.ai.variable-plugin" completed successfully in 2.30 seconds.
+"@q/flowgram.ai.variable-plugin" completed successfully in 4.90 seconds.
 
-==[ @q/flowgram.ai.free-node-panel-plugin ]======================[ 46 of 65 ]==
-"@q/flowgram.ai.free-node-panel-plugin" completed successfully in 2.99 seconds.
+==[ @q/flowgram.ai.free-lines-plugin ]===========================[ 46 of 65 ]==
+"@q/flowgram.ai.free-lines-plugin" completed successfully in 8.78 seconds.
 
 ==[ @q/flowgram.ai.node-variable-plugin ]========================[ 47 of 65 ]==
-"@q/flowgram.ai.node-variable-plugin" completed successfully in 2.52 seconds.
+"@q/flowgram.ai.node-variable-plugin" completed successfully in 4.11 seconds.
 
-==[ @q/flowgram.ai.free-container-plugin ]=======================[ 48 of 65 ]==
-"@q/flowgram.ai.free-container-plugin" completed successfully in 2.61 seconds.
+==[ @q/flowgram.ai.editor ]======================================[ 48 of 65 ]==
+"@q/flowgram.ai.editor" completed successfully in 5.24 seconds.
 
-==[ @q/flowgram.ai.editor ]======================================[ 49 of 65 ]==
-"@q/flowgram.ai.editor" completed successfully in 3.01 seconds.
+==[ @q/flowgram.ai.free-container-plugin ]=======================[ 49 of 65 ]==
+"@q/flowgram.ai.free-container-plugin" completed successfully in 5.94 seconds.
 
-==[ @q/flowgram.ai.free-group-plugin ]===========================[ 50 of 65 ]==
-"@q/flowgram.ai.free-group-plugin" completed successfully in 2.57 seconds.
+==[ @q/flowgram.ai.fixed-layout-editor ]=========================[ 50 of 65 ]==
+"@q/flowgram.ai.fixed-layout-editor" completed successfully in 17.38 seconds.
 
-==[ @q/flowgram.ai.fixed-layout-editor ]=========================[ 51 of 65 ]==
-"@q/flowgram.ai.fixed-layout-editor" completed successfully in 4.77 seconds.
+==[ @q/flowgram.ai.free-layout-editor ]==========================[ 51 of 65 ]==
+"@q/flowgram.ai.free-layout-editor" completed successfully in 16.02 seconds.
 
-==[ @q/flowgram.ai.free-layout-editor ]==========================[ 52 of 65 ]==
-"@q/flowgram.ai.free-layout-editor" completed successfully in 4.48 seconds.
+==[ @q/flowgram.ai.demo-free-layout-simple ]=====================[ 52 of 65 ]==
+"@q/flowgram.ai.demo-free-layout-simple" completed successfully in 0.06 seconds.
 
-==[ @q/flowgram.ai.demo-react-16 ]===============================[ 53 of 65 ]==
-"@q/flowgram.ai.demo-react-16" completed successfully in 0.07 seconds.
+==[ @q/flowgram.ai.demo-node-form ]==============================[ 53 of 65 ]==
+"@q/flowgram.ai.demo-node-form" completed successfully in 0.06 seconds.
 
-==[ @q/flowgram.ai.demo-vite ]===================================[ 54 of 65 ]==
-"@q/flowgram.ai.demo-vite" completed successfully in 0.07 seconds.
+==[ @q/flowgram.ai.demo-react-16 ]===============================[ 54 of 65 ]==
+"@q/flowgram.ai.demo-react-16" completed successfully in 0.06 seconds.
 
-==[ @q/flowgram.ai.demo-free-layout-simple ]=====================[ 55 of 65 ]==
-"@q/flowgram.ai.demo-free-layout-simple" completed successfully in 0.07 seconds.
+==[ @q/flowgram.ai.demo-vite ]===================================[ 55 of 65 ]==
+"@q/flowgram.ai.demo-vite" completed successfully in 0.06 seconds.
 
-==[ @q/flowgram.ai.demo-node-form ]==============================[ 56 of 65 ]==
-"@q/flowgram.ai.demo-node-form" completed successfully in 0.07 seconds.
+==[ @q/flowgram.ai.free-group-plugin ]===========================[ 56 of 65 ]==
+"@q/flowgram.ai.free-group-plugin" completed successfully in 16.25 seconds.
 
 ==[ @q/flowgram.ai.form-antd-materials ]=========================[ 57 of 65 ]==
-"@q/flowgram.ai.form-antd-materials" completed successfully in 9.64 seconds.
+"@q/flowgram.ai.form-antd-materials" completed successfully in 28.60 seconds.
 
 ==[ @q/flowgram.ai.form-materials ]==============================[ 58 of 65 ]==
-"@q/flowgram.ai.form-materials" completed successfully in 9.87 seconds.
+"@q/flowgram.ai.form-materials" completed successfully in 34.67 seconds.
 
 ==[ @q/flowgram.ai.demo-nextjs ]=================================[ 59 of 65 ]==
-"@q/flowgram.ai.demo-nextjs" completed successfully in 16.16 seconds.
+"@q/flowgram.ai.demo-nextjs" completed successfully in 51.56 seconds.
 
 ==[ @q/flowgram.ai.demo-free-layout ]============================[ 60 of 65 ]==
-"@q/flowgram.ai.demo-free-layout" completed successfully in 0.02 seconds.
+"@q/flowgram.ai.demo-free-layout" completed successfully in 0.04 seconds.
 
 ==[ @q/flowgram.ai.fixed-semi-materials ]========================[ 61 of 65 ]==
-"@q/flowgram.ai.fixed-semi-materials" completed successfully in 7.54 seconds.
+"@q/flowgram.ai.fixed-semi-materials" completed successfully in 22.39 seconds.
 
-==[ @q/flowgram.ai.demo-fixed-layout-simple ]====================[ 62 of 65 ]==
+==[ @q/flowgram.ai.demo-fixed-layout ]===========================[ 62 of 65 ]==
+"@q/flowgram.ai.demo-fixed-layout" completed successfully in 0.02 seconds.
+
+==[ @q/flowgram.ai.demo-fixed-layout-simple ]====================[ 63 of 65 ]==
 "@q/flowgram.ai.demo-fixed-layout-simple" completed successfully in 0.02 seconds.
 
-==[ @q/flowgram.ai.demo-fixed-layout ]===========================[ 63 of 65 ]==
-"@q/flowgram.ai.demo-fixed-layout" completed successfully in 0.03 seconds.
-
 ==[ @q/flowgram.ai.demo-nextjs-antd ]============================[ 64 of 65 ]==
-"@q/flowgram.ai.demo-nextjs-antd" completed successfully in 24.33 seconds.
-
-==[ @q/flowgram.ai.docs ]========================================[ 65 of 65 ]==
-"@q/flowgram.ai.docs" completed successfully in 16.51 seconds.
-
-
-
-==[ SUCCESS: 65 operations ]===================================================
-
-These operations completed successfully:
-  @q/flowgram.ai.background-plugin           4.27 seconds
-  @q/flowgram.ai.core                        5.52 seconds
-  @q/flowgram.ai.command                     3.80 seconds
-  @q/flowgram.ai.utils                       4.05 seconds
-  @q/flowgram.ai.eslint-config               3.57 seconds
-  @q/flowgram.ai.ts-config                   0.02 seconds
-  @q/flowgram.ai.create-app                  3.43 seconds
-  @q/flowgram.ai.demo-fixed-layout           0.03 seconds
-  @q/flowgram.ai.fixed-layout-editor         4.77 seconds
-  @q/flowgram.ai.editor                      3.01 seconds
-  @q/flowgram.ai.document                    4.20 seconds
-  @q/flowgram.ai.form                        4.19 seconds
-  @q/flowgram.ai.reactive                    4.66 seconds
-  @q/flowgram.ai.form-core                   5.40 seconds
-  @q/flowgram.ai.group-plugin                7.93 seconds
-  @q/flowgram.ai.renderer                    6.31 seconds
-  @q/flowgram.ai.i18n                        4.21 seconds
-  @q/flowgram.ai.history                     5.82 seconds
-  @q/flowgram.ai.history-node-plugin         4.13 seconds
-  @q/flowgram.ai.node                        5.35 seconds
-  @q/flowgram.ai.i18n-plugin                 4.90 seconds
-  @q/flowgram.ai.materials-plugin            7.32 seconds
-  @q/flowgram.ai.node-core-plugin            3.99 seconds
-  @q/flowgram.ai.node-variable-plugin        2.52 seconds
-  @q/flowgram.ai.variable-plugin             2.30 seconds
-  @q/flowgram.ai.free-layout-core            6.34 seconds
-  @q/flowgram.ai.variable-core               5.45 seconds
-  @q/flowgram.ai.variable-layout             5.96 seconds
-  @q/flowgram.ai.playground-react            3.39 seconds
-  @q/flowgram.ai.shortcuts-plugin            2.85 seconds
-  @q/flowgram.ai.redux-devtool-plugin        3.92 seconds
-  @q/flowgram.ai.fixed-drag-plugin           5.79 seconds
-  @q/flowgram.ai.fixed-history-plugin        6.08 seconds
-  @q/flowgram.ai.fixed-layout-core           7.21 seconds
-  @q/flowgram.ai.select-box-plugin           5.09 seconds
-  @q/flowgram.ai.fixed-semi-materials        7.54 seconds
-  @q/flowgram.ai.form-materials              9.87 seconds
-  @q/flowgram.ai.minimap-plugin              7.90 seconds
-  @q/flowgram.ai.demo-fixed-layout-simple    0.02 seconds
-  @q/flowgram.ai.demo-free-layout            0.02 seconds
-  @q/flowgram.ai.runtime-interface           3.22 seconds
-  @q/flowgram.ai.free-layout-editor          4.48 seconds
-  @q/flowgram.ai.free-auto-layout-plugin     5.28 seconds
-  @q/flowgram.ai.free-history-plugin         6.33 seconds
-  @q/flowgram.ai.free-hover-plugin           3.93 seconds
-  @q/flowgram.ai.free-lines-plugin           4.39 seconds
-  @q/flowgram.ai.free-stack-plugin           5.48 seconds
-  @q/flowgram.ai.free-snap-plugin            6.15 seconds
-  @q/flowgram.ai.free-node-panel-plugin      2.99 seconds
-  @q/flowgram.ai.free-container-plugin       2.61 seconds
-  @q/flowgram.ai.free-group-plugin           2.57 seconds
-  @q/flowgram.ai.runtime-js                  5.20 seconds
-  @q/flowgram.ai.demo-free-layout-simple     0.07 seconds
-  @q/flowgram.ai.demo-nextjs                 16.16 seconds
-  @q/flowgram.ai.demo-nextjs-antd            24.33 seconds
-  @q/flowgram.ai.form-antd-materials         9.64 seconds
-  @q/flowgram.ai.demo-node-form              0.07 seconds
-  @q/flowgram.ai.demo-playground             0.03 seconds
-  @q/flowgram.ai.demo-react-16               0.07 seconds
-  @q/flowgram.ai.demo-vite                   0.07 seconds
-  @q/flowgram.ai.docs                        16.51 seconds
-  @q/flowgram.ai.e2e-fixed-layout            0.01 seconds
-  @q/flowgram.ai.e2e-free-layout             0.01 seconds
-  @q/flowgram.ai.history-storage             4.19 seconds
-  @q/flowgram.ai.runtime-nodejs              4.98 seconds
-
-
-rush build (1 minute 26.2 seconds)
-  - ✅ 项目构建完成
-📋 步骤 7/9: 升级版本号
-Found configuration in /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/rush.json
-
-
-[1mRush Multi-Project Build Tool 5.140.1[33m[39m[22m[36m - https://rushjs.io[39m
-Node.js version is 22.14.0 (LTS)
-
-
-[33mYour version of Node.js (22.14.0) has not been tested with this release of the Rush engine. Please consider upgrading the "rushVersion" setting in rush.json, or downgrading Node.js.
-[39m
-Starting "rush version"
-
-Validating package manager shrinkwrap file.
-
-Finding changes in: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/changes
-
-* DRYRUN: /usr/bin/git checkout -b version/bump-1753968190573 
-
-* DRYRUN: /usr/bin/git add /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/config/rush/version-policies.json 
-
-* DRYRUN: /usr/bin/git add :/**/package.json 
-
-* DRYRUN: /usr/bin/git commit -m Bump versions [skip ci] 
-
-* DRYRUN: /usr/bin/git push origin HEAD:version/bump-1753968190573 --follow-tags --verbose 
-
-* DRYRUN: /usr/bin/git fetch origin 
-
-* DRYRUN: /usr/bin/git checkout -branch-name- 
-
-* DRYRUN: /usr/bin/git pull origin 
-
-* DRYRUN: /usr/bin/git merge version/bump-1753968190573 --no-edit 
-
-* DRYRUN: /usr/bin/git push origin HEAD:-branch-name- --follow-tags --verbose 
-
-* DRYRUN: /usr/bin/git branch -d version/bump-1753968190573 
-
-* DRYRUN: /usr/bin/git push origin --delete version/bump-1753968190573 
-  - ✅ 版本号升级完成
-  - 当前版本: 0.2.28-9
-📋 步骤 8/9: 发布包到仓库
-Found configuration in /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/rush.json
-
-
-[1mRush Multi-Project Build Tool 5.140.1[33m[39m[22m[36m - https://rushjs.io[39m
-Node.js version is 22.14.0 (LTS)
-
-
-[33mYour version of Node.js (22.14.0) has not been tested with this release of the Rush engine. Please consider upgrading the "rushVersion" setting in rush.json, or downgrading Node.js.
-[39m
-Starting "rush publish"
-
-Validating package manager shrinkwrap file.
-
-Transforming /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/config/rush/.npmrc-publish
-  --> "/Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/publish-home/.npmrc"
-Rush publish starts with includeAll and version policy undefined
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/plugins/background-plugin)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.background-plugin@0.2.28-9
-npm notice Tarball Contents
-npm notice 12.0kB dist/esm/index.js
-npm notice 23.1kB dist/esm/index.js.map
-npm notice 5.0kB dist/index.d.mts
-npm notice 5.0kB dist/index.d.ts
-npm notice 13.2kB dist/index.js
-npm notice 23.4kB dist/index.js.map
-npm notice 1.7kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.background-plugin
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.background-plugin-0.2.28-9.tgz
-npm notice package size: 11.6 kB
-npm notice unpacked size: 83.2 kB
-npm notice shasum: c4998c8b1230448d318d5d2bee240aa7f82a1c63
-npm notice integrity: sha512-bUbljsWotBkAd[...]S2ZxmdTBbX0ug==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.background-plugin@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.background-plugin_v0.2.28-9 -m @q/flowgram.ai.background-plugin v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/common/command)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.command@0.2.28-9
-npm notice Tarball Contents
-npm notice 8.7kB dist/esm/index.js
-npm notice 16.9kB dist/esm/index.js.map
-npm notice 6.3kB dist/index.d.mts
-npm notice 6.3kB dist/index.d.ts
-npm notice 10.0kB dist/index.js
-npm notice 17.4kB dist/index.js.map
-npm notice 1.7kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.command
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.command-0.2.28-9.tgz
-npm notice package size: 8.8 kB
-npm notice unpacked size: 67.4 kB
-npm notice shasum: e9e54aaf547bbde8fac3432c598b71f6d78f3a20
-npm notice integrity: sha512-5T0+/6uED8rSI[...]4zZxaqaLjGfSg==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.command@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.command_v0.2.28-9 -m @q/flowgram.ai.command v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/canvas-engine/core)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.core@0.2.28-9
-npm notice Tarball Contents
-npm notice 225.6kB dist/esm/index.js
-npm notice 474.2kB dist/esm/index.js.map
-npm notice 75.3kB dist/index.d.mts
-npm notice 75.3kB dist/index.d.ts
-npm notice 235.8kB dist/index.js
-npm notice 472.7kB dist/index.js.map
-npm notice 2.0kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.core
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.core-0.2.28-9.tgz
-npm notice package size: 346.3 kB
-npm notice unpacked size: 1.6 MB
-npm notice shasum: a53977fa1a2532d0e0f1376568c86840cd57d05b
-npm notice integrity: sha512-FClb7CFB2DQJc[...]OW0f5tUwb7WAQ==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.core@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.core_v0.2.28-9 -m @q/flowgram.ai.core v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/create-app)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.create-app@0.2.28-9
-npm notice Tarball Contents
-npm notice 47B bin/index.js
-npm notice 5.6kB dist/index.cjs
-npm notice 13B dist/index.d.cts
-npm notice 13B dist/index.d.ts
-npm notice 3.9kB dist/index.js
-npm notice 1.1kB package.json
-npm notice 4.5kB src/index.ts
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.create-app
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.create-app-0.2.28-9.tgz
-npm notice package size: 3.7 kB
-npm notice unpacked size: 15.2 kB
-npm notice shasum: 33119fb6dc544fcba3fc956a63b1e40187ab7401
-npm notice integrity: sha512-J325A0p6x0mew[...]Oo6a4GIGkGRuA==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.create-app@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.create-app_v0.2.28-9 -m @q/flowgram.ai.create-app v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-fixed-layout)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.demo-fixed-layout@0.2.28-9
-npm notice Tarball Contents
-npm notice 411B .eslintrc.js
-npm notice 340B index.html
-npm notice 2.0kB package.json
-npm notice 789B rsbuild.config.ts
-npm notice 267B src/app.tsx
-npm notice 733B src/assets/icon-break.svg
-npm notice 2.3kB src/assets/icon-case.png
-npm notice 1.4kB src/assets/icon-condition.svg
-npm notice 21.0kB src/assets/icon-end.jpg
-npm notice 1.9kB src/assets/icon-if.png
-npm notice 11.1kB src/assets/icon-llm.jpg
-npm notice 1.7kB src/assets/icon-loop.svg
-npm notice 914B src/assets/icon-memory.svg
-npm notice 2.5kB src/assets/icon-mouse.tsx
-npm notice 643B src/assets/icon-pad.tsx
-npm notice 1.7kB src/assets/icon-parallel.svg
-npm notice 1.2kB src/assets/icon-robot.svg
-npm notice 21.0kB src/assets/icon-start.jpg
-npm notice 939B src/assets/icon-tool.svg
-npm notice 1.4kB src/assets/icon-trycatch.svg
-npm notice 3.4kB src/assets/icon-variable.png
-npm notice 2.0kB src/components/agent-adder/index.tsx
-npm notice 2.5kB src/components/base-node/index.tsx
-npm notice 822B src/components/base-node/styles.tsx
-npm notice 1.6kB src/components/branch-adder/index.tsx
-npm notice 700B src/components/branch-adder/styles.tsx
-npm notice 1.4kB src/components/drag-node/index.tsx
-npm notice 830B src/components/drag-node/styles.tsx
-npm notice 221B src/components/index.ts
-npm notice 4.4kB src/components/node-adder/index.tsx
-npm notice 609B src/components/node-adder/styles.tsx
-npm notice 299B src/components/node-adder/utils.ts
-npm notice 1.9kB src/components/node-list.tsx
-npm notice 4.9kB src/components/selector-box-popover/index.tsx
-npm notice 208B src/components/sidebar/index.tsx
-npm notice 777B src/components/sidebar/sidebar-node-renderer.tsx
-npm notice 470B src/components/sidebar/sidebar-provider.tsx
-npm notice 2.8kB src/components/sidebar/sidebar-renderer.tsx
-npm notice 452B src/components/tools/fit-view.tsx
-npm notice 2.1kB src/components/tools/index.tsx
-npm notice 772B src/components/tools/minimap-switch.tsx
-npm notice 944B src/components/tools/minimap.tsx
-npm notice 770B src/components/tools/readonly.tsx
-npm notice 2.8kB src/components/tools/run.tsx
-npm notice 2.0kB src/components/tools/save.tsx
-npm notice 942B src/components/tools/styles.tsx
-npm notice 823B src/components/tools/switch-vertical.tsx
-npm notice 1.3kB src/components/tools/zoom-select.tsx
-npm notice 229B src/context/index.ts
-npm notice 296B src/context/node-render-context.ts
-npm notice 383B src/context/sidebar-context.ts
-npm notice 948B src/editor.tsx
-npm notice 904B src/form-components/feedback.tsx
-npm notice 811B src/form-components/form-content/index.tsx
-npm notice 574B src/form-components/form-content/styles.tsx
-npm notice 4.0kB src/form-components/form-header/index.tsx
-npm notice 727B src/form-components/form-header/styles.tsx
-npm notice 1.4kB src/form-components/form-header/title-input.tsx
-npm notice 437B src/form-components/form-header/utils.tsx
-npm notice 2.4kB src/form-components/form-inputs/index.tsx
-npm notice 152B src/form-components/form-inputs/styles.tsx
-npm notice 251B src/form-components/form-item/index.css
-npm notice 2.0kB src/form-components/form-item/index.tsx
-npm notice 943B src/form-components/form-outputs/index.tsx
-npm notice 392B src/form-components/form-outputs/styles.tsx
-npm notice 379B src/form-components/index.ts
-npm notice 4.0kB src/form-components/properties-edit/index.tsx
-npm notice 2.4kB src/form-components/properties-edit/property-edit.tsx
-npm notice 388B src/form-components/properties-edit/styles.tsx
-npm notice 1.2kB src/form-components/type-tag.tsx
-npm notice 637B src/form-components/value-display/index.tsx
-npm notice 451B src/form-components/value-display/styles.tsx
-npm notice 268B src/hooks/index.ts
-npm notice 8.3kB src/hooks/use-editor-props.ts
-npm notice 259B src/hooks/use-is-sidebar.ts
-npm notice 269B src/hooks/use-node-render-context.ts
-npm notice 154B src/index.ts
-npm notice 9.0kB src/initial-data.ts
-npm notice 486B src/nodes/agent/agent-llm.ts
-npm notice 473B src/nodes/agent/agent-memory.ts
-npm notice 801B src/nodes/agent/agent-tools.ts
-npm notice 1.5kB src/nodes/agent/agent.ts
-npm notice 582B src/nodes/agent/index.ts
-npm notice 811B src/nodes/agent/memory.ts
-npm notice 717B src/nodes/agent/tool.ts
-npm notice 346B src/nodes/break-loop/form-meta.tsx
-npm notice 947B src/nodes/break-loop/index.ts
-npm notice 1.1kB src/nodes/case-default/form-meta.tsx
-npm notice 896B src/nodes/case-default/index.ts
-npm notice 1.1kB src/nodes/case/form-meta.tsx
-npm notice 1.1kB src/nodes/case/index.ts
-npm notice 1.1kB src/nodes/catch-block/form-meta.tsx
-npm notice 1.1kB src/nodes/catch-block/index.ts
-npm notice 1.9kB src/nodes/default-form-meta.tsx
-npm notice 2.3kB src/nodes/end/form-meta.tsx
-npm notice 2.2kB src/nodes/end/index.ts
-npm notice 883B src/nodes/if-block/form-meta.tsx
-npm notice 748B src/nodes/if-block/index.ts
-npm notice 1.4kB src/nodes/if/index.ts
-npm notice 1.1kB src/nodes/index.ts
-npm notice 2.1kB src/nodes/llm/index.ts
-npm notice 820B src/nodes/loop/index.ts
-npm notice 1.6kB src/nodes/loop/loop-form-render.tsx
-npm notice 1.6kB src/nodes/start/form-meta.tsx
-npm notice 828B src/nodes/start/index.ts
-npm notice 2.0kB src/nodes/switch/index.ts
-npm notice 732B src/nodes/trycatch/form-meta.tsx
-npm notice 1.3kB src/nodes/trycatch/index.ts
-npm notice 805B src/plugins/clipboard-plugin/create-clipboard-plugin.ts
-npm notice 1.3kB src/plugins/group-plugin/group-box-header.tsx
-npm notice 1.7kB src/plugins/group-plugin/group-node.tsx
-npm notice 2.3kB src/plugins/group-plugin/group-note.tsx
-npm notice 3.8kB src/plugins/group-plugin/group-tools.tsx
-npm notice 2.8kB src/plugins/group-plugin/icons/index.tsx
-npm notice 195B src/plugins/group-plugin/index.ts
-npm notice 1.5kB src/plugins/group-plugin/multilang-textarea-editor/base-textarea.tsx
-npm notice 316B src/plugins/group-plugin/multilang-textarea-editor/index.css
-npm notice 2.0kB src/plugins/group-plugin/multilang-textarea-editor/index.tsx
-npm notice 253B src/plugins/index.ts
-npm notice 327B src/plugins/variable-panel-plugin/components/full-variable-list.tsx
-npm notice 999B src/plugins/variable-panel-plugin/components/global-variable-editor.tsx
-npm notice 700B src/plugins/variable-panel-plugin/components/index.module.less
-npm notice 1.5kB src/plugins/variable-panel-plugin/components/variable-panel.tsx
-npm notice 169B src/plugins/variable-panel-plugin/index.ts
-npm notice 676B src/plugins/variable-panel-plugin/variable-panel-layer.tsx
-npm notice 1.1kB src/plugins/variable-panel-plugin/variable-panel-plugin.ts
-npm notice 1.1kB src/services/custom-service.ts
-npm notice 150B src/services/index.ts
-npm notice 431B src/shortcuts/constants.ts
-npm notice 6.2kB src/shortcuts/index.ts
-npm notice 1.4kB src/shortcuts/utils.ts
-npm notice 200B src/type.d.ts
-npm notice 155B src/typings/index.ts
-npm notice 265B src/typings/json-schema.ts
-npm notice 1.9kB src/typings/node.ts
-npm notice 609B tsconfig.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.demo-fixed-layout
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.demo-fixed-layout-0.2.28-9.tgz
-npm notice package size: 97.2 kB
-npm notice unpacked size: 230.9 kB
-npm notice shasum: 65be69b3459faf8ca62eeee7a606816ffca9a8f0
-npm notice integrity: sha512-bTF8IE6Dkw4mg[...]U2s6HuALCbzRw==
-npm notice total files: 136
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-fixed-layout@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-fixed-layout_v0.2.28-9 -m @q/flowgram.ai.demo-fixed-layout v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-fixed-layout-simple)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.demo-fixed-layout-simple@0.2.28-9
-npm notice Tarball Contents
-npm notice 411B .eslintrc.js
-npm notice 340B index.html
-npm notice 1.7kB package.json
-npm notice 383B rsbuild.config.ts
-npm notice 267B src/app.tsx
-npm notice 1.8kB src/components/base-node.tsx
-npm notice 2.0kB src/components/branch-adder.tsx
-npm notice 1.9kB src/components/flow-select.tsx
-npm notice 911B src/components/minimap.tsx
-npm notice 2.1kB src/components/node-adder.tsx
-npm notice 1.2kB src/components/slot-adder.tsx
-npm notice 2.2kB src/components/tools.tsx
-npm notice 1.8kB src/data/condition.ts
-npm notice 893B src/data/dynamicSplit.ts
-npm notice 787B src/data/index.ts
-npm notice 897B src/data/loop.ts
-npm notice 1.8kB src/data/mindmap.ts
-npm notice 822B src/data/multiInputs.ts
-npm notice 912B src/data/multiOutputs.ts
-npm notice 2.2kB src/data/slot.ts
-npm notice 1.0kB src/data/tryCatch.ts
-npm notice 1.2kB src/editor.tsx
-npm notice 5.6kB src/hooks/use-editor-props.tsx
-npm notice 1.3kB src/index.css
-npm notice 154B src/index.ts
-npm notice 320B src/initial-data.ts
-npm notice 2.0kB src/node-registries.ts
-npm notice 585B tsconfig.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.demo-fixed-layout-simple
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.demo-fixed-layout-simple-0.2.28-9.tgz
-npm notice package size: 9.6 kB
-npm notice unpacked size: 37.3 kB
-npm notice shasum: c9d92e3a49afe57707ec90dd897a94177f88b783
-npm notice integrity: sha512-CvMv6LEbO1klj[...]/0i0dZeQnlKyg==
-npm notice total files: 28
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-fixed-layout-simple@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-fixed-layout-simple_v0.2.28-9 -m @q/flowgram.ai.demo-fixed-layout-simple v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-free-layout)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.demo-free-layout@0.2.28-9
-npm notice Tarball Contents
-npm notice 411B .eslintrc.js
-npm notice 339B index.html
-npm notice 2.2kB package.json
-npm notice 788B rsbuild.config.ts
-npm notice 267B src/app.tsx
-npm notice 853B src/assets/icon-auto-layout.tsx
-npm notice 28.2kB src/assets/icon-break.jpg
-npm notice 831B src/assets/icon-cancel.tsx
-npm notice 1.2kB src/assets/icon-comment.tsx
-npm notice 1.4kB src/assets/icon-condition.svg
-npm notice 38.2kB src/assets/icon-continue.jpg
-npm notice 21.0kB src/assets/icon-end.jpg
-npm notice 1.8kB src/assets/icon-http.svg
-npm notice 11.1kB src/assets/icon-llm.jpg
-npm notice 25.6kB src/assets/icon-loop.jpg
-npm notice 1.6kB src/assets/icon-minimap.tsx
-npm notice 3.9kB src/assets/icon-mouse.tsx
-npm notice 1.6kB src/assets/icon-pad.tsx
-npm notice 3.7kB src/assets/icon-script.png
-npm notice 21.0kB src/assets/icon-start.jpg
-npm notice 1.0kB src/assets/icon-success.tsx
-npm notice 1.3kB src/assets/icon-switch-line.tsx
-npm notice 3.4kB src/assets/icon-variable.png
-npm notice 862B src/assets/icon-warning.tsx
-npm notice 723B src/components/add-node/index.tsx
-npm notice 4.1kB src/components/add-node/use-add-node.ts
-npm notice 1.5kB src/components/base-node/index.tsx
-npm notice 2.6kB src/components/base-node/node-wrapper.tsx
-npm notice 841B src/components/base-node/styles.tsx
-npm notice 501B src/components/base-node/utils.ts
-npm notice 1.1kB src/components/comment/components/blank-area.tsx
-npm notice 2.9kB src/components/comment/components/border-area.tsx
-npm notice 1.3kB src/components/comment/components/container.tsx
-npm notice 2.7kB src/components/comment/components/content-drag-area.tsx
-npm notice 1.2kB src/components/comment/components/drag-area.tsx
-npm notice 1.8kB src/components/comment/components/editor.tsx
-npm notice 2.1kB src/components/comment/components/index.css
-npm notice 165B src/components/comment/components/index.ts
-npm notice 620B src/components/comment/components/more-button.tsx
-npm notice 2.6kB src/components/comment/components/render.tsx
-npm notice 2.9kB src/components/comment/components/resize-area.tsx
-npm notice 529B src/components/comment/constant.ts
-npm notice 138B src/components/comment/hooks/index.ts
-npm notice 1.5kB src/components/comment/hooks/use-model.ts
-npm notice 1.3kB src/components/comment/hooks/use-overflow.ts
-npm notice 4.6kB src/components/comment/hooks/use-size.ts
-npm notice 146B src/components/comment/index.ts
-npm notice 2.7kB src/components/comment/model.ts
-npm notice 637B src/components/comment/type.ts
-npm notice 1.7kB src/components/group/color.ts
-npm notice 1.4kB src/components/group/components/background.tsx
-npm notice 1.5kB src/components/group/components/color.tsx
-npm notice 1.1kB src/components/group/components/header.tsx
-npm notice 2.7kB src/components/group/components/icon-group.tsx
-npm notice 191B src/components/group/components/index.ts
-npm notice 2.2kB src/components/group/components/node-render.tsx
-npm notice 865B src/components/group/components/tips/global-store.ts
-npm notice 592B src/components/group/components/tips/icon-close.tsx
-npm notice 1.1kB src/components/group/components/tips/index.tsx
-npm notice 192B src/components/group/components/tips/is-mac-os.ts
-npm notice 1.5kB src/components/group/components/tips/style.ts
-npm notice 1.7kB src/components/group/components/tips/use-control.ts
-npm notice 1.0kB src/components/group/components/title.tsx
-npm notice 444B src/components/group/components/tools.tsx
-npm notice 1.1kB src/components/group/components/ungroup.tsx
-npm notice 232B src/components/group/constant.ts
-npm notice 2.2kB src/components/group/index.css
-npm notice 213B src/components/group/index.ts
-npm notice 246B src/components/index.ts
-npm notice 1.6kB src/components/line-add-button/button.tsx
-npm notice 247B src/components/line-add-button/index.less
-npm notice 3.3kB src/components/line-add-button/index.tsx
-npm notice 689B src/components/line-add-button/use-visible.ts
-npm notice 3.8kB src/components/node-menu/index.tsx
-npm notice 1.1kB src/components/node-panel/index.less
-npm notice 1.4kB src/components/node-panel/index.tsx
-npm notice 2.7kB src/components/node-panel/node-list.tsx
-npm notice 974B src/components/node-panel/node-placeholder.tsx
-npm notice 2.9kB src/components/selector-box-popover/index.tsx
-npm notice 208B src/components/sidebar/index.tsx
-npm notice 776B src/components/sidebar/sidebar-node-renderer.tsx
-npm notice 470B src/components/sidebar/sidebar-provider.tsx
-npm notice 2.9kB src/components/sidebar/sidebar-renderer.tsx
-npm notice 242B src/components/testrun/hooks/index.ts
-npm notice 1.4kB src/components/testrun/hooks/use-fields.ts
-npm notice 1.7kB src/components/testrun/hooks/use-form-meta.ts
-npm notice 757B src/components/testrun/hooks/use-sync-default.ts
-npm notice 481B src/components/testrun/node-status-bar/group/index.module.less
-npm notice 1.6kB src/components/testrun/node-status-bar/group/index.tsx
-npm notice 1.1kB src/components/testrun/node-status-bar/header/index.module.less
-npm notice 1.9kB src/components/testrun/node-status-bar/header/index.tsx
-npm notice 1.2kB src/components/testrun/node-status-bar/index.tsx
-npm notice 1.3kB src/components/testrun/node-status-bar/render/index.module.less
-npm notice 5.9kB src/components/testrun/node-status-bar/render/index.tsx
-npm notice 2.5kB src/components/testrun/node-status-bar/viewer/index.module.less
-npm notice 5.1kB src/components/testrun/node-status-bar/viewer/index.tsx
-npm notice 448B src/components/testrun/testrun-button/index.module.less
-npm notice 2.6kB src/components/testrun/testrun-button/index.tsx
-npm notice 2.0kB src/components/testrun/testrun-form/index.module.less
-npm notice 3.6kB src/components/testrun/testrun-form/index.tsx
-npm notice 519B src/components/testrun/testrun-form/type.ts
-npm notice 853B src/components/testrun/testrun-json-input/index.module.less
-npm notice 849B src/components/testrun/testrun-json-input/index.tsx
-npm notice 2.6kB src/components/testrun/testrun-panel/index.module.less
-npm notice 5.2kB src/components/testrun/testrun-panel/index.tsx
-npm notice 806B src/components/tools/auto-layout.tsx
-npm notice 2.4kB src/components/tools/comment.tsx
-npm notice 564B src/components/tools/fit-view.tsx
-npm notice 2.9kB src/components/tools/index.tsx
-npm notice 3.1kB src/components/tools/interactive.tsx
-npm notice 641B src/components/tools/minimap-switch.tsx
-npm notice 943B src/components/tools/minimap.tsx
-npm notice 2.3kB src/components/tools/mouse-pad-selector.less
-npm notice 3.6kB src/components/tools/mouse-pad-selector.tsx
-npm notice 983B src/components/tools/readonly.tsx
-npm notice 2.2kB src/components/tools/save.tsx
-npm notice 1.2kB src/components/tools/styles.tsx
-npm notice 708B src/components/tools/switch-line.tsx
-npm notice 1.6kB src/components/tools/zoom-select.tsx
-npm notice 229B src/context/index.ts
-npm notice 408B src/context/node-render-context.ts
-npm notice 383B src/context/sidebar-context.ts
-npm notice 1.0kB src/editor.tsx
-npm notice 933B src/form-components/feedback.tsx
-npm notice 810B src/form-components/form-content/index.tsx
-npm notice 574B src/form-components/form-content/styles.tsx
-npm notice 2.2kB src/form-components/form-header/index.tsx
-npm notice 743B src/form-components/form-header/styles.tsx
-npm notice 1.4kB src/form-components/form-header/title-input.tsx
-npm notice 436B src/form-components/form-header/utils.tsx
-npm notice 2.4kB src/form-components/form-inputs/index.tsx
-npm notice 152B src/form-components/form-inputs/styles.tsx
-npm notice 251B src/form-components/form-item/index.css
-npm notice 2.1kB src/form-components/form-item/index.tsx
-npm notice 1.1kB src/form-components/form-outputs/index.tsx
-npm notice 392B src/form-components/form-outputs/styles.tsx
-npm notice 344B src/form-components/index.ts
-npm notice 1.2kB src/form-components/type-tag.tsx
-npm notice 637B src/form-components/value-display/index.tsx
-npm notice 451B src/form-components/value-display/styles.tsx
-npm notice 317B src/hooks/index.ts
-npm notice 10.6kB src/hooks/use-editor-props.tsx
-npm notice 259B src/hooks/use-is-sidebar.ts
-npm notice 269B src/hooks/use-node-render-context.ts
-npm notice 2.4kB src/hooks/use-port-click.ts
-npm notice 153B src/index.ts
-npm notice 13.2kB src/initial-data.ts
-npm notice 876B src/nodes/block-end/form-meta.tsx
-npm notice 982B src/nodes/block-end/index.ts
-npm notice 882B src/nodes/block-start/form-meta.tsx
-npm notice 988B src/nodes/block-start/index.ts
-npm notice 669B src/nodes/break/form-meta.tsx
-npm notice 994B src/nodes/break/index.ts
-npm notice 877B src/nodes/code/components/code.tsx
-npm notice 799B src/nodes/code/components/inputs.tsx
-npm notice 958B src/nodes/code/components/outputs.tsx
-npm notice 1.0kB src/nodes/code/form-meta.tsx
-npm notice 2.2kB src/nodes/code/index.tsx
-npm notice 520B src/nodes/code/types.tsx
-npm notice 643B src/nodes/comment/index.tsx
-npm notice 2.7kB src/nodes/condition/condition-inputs/index.tsx
-npm notice 235B src/nodes/condition/condition-inputs/styles.tsx
-npm notice 1.0kB src/nodes/condition/form-meta.tsx
-npm notice 1.2kB src/nodes/condition/index.ts
-npm notice 383B src/nodes/constants.ts
-npm notice 669B src/nodes/continue/form-meta.tsx
-npm notice 1.0kB src/nodes/continue/index.ts
-npm notice 1.8kB src/nodes/default-form-meta.tsx
-npm notice 1.5kB src/nodes/end/form-meta.tsx
-npm notice 849B src/nodes/end/index.ts
-npm notice 2.0kB src/nodes/http/components/api.tsx
-npm notice 2.5kB src/nodes/http/components/body.tsx
-npm notice 802B src/nodes/http/components/headers.tsx
-npm notice 799B src/nodes/http/components/params.tsx
-npm notice 1.5kB src/nodes/http/components/timeout.tsx
-npm notice 1.3kB src/nodes/http/form-meta.tsx
-npm notice 1.1kB src/nodes/http/index.tsx
-npm notice 1.2kB src/nodes/http/types.tsx
-npm notice 1.1kB src/nodes/index.ts
-npm notice 2.3kB src/nodes/llm/index.ts
-npm notice 2.7kB src/nodes/loop/form-meta.tsx
-npm notice 2.4kB src/nodes/loop/index.ts
-npm notice 1.6kB src/nodes/start/form-meta.tsx
-npm notice 880B src/nodes/start/index.ts
-npm notice 2.7kB src/plugins/context-menu-plugin/context-menu-layer.tsx
-npm notice 768B src/plugins/context-menu-plugin/context-menu-plugin.ts
-npm notice 165B src/plugins/context-menu-plugin/index.ts
-npm notice 290B src/plugins/index.ts
-npm notice 765B src/plugins/runtime-plugin/client/base-client.ts
-npm notice 1.7kB src/plugins/runtime-plugin/client/browser-client/index.ts
-npm notice 283B src/plugins/runtime-plugin/client/index.ts
-npm notice 257B src/plugins/runtime-plugin/client/server-client/constant.ts
-npm notice 4.3kB src/plugins/runtime-plugin/client/server-client/index.ts
-npm notice 168B src/plugins/runtime-plugin/client/server-client/type.ts
-npm notice 1.1kB src/plugins/runtime-plugin/create-runtime-plugin.ts
-npm notice 213B src/plugins/runtime-plugin/index.ts
-npm notice 6.0kB src/plugins/runtime-plugin/runtime-service/index.ts
-npm notice 427B src/plugins/runtime-plugin/type.ts
-npm notice 327B src/plugins/variable-panel-plugin/components/full-variable-list.tsx
-npm notice 998B src/plugins/variable-panel-plugin/components/global-variable-editor.tsx
-npm notice 683B src/plugins/variable-panel-plugin/components/index.module.less
-npm notice 1.5kB src/plugins/variable-panel-plugin/components/variable-panel.tsx
-npm notice 169B src/plugins/variable-panel-plugin/index.ts
-npm notice 675B src/plugins/variable-panel-plugin/variable-panel-layer.tsx
-npm notice 1.1kB src/plugins/variable-panel-plugin/variable-panel-plugin.ts
-npm notice 1.1kB src/services/custom-service.ts
-npm notice 150B src/services/index.ts
-npm notice 904B src/shortcuts/collapse/index.ts
-npm notice 507B src/shortcuts/constants.ts
-npm notice 6.7kB src/shortcuts/copy/index.ts
-npm notice 3.5kB src/shortcuts/delete/index.ts
-npm notice 898B src/shortcuts/expand/index.ts
-npm notice 158B src/shortcuts/index.ts
-npm notice 7.3kB src/shortcuts/paste/index.ts
-npm notice 5.9kB src/shortcuts/paste/traverse.ts
-npm notice 4.2kB src/shortcuts/paste/unique-workflow.ts
-npm notice 858B src/shortcuts/select-all/index.ts
-npm notice 921B src/shortcuts/shortcuts.ts
-npm notice 607B src/shortcuts/type.ts
-npm notice 786B src/shortcuts/zoom-in/index.ts
-npm notice 789B src/shortcuts/zoom-out/index.ts
-npm notice 1.6kB src/styles/index.css
-npm notice 200B src/type.d.ts
-npm notice 155B src/typings/index.ts
-npm notice 265B src/typings/json-schema.ts
-npm notice 2.0kB src/typings/node.ts
-npm notice 152B src/utils/index.ts
-npm notice 2.6kB src/utils/on-drag-line-end.ts
-npm notice 609B tsconfig.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.demo-free-layout
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.demo-free-layout-0.2.28-9.tgz
-npm notice package size: 215.5 kB
-npm notice unpacked size: 484.8 kB
-npm notice shasum: 9b8150b03277f6aa0bd0eb66220e291e6721bd70
-npm notice integrity: sha512-BPyJ2+CvcCARm[...]izT6/Ouya6mpg==
-npm notice total files: 229
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-free-layout@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-free-layout_v0.2.28-9 -m @q/flowgram.ai.demo-free-layout v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-free-layout-simple)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.demo-free-layout-simple@0.2.28-9
-npm notice Tarball Contents
-npm notice 411B .eslintrc.js
-npm notice 339B index.html
-npm notice 1.6kB package.json
-npm notice 382B rsbuild.config.ts
-npm notice 267B src/app.tsx
-npm notice 911B src/components/minimap.tsx
-npm notice 878B src/components/node-add-panel.tsx
-npm notice 1.3kB src/components/tools.tsx
-npm notice 890B src/editor.tsx
-npm notice 5.3kB src/hooks/use-editor-props.tsx
-npm notice 2.5kB src/index.css
-npm notice 153B src/index.tsx
-npm notice 1.8kB src/initial-data.ts
-npm notice 1.1kB src/node-registries.ts
-npm notice 609B tsconfig.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.demo-free-layout-simple
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.demo-free-layout-simple-0.2.28-9.tgz
-npm notice package size: 5.7 kB
-npm notice unpacked size: 18.4 kB
-npm notice shasum: 5acc2955038ef5f622af6b68e1b838120444aed5
-npm notice integrity: sha512-6vycYaVK307AM[...]hs7X2ZaFXaEwQ==
-npm notice total files: 15
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-free-layout-simple@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-free-layout-simple_v0.2.28-9 -m @q/flowgram.ai.demo-free-layout-simple v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-nextjs)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.demo-nextjs@0.2.28-9
-npm notice Tarball Contents
-npm notice 536B .eslintrc.js
-npm notice 480B .gitignore
-npm notice 1.4kB README.md
-npm notice 596B next.config.ts
-npm notice 1.8kB package.json
-npm notice 174.7kB pnpm-lock.yaml
-npm notice 181B postcss.config.mjs
-npm notice 391B public/file.svg
-npm notice 1.0kB public/globe.svg
-npm notice 1.4kB public/next.svg
-npm notice 128B public/vercel.svg
-npm notice 385B public/window.svg
-npm notice 702B src/app/api/runtime/route.ts
-npm notice 25.9kB src/app/favicon.ico
-npm notice 588B src/app/globals.css
-npm notice 749B src/app/layout.tsx
-npm notice 223B src/app/page.tsx
-npm notice 455B src/editor/components/editor-client.tsx
-npm notice 588B src/editor/components/editor.tsx
-npm notice 1.2kB src/editor/components/form-render.tsx
-npm notice 729B src/editor/components/node-render.tsx
-npm notice 1.3kB src/editor/components/tools.tsx
-npm notice 973B src/editor/data/initial-data.ts
-npm notice 933B src/editor/data/node-registries.ts
-npm notice 153B src/editor/hooks/index.ts
-npm notice 3.7kB src/editor/hooks/use-editor-props.tsx
-npm notice 188B src/editor/index.ts
-npm notice 167B src/editor/style/index.css
-npm notice 344B src/editor/style/theme.css
-npm notice 204B src/editor/style/var.css
-npm notice 158B src/runtime/index.ts
-npm notice 458B src/runtime/main.ts
-npm notice 127B src/runtime/models/index.ts
-npm notice 201B src/runtime/models/runtime/index.ts
-npm notice 487B src/runtime/models/runtime/model.ts
-npm notice 171B src/runtime/models/runtime/type.ts
-npm notice 760B tsconfig.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.demo-nextjs
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.demo-nextjs-0.2.28-9.tgz
-npm notice package size: 69.2 kB
-npm notice unpacked size: 224.7 kB
-npm notice shasum: 883103a060eb88c195188b06d6dfc29f8cf0cb13
-npm notice integrity: sha512-tHrPKfh77x//2[...]N1VVv0pzLZnoQ==
-npm notice total files: 37
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-nextjs@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-nextjs_v0.2.28-9 -m @q/flowgram.ai.demo-nextjs v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-nextjs-antd)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.demo-nextjs-antd@0.2.28-9
-npm notice Tarball Contents
-npm notice 536B .eslintrc.js
-npm notice 480B .gitignore
-npm notice 1.4kB README.md
-npm notice 538B next.config.ts
-npm notice 2.1kB package.json
-npm notice 174.7kB pnpm-lock.yaml
-npm notice 181B postcss.config.mjs
-npm notice 391B public/file.svg
-npm notice 1.0kB public/globe.svg
-npm notice 1.4kB public/next.svg
-npm notice 128B public/vercel.svg
-npm notice 385B public/window.svg
-npm notice 25.9kB src/app/favicon.ico
-npm notice 588B src/app/globals.css
-npm notice 749B src/app/layout.tsx
-npm notice 223B src/app/page.tsx
-npm notice 853B src/editor/assets/icon-auto-layout.tsx
-npm notice 1.2kB src/editor/assets/icon-comment.tsx
-npm notice 1.4kB src/editor/assets/icon-condition.svg
-npm notice 21.0kB src/editor/assets/icon-end.jpg
-npm notice 11.1kB src/editor/assets/icon-llm.jpg
-npm notice 25.6kB src/editor/assets/icon-loop.jpg
-npm notice 1.6kB src/editor/assets/icon-minimap.tsx
-npm notice 3.9kB src/editor/assets/icon-mouse.tsx
-npm notice 1.6kB src/editor/assets/icon-pad.tsx
-npm notice 21.0kB src/editor/assets/icon-start.jpg
-npm notice 1.3kB src/editor/assets/icon-switch-line.tsx
-npm notice 897B src/editor/components/base-node/index.tsx
-npm notice 517B src/editor/components/base-node/node-wrapper.scss
-npm notice 2.3kB src/editor/components/base-node/node-wrapper.tsx
-npm notice 274B src/editor/components/base-node/styles.tsx
-npm notice 501B src/editor/components/base-node/utils.ts
-npm notice 556B src/editor/components/editor-client.tsx
-npm notice 900B src/editor/components/editor.tsx
-npm notice 1.2kB src/editor/components/form-render.tsx
-npm notice 1.7kB src/editor/components/group/color.ts
-npm notice 1.4kB src/editor/components/group/components/background.tsx
-npm notice 1.5kB src/editor/components/group/components/color.tsx
-npm notice 1.1kB src/editor/components/group/components/header.tsx
-npm notice 2.7kB src/editor/components/group/components/icon-group.tsx
-npm notice 191B src/editor/components/group/components/index.ts
-npm notice 2.2kB src/editor/components/group/components/node-render.tsx
-npm notice 865B src/editor/components/group/components/tips/global-store.ts
-npm notice 592B src/editor/components/group/components/tips/icon-close.tsx
-npm notice 1.1kB src/editor/components/group/components/tips/index.tsx
-npm notice 192B src/editor/components/group/components/tips/is-mac-os.ts
-npm notice 1.5kB src/editor/components/group/components/tips/style.ts
-npm notice 1.7kB src/editor/components/group/components/tips/use-control.ts
-npm notice 1.0kB src/editor/components/group/components/title.tsx
-npm notice 449B src/editor/components/group/components/tools.tsx
-npm notice 1.0kB src/editor/components/group/components/ungroup.tsx
-npm notice 232B src/editor/components/group/constant.ts
-npm notice 2.0kB src/editor/components/group/index.css
-npm notice 213B src/editor/components/group/index.ts
-npm notice 262B src/editor/components/index.ts
-npm notice 1.6kB src/editor/components/line-add-button/button.tsx
-npm notice 247B src/editor/components/line-add-button/index.scss
-npm notice 3.3kB src/editor/components/line-add-button/index.tsx
-npm notice 688B src/editor/components/line-add-button/use-visible.ts
-npm notice 1.1kB src/editor/components/node-comment/components/blank-area.tsx
-npm notice 2.9kB src/editor/components/node-comment/components/border-area.tsx
-npm notice 1.3kB src/editor/components/node-comment/components/container.tsx
-npm notice 2.7kB src/editor/components/node-comment/components/content-drag-area.tsx
-npm notice 1.1kB src/editor/components/node-comment/components/drag-area.tsx
-npm notice 1.7kB src/editor/components/node-comment/components/editor.tsx
-npm notice 2.0kB src/editor/components/node-comment/components/index.css
-npm notice 165B src/editor/components/node-comment/components/index.ts
-npm notice 675B src/editor/components/node-comment/components/more-button.tsx
-npm notice 2.6kB src/editor/components/node-comment/components/render.tsx
-npm notice 2.2kB src/editor/components/node-comment/components/resize-area.tsx
-npm notice 529B src/editor/components/node-comment/constant.ts
-npm notice 138B src/editor/components/node-comment/hooks/index.ts
-npm notice 1.5kB src/editor/components/node-comment/hooks/use-model.ts
-npm notice 1.3kB src/editor/components/node-comment/hooks/use-overflow.ts
-npm notice 4.6kB src/editor/components/node-comment/hooks/use-size.ts
-npm notice 146B src/editor/components/node-comment/index.ts
-npm notice 2.7kB src/editor/components/node-comment/model.ts
-npm notice 637B src/editor/components/node-comment/type.ts
-npm notice 3.9kB src/editor/components/node-menu/index.tsx
-npm notice 878B src/editor/components/node-panel/index.scss
-npm notice 1.4kB src/editor/components/node-panel/index.tsx
-npm notice 2.4kB src/editor/components/node-panel/node-list.tsx
-npm notice 1.0kB src/editor/components/node-panel/node-placeholder.tsx
-npm notice 734B src/editor/components/node-render.tsx
-npm notice 2.8kB src/editor/components/selector-box-popover/index.tsx
-npm notice 208B src/editor/components/sidebar/index.tsx
-npm notice 516B src/editor/components/sidebar/sidebar-node-renderer.tsx
-npm notice 472B src/editor/components/sidebar/sidebar-provider.tsx
-npm notice 2.6kB src/editor/components/sidebar/sidebar-renderer.tsx
-npm notice 1.4kB src/editor/components/tools.tsx
-npm notice 229B src/editor/context/index.ts
-npm notice 408B src/editor/context/node-render-context.ts
-npm notice 383B src/editor/context/sidebar-context.ts
-npm notice 10.0kB src/editor/data/initial-data.ts
-npm notice 1.4kB src/editor/data/node-registries.ts
-npm notice 933B src/editor/form-components/feedback.tsx
-npm notice 828B src/editor/form-components/form-content/index.tsx
-npm notice 510B src/editor/form-components/form-content/styles.tsx
-npm notice 231B src/editor/form-components/form-header/index.scss
-npm notice 1.8kB src/editor/form-components/form-header/index.tsx
-npm notice 665B src/editor/form-components/form-header/styles.tsx
-npm notice 1.4kB src/editor/form-components/form-header/title-input.tsx
-npm notice 443B src/editor/form-components/form-header/utils.tsx
-npm notice 1.7kB src/editor/form-components/form-inputs/index.tsx
-npm notice 152B src/editor/form-components/form-inputs/styles.tsx
-npm notice 251B src/editor/form-components/form-item/index.css
-npm notice 1.7kB src/editor/form-components/form-item/index.tsx
-npm notice 946B src/editor/form-components/form-outputs/index.tsx
-npm notice 275B src/editor/form-components/form-outputs/styles.tsx
-npm notice 379B src/editor/form-components/index.ts
-npm notice 4.0kB src/editor/form-components/properties-edit/index.tsx
-npm notice 2.5kB src/editor/form-components/properties-edit/property-edit.tsx
-npm notice 388B src/editor/form-components/properties-edit/styles.tsx
-npm notice 1.5kB src/editor/form-components/type-tag.tsx
-npm notice 591B src/editor/form-components/value-display/index.tsx
-npm notice 355B src/editor/form-components/value-display/styles.tsx
-npm notice 268B src/editor/hooks/index.ts
-npm notice 5.3kB src/editor/hooks/use-editor-props.tsx
-npm notice 259B src/editor/hooks/use-is-sidebar.ts
-npm notice 269B src/editor/hooks/use-node-render-context.ts
-npm notice 188B src/editor/index.ts
-npm notice 630B src/editor/nodes/comment/index.tsx
-npm notice 2.7kB src/editor/nodes/condition/condition-inputs/index.tsx
-npm notice 235B src/editor/nodes/condition/condition-inputs/styles.tsx
-npm notice 889B src/editor/nodes/condition/form-meta.tsx
-npm notice 1.1kB src/editor/nodes/condition/index.ts
-npm notice 249B src/editor/nodes/constants.ts
-npm notice 1.4kB src/editor/nodes/default-form-meta.tsx
-npm notice 2.4kB src/editor/nodes/end/form-meta.tsx
-npm notice 822B src/editor/nodes/end/index.ts
-npm notice 895B src/editor/nodes/index.ts
-npm notice 1.8kB src/editor/nodes/llm/index.ts
-npm notice 2.1kB src/editor/nodes/loop/index.ts
-npm notice 1.7kB src/editor/nodes/loop/loop-form-render.tsx
-npm notice 1.6kB src/editor/nodes/start/form-meta.tsx
-npm notice 868B src/editor/nodes/start/index.ts
-npm notice 1.7kB src/editor/plugins/context-menu-plugin/context-menu-layer.tsx
-npm notice 768B src/editor/plugins/context-menu-plugin/context-menu-plugin.ts
-npm notice 165B src/editor/plugins/context-menu-plugin/index.ts
-npm notice 165B src/editor/plugins/index.ts
-npm notice 904B src/editor/shortcuts/collapse/index.ts
-npm notice 507B src/editor/shortcuts/constants.ts
-npm notice 6.2kB src/editor/shortcuts/copy/index.ts
-npm notice 3.2kB src/editor/shortcuts/delete/index.ts
-npm notice 898B src/editor/shortcuts/expand/index.ts
-npm notice 158B src/editor/shortcuts/index.ts
-npm notice 6.2kB src/editor/shortcuts/paste/index.ts
-npm notice 5.9kB src/editor/shortcuts/paste/traverse.ts
-npm notice 4.2kB src/editor/shortcuts/paste/unique-workflow.ts
-npm notice 858B src/editor/shortcuts/select-all/index.ts
-npm notice 921B src/editor/shortcuts/shortcuts.ts
-npm notice 607B src/editor/shortcuts/type.ts
-npm notice 786B src/editor/shortcuts/zoom-in/index.ts
-npm notice 789B src/editor/shortcuts/zoom-out/index.ts
-npm notice 121B src/editor/style/index.css
-npm notice 198B src/editor/style/var.css
-npm notice 70B src/editor/typings/flow-value/config.json
-npm notice 627B src/editor/typings/flow-value/index.ts
-npm notice 185B src/editor/typings/index.ts
-npm notice 71B src/editor/typings/json-schema/config.json
-npm notice 270B src/editor/typings/json-schema/index.ts
-npm notice 1.9kB src/editor/typings/node.ts
-npm notice 152B src/editor/utils/index.ts
-npm notice 2.6kB src/editor/utils/on-drag-line-end.ts
-npm notice 860B tsconfig.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.demo-nextjs-antd
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.demo-nextjs-antd-0.2.28-9.tgz
-npm notice package size: 186.5 kB
-npm notice unpacked size: 486.0 kB
-npm notice shasum: 7e603ffcfabaa4b7e9151f864fc0eb1b57842dfe
-npm notice integrity: sha512-8nvBXOGVGJsPf[...]aRfG7D4aJlGYQ==
-npm notice total files: 165
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-nextjs-antd@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-nextjs-antd_v0.2.28-9 -m @q/flowgram.ai.demo-nextjs-antd v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-playground)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.demo-playground@0.2.28-9
-npm notice Tarball Contents
-npm notice 411B .eslintrc.js
-npm notice 339B index.html
-npm notice 1.5kB package.json
-npm notice 374B rsbuild.config.ts
-npm notice 287B src/app.tsx
-npm notice 2.1kB src/components/card.tsx
-npm notice 977B src/components/playground-tools.tsx
-npm notice 1.9kB src/editor.tsx
-npm notice 145B src/index.tsx
-npm notice 609B tsconfig.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.demo-playground
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.demo-playground-0.2.28-9.tgz
-npm notice package size: 3.4 kB
-npm notice unpacked size: 8.6 kB
-npm notice shasum: fe936405e0821bc4342487b09234255216c0ce32
-npm notice integrity: sha512-tk9LN9JSbl3dE[...]4erkU9S6gJKpg==
-npm notice total files: 10
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-playground@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-playground_v0.2.28-9 -m @q/flowgram.ai.demo-playground v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-react-16)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.demo-react-16@0.2.28-9
-npm notice Tarball Contents
-npm notice 495B .eslintrc.js
-npm notice 339B index.html
-npm notice 1.6kB package.json
-npm notice 663B rsbuild.config.ts
-npm notice 288B src/app.tsx
-npm notice 939B src/components/minimap.tsx
-npm notice 851B src/components/node-add-panel.tsx
-npm notice 1.3kB src/components/tools.tsx
-npm notice 918B src/editor.tsx
-npm notice 4.2kB src/hooks/use-editor-props.tsx
-npm notice 2.5kB src/index.css
-npm notice 153B src/index.tsx
-npm notice 973B src/initial-data.ts
-npm notice 933B src/node-registries.ts
-npm notice 609B tsconfig.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.demo-react-16
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.demo-react-16-0.2.28-9.tgz
-npm notice package size: 5.5 kB
-npm notice unpacked size: 16.9 kB
-npm notice shasum: 9e43894330416b9b757343e87f551b2d1694d146
-npm notice integrity: sha512-UcsypH69qbvic[...]GcbrWpveQ6I1A==
-npm notice total files: 15
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-react-16@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-react-16_v0.2.28-9 -m @q/flowgram.ai.demo-react-16 v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (apps/demo-vite)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.demo-vite@0.2.28-9
-npm notice Tarball Contents
-npm notice 445B .eslintrc.js
-npm notice 394B index.html
-npm notice 1.5kB package.json
-npm notice 267B src/app.tsx
-npm notice 911B src/components/minimap.tsx
-npm notice 851B src/components/node-add-panel.tsx
-npm notice 1.3kB src/components/tools.tsx
-npm notice 890B src/editor.tsx
-npm notice 4.2kB src/hooks/use-editor-props.tsx
-npm notice 2.5kB src/index.css
-npm notice 153B src/index.tsx
-npm notice 973B src/initial-data.ts
-npm notice 933B src/node-registries.ts
-npm notice 609B tsconfig.json
-npm notice 264B vite.config.js
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.demo-vite
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.demo-vite-0.2.28-9.tgz
-npm notice package size: 5.4 kB
-npm notice unpacked size: 16.3 kB
-npm notice shasum: 2b8833880b67d073f5c7e5c7d4e3422c244791c7
-npm notice integrity: sha512-HizwO/o9tDphQ[...]PuWgyVqwMv7mA==
-npm notice total files: 15
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.demo-vite@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.demo-vite_v0.2.28-9 -m @q/flowgram.ai.demo-vite v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/canvas-engine/document)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.document@0.2.28-9
-npm notice Tarball Contents
-npm notice 97.4kB dist/esm/index.js
-npm notice 205.0kB dist/esm/index.js.map
-npm notice 52.5kB dist/index.d.mts
-npm notice 52.5kB dist/index.d.ts
-npm notice 101.3kB dist/index.js
-npm notice 205.1kB dist/index.js.map
-npm notice 1.8kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.document
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.document-0.2.28-9.tgz
-npm notice package size: 153.7 kB
-npm notice unpacked size: 715.5 kB
-npm notice shasum: 75691759f201f182290136da109a3f9ed5cf4927
-npm notice integrity: sha512-+ah88ujzHQ94p[...]9AQYsUbyno0xA==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.document@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.document_v0.2.28-9 -m @q/flowgram.ai.document v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/client/editor)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.editor@0.2.28-9
-npm notice Tarball Contents
-npm notice 12.9kB dist/esm/index.js
-npm notice 28.5kB dist/esm/index.js.map
-npm notice 8.3kB dist/index.d.mts
-npm notice 8.3kB dist/index.d.ts
-npm notice 17.5kB dist/index.js
-npm notice 28.5kB dist/index.js.map
-npm notice 2.6kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.editor
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.editor-0.2.28-9.tgz
-npm notice package size: 14.1 kB
-npm notice unpacked size: 106.6 kB
-npm notice shasum: 1a2e8c73dd48e46d832170d12e1ec90da4c3bf69
-npm notice integrity: sha512-BsCVTSSvNFBIl[...]cDnyisbGweEDw==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.editor@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.editor_v0.2.28-9 -m @q/flowgram.ai.editor v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (config/eslint-config)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.eslint-config@0.2.28-9
-npm notice Tarball Contents
-npm notice 37B .eslintignore
-npm notice 5.1kB .eslintrc.base.js
-npm notice 415B .eslintrc.js
-npm notice 433B .eslintrc.node.js
-npm notice 641B .eslintrc.web.js
-npm notice 50B .rush/temp/chunked-rush-logs/eslint-config.build.chunks.jsonl
-npm notice 50B .rush/temp/chunked-rush-logs/flowgram.ai.eslint-config.build.chunks.jsonl
-npm notice 1.1kB .rush/temp/package-deps_build.json
-npm notice 66.8kB .rush/temp/shrinkwrap-deps.json
-npm notice 219B CHANGELOG.json
-npm notice 201B CHANGELOG.md
-npm notice 590B dist/defineConfig.d.ts
-npm notice 1.1kB dist/defineConfig.js
-npm notice 1.6kB package.json
-npm notice 0B rush-logs/eslint-config.build.error.log
-npm notice 26B rush-logs/eslint-config.build.log
-npm notice 0B rush-logs/flowgram.ai.eslint-config.build.error.log
-npm notice 26B rush-logs/flowgram.ai.eslint-config.build.log
-npm notice 1.1kB src/defineConfig.ts
-npm notice 259B src/index.js
-npm notice 217B tsconfig.json
-npm notice 287.5kB tsconfig.tsbuildinfo
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.eslint-config
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.eslint-config-0.2.28-9.tgz
-npm notice package size: 102.8 kB
-npm notice unpacked size: 367.5 kB
-npm notice shasum: 350128c44a8b7c88ac1b13a914f3221f2e54e3a3
-npm notice integrity: sha512-X3z82pi0eNvYQ[...]yNgoHW4Z7mjSw==
-npm notice total files: 22
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.eslint-config@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.eslint-config_v0.2.28-9 -m @q/flowgram.ai.eslint-config v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/plugins/fixed-drag-plugin)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.fixed-drag-plugin@0.2.28-9
-npm notice Tarball Contents
-npm notice 1.0kB dist/esm/index.js
-npm notice 2.4kB dist/esm/index.js.map
-npm notice 1.3kB dist/index.d.mts
-npm notice 1.3kB dist/index.d.ts
-npm notice 2.2kB dist/index.js
-npm notice 2.7kB dist/index.js.map
-npm notice 1.7kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.fixed-drag-plugin
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.fixed-drag-plugin-0.2.28-9.tgz
-npm notice package size: 3.1 kB
-npm notice unpacked size: 12.8 kB
-npm notice shasum: 2f605facfe9732133133070de8ab1741bb92ee46
-npm notice integrity: sha512-sjHt8a3jcBreZ[...]qo36LQJuKn68Q==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.fixed-drag-plugin@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.fixed-drag-plugin_v0.2.28-9 -m @q/flowgram.ai.fixed-drag-plugin v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/plugins/fixed-history-plugin)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.fixed-history-plugin@0.2.28-9
-npm notice Tarball Contents
-npm notice 29.9kB dist/esm/index.js
-npm notice 62.0kB dist/esm/index.js.map
-npm notice 7.2kB dist/index.d.mts
-npm notice 7.2kB dist/index.d.ts
-npm notice 32.3kB dist/index.js
-npm notice 61.3kB dist/index.js.map
-npm notice 1.7kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.fixed-history-plugin
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.fixed-history-plugin-0.2.28-9.tgz
-npm notice package size: 27.7 kB
-npm notice unpacked size: 201.5 kB
-npm notice shasum: efaf76a42fb0328e4abf456fab09dd9ebea53642
-npm notice integrity: sha512-NARVgLFjXhpW/[...]v2xyK4GSryy/w==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.fixed-history-plugin@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.fixed-history-plugin_v0.2.28-9 -m @q/flowgram.ai.fixed-history-plugin v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/canvas-engine/fixed-layout-core)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.fixed-layout-core@0.2.28-9
-npm notice Tarball Contents
-npm notice 73.1kB dist/esm/index.js
-npm notice 136.6kB dist/esm/index.js.map
-npm notice 1.7kB dist/index.d.mts
-npm notice 1.7kB dist/index.d.ts
-npm notice 74.7kB dist/index.js
-npm notice 132.6kB dist/index.js.map
-npm notice 1.8kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.fixed-layout-core
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.fixed-layout-core-0.2.28-9.tgz
-npm notice package size: 70.4 kB
-npm notice unpacked size: 422.2 kB
-npm notice shasum: c11c4f798deb3645979a59655ef8b281d50a8435
-npm notice integrity: sha512-N3aKj2Q3sR6WZ[...]g4pfovaPCNlmQ==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.fixed-layout-core@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.fixed-layout-core_v0.2.28-9 -m @q/flowgram.ai.fixed-layout-core v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/client/fixed-layout-editor)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.fixed-layout-editor@0.2.28-9
-npm notice Tarball Contents
-npm notice 23.4kB dist/esm/index.js
-npm notice 48.6kB dist/esm/index.js.map
-npm notice 7.1kB dist/index.d.mts
-npm notice 7.1kB dist/index.d.ts
-npm notice 26.9kB dist/index.js
-npm notice 47.6kB dist/index.js.map
-npm notice 3.2kB index.css
-npm notice 2.3kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.fixed-layout-editor
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.fixed-layout-editor-0.2.28-9.tgz
-npm notice package size: 33.9 kB
-npm notice unpacked size: 166.3 kB
-npm notice shasum: 4a8664012d0196d461b2ad91d778fd396219f5a4
-npm notice integrity: sha512-vDpUVMibIONM7[...]FP8gvHJfWIOAA==
-npm notice total files: 8
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.fixed-layout-editor@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.fixed-layout-editor_v0.2.28-9 -m @q/flowgram.ai.fixed-layout-editor v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/materials/fixed-semi-materials)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.fixed-semi-materials@0.2.28-9
-npm notice Tarball Contents
-npm notice 29.8kB dist/esm/index.js
-npm notice 49.5kB dist/esm/index.js.map
-npm notice 2.9kB dist/index.d.mts
-npm notice 2.9kB dist/index.d.ts
-npm notice 34.5kB dist/index.js
-npm notice 49.4kB dist/index.js.map
-npm notice 1.9kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.fixed-semi-materials
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.fixed-semi-materials-0.2.28-9.tgz
-npm notice package size: 34.2 kB
-npm notice unpacked size: 171.0 kB
-npm notice shasum: a1249216fd0a2dd9b807649335cbac7c17883631
-npm notice integrity: sha512-TgmH7n/Igt6Fx[...]0cdh8Fs/qYtIQ==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.fixed-semi-materials@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.fixed-semi-materials_v0.2.28-9 -m @q/flowgram.ai.fixed-semi-materials v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/node-engine/form)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.form@0.2.28-9
-npm notice Tarball Contents
-npm notice 49.8kB dist/esm/index.js
-npm notice 117.0kB dist/esm/index.js.map
-npm notice 27.4kB dist/index.d.mts
-npm notice 27.4kB dist/index.d.ts
-npm notice 53.4kB dist/index.js
-npm notice 117.2kB dist/index.js.map
-npm notice 1.8kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.form
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.form-0.2.28-9.tgz
-npm notice package size: 82.5 kB
-npm notice unpacked size: 394.0 kB
-npm notice shasum: 6c325524ba9ada8f6b06131399f8239e5f3c596a
-npm notice integrity: sha512-jAYmzxXWy9No/[...]U+MmF8OjDwcnQ==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.form@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.form_v0.2.28-9 -m @q/flowgram.ai.form v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/materials/form-antd-materials)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.form-antd-materials@0.2.28-9
-npm notice Tarball Contents
-npm notice 75.9kB dist/esm/index.js
-npm notice 131.2kB dist/esm/index.js.map
-npm notice 11.8kB dist/index.d.mts
-npm notice 11.8kB dist/index.d.ts
-npm notice 83.6kB dist/index.js
-npm notice 131.2kB dist/index.js.map
-npm notice 1.9kB package.json
-npm notice 102B src/components/batch-variable-selector/config.json
-npm notice 623B src/components/batch-variable-selector/index.tsx
-npm notice 192B src/components/condition-row/config.json
-npm notice 2.5kB src/components/condition-row/constants.ts
-npm notice 538B src/components/condition-row/hooks/styles.tsx
-npm notice 1.4kB src/components/condition-row/hooks/useOp.tsx
-npm notice 869B src/components/condition-row/hooks/useRule.ts
-npm notice 2.4kB src/components/condition-row/index.tsx
-npm notice 517B src/components/condition-row/styles.tsx
-npm notice 927B src/components/condition-row/types.ts
-npm notice 96B src/components/constant-input/config.json
-npm notice 2.2kB src/components/constant-input/index.tsx
-npm notice 753B src/components/constant-input/styles.tsx
-npm notice 525B src/components/constant-input/types.ts
-npm notice 149B src/components/dynamic-value-input/config.json
-npm notice 2.4kB src/components/dynamic-value-input/index.tsx
-npm notice 570B src/components/dynamic-value-input/styles.tsx
-npm notice 357B src/components/index.ts
-npm notice 530B src/components/json-schema-editor/components/blur-input.tsx
-npm notice 135B src/components/json-schema-editor/config.json
-npm notice 4.0kB src/components/json-schema-editor/default-value.tsx
-npm notice 4.7kB src/components/json-schema-editor/hooks.tsx
-npm notice 7.6kB src/components/json-schema-editor/index.tsx
-npm notice 5.2kB src/components/json-schema-editor/styles.tsx
-npm notice 646B src/components/json-schema-editor/types.ts
-npm notice 999B src/components/json-schema-editor/utils.ts
-npm notice 94B src/components/type-selector/config.json
-npm notice 24.2kB src/components/type-selector/constants.tsx
-npm notice 1.6kB src/components/type-selector/index.tsx
-npm notice 155B src/components/variable-selector/config.json
-npm notice 2.0kB src/components/variable-selector/index.tsx
-npm notice 929B src/components/variable-selector/styles.tsx
-npm notice 452B src/components/variable-selector/types.ts
-npm notice 3.0kB src/components/variable-selector/use-variable-tree.tsx
-npm notice 95B src/effects/auto-rename-ref/config.json
-npm notice 2.6kB src/effects/auto-rename-ref/index.ts
-npm notice 301B src/effects/index.ts
-npm notice 91B src/effects/provide-batch-input/config.json
-npm notice 1.2kB src/effects/provide-batch-input/index.ts
-npm notice 93B src/effects/provide-batch-outputs/config.json
-npm notice 1.1kB src/effects/provide-batch-outputs/index.ts
-npm notice 141B src/effects/provide-json-schema-outputs/config.json
-npm notice 774B src/effects/provide-json-schema-outputs/index.ts
-npm notice 79B src/effects/sync-variable-title/config.json
-npm notice 704B src/effects/sync-variable-title/index.ts
-npm notice 100B src/form-plugins/batch-outputs-plugin/config.json
-npm notice 2.9kB src/form-plugins/batch-outputs-plugin/index.ts
-npm notice 171B src/form-plugins/index.ts
-npm notice 241B src/index.ts
-npm notice 70B src/typings/flow-value/config.json
-npm notice 627B src/typings/flow-value/index.ts
-npm notice 161B src/typings/index.ts
-npm notice 71B src/typings/json-schema/config.json
-npm notice 812B src/typings/json-schema/index.ts
-npm notice 77B src/utils/format-legacy-refs/config.json
-npm notice 3.8kB src/utils/format-legacy-refs/index.ts
-npm notice 831B src/utils/format-legacy-refs/readme.md
-npm notice 197B src/utils/index.ts
-npm notice 100B src/utils/json-schema/config.json
-npm notice 4.9kB src/utils/json-schema/index.ts
-npm notice 331B src/utils/svg-icon/index.tsx
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.form-antd-materials
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.form-antd-materials-0.2.28-9.tgz
-npm notice package size: 129.9 kB
-npm notice unpacked size: 543.5 kB
-npm notice shasum: b770a3e57f9c7d11278946e69703f97d7ce0d848
-npm notice integrity: sha512-EQ4dKFxpKptkD[...]wuFYj83JYeGwA==
-npm notice total files: 68
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.form-antd-materials@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.form-antd-materials_v0.2.28-9 -m @q/flowgram.ai.form-antd-materials v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/node-engine/form-core)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.form-core@0.2.28-9
-npm notice Tarball Contents
-npm notice 25.7kB dist/esm/index.js
-npm notice 56.8kB dist/esm/index.js.map
-npm notice 26.7kB dist/index.d.mts
-npm notice 26.7kB dist/index.d.ts
-npm notice 29.7kB dist/index.js
-npm notice 56.4kB dist/index.js.map
-npm notice 1.9kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.form-core
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.form-core-0.2.28-9.tgz
-npm notice package size: 36.7 kB
-npm notice unpacked size: 223.9 kB
-npm notice shasum: 8ee2525901151e776f158990b5de4dfd3e571be7
-npm notice integrity: sha512-J+kUIKYEpUHD3[...]4PQ3Ej41ls5Jw==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.form-core@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.form-core_v0.2.28-9 -m @q/flowgram.ai.form-core v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/materials/form-materials)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.form-materials@0.2.28-9
-npm notice Tarball Contents
-npm notice 3.5kB bin/index.ts
-npm notice 4.5kB bin/materials.ts
-npm notice 2.7kB bin/project.ts
-npm notice 121.6kB dist/esm/index.js
-npm notice 214.8kB dist/esm/index.js.map
-npm notice 15.9kB dist/index.d.mts
-npm notice 15.9kB dist/index.d.ts
-npm notice 133.7kB dist/index.js
-npm notice 213.8kB dist/index.js.map
-npm notice 2.3kB package.json
-npm notice 221B src/components/batch-outputs/config.json
-npm notice 1.5kB src/components/batch-outputs/index.tsx
-npm notice 346B src/components/batch-outputs/styles.tsx
-npm notice 472B src/components/batch-outputs/types.ts
-npm notice 102B src/components/batch-variable-selector/config.json
-npm notice 623B src/components/batch-variable-selector/index.tsx
-npm notice 186B src/components/code-editor/config.json
-npm notice 2.1kB src/components/code-editor/index.tsx
-npm notice 851B src/components/code-editor/language-features.ts
-npm notice 2.3kB src/components/code-editor/theme/dark.ts
-npm notice 308B src/components/code-editor/theme/index.ts
-npm notice 2.3kB src/components/code-editor/theme/light.ts
-npm notice 398B src/components/code-editor/utils.ts
-npm notice 213B src/components/condition-row/config.json
-npm notice 2.5kB src/components/condition-row/constants.ts
-npm notice 1.2kB src/components/condition-row/hooks/useOp.tsx
-npm notice 843B src/components/condition-row/hooks/useRule.ts
-npm notice 2.3kB src/components/condition-row/index.tsx
-npm notice 517B src/components/condition-row/styles.tsx
-npm notice 927B src/components/condition-row/types.ts
-npm notice 115B src/components/constant-input/config.json
-npm notice 2.5kB src/components/constant-input/index.tsx
-npm notice 571B src/components/constant-input/types.ts
-npm notice 194B src/components/dynamic-value-input/config.json
-npm notice 4.2kB src/components/dynamic-value-input/index.tsx
-npm notice 888B src/components/dynamic-value-input/styles.tsx
-npm notice 626B src/components/index.ts
-npm notice 200B src/components/inputs-values/config.json
-npm notice 1.9kB src/components/inputs-values/index.tsx
-npm notice 346B src/components/inputs-values/styles.tsx
-npm notice 501B src/components/inputs-values/types.ts
-npm notice 254B src/components/json-editor-with-variables/config.json
-npm notice 3.9kB src/components/json-editor-with-variables/extensions/variable-tag.tsx
-npm notice 2.0kB src/components/json-editor-with-variables/extensions/variable-tree.tsx
-npm notice 1.7kB src/components/json-editor-with-variables/index.tsx
-npm notice 867B src/components/json-editor-with-variables/styles.tsx
-npm notice 576B src/components/json-schema-editor/components/blur-input.tsx
-npm notice 231B src/components/json-schema-editor/config.json
-npm notice 4.0kB src/components/json-schema-editor/default-value.tsx
-npm notice 4.8kB src/components/json-schema-editor/hooks.tsx
-npm notice 8.3kB src/components/json-schema-editor/index.tsx
-npm notice 5.5kB src/components/json-schema-editor/styles.tsx
-npm notice 646B src/components/json-schema-editor/types.ts
-npm notice 999B src/components/json-schema-editor/utils.ts
-npm notice 248B src/components/prompt-editor-with-inputs/config.json
-npm notice 2.0kB src/components/prompt-editor-with-inputs/extensions/inputs-tree.tsx
-npm notice 604B src/components/prompt-editor-with-inputs/index.tsx
-npm notice 2.6kB src/components/prompt-editor-with-inputs/inputs-picker.tsx
-npm notice 258B src/components/prompt-editor-with-variables/config.json
-npm notice 4.1kB src/components/prompt-editor-with-variables/extensions/variable-tag.tsx
-npm notice 2.0kB src/components/prompt-editor-with-variables/extensions/variable-tree.tsx
-npm notice 516B src/components/prompt-editor-with-variables/index.tsx
-npm notice 867B src/components/prompt-editor-with-variables/styles.tsx
-npm notice 170B src/components/prompt-editor/config.json
-npm notice 1.4kB src/components/prompt-editor/extensions/jinja.tsx
-npm notice 457B src/components/prompt-editor/extensions/language-support.tsx
-npm notice 1.7kB src/components/prompt-editor/extensions/markdown.tsx
-npm notice 1.9kB src/components/prompt-editor/index.tsx
-npm notice 416B src/components/prompt-editor/styles.tsx
-npm notice 486B src/components/prompt-editor/types.tsx
-npm notice 137B src/components/type-selector/config.json
-npm notice 24.0kB src/components/type-selector/constants.tsx
-npm notice 1.8kB src/components/type-selector/index.tsx
-npm notice 176B src/components/variable-selector/config.json
-npm notice 3.9kB src/components/variable-selector/index.tsx
-npm notice 1.4kB src/components/variable-selector/styles.tsx
-npm notice 3.1kB src/components/variable-selector/use-variable-tree.tsx
-npm notice 95B src/effects/auto-rename-ref/config.json
-npm notice 4.0kB src/effects/auto-rename-ref/index.ts
-npm notice 260B src/effects/index.ts
-npm notice 91B src/effects/provide-batch-input/config.json
-npm notice 1.2kB src/effects/provide-batch-input/index.ts
-npm notice 141B src/effects/provide-json-schema-outputs/config.json
-npm notice 774B src/effects/provide-json-schema-outputs/index.ts
-npm notice 79B src/effects/sync-variable-title/config.json
-npm notice 704B src/effects/sync-variable-title/index.ts
-npm notice 100B src/form-plugins/batch-outputs-plugin/config.json
-npm notice 2.9kB src/form-plugins/batch-outputs-plugin/index.ts
-npm notice 179B src/form-plugins/index.ts
-npm notice 99B src/form-plugins/infer-inputs-plugin/config.json
-npm notice 2.6kB src/form-plugins/infer-inputs-plugin/index.ts
-npm notice 135B src/hooks/index.tsx
-npm notice 105B src/hooks/use-object-list/config.json
-npm notice 2.7kB src/hooks/use-object-list/index.tsx
-npm notice 241B src/index.ts
-npm notice 99B src/typings/flow-value/config.json
-npm notice 698B src/typings/flow-value/index.ts
-npm notice 161B src/typings/index.ts
-npm notice 71B src/typings/json-schema/config.json
-npm notice 812B src/typings/json-schema/index.ts
-npm notice 77B src/utils/format-legacy-refs/config.json
-npm notice 3.8kB src/utils/format-legacy-refs/index.ts
-npm notice 831B src/utils/format-legacy-refs/readme.md
-npm notice 169B src/utils/index.ts
-npm notice 100B src/utils/json-schema/config.json
-npm notice 4.9kB src/utils/json-schema/index.ts
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.form-materials
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.form-materials-0.2.28-9.tgz
-npm notice package size: 192.5 kB
-npm notice unpacked size: 877.1 kB
-npm notice shasum: ba0e0adce7a4221fa3bf6e6427fcd35a234bffe9
-npm notice integrity: sha512-PERyjj3s/wGAi[...]RsUYxEjJol/UA==
-npm notice total files: 106
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-+ @q/flowgram.ai.form-materials@0.2.28-9
-
-* EXECUTING: /usr/bin/git tag -a @q/flowgram.ai.form-materials_v0.2.28-9 -m @q/flowgram.ai.form-materials v0.2.28-9 
-
-* EXECUTING: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/pnpm-local/node_modules/.bin/pnpm publish --force --no-git-checks (packages/plugins/free-auto-layout-plugin)
- WARN  using --force I sure hope you know what you are doing
-npm warn using --force Recommended protections disabled.
-npm notice
-npm notice 📦  @q/flowgram.ai.free-auto-layout-plugin@0.2.28-9
-npm notice Tarball Contents
-npm notice 75.9kB dist/esm/index.js
-npm notice 171.8kB dist/esm/index.js.map
-npm notice 9.8kB dist/index.d.mts
-npm notice 9.8kB dist/index.d.ts
-npm notice 77.4kB dist/index.js
-npm notice 171.8kB dist/index.js.map
-npm notice 1.9kB package.json
-npm notice Tarball Details
-npm notice name: @q/flowgram.ai.free-auto-layout-plugin
-npm notice version: 0.2.28-9
-npm notice filename: q-flowgram.ai.free-auto-layout-plugin-0.2.28-9.tgz
-npm notice package size: 122.2 kB
-npm notice unpacked size: 518.4 kB
-npm notice shasum: f68cf723b80dc18988b08080399e162ad3e35eba
-npm notice integrity: sha512-U4UrYKl8b8h19[...]uBSLvjTOnoQJg==
-npm notice total files: 7
-npm notice
-npm notice Publishing to https://registry.qnpm.qihoo.net with tag latest and public access
-npm error code E403
-npm error 403 403 Forbidden - PUT https://registry.qnpm.qihoo.net/@q%2fflowgram.ai.free-auto-layout-plugin - forbidden user
-npm error 403 In most cases, you or one of your dependencies are requesting
-npm error 403 a package version that is forbidden by your security policy, or
-npm error 403 on a server you do not have access to.
-npm error A complete log of this run can be found in: /Users/qihoo/Documents/A_Code/Fork/flowgram.ai/common/temp/publish-home/.npm/_logs/2025-07-31T13_23_43_184Z-debug-0.log
-
-[31mERROR: Process exited with code 1[39m
-  - ✅ 包发布完成
-📋 步骤 9/9: 提交代码到Git仓库
-[feature/v0.2.28 cbb0b97d] release: publish 0.2.28-9
- 63 files changed, 430 insertions(+), 440 deletions(-)
-  - 推送到现有分支...
-To https://github.com/afk101/flowgram.ai.git
-   6251d80e..cbb0b97d  feature/v0.2.28 -> feature/v0.2.28
-remote: Begin check your commit info        
-remote: 
-remote: To create a merge request for feature/v0.2.28, visit:        
-remote:   https://code.geelib.qihoo.net:11443/Agent/flowgram/-/merge_requests/new?merge_request%5Bsource_branch%5D=feature%2Fv0.2.28        
-remote: 
-To https://code.geelib.qihoo.net:11443/Agent/flowgram.git
-   6251d80e..cbb0b97d  feature/v0.2.28 -> feature/v0.2.28
-  - ✅ 代码提交完成
-================================
-🎉 发布脚本执行完成！
-📅 发布结束时间: 2025年 7月31日 星期四 21时23分50秒 CST
-
-📊 执行总结:
-  - 分支: feature/v0.2.28
-  - 版本: 0.2.28-9
-  - 操作: 依赖更新 → 项目构建 → 版本升级 → 包发布 → 代码提交
-  - 状态: ✅ 全部完成
-
-📄 完整日志已保存到: publish.txt
