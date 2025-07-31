@@ -15,9 +15,11 @@ import {
   IIOCenter,
   ContextData,
   IMessageCenter,
+  ICache,
 } from '@flowgram.ai/runtime-interface';
 
 import { WorkflowRuntimeMessageCenter } from '@workflow/message';
+import { WorkflowRuntimeCache } from '@workflow/cache';
 import { uuid } from '@infra/utils';
 import { WorkflowRuntimeVariableStore } from '../variable';
 import { WorkflowRuntimeStatusCenter } from '../status';
@@ -29,6 +31,8 @@ import { WorkflowRuntimeDocument } from '../document';
 
 export class WorkflowRuntimeContext implements IContext {
   public readonly id: string;
+
+  public readonly cache: ICache;
 
   public readonly document: IDocument;
 
@@ -50,6 +54,7 @@ export class WorkflowRuntimeContext implements IContext {
 
   constructor(data: ContextData) {
     this.id = uuid();
+    this.cache = data.cache;
     this.document = data.document;
     this.variableStore = data.variableStore;
     this.state = data.state;
@@ -62,6 +67,7 @@ export class WorkflowRuntimeContext implements IContext {
 
   public init(params: InvokeParams): void {
     const { schema, inputs } = params;
+    this.cache.init();
     this.document.init(schema);
     this.variableStore.init();
     this.state.init();
@@ -77,6 +83,7 @@ export class WorkflowRuntimeContext implements IContext {
       subContext.dispose();
     });
     this.subContexts = [];
+    this.cache.dispose();
     this.document.dispose();
     this.variableStore.dispose();
     this.state.dispose();
@@ -88,10 +95,12 @@ export class WorkflowRuntimeContext implements IContext {
   }
 
   public sub(): IContext {
+    const cache = new WorkflowRuntimeCache();
     const variableStore = new WorkflowRuntimeVariableStore();
     variableStore.setParent(this.variableStore);
     const state = new WorkflowRuntimeState(variableStore);
     const contextData: ContextData = {
+      cache,
       document: this.document,
       ioCenter: this.ioCenter,
       snapshotCenter: this.snapshotCenter,
@@ -103,12 +112,14 @@ export class WorkflowRuntimeContext implements IContext {
     };
     const subContext = new WorkflowRuntimeContext(contextData);
     this.subContexts.push(subContext);
+    subContext.cache.init();
     subContext.variableStore.init();
     subContext.state.init();
     return subContext;
   }
 
   public static create(): IContext {
+    const cache = new WorkflowRuntimeCache();
     const document = new WorkflowRuntimeDocument();
     const variableStore = new WorkflowRuntimeVariableStore();
     const state = new WorkflowRuntimeState(variableStore);
@@ -123,6 +134,7 @@ export class WorkflowRuntimeContext implements IContext {
       messageCenter
     );
     return new WorkflowRuntimeContext({
+      cache,
       document,
       variableStore,
       state,

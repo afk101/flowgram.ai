@@ -23,7 +23,7 @@ export interface LLMExecutorInputs {
 }
 
 export class LLMExecutor implements INodeExecutor {
-  public type = FlowGramNode.LLM;
+  public readonly type = FlowGramNode.LLM;
 
   public async execute(context: ExecutionContext): Promise<ExecutionResult> {
     const inputs = context.inputs as LLMExecutorInputs;

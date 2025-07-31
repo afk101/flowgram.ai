@@ -4,6 +4,7 @@
  */
 
 import { FlowGramNode } from '@node/index';
+import { ISnapshot } from '../snapshot';
 import { INode } from '../document';
 import { IContext } from '../context';
 import { IContainer } from '../container';
@@ -14,6 +15,7 @@ export interface ExecutionContext {
   inputs: WorkflowInputs;
   container: IContainer;
   runtime: IContext;
+  snapshot: ISnapshot;
 }
 
 export interface ExecutionResult {

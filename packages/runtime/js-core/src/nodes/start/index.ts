@@ -11,7 +11,7 @@ import {
 } from '@flowgram.ai/runtime-interface';
 
 export class StartExecutor implements INodeExecutor {
-  public type = FlowGramNode.Start;
+  public readonly type = FlowGramNode.Start;
 
   public async execute(context: ExecutionContext): Promise<ExecutionResult> {
     return {

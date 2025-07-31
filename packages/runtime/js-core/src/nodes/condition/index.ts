@@ -13,12 +13,13 @@ import {
   WorkflowVariableType,
 } from '@flowgram.ai/runtime-interface';
 
+import { WorkflowRuntimeType } from '@infra/index';
 import { ConditionValue, Conditions } from './type';
 import { conditionRules } from './rules';
 import { conditionHandlers } from './handlers';
 
 export class ConditionExecutor implements INodeExecutor {
-  public type = FlowGramNode.Condition;
+  public readonly type = FlowGramNode.Condition;
 
   public async execute(context: ExecutionContext): Promise<ExecutionResult> {
     const conditions: Conditions = context.node.data?.conditions;
@@ -70,7 +71,7 @@ export class ConditionExecutor implements INodeExecutor {
         `Condition left type "${condition.leftType}" has no operator "${condition.operator}"`
       );
     }
-    if (ruleType !== condition.rightType) {
+    if (!WorkflowRuntimeType.isTypeEqual(ruleType, condition.rightType)) {
       return false;
     }
     return true;

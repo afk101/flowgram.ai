@@ -15,5 +15,6 @@ export * from '@flowgram.ai/free-layout-core';
 export * from './components';
 export * from './preset';
 export * from './hooks';
+export * from './tools';
 export * from '@flowgram.ai/free-history-plugin';
 export { useClientContext } from './hooks/use-client-context';

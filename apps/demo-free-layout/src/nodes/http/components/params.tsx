@@ -3,6 +3,26 @@
  * SPDX-License-Identifier: MIT
  */
 
+import { Field } from '@flowgram.ai/free-layout-editor';
+import { IFlowValue, InputsValues } from '@flowgram.ai/form-materials';
+
+import { useNodeRenderContext } from '../../../hooks';
+import { FormItem } from '../../../form-components';
+
 export function Params() {
-  return <div>params</div>;
+  const { readonly } = useNodeRenderContext();
+
+  return (
+    <FormItem name="params" type="object" vertical>
+      <Field<Record<string, IFlowValue | undefined> | undefined> name="paramsValues">
+        {({ field }) => (
+          <InputsValues
+            value={field.value}
+            onChange={(value) => field.onChange(value)}
+            readonly={readonly}
+          />
+        )}
+      </Field>
+    </FormItem>
+  );
 }

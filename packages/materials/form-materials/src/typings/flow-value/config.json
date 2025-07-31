@@ -1,5 +1,7 @@
 {
   "name": "flow-value",
-  "depMaterials": [],
+  "depMaterials": [
+    "typings/json-schema"
+  ],
   "depPackages": []
 }

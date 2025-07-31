@@ -79,7 +79,7 @@ export function InputsPicker({
   const treeData: TreeNodeData[] = useMemo(
     () =>
       Object.entries(inputsValues).map(([key, value]) => {
-        if (value.type === 'ref') {
+        if (value?.type === 'ref') {
           const variable = available.getByKeyPath(value.content || []);
 
           if (variable) {

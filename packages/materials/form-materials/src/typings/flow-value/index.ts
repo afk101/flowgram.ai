@@ -3,9 +3,12 @@
  * SPDX-License-Identifier: MIT
  */
 
+import { IJsonSchema } from '../json-schema';
+
 export interface IFlowConstantValue {
   type: 'constant';
   content?: string | number | boolean;
+  schema?: IJsonSchema;
 }
 
 export interface IFlowRefValue {

@@ -8,15 +8,15 @@ import React from 'react';
 import { Button, Input } from '@douyinfe/semi-ui';
 import { IconDelete, IconPlus } from '@douyinfe/semi-icons';
 
-import { useList } from './use-list';
 import { PropsType } from './types';
 import { VariableSelector } from '../variable-selector';
+import { useObjectList } from '../../hooks';
 import { UIRow, UIRows } from './styles';
 
 export function BatchOutputs(props: PropsType) {
   const { readonly, style } = props;
 
-  const { list, add, update, remove } = useList(props);
+  const { list, add, updateKey, updateValue, remove } = useObjectList(props);
 
   return (
     <div>
@@ -28,21 +28,13 @@ export function BatchOutputs(props: PropsType) {
               disabled={readonly}
               size="small"
               value={item.key}
-              onChange={(v) => update({ ...item, key: v })}
+              onChange={(v) => updateKey(item.id, v)}
             />
             <VariableSelector
               style={{ flexGrow: 1 }}
               readonly={readonly}
               value={item.value?.content}
-              onChange={(v) =>
-                update({
-                  ...item,
-                  value: {
-                    type: 'ref',
-                    content: v,
-                  },
-                })
-              }
+              onChange={(v) => updateValue(item.id, { type: 'ref', content: v })}
             />
             <Button
               disabled={readonly}

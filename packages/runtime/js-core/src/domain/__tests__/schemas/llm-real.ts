@@ -5,7 +5,7 @@
 
 import type { WorkflowSchema } from '@flowgram.ai/runtime-interface';
 
-export const basicLLMSchema: WorkflowSchema = {
+export const llmRealSchema: WorkflowSchema = {
   nodes: [
     {
       id: 'start_0',

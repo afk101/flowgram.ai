@@ -47,7 +47,7 @@
     "@flowgram.ai/ts-config": "workspace:*",
     "@flowgram.ai/eslint-config": "workspace:*",
     "@types/styled-components": "^5",
-    "typescript": "^5.0.4",
+    "typescript": "^5.8.3",
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^18",
     "@types/next": "^9.0.0",

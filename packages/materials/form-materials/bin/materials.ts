@@ -22,7 +22,7 @@ export interface Material {
   [key: string]: any; // For other properties from config.json
 }
 
-const _types: string[] = ['components', 'effects', 'utils', 'typings', 'form-plugins'];
+const _types: string[] = ['components', 'effects', 'utils', 'typings', 'form-plugins', 'hooks'];
 
 export function listAllMaterials(): Material[] {
   const _materials: Material[] = [];

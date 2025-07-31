@@ -11,9 +11,11 @@ import { IReporter } from '@runtime/reporter';
 import { IMessageCenter } from '@runtime/message';
 import { IIOCenter } from '@runtime/io-center';
 import { IDocument } from '@runtime/document';
+import { ICache } from '@runtime/cache';
 import { InvokeParams } from '@runtime/base';
 
 export interface ContextData {
+  cache: ICache;
   variableStore: IVariableStore;
   state: IState;
   document: IDocument;

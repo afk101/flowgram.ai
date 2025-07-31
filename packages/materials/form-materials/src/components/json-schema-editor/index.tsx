@@ -44,8 +44,9 @@ export function JsonSchemaEditor(props: {
   onChange?: (value: IJsonSchema) => void;
   config?: ConfigType;
   className?: string;
+  readonly?: boolean;
 }) {
-  const { value = { type: 'object' }, config = {}, onChange: onChangeProps } = props;
+  const { value = { type: 'object' }, config = {}, onChange: onChangeProps, readonly } = props;
   const { propertyList, onAddProperty, onRemoveProperty, onEditProperty } = usePropertiesEdit(
     value,
     onChangeProps
@@ -56,6 +57,7 @@ export function JsonSchemaEditor(props: {
       <UIProperties>
         {propertyList.map((_property, index) => (
           <PropertyEdit
+            readonly={readonly}
             key={_property.key}
             value={_property}
             config={config}
@@ -70,6 +72,7 @@ export function JsonSchemaEditor(props: {
         ))}
       </UIProperties>
       <Button
+        disabled={readonly}
         size="small"
         style={{ marginTop: 10, marginLeft: 16 }}
         icon={<IconPlus />}
@@ -86,6 +89,7 @@ function PropertyEdit(props: {
   config?: ConfigType;
   onChange?: (value: PropertyValueType) => void;
   onRemove?: () => void;
+  readonly?: boolean;
   $isLast?: boolean;
   $index?: number;
   $isFirst?: boolean;
@@ -97,6 +101,7 @@ function PropertyEdit(props: {
   const {
     value,
     config,
+    readonly,
     $level = 0,
     onChange: onChangeProps,
     onRemove,
@@ -155,6 +160,7 @@ function PropertyEdit(props: {
           <UIRow>
             <UIName>
               <BlurInput
+                disabled={readonly}
                 placeholder={config?.placeholder ?? 'Input Variable Name'}
                 size="small"
                 value={name}
@@ -164,6 +170,7 @@ function PropertyEdit(props: {
             <UIType>
               <TypeSelector
                 value={typeSelectorValue}
+                readonly={readonly}
                 onChange={(_value) => {
                   onChangeProps?.({
                     ...(value || {}),
@@ -174,12 +181,14 @@ function PropertyEdit(props: {
             </UIType>
             <UIRequired>
               <Checkbox
+                disabled={readonly}
                 checked={isPropertyRequired}
                 onChange={(e) => onChange('isPropertyRequired', e.target.checked)}
               />
             </UIRequired>
             <UIActions>
               <IconButton
+                disabled={readonly}
                 size="small"
                 theme="borderless"
                 icon={expand ? <IconShrink size="small" /> : <IconExpand size="small" />}
@@ -189,6 +198,7 @@ function PropertyEdit(props: {
               />
               {isDrilldownObject && (
                 <IconButton
+                  disabled={readonly}
                   size="small"
                   theme="borderless"
                   icon={<IconAddChildren />}
@@ -199,6 +209,7 @@ function PropertyEdit(props: {
                 />
               )}
               <IconButton
+                disabled={readonly}
                 size="small"
                 theme="borderless"
                 icon={<IconMinus size="small" />}
@@ -210,6 +221,7 @@ function PropertyEdit(props: {
             <UIExpandDetail>
               <UILabel>{config?.descTitle ?? 'Description'}</UILabel>
               <BlurInput
+                disabled={readonly}
                 size="small"
                 value={description}
                 onChange={(value) => onChange('description', value)}
@@ -240,6 +252,7 @@ function PropertyEdit(props: {
             <UIProperties $shrink={true}>
               {propertyList.map((_property, index) => (
                 <PropertyEdit
+                  readonly={readonly}
                   key={_property.key}
                   value={_property}
                   config={config}

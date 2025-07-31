@@ -4,6 +4,7 @@
   "depPackages": [
     "@coze-editor/editor@0.1.0-alpha.879fbb",
     "@codemirror/view",
-    "@codemirror/state"
+    "@codemirror/state",
+    "typescript"
   ]
 }

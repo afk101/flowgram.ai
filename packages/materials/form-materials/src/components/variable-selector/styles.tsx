@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { Tag, TreeSelect } from '@douyinfe/semi-ui';
 
 export const UIRootTitle = styled.div`
@@ -15,11 +15,16 @@ export const UIRootTitle = styled.div`
   color: var(--semi-color-text-2);
 `;
 
-export const UIVarName = styled.div`
+export const UIVarName = styled.div<{ $inSelector?: boolean }>`
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  min-width: 50%;
+
+  ${({ $inSelector }) =>
+    $inSelector &&
+    css`
+      min-width: 50%;
+    `}
 `;
 
 export const UITag = styled(Tag)`
@@ -34,18 +39,15 @@ export const UITag = styled(Tag)`
 
   &.semi-tag {
     margin: 0;
+    height: 22px;
   }
 `;
 
 export const UITreeSelect = styled(TreeSelect)<{ $error?: boolean }>`
   outline: ${({ $error }) => ($error ? '1px solid red' : 'none')};
 
-  height: 22px;
-  min-height: 22px;
-  line-height: 22px;
-
   & .semi-tree-select-selection {
-    padding: 0 2px;
+    padding: 0px;
     height: 22px;
   }
 
@@ -56,4 +58,12 @@ export const UITreeSelect = styled(TreeSelect)<{ $error?: boolean }>`
   & .semi-tree-select-selection-placeholder {
     padding-left: 10px;
   }
+`;
+
+export const UIPopoverContent = styled.div`
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
 `;

@@ -5,3 +5,4 @@
 
 export * from './node-into-container';
 export * from './sub-canvas';
+export { ContainerUtils } from './utils';

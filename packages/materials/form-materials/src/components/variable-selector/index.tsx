@@ -7,11 +7,12 @@ import React, { useMemo } from 'react';
 
 import { TriggerRenderProps } from '@douyinfe/semi-ui/lib/es/treeSelect';
 import { TreeNodeData } from '@douyinfe/semi-ui/lib/es/tree';
+import { Popover } from '@douyinfe/semi-ui';
 import { IconChevronDownStroked, IconIssueStroked } from '@douyinfe/semi-icons';
 
 import { IJsonSchema } from '../../typings/json-schema';
 import { useVariableTree } from './use-variable-tree';
-import { UIRootTitle, UITag, UITreeSelect, UIVarName } from './styles';
+import { UIPopoverContent, UIRootTitle, UITag, UITreeSelect, UIVarName } from './styles';
 
 interface PropTypes {
   value?: string[];
@@ -93,17 +94,35 @@ export const VariableSelector = ({
             );
           }
 
+          const rootIcon = renderIcon(_option.rootMeta?.icon || _option?.icon);
+
+          const rootTitle = (
+            <UIRootTitle>
+              {_option.rootMeta?.title ? `${_option.rootMeta?.title} -` : null}
+            </UIRootTitle>
+          );
+
           return (
-            <UITag
-              prefixIcon={renderIcon(_option.rootMeta?.icon || _option?.icon)}
-              closable={!readonly}
-              onClose={() => onChange(undefined)}
-            >
-              <UIRootTitle>
-                {_option.rootMeta?.title ? `${_option.rootMeta?.title} -` : null}
-              </UIRootTitle>
-              <UIVarName>{_option.label}</UIVarName>
-            </UITag>
+            <div>
+              <Popover
+                content={
+                  <UIPopoverContent>
+                    {rootIcon}
+                    {rootTitle}
+                    <UIVarName>{_option.keyPath.slice(1).join('.')}</UIVarName>
+                  </UIPopoverContent>
+                }
+              >
+                <UITag
+                  prefixIcon={rootIcon}
+                  closable={!readonly}
+                  onClose={() => onChange(undefined)}
+                >
+                  {rootTitle}
+                  <UIVarName $inSelector>{_option.label}</UIVarName>
+                </UITag>
+              </Popover>
+            </div>
           );
         }}
         showClear={false}

@@ -19,5 +19,6 @@ export interface RendererProps<Value = any> {
 export interface PropsType extends RendererProps {
   schema: IJsonSchema;
   strategies?: Strategy[];
+  fallbackRenderer?: React.FC<RendererProps>;
   [key: string]: any;
 }

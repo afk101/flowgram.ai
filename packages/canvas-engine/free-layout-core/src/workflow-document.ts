@@ -27,7 +27,7 @@ import {
   WorkflowDocumentOptionsDefault,
 } from './workflow-document-option';
 import { getFlowNodeFormData } from './utils/flow-node-form-data';
-import { delay, fitView, getAntiOverlapPosition } from './utils';
+import { buildGroupJSON, delay, fitView, getAntiOverlapPosition } from './utils';
 import {
   type WorkflowContentChangeEvent,
   WorkflowContentChangeType,
@@ -646,10 +646,11 @@ export class WorkflowDocument extends FlowDocument {
    */
   toJSON(): WorkflowJSON {
     const rootJSON = this.toNodeJSON(this.root);
-    return {
+    const json = {
       nodes: rootJSON.blocks ?? [],
       edges: rootJSON.edges ?? [],
     };
+    return json;
   }
 
   dispose() {
@@ -673,11 +674,12 @@ export class WorkflowDocument extends FlowDocument {
     const { parent = this.root, isClone = false } = options ?? {};
     // 创建节点
     const containerID = this.getNodeSubCanvas(parent)?.canvasNode.id ?? parent.id;
-    const nodes = json.nodes.map((nodeJSON: WorkflowNodeJSON) =>
+    const processedJSON = buildGroupJSON(json);
+    const nodes = processedJSON.nodes.map((nodeJSON: WorkflowNodeJSON) =>
       this.createWorkflowNode(nodeJSON, isClone, containerID)
     );
     // 创建线条
-    const edges = json.edges
+    const edges = processedJSON.edges
       .map((edge) => this.createWorkflowLine(edge, containerID))
       .filter(Boolean) as WorkflowLineEntity[];
     return { nodes, edges };
@@ -691,18 +693,26 @@ export class WorkflowDocument extends FlowDocument {
   }
 
   private getNodeChildren(node: WorkflowNodeEntity): WorkflowNodeEntity[] {
-    if (!node) return [];
+    if (!node || node.flowNodeType === FlowNodeBaseType.GROUP) return [];
     const subCanvas = this.getNodeSubCanvas(node);
-    const childrenWithCanvas = subCanvas
-      ? subCanvas.canvasNode.collapsedChildren
-      : node.collapsedChildren;
-    // 过滤掉子画布的JSON数据
-    const children = childrenWithCanvas
+    // get real children
+    const realChildren = subCanvas ? subCanvas.canvasNode.blocks : node.blocks;
+    // filter sub canvas node
+    const childrenWithoutSubCanvas = realChildren
       .filter((child) => {
         const childMeta = child.getNodeMeta<WorkflowNodeMeta>();
         return !childMeta.subCanvas?.(node)?.isCanvas;
       })
       .filter(Boolean);
+    // flat group nodes
+    const children = childrenWithoutSubCanvas
+      .map((child) => {
+        if (child.flowNodeType === FlowNodeBaseType.GROUP) {
+          return [child, ...child.blocks];
+        }
+        return child;
+      })
+      .flat();
     return children;
   }
 

@@ -19,9 +19,9 @@ beforeEach(() => {
   executor.register(new LLMExecutor());
 });
 
-describe('workflow runtime basic test', () => {
+describe('workflow runtime real llm test', () => {
   it('should execute workflow', async () => {
-    if (process.env.ENABLE_MODEL_TEST !== 'true') {
+    if (process.env.ENABLE_REAL_TESTS !== 'true') {
       return;
     }
     if (!process.env.MODEL_NAME || !process.env.API_KEY || !process.env.API_HOST) {
@@ -32,7 +32,7 @@ describe('workflow runtime basic test', () => {
     const apiKey = process.env.API_KEY;
     const apiHost = process.env.API_HOST;
     const { context, processing } = engine.invoke({
-      schema: TestSchemas.basicLLMSchema,
+      schema: TestSchemas.llmRealSchema,
       inputs: {
         model_name: modelName,
         api_key: apiKey,

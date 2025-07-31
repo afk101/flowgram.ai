@@ -3,4 +3,5 @@
  * SPDX-License-Identifier: MIT
  */
 
-export { createBatchOutputsFormPlugin } from './batch-outputs-plugin';
+export * from './batch-outputs-plugin';
+export * from './infer-inputs-plugin';

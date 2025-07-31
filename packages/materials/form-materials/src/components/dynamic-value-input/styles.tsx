@@ -8,7 +8,12 @@ import styled from 'styled-components';
 export const UIContainer = styled.div`
   display: flex;
   align-items: center;
-  gap: 5px;
+  border-radius: 4px;
+  border: 1px solid var(--semi-color-border);
+
+  overflow: hidden;
+
+  background-color: var(--semi-color-fill-0);
 `;
 
 export const UIMain = styled.div`
@@ -20,7 +25,28 @@ export const UIMain = styled.div`
   & .semi-input-number,
   & .semi-select {
     width: 100%;
+    border: none;
+    border-radius: 0;
+  }
+
+  & .semi-input-wrapper {
+    border: none;
+    border-radius: 0;
   }
 `;
 
-export const UITrigger = styled.div``;
+export const UIType = styled.div`
+  border-right: 1px solid #e5e5e5;
+
+  & .semi-button {
+    border-radius: 0;
+  }
+`;
+
+export const UITrigger = styled.div`
+  border-left: 1px solid #e5e5e5;
+
+  & .semi-button {
+    border-radius: 0;
+  }
+`;

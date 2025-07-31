@@ -2,7 +2,8 @@
   "name": "batch-outputs",
   "depMaterials": [
     "flow-value",
-    "variable-selector"
+    "variable-selector",
+    "use-object-list"
   ],
   "depPackages": [
     "@douyinfe/semi-ui",

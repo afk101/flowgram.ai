@@ -15,6 +15,7 @@ import {
   IVariableStore,
   WorkflowVariableType,
   IFlowTemplateValue,
+  IJsonSchema,
 } from '@flowgram.ai/runtime-interface';
 
 import { uuid, WorkflowRuntimeType } from '@infra/utils';
@@ -39,27 +40,10 @@ export class WorkflowRuntimeState implements IState {
   public getNodeInputs(node: INode): WorkflowInputs {
     const inputsDeclare = node.declare.inputs;
     const inputsValues = node.declare.inputsValues;
-    if (!inputsDeclare || !inputsValues) {
-      return {};
-    }
-    return Object.entries(inputsValues).reduce((prev, [key, inputValue]) => {
-      const typeInfo = inputsDeclare.properties?.[key];
-      if (!typeInfo) {
-        return prev;
-      }
-      const expectType = typeInfo.type as WorkflowVariableType;
-      // get value
-      const result = this.parseValue(inputValue);
-      if (!result) {
-        return prev;
-      }
-      const { value, type } = result;
-      if (!WorkflowRuntimeType.isTypeEqual(type, expectType)) {
-        return prev;
-      }
-      prev[key] = value;
-      return prev;
-    }, {} as WorkflowInputs);
+    return this.parseInputs({
+      values: inputsValues,
+      declare: inputsDeclare,
+    });
   }
 
   public setNodeOutputs(params: { node: INode; outputs: WorkflowOutputs }): void {
@@ -85,6 +69,34 @@ export class WorkflowRuntimeState implements IState {
         itemsType,
       });
     });
+  }
+
+  public parseInputs(params: {
+    values?: Record<string, IFlowValue>;
+    declare?: IJsonSchema;
+  }): WorkflowInputs {
+    const { values, declare } = params;
+    if (!declare || !values) {
+      return {};
+    }
+    return Object.entries(values).reduce((prev, [key, inputValue]) => {
+      const typeInfo = declare.properties?.[key];
+      if (!typeInfo) {
+        return prev;
+      }
+      const expectType = typeInfo.type as WorkflowVariableType;
+      // get value
+      const result = this.parseValue(inputValue);
+      if (!result) {
+        return prev;
+      }
+      const { value, type } = result;
+      if (!WorkflowRuntimeType.isTypeEqual(type, expectType)) {
+        return prev;
+      }
+      prev[key] = value;
+      return prev;
+    }, {} as WorkflowInputs);
   }
 
   public parseRef<T = unknown>(ref: IFlowRefValue): IVariableParseResult<T> | null {

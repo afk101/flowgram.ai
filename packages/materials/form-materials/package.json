@@ -44,7 +44,8 @@
     "immer": "~10.1.1",
     "@coze-editor/editor": "0.1.0-alpha.879fbb",
     "@codemirror/view": "~6.38.0",
-    "@codemirror/state": "~6.5.2"
+    "@codemirror/state": "~6.5.2",
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
     "@flowgram.ai/eslint-config": "workspace:*",
@@ -60,7 +61,7 @@
     "react-dom": "^18",
     "styled-components": "^5",
     "tsup": "^8.0.1",
-    "typescript": "^5.0.4",
+    "typescript": "^5.8.3",
     "vitest": "^0.34.6"
   },
   "peerDependencies": {

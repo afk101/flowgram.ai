@@ -5,14 +5,18 @@
 
 import React, { useMemo } from 'react';
 
-import { Button, Cascader } from '@douyinfe/semi-ui';
+import { Cascader, IconButton } from '@douyinfe/semi-ui';
 
 import { IJsonSchema } from '../../typings';
 import { ArrayIcons, VariableTypeIcons, getSchemaIcon, options } from './constants';
 
 interface PropTypes {
   value?: Partial<IJsonSchema>;
-  onChange: (value?: Partial<IJsonSchema>) => void;
+  onChange?: (value?: Partial<IJsonSchema>) => void;
+  readonly?: boolean;
+  /**
+   * @deprecated use readonly instead
+   */
   disabled?: boolean;
   style?: React.CSSProperties;
 }
@@ -36,24 +40,27 @@ export const parseTypeSelectValue = (value?: string[]): Partial<IJsonSchema> | u
 };
 
 export function TypeSelector(props: PropTypes) {
-  const { value, onChange, disabled, style } = props;
+  const { value, onChange, readonly, disabled, style } = props;
 
   const selectValue = useMemo(() => getTypeSelectValue(value), [value]);
 
   return (
     <Cascader
-      disabled={disabled}
+      disabled={readonly || disabled}
       size="small"
       triggerRender={() => (
-        <Button size="small" style={style}>
-          {getSchemaIcon(value)}
-        </Button>
+        <IconButton
+          size="small"
+          style={style}
+          disabled={readonly || disabled}
+          icon={getSchemaIcon(value)}
+        />
       )}
       treeData={options}
       value={selectValue}
       leafOnly={true}
       onChange={(value) => {
-        onChange(parseTypeSelectValue(value as string[]));
+        onChange?.(parseTypeSelectValue(value as string[]));
       }}
     />
   );

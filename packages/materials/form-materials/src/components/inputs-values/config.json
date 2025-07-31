@@ -1,0 +1,12 @@
+{
+  "name": "inputs-values",
+  "depMaterials": [
+    "flow-value",
+    "dynamic-value-input"
+  ],
+  "depPackages": [
+    "@douyinfe/semi-ui",
+    "@douyinfe/semi-icons",
+    "styled-components"
+  ]
+}

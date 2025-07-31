@@ -23,4 +23,12 @@ export default defineConfig({
   html: {
     title: 'demo-fixed-layout',
   },
+  tools: {
+    rspack: {
+      /**
+       * ignore warnings from @coze-editor/editor/language-typescript
+       */
+      ignoreWarnings: [/Critical dependency: the request of a dependency is an expression/],
+    },
+  },
 });

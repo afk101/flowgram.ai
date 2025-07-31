@@ -5,17 +5,29 @@
 
 import { useEffect, useState } from 'react';
 
+import { nanoid } from 'nanoid';
 import { difference } from 'lodash';
 
-import { OutputItem, PropsType } from './types';
-
-let _id = 0;
 function genId() {
-  return _id++;
+  return nanoid();
 }
 
-export function useList({ value, onChange }: PropsType) {
-  const [list, setList] = useState<OutputItem[]>([]);
+interface ListItem<ValueType> {
+  id: string;
+  key?: string;
+  value?: ValueType;
+}
+
+type ObjectType<ValueType> = Record<string, ValueType | undefined>;
+
+export function useObjectList<ValueType>({
+  value,
+  onChange,
+}: {
+  value?: ObjectType<ValueType>;
+  onChange: (value?: ObjectType<ValueType>) => void;
+}) {
+  const [list, setList] = useState<ListItem<ValueType>[]>([]);
 
   useEffect(() => {
     setList((_prevList) => {
@@ -28,7 +40,7 @@ export function useList({ value, onChange }: PropsType) {
         .map((item) => ({
           id: item.id,
           key: item.key,
-          value: item.key ? value?.[item.key!] : undefined,
+          value: item.key ? value?.[item.key!] : item.value,
         }))
         .concat(
           addKeys.map((_key) => ({
@@ -49,11 +61,14 @@ export function useList({ value, onChange }: PropsType) {
     ]);
   };
 
-  const update = (item: OutputItem) => {
+  const updateValue = (itemId: string, value: ValueType) => {
     setList((prevList) => {
       const nextList = prevList.map((_item) => {
-        if (_item.id === item.id) {
-          return item;
+        if (_item.id === itemId) {
+          return {
+            ..._item,
+            value,
+          };
         }
         return _item;
       });
@@ -68,7 +83,29 @@ export function useList({ value, onChange }: PropsType) {
     });
   };
 
-  const remove = (itemId: number) => {
+  const updateKey = (itemId: string, key: string) => {
+    setList((prevList) => {
+      const nextList = prevList.map((_item) => {
+        if (_item.id === itemId) {
+          return {
+            ..._item,
+            key,
+          };
+        }
+        return _item;
+      });
+
+      onChange(
+        Object.fromEntries(
+          nextList.filter((item) => item.key).map((item) => [item.key!, item.value])
+        )
+      );
+
+      return nextList;
+    });
+  };
+
+  const remove = (itemId: string) => {
     setList((prevList) => {
       const nextList = prevList.filter((_item) => _item.id !== itemId);
 
@@ -82,5 +119,5 @@ export function useList({ value, onChange }: PropsType) {
     });
   };
 
-  return { list, add, update, remove };
+  return { list, add, updateKey, updateValue, remove };
 }

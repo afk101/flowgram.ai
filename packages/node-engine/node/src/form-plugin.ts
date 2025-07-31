@@ -122,7 +122,9 @@ export class FormPlugin<Opts = any> implements Disposable {
 
 export type FormPluginCreator<Opts> = (opts: Opts) => FormPlugin<Opts>;
 
-export function defineFormPluginCreator<Opts>(config: FormPluginConfig): FormPluginCreator<Opts> {
+export function defineFormPluginCreator<Opts>(
+  config: FormPluginConfig<Opts>
+): FormPluginCreator<Opts> {
   return function (opts: Opts) {
     return new FormPlugin(config, opts);
   };

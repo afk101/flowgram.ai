@@ -29,7 +29,7 @@ export interface LoopExecutorInputs {
 }
 
 export class LoopExecutor implements INodeExecutor {
-  public type = FlowGramNode.Loop;
+  public readonly type = FlowGramNode.Loop;
 
   public async execute(context: ExecutionContext): Promise<ExecutionResult> {
     const loopNodeID = context.node.id;
@@ -68,6 +68,12 @@ export class LoopExecutor implements INodeExecutor {
         });
       } catch (e) {
         throw new Error(`Loop block execute error`);
+      }
+      if (this.isBreak(subContext)) {
+        break;
+      }
+      if (this.isContinue(subContext)) {
+        continue;
       }
       const blockOutput = this.getBlockOutput(context, subContext);
       blockOutputs.push(blockOutput);
@@ -174,5 +180,13 @@ export class LoopExecutor implements INodeExecutor {
     const loopNodeData = executionContext.node.data as LoopNodeSchema['data'];
     const loopOutputsDeclare = loopNodeData.loopOutputs ?? {};
     return loopOutputsDeclare;
+  }
+
+  private isBreak(subContext: IContext): boolean {
+    return subContext.cache.get('loop-break') === true;
+  }
+
+  private isContinue(subContext: IContext): boolean {
+    return subContext.cache.get('loop-continue') === true;
   }
 }
