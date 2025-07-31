@@ -67,7 +67,7 @@ echo "  - ✅ 包发布完成"
 # 提交代码
 echo "📋 步骤 9/9: 提交代码到Git仓库"
 git add .
-git commit -m "release: publish $VERSION"
+git commit -m "release: publish $VERSION" -n
 
 # 检查远程分支是否存在，如果不存在则设置上游分支
 if ! git ls-remote --exit-code --heads origin $CURRENT_BRANCH > /dev/null 2>&1; then

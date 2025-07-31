@@ -4,6 +4,11 @@
 
 个性化定制的分支统一为`feature/v数字.数字.数字`的格式，例如`feature/v0.2.26`，这样可以标记当前分支对应的是@flowgram.ai 的哪个 tag 版本
 
+#### 注意点
+
+- 提交代码推荐使用`git commit -m 'feat: 内容' -n`，加上`-n`可以防止一些git commit hooks的影响导致的提交失败
+- Node.js版本推荐：`\>=18.20.3 <19.0.0 || >=20.14.0 <23.0.0`，建议使用规定版本的Node.js
+
 #### 如何个性化定制当前版本代码并发布？
 
 1.进行代码个性化修改
@@ -53,7 +58,7 @@ _**版本号说明**_
 _**为什么执行发布脚本选择强制提交代码并推送到远程仓库？**_
 考虑到每次升级版本，会统一修改所有的 package.json 文件以及 common/config/rush/version-policies.json 中的 version 字段并发布，如果当前代码忘记提交到远程仓库，那会导致远程仓库的代码版本低于线上实际版本，多人协作时，下次执行脚本会发布已经存在的旧版本，导致出错，因此这里选择强制提交
 
-#### 如何大版本更新？（以从 v0.2.26=>v0.2.27为例）
+#### 如何大版本更新？（以从 v0.2.26升级到v0.2.27为例）
 
 1.确保当前在 feature/v0.2.26 分支(有个性化定制的 commit 修改)
 
@@ -64,6 +69,9 @@ git checkout -b feature/v0.2.27
 # 回退Q化代码，防止后面合并新版本代码时大量冲突
 chmod +x scriptsQ/omitQ.sh(一次性)
 ./scriptsQ/omitQ.sh
+
+# 非常推荐将移除Q化代码单独提交，因为会改几千个文件
+git add . && git commit -m 'feat: 大版本升级前置，执行omitQ.sh' -n && git push --set-upstream origin feature/v0.2.27
 
 # 确保当前Fork仓库已经添加了上游仓库
 git remote -v
@@ -84,15 +92,28 @@ chmod +x scriptsQ/initQ.sh(一次性)
 # 非常推荐将Q化代码单独提交，因为会改几千个文件
 git add . && git commit -m 'feat: 升级大版本，执行initQ.sh' -n && git push
 
+# 安装依赖
+rush update
+
+# 构建
+rush build
+
 # 接着就可以基于最新版本v0.2.27愉快地开发了！
+rush dev:demo-free-layout-simple
 ```
 
 #### 如何更新 maintainers 维护者
 
-1.修改 scriptsQ/maintainers.json 的文件，添加维护人
+```bash
+# 1.修改 scriptsQ/maintainers.json 的文件，添加维护人
 
- 2.执行./scriptsQ/updateMaintainers.sh
+# 2.执行脚本
+./scriptsQ/updateMaintainers.sh
 
-3.提交代码 
+# 3.提交代码
+git add . && git commit -m 'feat: change maintainers' -n && git push
 
-4.执行./scriptsQ/publish.sh 发布代码
+# 4.执行发包脚本
+./scriptsQ/publish.sh 
+```
+
