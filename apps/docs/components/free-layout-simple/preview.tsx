@@ -7,13 +7,13 @@
 import { PreviewEditor } from '../preview-editor';
 import { FreeLayoutSimple } from '.';
 
-import nodeRegistriesCode from '!!raw-loader!@q/flowgram.ai.demo-free-layout-simple/src/node-registries.ts';
-import dataCode from '!!raw-loader!@q/flowgram.ai.demo-free-layout-simple/src/initial-data.ts';
-import useEditorPropsCode from '!!raw-loader!@q/flowgram.ai.demo-free-layout-simple/src/hooks/use-editor-props.tsx';
-import editorCode from '!!raw-loader!@q/flowgram.ai.demo-free-layout-simple/src/editor.tsx';
-import toolsCode from '!!raw-loader!@q/flowgram.ai.demo-free-layout-simple/src/components/tools.tsx';
-import nodeAddPanelCode from '!!raw-loader!@q/flowgram.ai.demo-free-layout-simple/src/components/node-add-panel.tsx';
-import minimapCode from '!!raw-loader!@q/flowgram.ai.demo-free-layout-simple/src/components/minimap.tsx';
+import nodeRegistriesCode from '!!raw-loader!@flowgram.ai/demo-free-layout-simple/src/node-registries.ts';
+import dataCode from '!!raw-loader!@flowgram.ai/demo-free-layout-simple/src/initial-data.ts';
+import useEditorPropsCode from '!!raw-loader!@flowgram.ai/demo-free-layout-simple/src/hooks/use-editor-props.tsx';
+import editorCode from '!!raw-loader!@flowgram.ai/demo-free-layout-simple/src/editor.tsx';
+import toolsCode from '!!raw-loader!@flowgram.ai/demo-free-layout-simple/src/components/tools.tsx';
+import nodeAddPanelCode from '!!raw-loader!@flowgram.ai/demo-free-layout-simple/src/components/node-add-panel.tsx';
+import minimapCode from '!!raw-loader!@flowgram.ai/demo-free-layout-simple/src/components/minimap.tsx';
 
 export const FreeLayoutSimplePreview = () => {
   const files = {

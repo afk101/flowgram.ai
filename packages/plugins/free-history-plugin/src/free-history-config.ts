@@ -4,8 +4,8 @@
  */
 
 import { injectable } from 'inversify';
-import { type FlowNodeEntity, type FlowNodeJSON } from '@q/flowgram.ai.document';
-import { type PluginContext } from '@q/flowgram.ai.core';
+import { type FlowNodeEntity, type FlowNodeJSON } from '@flowgram.ai/document';
+import { type PluginContext } from '@flowgram.ai/core';
 
 import {
   type FreeHistoryPluginOptions,

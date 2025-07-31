@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowDocument, FlowNodeEntity } from '@q/flowgram.ai.editor';
+import { FlowDocument, FlowNodeEntity } from '@flowgram.ai/editor';
 
 export function getNodeChildrenIds(node: FlowNodeEntity | undefined, isBranch: boolean = false) {
   if (!node) {

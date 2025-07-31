@@ -5,14 +5,14 @@
 
 import { useCallback, useEffect, useState } from 'react';
 
-import { DisposableCollection } from '@q/flowgram.ai.utils';
+import { DisposableCollection } from '@flowgram.ai/utils';
 import {
   EditorState,
   EditorStateConfigEntity,
   PlaygroundInteractiveType,
   useConfigEntity,
   usePlayground,
-} from '@q/flowgram.ai.core';
+} from '@flowgram.ai/core';
 
 export interface PlaygroundToolsPropsType {
   /**

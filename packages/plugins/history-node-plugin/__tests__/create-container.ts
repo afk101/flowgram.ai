@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FormModel } from '@q/flowgram.ai.form';
-import { FlowDocumentContainerModule } from '@q/flowgram.ai.document';
-import { loadPlugins, Playground, PlaygroundMockTools } from '@q/flowgram.ai.core';
-import { createHistoryPlugin, HistoryService } from '@q/flowgram.ai.history';
+import { FormModel } from '@flowgram.ai/form';
+import { FlowDocumentContainerModule } from '@flowgram.ai/document';
+import { loadPlugins, Playground, PlaygroundMockTools } from '@flowgram.ai/core';
+import { createHistoryPlugin, HistoryService } from '@flowgram.ai/history';
 
 import { attachFormValuesChange } from '../src/utils';
 import { createHistoryNodePlugin } from '../src';

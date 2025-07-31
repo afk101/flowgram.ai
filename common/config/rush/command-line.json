@@ -240,7 +240,7 @@
 			"summary": "⭐️️ Run dev in apps/docs",
 			"autoinstallerName": "rush-commands",
 			"safeForSimultaneousRushProcesses": true,
-			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @q/flowgram.ai.docs\" \"cd apps/docs && rushx dev\""
+			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @flowgram.ai/docs\" \"cd apps/docs && rushx dev\""
 		},
 		{
 			"name": "ts-check",
@@ -290,7 +290,7 @@
 			"summary": "⭐️️ run dev in app/demo-fixed-layout",
 			"autoinstallerName": "rush-commands",
 			"safeForSimultaneousRushProcesses": true,
-			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @q/flowgram.ai.demo-fixed-layout\" \"cd apps/demo-fixed-layout && rushx dev\""
+			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @flowgram.ai/demo-fixed-layout\" \"cd apps/demo-fixed-layout && rushx dev\""
 		},
 		{
 			"name": "dev:demo-fixed-layout-simple",
@@ -298,7 +298,7 @@
 			"summary": "⭐️️ run dev in app/demo-fixed-layout-simple",
 			"autoinstallerName": "rush-commands",
 			"safeForSimultaneousRushProcesses": true,
-			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @q/flowgram.ai.demo-fixed-layout-simple\" \"cd apps/demo-fixed-layout-simple && rushx dev\""
+			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @flowgram.ai/demo-fixed-layout-simple\" \"cd apps/demo-fixed-layout-simple && rushx dev\""
 		},
 		{
 			"name": "dev:demo-free-layout",
@@ -306,7 +306,7 @@
 			"summary": "⭐️️ run dev in app/demo-free-layout",
 			"autoinstallerName": "rush-commands",
 			"safeForSimultaneousRushProcesses": true,
-			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @q/flowgram.ai.demo-free-layout\" \"cd apps/demo-free-layout && rushx dev\""
+			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @flowgram.ai/demo-free-layout\" \"cd apps/demo-free-layout && rushx dev\""
 		},
 		{
 			"name": "dev:demo-free-layout-simple",
@@ -314,7 +314,7 @@
 			"summary": "⭐️️ run dev in app/demo-free-layout-simple",
 			"autoinstallerName": "rush-commands",
 			"safeForSimultaneousRushProcesses": true,
-			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @q/flowgram.ai.demo-free-layout-simple\" \"cd apps/demo-free-layout-simple && rushx dev\""
+			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @flowgram.ai/demo-free-layout-simple\" \"cd apps/demo-free-layout-simple && rushx dev\""
 		},
 		{
 			"name": "dev:demo-nextjs",
@@ -322,7 +322,7 @@
 			"summary": "⭐️️ run dev in app/demo-nextjs",
 			"autoinstallerName": "rush-commands",
 			"safeForSimultaneousRushProcesses": true,
-			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @q/flowgram.ai.demo-nextjs\" \"cd apps/demo-nextjs && rushx dev\""
+			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @flowgram.ai/demo-nextjs\" \"cd apps/demo-nextjs && rushx dev\""
 		},
 		{
 			"name": "dev:demo-nextjs-antd",
@@ -330,7 +330,7 @@
 			"summary": "⭐️️ run dev in app/demo-nextjs-antd",
 			"autoinstallerName": "rush-commands",
 			"safeForSimultaneousRushProcesses": true,
-			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @q/flowgram.ai.demo-nextjs-antd\" \"cd apps/demo-nextjs-antd && rushx dev\""
+			"shellCommand": "concurrently --kill-others --prefix \"{name}\" --names [watch],[demo] -c white,blue \"rush build:watch --to-except @flowgram.ai/demo-nextjs-antd\" \"cd apps/demo-nextjs-antd && rushx dev\""
 		},
 		{
 			"name": "license-header",

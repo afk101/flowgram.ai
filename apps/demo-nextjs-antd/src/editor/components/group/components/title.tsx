@@ -6,7 +6,7 @@
 import { FC, useState } from 'react';
 
 import { Input } from 'antd';
-import { Field } from '@q/flowgram.ai.free-layout-editor';
+import { Field } from '@flowgram.ai/free-layout-editor';
 
 import { GroupField } from '../constant';
 

@@ -7,7 +7,7 @@ import {
   WorkflowVariableType,
   ConditionOperation,
   ConditionItem,
-} from '@q/flowgram.ai.runtime-interface';
+} from '@flowgram.ai/runtime-interface';
 
 export type Conditions = ConditionItem[];
 

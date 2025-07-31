@@ -5,7 +5,7 @@
 
 import { FC } from 'react';
 
-import { CodeEditor } from '@q/flowgram.ai.form-materials';
+import { CodeEditor } from '@flowgram.ai/form-materials';
 
 import { useFormMeta, useSyncDefault } from '../hooks';
 

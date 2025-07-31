@@ -11,7 +11,7 @@ import {
   WorkflowNodeEntity,
   useEntityFromContext,
   useNodeRender,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 
 import { CommentEditorModel } from '../model';
 import { CommentEditorFormField } from '../constant';

@@ -8,9 +8,9 @@ import React from 'react';
 import { interfaces } from 'inversify';
 import { renderHook } from '@testing-library/react-hooks';
 import { render, screen, fireEvent, createEvent } from '@testing-library/react';
-import { delay } from '@q/flowgram.ai.utils';
-import { FlowNodeRenderData } from '@q/flowgram.ai.document';
-import { PositionData } from '@q/flowgram.ai.core';
+import { delay } from '@flowgram.ai/utils';
+import { FlowNodeRenderData } from '@flowgram.ai/document';
+import { PositionData } from '@flowgram.ai/core';
 
 import { createDocument, createHookWrapper } from '../mocks';
 import {

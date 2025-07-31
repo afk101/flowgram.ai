@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { VOData } from '@q/flowgram.ai.runtime-interface';
+import { VOData } from '@flowgram.ai/runtime-interface';
 
 export const arrayVOData = <T>(arr: T[]): Array<VOData<T>> =>
   arr.map((item: any) => {

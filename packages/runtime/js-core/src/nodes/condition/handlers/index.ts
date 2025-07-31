@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { WorkflowVariableType } from '@q/flowgram.ai.runtime-interface';
+import { WorkflowVariableType } from '@flowgram.ai/runtime-interface';
 
 import { ConditionHandlers } from '../type';
 import { conditionStringHandler } from './string';

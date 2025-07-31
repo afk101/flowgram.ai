@@ -1,8 +1,14 @@
 [
   {
+    "policyName": "publishPolicy",
     "definitionName": "lockStepVersion",
-    "policyName": "MyProject-prerelease",
-    "version": "0.2.27-1",
-    "nextBump": "prerelease"
+    "version": "0.1.0",
+    "nextBump": "patch"
+  },
+  {
+    "policyName": "appPolicy",
+    "definitionName": "lockStepVersion",
+    "version": "0.1.0",
+    "nextBump": "patch"
   }
 ]

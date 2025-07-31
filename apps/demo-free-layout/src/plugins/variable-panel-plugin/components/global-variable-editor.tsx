@@ -10,8 +10,8 @@ import {
   GlobalScope,
   useRefresh,
   useService,
-} from '@q/flowgram.ai.free-layout-editor';
-import { JsonSchemaEditor, JsonSchemaUtils } from '@q/flowgram.ai.form-materials';
+} from '@flowgram.ai/free-layout-editor';
+import { JsonSchemaEditor, JsonSchemaUtils } from '@flowgram.ai/form-materials';
 
 export function GlobalVariableEditor() {
   const globalScope = useService(GlobalScope);

@@ -6,7 +6,7 @@
 /* eslint-disable no-cond-assign */
 import { useCallback, useEffect, useState } from 'react';
 
-import { type Disposable } from '@q/flowgram.ai.utils';
+import { type Disposable } from '@flowgram.ai/utils';
 import {
   EditorCursorState,
   InteractiveType,
@@ -15,8 +15,8 @@ import {
   fitView,
   usePlayground,
   useService,
-} from '@q/flowgram.ai.free-layout-core';
-import { EditorState } from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/free-layout-core';
+import { EditorState } from '@flowgram.ai/editor';
 
 import { useAutoLayout } from './use-auto-layout';
 import { FreeLayoutPluginTools } from '../preset';

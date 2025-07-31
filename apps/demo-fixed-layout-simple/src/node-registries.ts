@@ -4,7 +4,7 @@
  */
 
 import { nanoid } from 'nanoid';
-import { FlowNodeRegistry } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowNodeRegistry } from '@flowgram.ai/fixed-layout-editor';
 
 /**
  * 自定义节点注册

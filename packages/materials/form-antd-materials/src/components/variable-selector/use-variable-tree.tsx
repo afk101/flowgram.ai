@@ -5,7 +5,7 @@
 
 import React, { useCallback } from 'react';
 
-import { ASTMatch, BaseVariableField, useScopeAvailable } from '@q/flowgram.ai.editor';
+import { ASTMatch, BaseVariableField, useScopeAvailable } from '@flowgram.ai/editor';
 
 import { ArrayIcons, VariableTypeIcons } from '../type-selector/constants';
 import { JsonSchemaUtils } from '../../utils/json-schema';

@@ -12,7 +12,7 @@ import {
   FlowDocumentContainerModule,
   FlowTransitionLine,
   FlowTransitionLineEnum,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 
 import RoundedTurningLine from '../../src/components/RoundedTurningLine';
 

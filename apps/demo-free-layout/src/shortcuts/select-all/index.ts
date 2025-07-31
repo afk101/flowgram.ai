@@ -8,7 +8,7 @@ import {
   Playground,
   ShortcutsHandler,
   WorkflowDocument,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 
 import { FlowCommandId } from '../constants';
 

@@ -4,7 +4,7 @@
  */
 
 import { mean } from 'lodash';
-import { FlowNodeTransformData } from '@q/flowgram.ai.document';
+import { FlowNodeTransformData } from '@flowgram.ai/document';
 
 export const getDisplayFirstChildTop = (transform: FlowNodeTransformData): number => {
   if (transform.firstChild) {

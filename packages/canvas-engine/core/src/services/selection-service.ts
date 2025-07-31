@@ -4,7 +4,7 @@
  */
 
 import { injectable } from 'inversify';
-import { Compare, type Disposable, Emitter, type Event } from '@q/flowgram.ai.utils';
+import { Compare, type Disposable, Emitter, type Event } from '@flowgram.ai/utils';
 
 import { type Entity } from '../common';
 

@@ -4,7 +4,7 @@
  */
 
 import { injectable, interfaces } from 'inversify';
-import { Scope, VariableEngine } from '@q/flowgram.ai.variable-core';
+import { Scope, VariableEngine } from '@flowgram.ai/variable-core';
 
 @injectable()
 export class GlobalScope extends Scope {

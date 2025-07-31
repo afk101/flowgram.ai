@@ -11,7 +11,7 @@ import {
   FixedLayoutPluginContext,
   useClientContext,
   delay,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 import { Button } from '@douyinfe/semi-ui';
 
 const styleElement = document.createElement('style');

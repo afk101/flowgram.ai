@@ -4,8 +4,8 @@
  */
 
 import { beforeEach, describe, it, expect, vi } from 'vitest';
-import { FieldArrayModel, FormModel } from '@q/flowgram.ai.form';
-import { HistoryService } from '@q/flowgram.ai.history';
+import { FieldArrayModel, FormModel } from '@flowgram.ai/form';
+import { HistoryService } from '@flowgram.ai/history';
 
 import * as utils from '../src/utils';
 import { createContainer } from './create-container';

@@ -9,7 +9,7 @@ import {
   FlowNodeBaseType,
   FlowNodeJSON,
   FlowNodeEntity,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 
 /**
  * - simpleSplit:  (最原始的 id)

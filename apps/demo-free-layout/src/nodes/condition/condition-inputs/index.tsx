@@ -6,8 +6,8 @@
 import { useLayoutEffect } from 'react';
 
 import { nanoid } from 'nanoid';
-import { Field, FieldArray, WorkflowNodePortsData } from '@q/flowgram.ai.free-layout-editor';
-import { ConditionRow, ConditionRowValueType } from '@q/flowgram.ai.form-materials';
+import { Field, FieldArray, WorkflowNodePortsData } from '@flowgram.ai/free-layout-editor';
+import { ConditionRow, ConditionRowValueType } from '@flowgram.ai/form-materials';
 import { Button } from '@douyinfe/semi-ui';
 import { IconPlus, IconCrossCircleStroked } from '@douyinfe/semi-icons';
 

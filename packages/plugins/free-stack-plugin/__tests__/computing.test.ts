@@ -5,14 +5,14 @@
 
 import { it, expect, beforeEach, describe } from 'vitest';
 import { interfaces } from 'inversify';
-import { EntityManager } from '@q/flowgram.ai.core';
+import { EntityManager } from '@flowgram.ai/core';
 import {
   WorkflowDocument,
   WorkflowHoverService,
   WorkflowLineEntity,
   WorkflowLinesManager,
   WorkflowSelectService,
-} from '@q/flowgram.ai.free-layout-core';
+} from '@flowgram.ai/free-layout-core';
 
 import { StackingComputing } from '../src/stacking-computing';
 import { StackingContextManager } from '../src/manager';

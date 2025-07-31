@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Compare, Disposable, domUtils, Emitter } from '@q/flowgram.ai.utils';
-import { EntityData } from '@q/flowgram.ai.core';
+import { Compare, Disposable, domUtils, Emitter } from '@flowgram.ai/utils';
+import { EntityData } from '@flowgram.ai/core';
 
 import { FlowNodeBaseType } from '../typings';
 import type { FlowNodeEntity } from '../entities';

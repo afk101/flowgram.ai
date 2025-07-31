@@ -9,7 +9,7 @@ import {
   defaultInitialDataTs,
   fieldWrapperCss,
   fieldWrapperTs,
-} from '@q/flowgram.ai.demo-node-form';
+} from '@flowgram.ai/demo-node-form';
 
 import { PreviewEditor } from '../preview-editor';
 import { Editor } from './editor';
@@ -20,7 +20,7 @@ const registryCode = {
   FieldRenderProps,
   FormMeta,
   ValidateTrigger,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 import { Input } from '@douyinfe/semi-ui';
 
 // FieldWrapper is not provided by sdk, it can be customized

@@ -4,7 +4,7 @@
  */
 
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { FlowDocument, FlowNodeEntity } from '@q/flowgram.ai.editor';
+import { FlowDocument, FlowNodeEntity } from '@flowgram.ai/editor';
 
 import { getNodeChildrenIds } from '../utils';
 import { createContainer } from '../create-container';

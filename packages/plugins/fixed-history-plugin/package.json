@@ -1,5 +1,5 @@
 {
-  "name": "@q/flowgram.ai.fixed-history-plugin",
+  "name": "@flowgram.ai/fixed-history-plugin",
   "version": "0.2.27-1",
   "homepage": "https://flowgram.ai/",
   "repository": "https://github.com/bytedance/flowgram.ai",
@@ -26,18 +26,18 @@
     "watch": "npm run build:fast -- --dts-resolve --watch --ignore-watch dist"
   },
   "dependencies": {
-    "@q/flowgram.ai.core": "workspace:*",
-    "@q/flowgram.ai.document": "workspace:*",
-    "@q/flowgram.ai.form-core": "workspace:*",
-    "@q/flowgram.ai.history": "workspace:*",
-    "@q/flowgram.ai.utils": "workspace:*",
+    "@flowgram.ai/core": "workspace:*",
+    "@flowgram.ai/document": "workspace:*",
+    "@flowgram.ai/form-core": "workspace:*",
+    "@flowgram.ai/history": "workspace:*",
+    "@flowgram.ai/utils": "workspace:*",
     "inversify": "^6.0.1",
     "reflect-metadata": "~0.2.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@q/flowgram.ai.eslint-config": "workspace:*",
-    "@q/flowgram.ai.ts-config": "workspace:*",
+    "@flowgram.ai/eslint-config": "workspace:*",
+    "@flowgram.ai/ts-config": "workspace:*",
     "@types/lodash": "^4.14.137",
     "@vitest/coverage-v8": "^0.32.0",
     "eslint": "^8.54.0",
@@ -47,16 +47,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.qnpm.qihoo.net"
-  },
-  "maintainers": [
-    {
-      "email": "jinshuokang@360.cn",
-      "name": "jinshuokang"
-    },
-    {
-      "email": "chenguangdi@360.cn",
-      "name": "chenguangdi"
-    }
-  ]
+    "registry": "https://registry.npmjs.org/"
+  }
 }

@@ -5,8 +5,8 @@
 
 import React, { FC } from 'react';
 
-import { FlowRendererRegistry } from '@q/flowgram.ai.renderer';
-import { FlowNodeEntity } from '@q/flowgram.ai.document';
+import { FlowRendererRegistry } from '@flowgram.ai/renderer';
+import { FlowNodeEntity } from '@flowgram.ai/document';
 
 import { IGroupPluginRegister } from '../type';
 import { GroupRenderer } from '../constant';

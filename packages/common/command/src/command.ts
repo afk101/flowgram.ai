@@ -4,7 +4,7 @@
  */
 
 import { injectable, multiInject, optional } from 'inversify';
-import { Disposable, DisposableCollection, Emitter } from '@q/flowgram.ai.utils';
+import { Disposable, DisposableCollection, Emitter } from '@flowgram.ai/utils';
 
 import { type CommandService } from './command-service';
 

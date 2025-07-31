@@ -87,7 +87,7 @@ url: /examples/fixed-layout/fixed-layout-simple.md
 ## 安装
 
 ```bash
-npx @q/flowgram.ai.create-app@latest fixed-layout-simple
+npx @flowgram.ai/create-app@latest fixed-layout-simple
 ```
 
 ## 源码
@@ -107,7 +107,7 @@ url: /examples/fixed-layout/fixed-composite-nodes.md
 ## 安装
 
 ```bash
-npx @q/flowgram.ai.create-app@latest fixed-layout-simple
+npx @flowgram.ai/create-app@latest fixed-layout-simple
 ```
 
 ## 源码
@@ -128,7 +128,7 @@ url: /examples/fixed-layout/fixed-feature-overview.md
 ## 安装
 
 ```bash
-npx @q/flowgram.ai.create-app@latest fixed-layout
+npx @flowgram.ai/create-app@latest fixed-layout
 ```
 
 ## 源码
@@ -173,7 +173,7 @@ Free Layout 是 Flowgram.ai 提供的自由布局编辑器组件，允许用户�
 
 ## 从零构建自由布局编辑器
 
-本节将带你从零开始构建一个自由布局编辑器应用，完整演示如何使用 @q/flowgram.ai.free-layout-editor 包构建一个可交互的流程编辑器。
+本节将带你从零开始构建一个自由布局编辑器应用，完整演示如何使用 @flowgram.ai/free-layout-editor 包构建一个可交互的流程编辑器。
 
 ### 1. 环境准备
 
@@ -181,7 +181,7 @@ Free Layout 是 Flowgram.ai 提供的自由布局编辑器组件，允许用户�
 
 ```bash
 # 使用脚手架快速创建项目
-npx @q/flowgram.ai.create-app@latest free-layout-simple
+npx @flowgram.ai/create-app@latest free-layout-simple
 
 # 进入项目目录
 cd free-layout-simple
@@ -221,7 +221,7 @@ free-layout-simple/
 
 ```tsx
 // src/initial-data.ts
-import { WorkflowJSON } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowJSON } from '@flowgram.ai/free-layout-editor';
 
 export const initialData: WorkflowJSON = {
   nodes: [
@@ -278,7 +278,7 @@ export const initialData: WorkflowJSON = {
 
 ```tsx
 // src/node-registries.ts
-import { WorkflowNodeRegistry } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowNodeRegistry } from '@flowgram.ai/free-layout-editor';
 
 /**
  * 你可以自定义节点的注册器
@@ -322,9 +322,9 @@ import {
   WorkflowNodeRenderer,
   Field,
   useNodeRender,
-} from '@q/flowgram.ai.free-layout-editor';
-import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin';
-import { createFreeSnapPlugin } from '@q/flowgram.ai.free-snap-plugin';
+} from '@flowgram.ai/free-layout-editor';
+import { createMinimapPlugin } from '@flowgram.ai/minimap-plugin';
+import { createFreeSnapPlugin } from '@flowgram.ai/free-snap-plugin';
 
 import { nodeRegistries } from '../node-registries';
 import { initialData } from '../initial-data';
@@ -441,7 +441,7 @@ export const useEditorProps = () =>
 ```tsx
 // src/components/node-add-panel.tsx
 import React from 'react';
-import { WorkflowDragService, useService } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowDragService, useService } from '@flowgram.ai/free-layout-editor';
 
 const nodeTypes = ['自定义节点1', '自定义节点2'];
 
@@ -475,7 +475,7 @@ export const NodeAddPanel: React.FC = () => {
 // src/components/tools.tsx
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { usePlaygroundTools, useClientContext } from '@q/flowgram.ai.free-layout-editor';
+import { usePlaygroundTools, useClientContext } from '@flowgram.ai/free-layout-editor';
 
 export const Tools: React.FC = () => {
   const { history } = useClientContext();
@@ -511,8 +511,8 @@ export const Tools: React.FC = () => {
 };
 
 // src/components/minimap.tsx
-import { FlowMinimapService, MinimapRender } from '@q/flowgram.ai.minimap-plugin';
-import { useService } from '@q/flowgram.ai.free-layout-editor';
+import { FlowMinimapService, MinimapRender } from '@flowgram.ai/minimap-plugin';
+import { useService } from '@flowgram.ai/free-layout-editor';
 
 export const Minimap = () => {
   const minimapService = useService(FlowMinimapService);
@@ -552,13 +552,13 @@ export const Minimap = () => {
 
 ```tsx
 // src/editor.tsx
-import { EditorRenderer, FreeLayoutEditorProvider } from '@q/flowgram.ai.free-layout-editor';
+import { EditorRenderer, FreeLayoutEditorProvider } from '@flowgram.ai/free-layout-editor';
 
 import { useEditorProps } from './hooks/use-editor-props';
 import { Tools } from './components/tools';
 import { NodeAddPanel } from './components/node-add-panel';
 import { Minimap } from './components/minimap';
-import '@q/flowgram.ai.free-layout-editor/index.css';
+import '@flowgram.ai/free-layout-editor/index.css';
 import './index.css';
 
 export const Editor = () => {
@@ -754,7 +754,7 @@ const initialData: WorkflowJSON = {
 
 ```tsx
 // 节点注册
-import { WorkflowNodeRegistry } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowNodeRegistry } from '@flowgram.ai/free-layout-editor';
 
 export const nodeRegistries: WorkflowNodeRegistry[] = [
   // 开始节点定义
@@ -778,7 +778,7 @@ export const nodeRegistries: WorkflowNodeRegistry[] = [
 import {
   FreeLayoutEditorProvider,
   EditorRenderer
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 
 // 编辑器配置示例
 const editorProps = {
@@ -850,7 +850,7 @@ plugins: () => [
 ## 安装
 
 ```bash
-npx @q/flowgram.ai.create-app@latest free-layout-simple
+npx @flowgram.ai/create-app@latest free-layout-simple
 ```
 
 ## 源码
@@ -870,7 +870,7 @@ url: /examples/free-layout/free-feature-overview.md
 ## 安装
 
 ```bash
-npx @q/flowgram.ai.create-app@latest free-layout
+npx @flowgram.ai/create-app@latest free-layout
 ```
 
 ## 源码
@@ -2841,7 +2841,7 @@ url: /api/core/flow-document.md
 [> API Detail](https://flowgram.ai/auto-docs/document/classes/FlowDocument.html)
 
 ```ts pure
-import { useClientContext } from '@q/flowgram.ai.fixed-layout-editor'
+import { useClientContext } from '@flowgram.ai/fixed-layout-editor'
 
 const ctx = useClientContext();
 console.log(ctx.document)
@@ -3190,7 +3190,7 @@ url: /api/core/workflow-document.md
 [> API Detail](https://flowgram.ai/auto-docs/free-layout-core/classes/WorkflowDocument.html)
 
 ```ts pure
-import { useClientContext } from '@q/flowgram.ai.free-layout-editor'
+import { useClientContext } from '@flowgram.ai/free-layout-editor'
 
 const ctx = useClientContext();
 console.log(ctx.document)
@@ -3284,7 +3284,7 @@ url: /api/core/workflow-lines-manager.md
 [> API Detail](https://flowgram.ai/auto-docs/free-layout-core/classes/WorkflowLinesManager.html)
 
 ```
-import { useClientContext } from '@q/flowgram.ai.free-layout-editor'
+import { useClientContext } from '@flowgram.ai/free-layout-editor'
 
 const ctx = useClientContext();
 console.log(ctx.document.linesManager)
@@ -3322,7 +3322,7 @@ const json = ctx.document.linesManager.toJSON()
 
 ```ts pure
 import { useEffect } from 'react'
-import { useClientContext, useRefresh } from '@q/flowgram.ai.free-layout-editor'
+import { useClientContext, useRefresh } from '@flowgram.ai/free-layout-editor'
 
 
 function SomeReact() {
@@ -3470,7 +3470,7 @@ url: /api/hooks/use-client-context.md
 * Return: [FixedLayoutPluginContext](https://flowgram.ai/auto-docs/fixed-layout-editor/interfaces/FixedLayoutPluginContext.html)
 
 ```ts pure
-import { useClientContext } from '@q/flowgram.ai.fixed-layout-editor'
+import { useClientContext } from '@flowgram.ai/fixed-layout-editor'
 const ctx = useClientContext()
 console.log(ctx.operation) // FlowOperationService 操作服务
 console.log(ctx.document) // FlowDocument 数据文档
@@ -3486,7 +3486,7 @@ console.log(ctx.get(MyService)) // 获取任意的 IOC 模块，详细见 自定
 * Return: [FreeLayoutPluginContext](https://flowgram.ai/auto-docs/free-layout-editor/interfaces/FreeLayoutPluginContext.html)
 
 ```ts pure
-import { useClientContext } from '@q/flowgram.ai.free-layout-editor'
+import { useClientContext } from '@flowgram.ai/free-layout-editor'
 const ctx = useClientContext()
 console.log(ctx.document) // WorkflowDocument 数据文档
 console.log(ctx.playground) // Playground 画布
@@ -3513,7 +3513,7 @@ url: /api/hooks/use-node-render.md
 
 ```tsx pure
 
-import { FlowNodeEntity, useNodeRender } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowNodeEntity, useNodeRender } from '@flowgram.ai/fixed-layout-editor';
 
 export const BaseNode = ({ node }: { node: FlowNodeEntity }) => {
   /**
@@ -3559,7 +3559,7 @@ export const BaseNode = ({ node }: { node: FlowNodeEntity }) => {
 * Return: [NodeRenderReturnType](https://flowgram.ai/auto-docs/free-layout-core/interfaces/NodeRenderReturnType.html)
 
 ```tsx pure
-import { WorkflowNodeRenderer, useNodeRender } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowNodeRenderer, useNodeRender } from '@flowgram.ai/free-layout-editor';
 export const BaseNode = () => {
   const { form, node } = useNodeRender()
   return (
@@ -3587,7 +3587,7 @@ url: /api/hooks/use-playground-tools.md
 
 ```tsx pure
 import { useEffect, useState } from 'react'
-import { usePlaygroundTools, useClientContext } from '@q/flowgram.ai.fixed-layout-editor';
+import { usePlaygroundTools, useClientContext } from '@flowgram.ai/fixed-layout-editor';
 
 export function Tools() {
   const { history } = useClientContext();
@@ -3620,7 +3620,7 @@ export function Tools() {
 * Return: [PlaygroundTools](https://flowgram.ai/auto-docs/free-layout-editor/interfaces/PlaygroundTools.html)
 
 ```tsx pure
-import { usePlaygroundTools, useClientContext } from '@q/flowgram.ai.free-layout-editor';
+import { usePlaygroundTools, useClientContext } from '@flowgram.ai/free-layout-editor';
 
 export function Tools() {
   const { history } = useClientContext();
@@ -3670,7 +3670,7 @@ export function useRefresh(defaultValue?: any): (v?: any) => void {
 ## Usage
 
 ```tsx pure
-import { useRefresh } from '@q/flowgram.ai.fixed-layout-editor';
+import { useRefresh } from '@flowgram.ai/fixed-layout-editor';
 
 function Demo() {
   const refresh = useRefresh();
@@ -3714,7 +3714,7 @@ const playground3 = useClientContext().get<Playground>(Playground)
  *  inversify: https://github.com/inversify/InversifyJS
  */
 import { injectable, inject } from 'inversify'
-import { FlowDocument } from '@q/flowgram.ai.fixed-layout-editor'
+import { FlowDocument } from '@flowgram.ai/fixed-layout-editor'
 
 @injectable()
 class MyService {
@@ -3724,7 +3724,7 @@ class MyService {
 }
 
 import { useMemo } from 'react';
-import { type FixedLayoutProps } from '@q/flowgram.ai.fixed-layout-editor';
+import { type FixedLayoutProps } from '@flowgram.ai/fixed-layout-editor';
 
 function BaseNode() {
   const mySerivce = useService<MyService>(MyService)
@@ -3781,7 +3781,7 @@ url: /api/components/fixed-layout-editor-provider.md
 固定布局画布配置器，支持 ref
 
 ```tsx pure
-import { FixedLayoutEditorProvider, FixedLayoutPluginContext, EditorRenderer } from '@q/flowgram.ai.fixed-layout-editor'
+import { FixedLayoutEditorProvider, FixedLayoutPluginContext, EditorRenderer } from '@flowgram.ai/fixed-layout-editor'
 
 function App() {
   const ref = useRef<FixedLayoutPluginContext | undefined>();
@@ -3809,7 +3809,7 @@ url: /api/components/fixed-layout-editor.md
 固定布局画布, 等价于 `FixedLayoutEditorProvider` 和 `EditorRenderer` 的组合
 
 ```tsx pure
-import { FixedLayoutEditor, FixedLayoutPluginContext } from '@q/flowgram.ai.fixed-layout-editor'
+import { FixedLayoutEditor, FixedLayoutPluginContext } from '@flowgram.ai/fixed-layout-editor'
 
 function App() {
   const ref = useRef<FixedLayoutPluginContext | undefined>();
@@ -3835,7 +3835,7 @@ url: /api/components/free-layout-editor-provider.md
 自由布局画布配置器，支持 ref
 
 ```tsx pure
-import { FreeLayoutEditorProvider, FreeLayoutPluginContext, EditorRenderer } from '@q/flowgram.ai.free-layout-editor'
+import { FreeLayoutEditorProvider, FreeLayoutPluginContext, EditorRenderer } from '@flowgram.ai/free-layout-editor'
 
 function App() {
   const ref = useRef<FreeLayoutPluginContext | undefined>();
@@ -3863,7 +3863,7 @@ url: /api/components/free-layout-editor.md
 自由布局画布, 等价于 `FreeLayoutEditorProvider` 和 `EditorRenderer` 的组合
 
 ```tsx pure
-import { FreeLayoutEditor, FreeLayoutPluginContext } from '@q/flowgram.ai.free-layout-editor'
+import { FreeLayoutEditor, FreeLayoutPluginContext } from '@flowgram.ai/free-layout-editor'
 
 function App() {
   const ref = useRef<FreeLayoutPluginContext | undefined>();
@@ -3890,7 +3890,7 @@ url: /api/components/workflow-node-renderer.md
 ## Usage
 
 ```tsx pure
-import { useNodeRender, WorkflowNodeRenderer } from '@q/flowgram.ai.free-layout-editor';
+import { useNodeRender, WorkflowNodeRenderer } from '@flowgram.ai/free-layout-editor';
 
 export const BaseNode = () => {
   /**
@@ -4080,7 +4080,7 @@ url: /api/services/history-service.md
 
 ```tsx pure
 import { useEffect, useState } from 'react'
-import { useClientContext } from '@q/flowgram.ai.fixed-layout-editor';
+import { useClientContext } from '@flowgram.ai/fixed-layout-editor';
 
 export function Tools() {
   const { history } = useClientContext();
@@ -4106,7 +4106,7 @@ export function Tools() {
 
 ```tsx pure
 import { useEffect } from 'react'
-import { useRefresh, useClientContext } from '@q/flowgram.ai.fixed-layout-editor'
+import { useRefresh, useClientContext } from '@flowgram.ai/fixed-layout-editor'
 
 function HistoryListRender() {
   const refresh = useRefresh()
@@ -4156,7 +4156,7 @@ url: /api/utils/disposable-collection.md
 
 ```ts pure
 
-import { DisposableCollection, Disposable } from '@q/flowgram.ai.utils'
+import { DisposableCollection, Disposable } from '@flowgram.ai/utils'
 const disposable1: Disposable = {
   dispose() {
     console.log(1)
@@ -4222,7 +4222,7 @@ url: /api/utils/emitter.md
 ## Usage
 
 ```tsx pure
-import { Emitter } from '@q/flowgram.ai.utils'
+import { Emitter } from '@flowgram.ai/utils'
 
 class Doc {
   private _content = ''
@@ -4406,9 +4406,9 @@ export interface PluginConfig<Opts, CTX extends PluginContext = PluginContext> {
 ```tsx pure
 /**
  * 如果希望插件固定布局和自由布局都能使用， 请只用
-*  import { definePluginCreator } from '@q/flowgram.ai.core'
+*  import { definePluginCreator } from '@flowgram.ai/core'
  */
-import { definePluginCreator, FixedLayoutPluginContext } from '@q/flowgram.ai.fixed-layout-editor'
+import { definePluginCreator, FixedLayoutPluginContext } from '@flowgram.ai/fixed-layout-editor'
 
 export interface MyPluginOptions {
   opt1: string;
@@ -4456,7 +4456,7 @@ url: /guide/advanced/custom-service.md
 
 ```tsx pure
 import { useMemo } from 'react';
-import { FlowDocument, type FixedLayoutProps, inject, injectable } from '@q/flowgram.ai.fixed-layout-editor'
+import { FlowDocument, type FixedLayoutProps, inject, injectable } from '@flowgram.ai/fixed-layout-editor'
 
 /**
  * Docs: https://inversify.io/docs/introduction/getting-started/
@@ -4521,7 +4521,7 @@ url: /guide/advanced/fixed-layout/composite-nodes.md
 
 ```ts pure title="node-registries.ts"
 
-import { FlowNodeRegistry  } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowNodeRegistry  } from '@flowgram.ai/fixed-layout-editor';
 
 /**
  * 节点注册
@@ -4571,7 +4571,7 @@ url: /guide/advanced/fixed-layout/load.md
 :::
 
 ```tsx pure title="initial-data.tsx"
-import { FlowDocumentJSON } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowDocumentJSON } from '@flowgram.ai/fixed-layout-editor';
 
 /**
  * 配置流程数据，数据为 blocks 嵌套的格式
@@ -4644,7 +4644,7 @@ export const initialData: FlowDocumentJSON = {
 * 通过 initialData 加载
 
 ```tsx pure
-import { FixedLayoutEditorProvider, FixedLayoutPluginContext, EditorRenderer } from '@q/flowgram.ai.fixed-layout-editor'
+import { FixedLayoutEditorProvider, FixedLayoutPluginContext, EditorRenderer } from '@flowgram.ai/fixed-layout-editor'
 
 function App({ data }) {
   return (
@@ -4659,7 +4659,7 @@ function App({ data }) {
 
 ```tsx pure
 
-import { FixedLayoutEditorProvider, FixedLayoutPluginContext, EditorRenderer } from '@q/flowgram.ai.fixed-layout-editor'
+import { FixedLayoutEditorProvider, FixedLayoutPluginContext, EditorRenderer } from '@flowgram.ai/fixed-layout-editor'
 
 function App() {
   const ref = useRef<FixedLayoutPluginContext | undefined>();
@@ -4684,7 +4684,7 @@ function App() {
 
 ```tsx pure
 
-import { FixedLayoutEditorProvider, FixedLayoutPluginContext, EditorRenderer } from '@q/flowgram.ai.fixed-layout-editor'
+import { FixedLayoutEditorProvider, FixedLayoutPluginContext, EditorRenderer } from '@flowgram.ai/fixed-layout-editor'
 
 function App({ data }) {
   const ref = useRef<FixedLayoutPluginContext | undefined>();
@@ -4709,7 +4709,7 @@ function App({ data }) {
 
 ```tsx pure
 
-import { FixedLayoutEditorProvider, FixedLayoutPluginContext, EditorRenderer } from '@q/flowgram.ai.fixed-layout-editor'
+import { FixedLayoutEditorProvider, FixedLayoutPluginContext, EditorRenderer } from '@flowgram.ai/fixed-layout-editor'
 import { debounce } from 'lodash'
 
 function App() {
@@ -4774,7 +4774,7 @@ const nodeData: FlowNodeJSON = {
 声明节点可以用于确定节点的类型及渲染方式
 
 ```tsx pure
-import { FlowNodeRegistry, ValidateTrigger } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowNodeRegistry, ValidateTrigger } from '@flowgram.ai/fixed-layout-editor';
 
 /**
  * 自定义节点注册
@@ -4975,7 +4975,7 @@ url: /guide/advanced/form-materials.md
 官方表单物料可以直接通过包引用使用：
 
 ```tsx
-import { JsonSchemaEditor } from '@q/flowgram.ai.form-materials'
+import { JsonSchemaEditor } from '@flowgram.ai/form-materials'
 ```
 
 ### 通过 CLI 添加物料源代码使用
@@ -4983,7 +4983,7 @@ import { JsonSchemaEditor } from '@q/flowgram.ai.form-materials'
 如果业务对组件有定制诉求（如：更改文案、样式、业务逻辑），推荐 **通过 CLI 将物料源代码添加到项目中进行定制**：
 
 ```bash
-npx @q/flowgram.ai.form-materials@latest
+npx @flowgram.ai/form-materials@latest
 ```
 
 运行后 CLI 会提示用户选择要添加到项目中的物料:
@@ -4998,7 +4998,7 @@ npx @q/flowgram.ai.form-materials@latest
 使用者也可以直接在 CLI 中添加指定物料的源代码:
 
 ```bash
-npx @q/flowgram.ai.form-materials@latest components/json-schema-editor
+npx @flowgram.ai/form-materials@latest components/json-schema-editor
 ```
 
 CLI 运行成功后，相关物料会自动添加到当前项目下的 `src/form-materials` 目录下
@@ -5102,7 +5102,7 @@ url: /guide/advanced/form.md
 [> node-registries.ts](https://github.com/bytedance/flowgram.ai/blob/main/apps/demo-fixed-layout-simple/src/node-registries.ts)
 
 ```tsx pure title="node-registries.ts"
-import { FlowNodeRegistry, ValidateTrigger } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowNodeRegistry, ValidateTrigger } from '@flowgram.ai/fixed-layout-editor';
 
 export const nodeRegistries: FlowNodeRegistry[] = [
   {
@@ -5631,7 +5631,7 @@ const json = ctx.document.linesManager.toJSON()
 ## 获取当前节点的输入/输出节点或线条
 
 ```ts pure
-import { WorkflowNodeLinesData } from '@q/flowgram.ai.free-layout-editor'
+import { WorkflowNodeLinesData } from '@flowgram.ai/free-layout-editor'
 
 // 获取当前节点的输入节点（通过连接线计算）
 node.getData(WorkflowNodeLinesData).inputNodes
@@ -5859,7 +5859,7 @@ function App() {
 
 ```ts pure
 
-import { createFreeLinesPlugin } from '@q/flowgram.ai.free-lines-plugin';
+import { createFreeLinesPlugin } from '@flowgram.ai/free-lines-plugin';
 
 const editorProps = {
   plugins: () => [
@@ -5881,7 +5881,7 @@ const editorProps = {
 import {
   useRefresh,
   WorkflowNodeLinesData,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 
 function NodeRender({ node }) {
   const refresh = useRefresh()
@@ -5901,7 +5901,7 @@ function NodeRender({ node }) {
 
 ```ts pure
 import { useEffect } from 'react'
-import { WorkflowLinesManager, useRefresh } from '@q/flowgram.ai.free-layout-editor'
+import { WorkflowLinesManager, useRefresh } from '@flowgram.ai/free-layout-editor'
 
 
 function SomeReact() {
@@ -5955,7 +5955,7 @@ url: /guide/advanced/free-layout/load.md
 :::
 
 ```tsx pure title="initial-data.ts"
-import { WorkflowJSON } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowJSON } from '@flowgram.ai/free-layout-editor';
 
 export const initialData: WorkflowJSON = {
   nodes: [
@@ -6012,7 +6012,7 @@ export const initialData: WorkflowJSON = {
 * 通过 initialData 加载
 
 ```tsx pure
-import { FreeLayoutEditorProvider, FreeLayoutPluginContext, EditorRenderer } from '@q/flowgram.ai.free-layout-editor'
+import { FreeLayoutEditorProvider, FreeLayoutPluginContext, EditorRenderer } from '@flowgram.ai/free-layout-editor'
 
 function App({ data }) {
   return (
@@ -6027,7 +6027,7 @@ function App({ data }) {
 
 ```tsx pure
 
-import { FreeLayoutEditorProvider, FreeLayoutPluginContext, EditorRenderer } from '@q/flowgram.ai.free-layout-editor'
+import { FreeLayoutEditorProvider, FreeLayoutPluginContext, EditorRenderer } from '@flowgram.ai/free-layout-editor'
 
 function App() {
   const ref = useRef<FreeLayoutPluginContext | undefined>();
@@ -6052,7 +6052,7 @@ function App() {
 
 ```tsx pure
 
-import { FreeLayoutEditorProvider, FreeLayoutPluginContext, EditorRenderer } from '@q/flowgram.ai.free-layout-editor'
+import { FreeLayoutEditorProvider, FreeLayoutPluginContext, EditorRenderer } from '@flowgram.ai/free-layout-editor'
 
 function App({ data }) {
   const ref = useRef<FreeLayoutPluginContext | undefined>();
@@ -6077,7 +6077,7 @@ function App({ data }) {
 
 ```tsx pure
 
-import { FreeLayoutEditorProvider, FreeLayoutPluginContext, EditorRenderer } from '@q/flowgram.ai.free-layout-editor'
+import { FreeLayoutEditorProvider, FreeLayoutPluginContext, EditorRenderer } from '@flowgram.ai/free-layout-editor'
 import { debounce } from 'lodash'
 
 function App() {
@@ -6321,7 +6321,7 @@ function BaseNode() {
 
 ```tsx pure
 
-import { WorkflowPortRender, useNodeRender } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowPortRender, useNodeRender } from '@flowgram.ai/free-layout-editor';
 
 function BaseNode() {
   const { ports } = useNodeRender();
@@ -6364,7 +6364,7 @@ url: /guide/advanced/free-layout/sub-canvas.md
 
 ```tsx pure
 
-import { createContainerNodePlugin } from '@q/flowgram.ai.free-container-plugin';
+import { createContainerNodePlugin } from '@flowgram.ai/free-container-plugin';
 
 function App() {
   const editorProps = {
@@ -6384,7 +6384,7 @@ function App() {
 ## 定义子画布节点
 
 ```tsx pure
-import { SubCanvasRender } from '@q/flowgram.ai.free-container-plugin';
+import { SubCanvasRender } from '@flowgram.ai/free-container-plugin';
 
 export const LoopNodeRegistry: FlowNodeRegistry = {
   type: 'loop',
@@ -6445,7 +6445,7 @@ url: /guide/advanced/history.md
 
 # 历史记录
 
-Undo/Redo 是 FlowGram.AI 的一个插件，在 @q/flowgram.ai.fixed-layout-editor 和 @q/flowgram.ai.free-layout-editor 两种模式的编辑器中均有提供该功能。
+Undo/Redo 是 FlowGram.AI 的一个插件，在 @flowgram.ai/fixed-layout-editor 和 @flowgram.ai/free-layout-editor 两种模式的编辑器中均有提供该功能。
 
 ## 1. 快速开始
 
@@ -6811,10 +6811,10 @@ export function HistoryList() {
 * databaseName： 数据库名称
 * resourceStorageLimit： 资源存储限制数量
 
-引入 @q/flowgram.ai.history-storage 包后，可使用该插件
+引入 @flowgram.ai/history-storage 包后，可使用该插件
 
 ```tsx pure
-import { createHistoryStoragePlugin } from '@q/flowgram.ai.history-storage';
+import { createHistoryStoragePlugin } from '@flowgram.ai/history-storage';
 
 createHistoryStoragePlugin({
     databaseName: 'your-history',
@@ -6827,7 +6827,7 @@ createHistoryStoragePlugin({
 ```tsx pure
 import {
   useStorageHistoryItems,
-} from '@q/flowgram.ai.history-storage';
+} from '@flowgram.ai/history-storage';
 
 export const HistoryList = () => {
   const { uri } = useCurrentWidget();
@@ -6894,7 +6894,7 @@ url: /guide/advanced/minimap.md
 ## EditorProps
 
 ```ts pure
-import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin'
+import { createMinimapPlugin } from '@flowgram.ai/minimap-plugin'
 
 
 {
@@ -6931,8 +6931,8 @@ import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin'
 ## 缩略图组件
 
 ```tsx pure
-import { FlowMinimapService, MinimapRender } from '@q/flowgram.ai.minimap-plugin';
-import { useService } from '@q/flowgram.ai.editor'; // 或 free-layout-editor
+import { FlowMinimapService, MinimapRender } from '@flowgram.ai/minimap-plugin';
+import { useService } from '@flowgram.ai/editor'; // 或 free-layout-editor
 
 
 export const Minimap = () => {
@@ -7093,7 +7093,7 @@ url: /guide/advanced/variable/variable-consume.md
 import {
   type BaseVariableField,
   useScopeAvailable,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 // .... Inside react hooks or component
 
@@ -7116,7 +7116,7 @@ return available.variables.map(renderVariable)
 import {
   type BaseVariableField,
   ASTMatch,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 // ....
 
@@ -7138,7 +7138,7 @@ import {
   type BaseVariableField,
   type BaseType,
   ASTMatch,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 // ....
 
@@ -7172,13 +7172,13 @@ const renderVariable = (variable: BaseVariableField) => ({
 通过包引用使用：
 
 ```tsx
-import { VariableSelector } from '@q/flowgram.ai.materials'
+import { VariableSelector } from '@flowgram.ai/materials'
 ```
 
 通过 CLI 复制源代码使用：
 
 ```bash
-npx @q/flowgram.ai.materials components/variable-selector
+npx @flowgram.ai/materials components/variable-selector
 ```
 
 
@@ -7203,7 +7203,7 @@ url: /guide/advanced/variable/variable-output.md
 import {
   FlowNodeVariableData,
   ASTFactory,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 // ....
 
@@ -7276,7 +7276,7 @@ flowDocument.onNodeCreate(({ node }) => {
 import {
   FlowNodeVariableData,
   ASTFactory,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 // ....
 
@@ -7335,7 +7335,7 @@ import {
   createEffectFromVariableProvider,
   ASTFactory,
   type ASTNodeJSON
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 export function createTypeFromValue(value: string): ASTNodeJSON | undefined {
   switch (value) {
@@ -7407,7 +7407,7 @@ import {
   GlobalScope,
   definePluginCreator,
   PluginCreator
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 
 export const createSyncVariablePlugin: PluginCreator<SyncVariablePluginOptions> =
@@ -7435,7 +7435,7 @@ export const createSyncVariablePlugin: PluginCreator<SyncVariablePluginOptions> 
 import {
   GlobalScope,
   useService,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 function GlobalVariableComponent() {
 
@@ -7467,7 +7467,7 @@ function GlobalVariableComponent() {
 ```tsx pure title="sync-variable-plugin.tsx"
 import {
   GlobalScope,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
 // ...
 
@@ -8156,7 +8156,7 @@ url: /guide/getting-started/create-fixed-layout-simple.md
 
 # 创建固定布局画布
 
-本案例可通过 `npx @q/flowgram.ai.create-app@latest fixed-layout-simple` 安装，完整代码及效果见：
+本案例可通过 `npx @flowgram.ai/create-app@latest fixed-layout-simple` 安装，完整代码及效果见：
 
 固定布局基础用法
 
@@ -8183,9 +8183,9 @@ url: /guide/getting-started/create-fixed-layout-simple.md
 import {
   FixedLayoutEditorProvider,
   EditorRenderer,
-} from '@q/flowgram.ai.fixed-layout-editor';
+} from '@flowgram.ai/fixed-layout-editor';
 
-import '@q/flowgram.ai.fixed-layout-editor/index.css'; // 加载样式
+import '@flowgram.ai/fixed-layout-editor/index.css'; // 加载样式
 
 import { useEditorProps } from './hooks/use-editor-props' // 画布详细的 props 配置
 import { Tools } from './components/tools' // 画布工具
@@ -8207,9 +8207,9 @@ function App() {
 
 ```tsx pure title="hooks/use-editor-props.tsx"
 import { useMemo } from 'react';
-import { type FixedLayoutProps } from '@q/flowgram.ai.fixed-layout-editor';
-import { defaultFixedSemiMaterials } from '@q/flowgram.ai.fixed-semi-materials';
-import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin';
+import { type FixedLayoutProps } from '@flowgram.ai/fixed-layout-editor';
+import { defaultFixedSemiMaterials } from '@flowgram.ai/fixed-semi-materials';
+import { createMinimapPlugin } from '@flowgram.ai/minimap-plugin';
 
 import { initialData } from './initial-data' // 初始化数据
 import { nodeRegistries } from './node-registries' // 节点声明配置
@@ -8301,7 +8301,7 @@ export function useEditorProps(
 :::
 
 ```tsx pure title="initial-data.tsx"
-import { FlowDocumentJSON } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowDocumentJSON } from '@flowgram.ai/fixed-layout-editor';
 
 /**
  * 配置流程数据，数据为 blocks 嵌套的格式
@@ -8374,7 +8374,7 @@ export const initialData: FlowDocumentJSON = {
 声明节点可以用于确定节点的类型及渲染方式
 
 ```tsx pure title="node-registries.tsx"
-import { FlowNodeRegistry, ValidateTrigger } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowNodeRegistry, ValidateTrigger } from '@flowgram.ai/fixed-layout-editor';
 
 /**
  * 自定义节点注册
@@ -8440,7 +8440,7 @@ export const nodeRegistries: FlowNodeRegistry[] = [
 渲染节点用于添加样式、事件及表单渲染的位置
 
 ```tsx pure title="components/base-node.tsx"
-import { useNodeRender } from '@q/flowgram.ai.fixed-layout-editor';
+import { useNodeRender } from '@flowgram.ai/fixed-layout-editor';
 
 export const BaseNode = () => {
   /**
@@ -8484,7 +8484,7 @@ export const BaseNode = () => {
 
 ```tsx pure title="components/tools.tsx"
 import { useEffect, useState } from 'react'
-import { usePlaygroundTools, useClientContext } from '@q/flowgram.ai.fixed-layout-editor';
+import { usePlaygroundTools, useClientContext } from '@flowgram.ai/fixed-layout-editor';
 
 export function Tools() {
   const { history } = useClientContext();
@@ -8524,7 +8524,7 @@ url: /guide/getting-started/create-free-layout-simple.md
 
 # 创建自由布局画布
 
-本案例可通过 `npx @q/flowgram.ai.create-app@latest free-layout-simple` 安装，完整代码及效果见：
+本案例可通过 `npx @flowgram.ai/create-app@latest free-layout-simple` 安装，完整代码及效果见：
 
 自由布局基础用法
 
@@ -8551,9 +8551,9 @@ url: /guide/getting-started/create-free-layout-simple.md
 import {
   FreeLayoutEditorProvider,
   EditorRenderer,
-} from '@q/flowgram.ai.free-layout-editor';
+} from '@flowgram.ai/free-layout-editor';
 
-import '@q/flowgram.ai.free-layout-editor/index.css'; // 加载样式
+import '@flowgram.ai/free-layout-editor/index.css'; // 加载样式
 
 import { useEditorProps } from './use-editor-props' // 画布详细的 props 配置
 import { Tools } from './components/tools' // 画布工具
@@ -8575,8 +8575,8 @@ function App() {
 
 ```tsx pure title="hooks/use-editor-props.tsx"
 import { useMemo } from 'react';
-import { type FreeLayoutProps } from '@q/flowgram.ai.free-layout-editor';
-import { createMinimapPlugin } from '@q/flowgram.ai.minimap-plugin';
+import { type FreeLayoutProps } from '@flowgram.ai/free-layout-editor';
+import { createMinimapPlugin } from '@flowgram.ai/minimap-plugin';
 
 import { initialData } from './initial-data' // 初始化数据
 import { nodeRegistries } from './node-registries' // 节点声明配置
@@ -8673,7 +8673,7 @@ export function useEditorProps(
 :::
 
 ```tsx pure title="initial-data.ts"
-import { WorkflowJSON } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowJSON } from '@flowgram.ai/free-layout-editor';
 
 export const initialData: WorkflowJSON = {
   nodes: [
@@ -8731,7 +8731,7 @@ export const initialData: WorkflowJSON = {
 声明节点可以用于确定节点的类型及渲染方式
 
 ```tsx pure title="node-registries.tsx"
-import { WorkflowNodeRegistry, ValidateTrigger } from '@q/flowgram.ai.free-layout-editor';
+import { WorkflowNodeRegistry, ValidateTrigger } from '@flowgram.ai/free-layout-editor';
 
 /**
  * You can customize your own node registry
@@ -8800,7 +8800,7 @@ export const nodeRegistries: WorkflowNodeRegistry[] = [
 渲染节点用于添加样式、事件及表单渲染的位置
 
 ```tsx pure title="components/base-node.tsx"
-import { useNodeRender, WorkflowNodeRenderer } from '@q/flowgram.ai.free-layout-editor';
+import { useNodeRender, WorkflowNodeRenderer } from '@flowgram.ai/free-layout-editor';
 
 export const BaseNode = () => {
   /**
@@ -8829,7 +8829,7 @@ export const BaseNode = () => {
 
 ```tsx pure title="components/tools.tsx"
 import { useEffect, useState } from 'react'
-import { usePlaygroundTools, useClientContext } from '@q/flowgram.ai.free-layout-editor';
+import { usePlaygroundTools, useClientContext } from '@flowgram.ai/free-layout-editor';
 
 export function Tools() {
   const { history } = useClientContext();

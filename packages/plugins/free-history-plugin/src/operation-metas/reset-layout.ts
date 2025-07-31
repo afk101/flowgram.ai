@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { type PluginContext } from '@q/flowgram.ai.core';
-import { WorkflowResetLayoutService } from '@q/flowgram.ai.free-layout-core';
-import { type OperationMeta } from '@q/flowgram.ai.history';
+import { type PluginContext } from '@flowgram.ai/core';
+import { WorkflowResetLayoutService } from '@flowgram.ai/free-layout-core';
+import { type OperationMeta } from '@flowgram.ai/history';
 
 import { FreeOperationType, type ResetLayoutOperationValue } from '../types';
 import { baseOperationMeta } from './base';

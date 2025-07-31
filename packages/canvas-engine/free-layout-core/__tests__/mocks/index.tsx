@@ -6,12 +6,12 @@
 import React from 'react';
 
 import { interfaces } from 'inversify';
-import { FlowDocumentContainerModule, FlowNodeBaseType } from '@q/flowgram.ai.document';
+import { FlowDocumentContainerModule, FlowNodeBaseType } from '@flowgram.ai/document';
 import {
   PlaygroundMockTools,
   PlaygroundReactProvider,
   PlaygroundEntityContext,
-} from '@q/flowgram.ai.core';
+} from '@flowgram.ai/core';
 
 import {
   WorkflowDocument,

@@ -11,14 +11,14 @@ import {
   WorkflowDocument,
   WorkflowHoverService,
   WorkflowSelectService,
-} from '@q/flowgram.ai.free-layout-core';
-import { FlowNodeRenderData } from '@q/flowgram.ai.document';
+} from '@flowgram.ai/free-layout-core';
+import { FlowNodeRenderData } from '@flowgram.ai/document';
 import {
   EntityManager,
   PipelineRegistry,
   PipelineRenderer,
   PlaygroundConfigEntity,
-} from '@q/flowgram.ai.core';
+} from '@flowgram.ai/core';
 
 import { StackingContextManager } from '../src/manager';
 import { createWorkflowContainer, workflowJSON } from './utils.mock';

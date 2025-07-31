@@ -5,7 +5,7 @@
 
 import { useCallback, useContext } from 'react';
 
-import { FlowNodeEntity, useNodeRender } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowNodeEntity, useNodeRender } from '@flowgram.ai/fixed-layout-editor';
 import { ConfigProvider } from '@douyinfe/semi-ui';
 
 import { NodeRenderContext, SidebarContext } from '../../context';

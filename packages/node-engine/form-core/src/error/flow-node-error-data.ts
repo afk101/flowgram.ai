@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { EntityData } from '@q/flowgram.ai.core';
+import { EntityData } from '@flowgram.ai/core';
 
 export interface ErrorData {
   error: Error | null;

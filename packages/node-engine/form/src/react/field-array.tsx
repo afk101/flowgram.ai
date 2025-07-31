@@ -6,8 +6,8 @@
 import * as React from 'react';
 
 import { isFunction } from 'lodash';
-import { DisposableCollection, useRefresh } from '@q/flowgram.ai.utils';
-import { useReadonlyReactiveState } from '@q/flowgram.ai.reactive';
+import { DisposableCollection, useRefresh } from '@flowgram.ai/utils';
+import { useReadonlyReactiveState } from '@flowgram.ai/reactive';
 
 import {
   FieldArrayOptions,

@@ -5,17 +5,17 @@
 
 import { debounce } from 'lodash';
 import { inject, injectable } from 'inversify';
-import { domUtils } from '@q/flowgram.ai.utils';
-import { Disposable } from '@q/flowgram.ai.utils';
+import { domUtils } from '@flowgram.ai/utils';
+import { Disposable } from '@flowgram.ai/utils';
 import {
   WorkflowHoverService,
   WorkflowNodeEntity,
   WorkflowSelectService,
-} from '@q/flowgram.ai.free-layout-core';
-import { WorkflowLineEntity } from '@q/flowgram.ai.free-layout-core';
-import { WorkflowDocument } from '@q/flowgram.ai.free-layout-core';
-import { FlowNodeRenderData } from '@q/flowgram.ai.document';
-import { EntityManager, PipelineRegistry, PipelineRenderer } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/free-layout-core';
+import { WorkflowLineEntity } from '@flowgram.ai/free-layout-core';
+import { WorkflowDocument } from '@flowgram.ai/free-layout-core';
+import { FlowNodeRenderData } from '@flowgram.ai/document';
+import { EntityManager, PipelineRegistry, PipelineRenderer } from '@flowgram.ai/core';
 
 import type { StackingContext } from './type';
 import { StackingComputing } from './stacking-computing';

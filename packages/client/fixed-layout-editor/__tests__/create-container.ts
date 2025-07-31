@@ -4,7 +4,7 @@
  */
 
 import { interfaces } from 'inversify';
-import { HistoryService } from '@q/flowgram.ai.fixed-history-plugin';
+import { HistoryService } from '@flowgram.ai/fixed-history-plugin';
 import {
   createPlaygroundContainer,
   Playground,
@@ -13,7 +13,7 @@ import {
   createPluginContextDefault,
   FlowDocument,
   EditorProps,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 
 import {
   FixedLayoutPluginContext,

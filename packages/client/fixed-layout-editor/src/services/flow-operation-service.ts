@@ -13,7 +13,7 @@ import {
   FormModel,
   FormModelV2,
   isFormModelV2,
-} from '@q/flowgram.ai.editor';
+} from '@flowgram.ai/editor';
 
 import { FlowOperationService } from '../types';
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Disposable, domUtils } from '@q/flowgram.ai.utils';
+import { Disposable, domUtils } from '@flowgram.ai/utils';
 
 import {
   PlaygroundConfigEntity,

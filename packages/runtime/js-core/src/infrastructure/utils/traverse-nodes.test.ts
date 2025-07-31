@@ -4,7 +4,7 @@
  */
 
 import { beforeEach, describe, expect, it } from 'vitest';
-import { FlowGramNode, CreateNodeParams, INode, IPort } from '@q/flowgram.ai.runtime-interface';
+import { FlowGramNode, CreateNodeParams, INode, IPort } from '@flowgram.ai/runtime-interface';
 
 import { WorkflowRuntimeNode } from '@workflow/document/entity';
 import { traverseNodes } from './traverse-nodes';

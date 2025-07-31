@@ -4,8 +4,8 @@
  */
 
 import { injectable, inject } from 'inversify';
-import { type FormItem } from '@q/flowgram.ai.form-core';
-import { Playground, PlaygroundConfigRevealOpts } from '@q/flowgram.ai.core';
+import { type FormItem } from '@flowgram.ai/form-core';
+import { Playground, PlaygroundConfigRevealOpts } from '@flowgram.ai/core';
 
 import { highlightFormItem, HighLightOptions } from './highlight';
 

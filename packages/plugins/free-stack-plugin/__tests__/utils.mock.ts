@@ -9,9 +9,9 @@ import {
   WorkflowDocumentContainerModule,
   WorkflowLinesManager,
   WorkflowSimpleLineContribution,
-} from '@q/flowgram.ai.free-layout-core';
-import { FlowDocumentContainerModule } from '@q/flowgram.ai.document';
-import { PlaygroundMockTools } from '@q/flowgram.ai.core';
+} from '@flowgram.ai/free-layout-core';
+import { FlowDocumentContainerModule } from '@flowgram.ai/document';
+import { PlaygroundMockTools } from '@flowgram.ai/core';
 
 export function createWorkflowContainer(): interfaces.Container {
   const container = PlaygroundMockTools.createContainer([

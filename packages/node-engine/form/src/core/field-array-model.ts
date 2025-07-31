@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Emitter } from '@q/flowgram.ai.utils';
+import { Emitter } from '@flowgram.ai/utils';
 
 import { FieldValue } from '../types';
 import { Path } from './path';

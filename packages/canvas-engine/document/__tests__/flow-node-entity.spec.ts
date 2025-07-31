@@ -4,7 +4,7 @@
  */
 
 import { beforeEach, describe, expect, it } from 'vitest';
-import { TransformData } from '@q/flowgram.ai.core';
+import { TransformData } from '@flowgram.ai/core';
 
 import { FlowDocument } from '../src/flow-document';
 import { baseMockAddNode } from './flow.mock';

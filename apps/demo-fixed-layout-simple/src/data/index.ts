@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { FlowDocumentJSON, FlowLayoutDefault } from '@q/flowgram.ai.fixed-layout-editor';
+import { FlowDocumentJSON, FlowLayoutDefault } from '@flowgram.ai/fixed-layout-editor';
 
 import { tryCatch } from './tryCatch';
 import { slot } from './slot';

@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { bindConfigEntity } from '@q/flowgram.ai.core';
-export { delay } from '@q/flowgram.ai.utils';
+import { bindConfigEntity } from '@flowgram.ai/core';
+export { delay } from '@flowgram.ai/utils';
 
 /**
  * 让 entity 可以注入到类中

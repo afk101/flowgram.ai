@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Point } from '@q/flowgram.ai.utils';
-import { DefaultSpacingKey, getDefaultSpacing } from '@q/flowgram.ai.document';
+import { Point } from '@flowgram.ai/utils';
+import { DefaultSpacingKey, getDefaultSpacing } from '@flowgram.ai/document';
 import {
   FlowNodeBaseType,
   type FlowNodeRegistry,
   FlowTransitionLabelEnum,
-} from '@q/flowgram.ai.document';
+} from '@flowgram.ai/document';
 
 /**
  * 图标占位节点，如条件分支的菱形图标

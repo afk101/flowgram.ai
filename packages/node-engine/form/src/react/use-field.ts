@@ -5,7 +5,7 @@
 
 import { useContext, useEffect } from 'react';
 
-import { Disposable, useRefresh } from '@q/flowgram.ai.utils';
+import { Disposable, useRefresh } from '@flowgram.ai/utils';
 
 import { Field, FieldArray, FieldName, FieldValue } from '../types';
 import { toField } from '../core/to-field';

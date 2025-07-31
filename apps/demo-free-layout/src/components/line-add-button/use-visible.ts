@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { usePlayground, WorkflowLineEntity } from '@q/flowgram.ai.free-layout-editor';
+import { usePlayground, WorkflowLineEntity } from '@flowgram.ai/free-layout-editor';
 
 import './index.less';
 

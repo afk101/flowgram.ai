@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import { Field } from '@q/flowgram.ai.fixed-layout-editor';
+import { Field } from '@flowgram.ai/fixed-layout-editor';
 
 import { TypeTag } from '../type-tag';
 import { JsonSchema } from '../../typings';

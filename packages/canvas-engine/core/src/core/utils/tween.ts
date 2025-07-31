@@ -4,7 +4,7 @@
  */
 
 import TWEEN from '@tweenjs/tween.js';
-import { Disposable } from '@q/flowgram.ai.utils';
+import { Disposable } from '@flowgram.ai/utils';
 
 let started = 0;
 
