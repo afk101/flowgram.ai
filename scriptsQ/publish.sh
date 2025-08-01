@@ -9,6 +9,11 @@
 echo "📅 发布开始时间: $(date)"
 echo "================================"
 
+# 提前询问用户是否要提交代码
+echo -n "Should the code be automatically submitted and pushed?(是否自动提交并推送代码？)(Y/N): "
+read -r COMMIT_CHOICE
+echo "================================"
+
 # 检验是否在项目根目录执行脚本
 if [[ ! -f "rush.json" ]] || [[ ! -d "common/config/rush" ]]; then
     echo -e "\033[31m❌ 请在项目根目录执行此脚本！\033[0m"
@@ -91,18 +96,24 @@ fi
 
 # 提交代码
 echo "📋 步骤 9/9: 提交代码到Git仓库"
-git add .
-git commit -m "release: publish $VERSION" -n
+if [[ "$COMMIT_CHOICE" == "Y" || "$COMMIT_CHOICE" == "y" ]]; then
+    echo "  - 用户已确认提交，开始执行..."
+    git add .
+    git commit -m "release: publish $VERSION" -n
 
-# 检查远程分支是否存在，如果不存在则设置上游分支
-if ! git ls-remote --exit-code --heads origin $CURRENT_BRANCH > /dev/null 2>&1; then
-    echo "  - 检测到新分支，设置上游分支..."
-    git push --set-upstream origin $CURRENT_BRANCH
+    # 检查远程分支是否存在，如果不存在则设置上游分支
+    if ! git ls-remote --exit-code --heads origin $CURRENT_BRANCH > /dev/null 2>&1; then
+        echo "  - 检测到新分支，设置上游分支..."
+        git push --set-upstream origin $CURRENT_BRANCH
+    else
+        echo "  - 推送到现有分支..."
+        git push
+    fi
+    echo "  - ✅ 代码提交完成"
 else
-    echo "  - 推送到现有分支..."
-    git push
+    echo "  - 用户选择跳过提交，跳过步骤9"
+    echo "  - ⚠️  代码未提交到Git仓库"
 fi
-echo "  - ✅ 代码提交完成"
 
 echo "================================"
 echo "🎉 发布脚本执行完成！"
@@ -111,7 +122,11 @@ echo ""
 echo "📊 执行总结:"
 echo "  - 分支: $CURRENT_BRANCH"
 echo "  - 版本: $VERSION"
-echo "  - 操作: 依赖更新 → 项目构建 → 版本升级 → 包发布 → 代码提交"
-echo "  - 状态: ✅ 全部完成"
+if [[ "$COMMIT_CHOICE" == "Y" || "$COMMIT_CHOICE" == "y" ]]; then
+    echo "  - 操作: 依赖更新 → 项目构建 → 版本升级 → 包发布 → 代码提交"
+    echo "  - 状态: ✅ 全部完成"
+else
+    echo "  - 操作: 依赖更新 → 项目构建 → 版本升级 → 包发布 → 跳过代码提交"
+    echo "  - 状态: ⚠️  部分完成（代码未提交）"
+fi
 echo ""
-echo "📄 完整日志已保存到: publish.txt"
