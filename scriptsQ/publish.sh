@@ -80,8 +80,13 @@ echo "  - 当前版本: $VERSION"
 
 # 统一发布
 echo "📋 步骤 8/9: 发布包到仓库"
-rush publish --force --apply --publish --target-branch $CURRENT_BRANCH --include-all
-echo "  - ✅ 包发布完成"
+if rush publish --force --apply --publish --target-branch $CURRENT_BRANCH --include-all; then
+    echo "  - ✅ 包发布完成"
+else
+    echo -e "\033[31m❌ 包发布失败！请检查相关配置\033[0m"
+    echo -e "\033[31m   错误信息: rush publish 命令执行失败\033[0m"
+    exit 1
+fi
 
 
 # 提交代码
