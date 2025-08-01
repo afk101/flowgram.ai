@@ -17,7 +17,7 @@
 3.提交修改的代码（推荐），因为后面发布版本会修改很多package.json，所以这里单独提交比较清晰 
 
 4.查看根目录是否有.env 文件，如果没有，则按照.env.example 创建.env 文件
-_**如何获取两个 token？**_
+_**如何获取 token？**_
 
 ```bash
  cat ~/.npmrc
@@ -33,7 +33,7 @@ registry=https://registry.npmjs.org/
 //registry.npmjs.org/:_authToken=yyy
 ```
 
-上面的 xxx、yyy 就是token
+上面的 xxx就是token
 如果没有 Qnpm 配置，查看[Qnpm](https://coding.qihoo.net/qnpm) 
 
 5.执行发布命令
