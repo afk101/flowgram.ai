@@ -1,6 +1,6 @@
 {
   "name": "@q/flowgram.ai.variable-core",
-  "version": "0.2.28-11",
+  "version": "0.2.28-12",
   "description": "variable engine based on scope",
   "keywords": [
     "flow",
