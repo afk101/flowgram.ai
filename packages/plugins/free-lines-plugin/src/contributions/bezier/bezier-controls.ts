@@ -13,6 +13,26 @@ export enum BezierControlType {
 }
 
 const CONTROL_MAX = 300;
+const RATIO = 0.8;
+
+const calcPoint = (rect: any) => {
+  const { width, height } = rect;
+
+  const clamp = (val: number, min: number, max: number) => Math.max(min, Math.min(max, val));
+  const widthT = clamp((width - 100) / 100, 0, 1);
+
+  const easeInOutCubic = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+
+  const widthRatio = 0.1 + (0.5 - 0.1) * easeInOutCubic(widthT);
+
+  const heightT = clamp((height - 100) / 100, 0, 1);
+  const heightBlend = 1 - easeInOutCubic(heightT);
+
+  const ratio = 0.5 * heightBlend + widthRatio * (1 - heightBlend);
+
+  return width * ratio;
+};
+
 /**
  * 获取贝塞尔曲线横向的控制节点
  * @param fromPos
@@ -33,11 +53,11 @@ export function getBezierHorizontalControlPoints(fromPos: IPoint, toPos: IPoint)
     case BezierControlType.RIGHT_TOP:
       controls = [
         {
-          x: rect.rightBottom.x - rect.width / 2,
+          x: rect.rightBottom.x - calcPoint(rect),
           y: rect.rightBottom.y,
         },
         {
-          x: rect.leftTop.x + rect.width / 2,
+          x: rect.leftTop.x + calcPoint(rect),
           y: rect.leftTop.y,
         },
       ];
@@ -45,11 +65,11 @@ export function getBezierHorizontalControlPoints(fromPos: IPoint, toPos: IPoint)
     case BezierControlType.RIGHT_BOTTOM:
       controls = [
         {
-          x: rect.rightTop.x - rect.width / 2,
+          x: rect.rightTop.x - calcPoint(rect),
           y: rect.rightTop.y,
         },
         {
-          x: rect.leftBottom.x + rect.width / 2,
+          x: rect.leftBottom.x + calcPoint(rect),
           y: rect.leftBottom.y,
         },
       ];
@@ -57,11 +77,11 @@ export function getBezierHorizontalControlPoints(fromPos: IPoint, toPos: IPoint)
     case BezierControlType.LEFT_TOP:
       controls = [
         {
-          x: rect.rightBottom.x + Math.min(rect.width, CONTROL_MAX),
+          x: rect.rightBottom.x + Math.min(rect.width * RATIO, CONTROL_MAX),
           y: rect.rightBottom.y,
         },
         {
-          x: rect.leftTop.x - Math.min(rect.width, CONTROL_MAX),
+          x: rect.leftTop.x - Math.min(rect.width * RATIO, CONTROL_MAX),
           y: rect.leftTop.y,
         },
       ];
@@ -69,11 +89,11 @@ export function getBezierHorizontalControlPoints(fromPos: IPoint, toPos: IPoint)
     case BezierControlType.LEFT_BOTTOM:
       controls = [
         {
-          x: rect.rightTop.x + Math.min(rect.width, CONTROL_MAX),
+          x: rect.rightTop.x + Math.min(rect.width * RATIO, CONTROL_MAX),
           y: rect.rightTop.y,
         },
         {
-          x: rect.leftBottom.x - Math.min(rect.width, CONTROL_MAX),
+          x: rect.leftBottom.x - Math.min(rect.width * RATIO, CONTROL_MAX),
           y: rect.leftBottom.y,
         },
       ];
